@@ -203,7 +203,10 @@ a {
 .bar2l {
 	background-color:  #00FFAD;
 	border-radius: 3px;
-	
+	text-align: center;
+	margin: auto;
+	padding-top: -20px;
+		
 	transition: background-color 0.5s;
 	-webkit-transition: background-color 0.5s;	
 }
@@ -296,6 +299,7 @@ a {
 	
 	.navbar2 {
 	padding-left: 35%;
+	
 }
 	
 
@@ -329,16 +333,18 @@ a {
 	
 	.navbar2 {
 	
-	margin:auto;
+	
 	margin-right: 10%;
-	padding-right: 2%;
+	padding-right: 5%;
 	}
 }	
 @media only screen and (min-width: 150px) and (max-width: 600px) {
 
 	.navbar2 {
 	margin:auto;
-	padding-left: 10%;	
+	padding-left: 18%;	
+	
+	
 	}
 
 }
