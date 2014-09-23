@@ -85,14 +85,16 @@ a {
 	
 	
 }
-
-img{
-	width:800px;
-	height: 600px;
-	margin-left: 150px;
-}
 /*----- einde navigatie balk + logo----------- */
+img{
+	width:80%;
+	height: 80%;
+	margin-left: 10%; /* let op losse img moet nog veranderd worden!!!!!<< veroorzaakt error let op!*/
+}
 
+
+
+/*---------------------------------------------------------------------------*/
 
 /*--- Home Begin ---*/
 
