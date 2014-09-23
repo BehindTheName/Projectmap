@@ -92,7 +92,9 @@ a {
 /*--- Home Einde ---*/
 
 /*--- algemene Informatie Begin ---*/
-
+.algemene_informatie {
+	color: black;
+}
 /*--- algemene Informatie Einde ---*/
 
 /*--- Agenda Begin ---*/
