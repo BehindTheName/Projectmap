@@ -102,6 +102,131 @@ a {
 /*--- Agenda Einde ---*/
 
 /*--- Film Begin ---*/
+.filmheader {
+	text-align: center;
+}
+
+.container1 {
+	margin: 3% 0;
+	width: 94%;
+	border: 1px solid #D0D0D0;
+	height: auto;
+	background-color: #F8F8F8  ;
+	border-radius: 5px;
+	text-align: center;
+	padding: 3%;
+	
+}
+
+.moviebox {
+	boder: 1px solid black;
+	width: 130px;
+	height: 202.5px;
+	
+}
+
+.filmcont {
+	/*border-left: 1px solid blue;
+	border-right: 1px solid blue;
+	border-top: 1px solid blue; */
+	width: 130px;
+	height: 200px;
+	display: inline-block;
+	margin-left: 5%;
+	margin-top: 3%;
+	margin-right: auto;
+	
+	box-shadow: 5px 5px 20px black;	
+	transition: transform 1s; 	
+}
+
+.filmcont:hover {
+	transform: scale(1.1,1.1); 
+}
+
+.filmcont:hover .res a:link, a:visited {
+	background-color: #996699;
+	border-radius: 4px;
+	color: white;
+}
+
+.res {	
+	text-align: center ;
+	transition: color 0.5s, background-color 0.5s;
+	-webkit-transition: color 0.5s, background-color 0.5s;
+	-moz-transition:  color 0.5s, background-color 0.5s; 
+}
+
+.res a:link, a:visited {
+	
+	border-radius: 4px;
+	color: black;
+	padding: 3px;
+	background-color: #00FFAD;
+	
+	transition: color 0.5s, background-color 0.5s;
+	-webkit-transition: color 0.5s, background-color 0.5s;
+	-moz-transition:  color 0.5s, background-color 0.5s; 
+}
+
+.button {
+	margin-top: 1%;
+	
+	width: 60px;
+	height: 22px;
+	/*background-color: red; */
+	text-align: center;
+	border-radius:10px;
+	display: inline-block;
+}
+
+.navbar2 ul li {
+	display: inline;
+	padding: 1%;
+	font-size: 20px;
+	text-align: center;
+	color: white;
+	
+}
+
+.navbar2 ul li a:link, a:visited {
+	padding: 4px;
+	color: white;
+}
+
+.navbar2 {
+	color: white;
+	margin: auto;
+	padding-left: 35%;
+}
+
+.bar2l {
+	background-color:  #00FFAD;
+	border-radius: 3px;
+	
+	transition: background-color 0.5s;
+	-webkit-transition: background-color 0.5s;	
+}
+
+.toptext {
+	font-size: 40px;
+	text-align: center;
+	margin: auto;
+	padding-top: -20px;
+		
+}
+
+.bar2l:hover {
+	background-color: #996699;
+}
+
+.topbox {
+	background-color: #00FFAD;
+	width: 50%;
+	margin: auto;
+	border-radius: 5px;
+
+}
 
 /*--- Film Einde ---*/
 
