@@ -83,9 +83,18 @@ a {
 	-moz-border-radius: 5px;
 	-webkit-border-radius: 5px; */
 	
+	
 }
 /*----- einde navigatie balk + logo----------- */
+img{
+	width:80%;
+	height: 80%;
+	margin-left: 10%; /* let op losse img moet nog veranderd worden!!!!!<< veroorzaakt error let op!*/
+}
 
+
+
+/*---------------------------------------------------------------------------*/
 
 /*--- Home Begin ---*/
 
@@ -95,6 +104,7 @@ a {
 .algemene_informatie {
 	color: black;
 }
+
 /*--- algemene Informatie Einde ---*/
 
 /*--- Agenda Begin ---*/
