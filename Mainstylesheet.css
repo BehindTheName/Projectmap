@@ -103,8 +103,15 @@ img{
 /*--- algemene Informatie Begin ---*/
 .algemene_informatie {
 	color: black;
+	
 }
 
+.alcont {
+	width: 100%;
+	background-color: #F8F8F8;
+	height:auto;
+	border-radius: 5px;
+}
 /*--- algemene Informatie Einde ---*/
 
 /*--- Agenda Begin ---*/
