@@ -135,6 +135,14 @@ img{
 	
 }
 
+.moviebox img {
+width: 130px;
+height: 200px;
+position: relative;
+right: 13px;
+
+}
+
 .filmcont {
 	/*border-left: 1px solid blue;
 	border-right: 1px solid blue;
@@ -146,9 +154,12 @@ img{
 	margin-top: 3%;
 	margin-right: auto;
 	
+	
 	box-shadow: 5px 5px 20px black;	
 	transition: transform 1s; 	
 }
+
+
 
 .filmcont:hover {
 	transform: scale(1.1,1.1); 
