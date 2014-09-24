@@ -17,3 +17,5 @@ var intervalHandle = setInterval(changeImage,4000);
 myPhoto.onclick=function(){
 	clearInterval(intervalHandle);
 }
+
+//slideshow---------------------------------
