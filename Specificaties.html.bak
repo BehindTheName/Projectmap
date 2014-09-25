@@ -1,0 +1,43 @@
+<!doctype html>
+<html>
+
+<head>
+	<title> home </title>
+	
+	<link rel="stylesheet" type="text/css" href="Mainstylesheet.css">
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" >
+</head>
+
+<body class="body">
+
+
+    <!-- Navigatie balk + logo -->
+	<header class="mainheader">
+		<img src="filmpje-logo.png" alt="logo">
+		
+		<nav>
+			<ul>
+				<li > <a href="index.html" >Home</a> </li>
+				<li> <a href="Algemene informatie.html" >Algemene informatie</a> </li>
+				<li> <a href="#" >Agenda </a> </li>
+				<li> <a href="Film-actueel.html" >Films</a> </li>
+				<li > <a href="Acties.html" >Acties</a> </li>
+				<li> <a href="#" >Lounge</a> </li>
+				
+				<li> <a href="#" >Contact </a> </li>
+			</ul>
+		</nav>
+	</header>
+	
+	<div class="maincontent" >
+		<div class="content"> 
+		 <!-- hierin kan je code  -->
+		</div>
+	</div>
+	
+	 <!--  of hier hierin kan je code  -->
+	
+</body>
+
+</html>
