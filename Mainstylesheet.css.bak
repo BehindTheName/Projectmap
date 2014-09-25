@@ -10,7 +10,7 @@ body {
 
 .body {
 	margin: 0 auto;
-	width: 70%;
+	width: 71%;
 	clear: both;
 	color:#BC8F8F;
 }
@@ -64,7 +64,7 @@ a {
 .mainheader nav a:link, .mainheader nav a:visited {
 	color: #fff;
 	display: inline-block;
-	padding: 10px 5px;
+	padding: 10px 20px;
 	height: 28px;
 	
 	transition: background-color 0.2s;
