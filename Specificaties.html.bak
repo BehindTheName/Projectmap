@@ -3,7 +3,7 @@
 <html>
 
 <head>
-	<title>algemene informatie</title>
+	<title>Specificaties</title>
 	
 	<link rel="stylesheet" type="text/css" href="Mainstylesheet.css">
 	<meta charset="UTF-8" />
@@ -25,7 +25,7 @@
 				<li> <a href="Film-actueel.html" >Films</a> </li>
 				<li > <a href="Acties.html" >Acties</a> </li>
 				<li> <a href="#" >Lounge</a> </li>
-				<li> class="active"> <a href="Specificaties.html" >Specificaties</a> </li>
+				<li class="active"> <a href="Specificaties.html" >Specificaties</a> </li>
 				<li> <a href="#" >Contact </a> </li>
 			</ul>
 		</nav>
@@ -33,7 +33,39 @@
 	
 	<div class="maincontent" >
 		<div class="content"> 
-	
+		<div class="contentSpecificaties">
+		<h1> Specificaties </h1>
+		<p>Filmpje maakt gebruik van de allernieuwste technologie&euml;n, zodat de filmervaring optimaal en uniek is. <em>Filmpje</em>  maakt onder andere gebruik van AURO 3D en IMAX 3D. </p> 
+		<p><strong> AURO 3D</strong><br/>
+		&quot;The closer to real-life sound, the more immersive the effect&quot;
+		Dat is het motto van AURO 3D. Hoe realistischer het geluid, hoe meer effect het heeft op de luisteraar. AURO 3D zorgt dus voor een n&oacute;g intensere filmervaring! 
+		</p>
+
+		<p>
+		AURO 3D is een drie dimensionaal audiosysteem. Dit houdt in, dat het geluid van rondom de luisteraar komt, en zo een soort geluidslaag cre&euml;ert. Doordat de bioscoopzaal uit twee of drie lagen bestaat, een op &quot;oorhoogte&quot;, en een of twee daarboven. Hoe meer lagen, hoe beter het geluid.
+		</p>
+
+		<p>
+		AURO 3D wordt niet alleen in bioscopen gebruikt, maar ook voor het audiosysteem thuis, in de auto of op mobiele apparaten. <br/>
+		
+		Kijk voor meer informatie op: <br/>
+		<a href="http://www.auro-3d.com/"> http://www.auro-3d.com/ </a>
+		</p>
+
+		<p>
+		<strong>IMAX 3D</strong><br/>
+		
+		Een aantal locaties van Path&eacute;en het Omniversum maken al gebruik van IMAX 3D. </p>
+		<p>
+		In bioscopen waar IMAX 3D wordt gebruikt, kan de kijker de schermrand niet zien. Dat komt omdat het scherm zo groot is, dat de rand buiten het blikveld van de kijker ligt! Zo lijkt de kijker in de film te leven, en dat in combinatie met realistisch geluid, zorgt voor de ultieme filmervaring.
+
+		
+		
+		</p>
+		
+		<img class="SpecificatiesIMG" src="AURO3D.jpg"/>
+
+		</div>
 		</div>
 	</div>
 	

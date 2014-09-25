@@ -288,6 +288,35 @@ right: 13px;
 
 /*---Lounge Einde ---*/
 
+/*---Specificaties Begin ---*/
+
+/*---Elize---*/
+.contentSpecificaties{
+	color: white;
+	background-color: #996699;
+	padding-top: 20px;
+	margin-top: 40px;
+
+
+}
+.contentSpecificaties h1{
+	margin: 30px;
+
+}
+
+.contentSpecificaties p{
+	margin: 30px;
+
+}
+.contentSpecificaties a{
+	
+	color: white;
+	text-decoration: none;
+
+}
+
+/*---Specificaties Eind ---*/
+
 /*--- Contact Begin ---*/
 
 /*---Contact Einde ---*/
