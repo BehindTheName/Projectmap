@@ -2,7 +2,7 @@
 <html>
 
 <head>
-	<title> Acties </title>
+	<title> home </title>
 	
 	<link rel="stylesheet" type="text/css" href="Mainstylesheet.css">
 	<meta charset="UTF-8" />
@@ -31,16 +31,29 @@
 	</header>
 	
 	<div class="maincontent" >
-		<div class="contentActies"> 
-		 <!-- hierin kun je coderen -->
-		 <!--Actie venster -->
-		<h1> Acties </h1>
-		<p> Sorry, er zijn momenteel geen acties.</p>
-		<!-- <img src=""> -->
+	
+		<div class="content"> 
+		 <img id="myPhoto" src="slide1.png" />
+	<script src="slide.js"></script>
+		
+						
 		</div>
 	</div>
 	
-
+	
+<<<<<<< HEAD
+	
+=======
+	<div class="footerHomepage"> <!-- footer  -->
+		<footer>
+			
+		</footer>
+	</div>   <!-- footer  -->
+	
+	
+	 
+>>>>>>> origin/master
+	
 </body>
 
 </html>
