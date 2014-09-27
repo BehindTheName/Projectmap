@@ -26,11 +26,14 @@
 				<li > <a href="Acties.html" >Acties</a> </li>
 				<li> <a href="#" >Lounge</a> </li>
 				<li class="active"> <a href="Specificaties.html" >Specificaties</a> </li>
-<!--<<<<<< HEAD-->
 				<li> <a href="Contact.html" >Contact </a> </li>
+=======
+<!--<<<<<< HEAD-->
+				
 <!--=======-->
 			
 <!-- origin/master-->
+
 			</ul>
 		</nav>
 	</header>
@@ -71,7 +74,7 @@
 		<img class="SpecificatiesIMG" src="AURO3D.jpg"/>
 
 		</div>
-		<img src="Filmpjefilmrol.png" style="float:left; heigt: 100%; width: 50px;"/>
+	
 		</div>
 	</div>
 	
