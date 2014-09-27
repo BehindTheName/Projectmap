@@ -41,6 +41,7 @@ body {
 	border-radius: 0px;
 }
 
+
 .mainheader nav {
 	background-color: #00FFAD;
 	height: 48px;
@@ -385,7 +386,7 @@ fieldset{
 
 	
 }
-
+/* dit zorgt ervoor dat de invoervakken een bepaalde grootte hebben, namelijk 15px*/
 #div_AanmeldenOFInloggen input{
 	width: 150px;
 
