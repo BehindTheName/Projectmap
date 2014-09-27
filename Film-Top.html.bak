@@ -2,7 +2,7 @@
 <html>
 
 <head>
-	<title> Film - Acuteel </title>
+	<title> Film - Top 10 </title>
 	
 	<link rel="stylesheet" type="text/css" href="Mainstylesheet.css">
 	<meta charset="UTF-8" />
@@ -13,7 +13,7 @@
 
 
     <!-- Navigatie balk + logo -->
-		<header class="mainheader">
+	<header class="mainheader">
 		<img src="filmpje-logo.png" alt="logo">
 		
 		<nav>
@@ -21,15 +21,15 @@
 				<li > <a href="index.html" >Home</a> </li>
 				<li> <a href="Algemene informatie.html" >Algemene informatie</a> </li>
 				<li> <a href="#" >Agenda </a> </li>
-				<li  class="active"> <a href="Film-actueel.html" >Films</a> </li>
+				<li> <a href="Film-actueel.html" >Films</a> </li>
 				<li > <a href="Acties.html" >Acties</a> </li>
 				<li> <a href="#" >Lounge</a> </li>
 				<li> <a href="Specificaties.html" >Specificaties</a> </li>
-<!--<<<<<< HEAD-->
+<<<<<<< HEAD
 				<li> <a href="Contact.html" >Contact </a> </li>
-<!--=======-->
-
-<!-- origin/master-->
+=======
+				<li> <a href="contact.html" >Contact </a> </li>
+>>>>>>> origin/master
 			</ul>
 		</nav>
 	</header>
@@ -44,13 +44,13 @@
 			</ul>
 		</div>
 		<div class="topbox">
-			<p class="toptext">Actueel</p>
+			<p class="toptext">Top 10</p>
 		</div>
 			<div class="container1">
 			<!-- film 1 -->
 				<div class="filmcont">
 					<div class="moviebox">
-						<a href="http://www.imdb.com/title/tt1355630/?ref_=nv_sr_1" > <img src="filmposters/If I Stay_00000.jpg" width="130px" height="auto" alt="If I Stay" /> </a>						
+						<a href="http://www.imdb.com/title/tt2758880/?ref_=nv_sr_1" > <img src="filmposters/wintersleep_00000.jpg" width="130px" height="auto" alt="Wintersleep" /> </a>						
 					</div>
 					
 					<p class="res"><a href="#" > Reserveren </a>	</p>			
@@ -59,7 +59,7 @@
 			<!-- film 1 -->
 				<div class="filmcont">
 					<div class="moviebox">
-						<a href="http://www.imdb.com/title/tt0455944/?ref_=nv_sr_1" > <img src="filmposters/equalizer_ver4_00000.jpg" width="130px" height="auto" alt="The Equalizer" /> </a>						
+						<a href="http://www.imdb.com/title/tt2015381/?ref_=nv_sr_2" > <img src="filmposters/guardiansofthegalaxy1_00000.jpg" width="130px" height="auto" alt="Guardians of the galaxy" /> </a>						
 					</div>
 					<p class="res"><a href="#" > Reserveren </a>	</p>			
 				</div>
@@ -67,7 +67,7 @@
 				<!-- film 1 -->
 				<div class="filmcont">
 					<div class="moviebox">
-						<a href="http://www.imdb.com/title/tt1790864/?ref_=nv_sr_1" > <img src="filmposters/maze_runner_movie_poster_2_00000.jpg" width="130px" height="auto" alt="The Maze Runner" /> </a>						
+						<a href="http://www.imdb.com/title/tt1877832/?ref_=nv_sr_1" > <img src="filmposters/xmen_00000.jpg" width="130px" height="auto" alt="X-men days of future past" /> </a>						
 					</div>
 					<p class="res"><a href="#" > Reserveren </a>	</p>			
 				</div>
@@ -75,7 +75,7 @@
 				<!-- film 1 -->
 				<div class="filmcont">
 					<div class="moviebox">
-						<a href="http://www.imdb.com/title/tt3508590/?ref_=nv_sr_1" > <img src="filmposters/pijstillers_00000.jpg" width="130px" height="auto" alt="Pijnstillers" /> </a>						
+						<a href="http://www.imdb.com/title/tt2024544/?ref_=nv_sr_3" > <img src="filmposters/12years_00000.jpg" width="130px" height="auto" alt="12 Years a slave" /> </a>						
 					</div>
 					<p class="res"><a href="#" > Reserveren </a>	</p>			
 				</div>
@@ -83,7 +83,7 @@
 				<!-- film 1 -->
 				<div class="filmcont">
 					<div class="moviebox">
-						<a href="http://www.imdb.com/title/tt1924435/?ref_=nv_sr_1" > <img src="filmposters/letsbecops3_00000.jpg" width="130px" height="auto" alt="Lets be cops" /> </a>						
+						<a href="http://www.imdb.com/title/tt1646971/?ref_=nv_sr_2" > <img src="filmposters/howto_00000.jpg" width="130px" height="auto" alt="How to Train Your dragon 2" /> </a>						
 					</div>
 					<p class="res"><a href="#" > Reserveren </a>	</p>			
 				</div>
@@ -91,7 +91,7 @@
 				<!-- film 1 -->
 				<div class="filmcont">
 					<div class="moviebox">
-						<a href="http://www.imdb.com/title/tt2377322/?ref_=nv_sr_1" > <img src="filmposters/deliverusfromevil1_00000.jpg" width="130px" height="auto" alt="Deliver us from evil" /> </a>						
+						<a href="http://www.imdb.com/title/tt2265171/?ref_=nv_sr_3" > <img src="filmposters/raid_00000.jpg" width="130px" height="auto" alt="The Raid 2" /> </a>						
 					</div>
 					<p class="res"><a href="#" > Reserveren </a>	</p>			
 				</div>
@@ -99,7 +99,7 @@
 				<!-- film 1 -->
 				<div class="filmcont">
 					<div class="moviebox">
-						<a href="http://www.imdb.com/title/tt1972571/?ref_=nv_sr_1" > <img src="filmposters/amostwantedman2_00000.jpg" width="130px" height="auto" alt="a most wanted man" /> </a>						
+						<a href="http://www.imdb.com/title/tt0455944/?ref_=nv_sr_1" > <img src="filmposters/equalizer_ver4_00000.jpg" width="130px" height="auto" alt="The Qualizer" /> </a>						
 					</div>
 					<p class="res"><a href="#" > Reserveren </a>	</p>			
 				</div>
@@ -107,7 +107,7 @@
 				<!-- film 1 -->
 				<div class="filmcont">
 					<div class="moviebox">
-						<a href="http://www.imdb.com/title/tt2402157/?ref_=nv_sr_1" > <img src="filmposters/novemberman3_00000.jpg" width="130px" height="auto" alt="Novemberman" /> </a>						
+						<a href="http://www.imdb.com/title/tt2103281/?ref_=nv_sr_2" > <img src="filmposters/dawn_00000.jpg" width="130px" height="auto" alt="Dawn of the planets of the apes" /> </a>						
 					</div>
 					<p class="res"><a href="#" > Reserveren </a>	</p>			
 				</div>
@@ -115,7 +115,7 @@
 				<!-- film 1 -->
 				<div class="filmcont">
 					<div class="moviebox">
-						<a href="#" > <img src="filmposters/intothestormp2_00000.jpg" width="130px" height="auto" alt="Intothestorm" /> </a>						
+						<a href="http://www.imdb.com/title/tt1843866/?ref_=nv_sr_1" > <img src="filmposters/winter_00000.jpg" width="130px" height="auto" alt="Captain america: The winter soldier" /> </a>						
 					</div>
 					<p class="res"><a href="#" > Reserveren </a>	</p>			
 				</div>
@@ -123,18 +123,18 @@
 				<!-- film 1 -->
 				<div class="filmcont">
 					<div class="moviebox">
-						<a href="http://www.imdb.com/title/tt2015381/?ref_=nv_sr_1" > <img src="filmposters/guardiansofthegalaxy1_00000.jpg" width="130px" height="auto" alt="Huardiansofthegalaxy" /> </a>						
+						<a href="http://www.imdb.com/title/tt1631867/?ref_=nv_sr_1" > <img src="filmposters/edge_00000.jpg" width="130px" height="auto" alt="Edge of Tomorrow" /> </a>						
 					</div>
 					<p class="res"><a href="#" > Reserveren </a>	</p>			
 				</div>
 				
-				<!-- film 1 -->
+				<!-- film 1 
 				<div class="filmcont">
 					<div class="moviebox">
-						<a href="http://www.imdb.com/title/tt2333784/?ref_=nv_sr_1" > <img src="filmposters/expendables3defposter_00000.jpg" width="130px" height="auto" alt="expendables" /> </a>						
+						<a href="http://www.imdb.com/title/tt1924435/?ref_=nv_sr_1" > <img src="letsbecops3_00000.jpg" width="130px" height="auto" alt="Let's be Cops" /> </a>						
 					</div>
 					<p class="res"><a href="#" > Reserveren </a>	</p>			
-				</div>
+				</div>  -->
 
 
 
@@ -149,5 +149,6 @@
 	 <!--  of hier hierin kan je code  -->
 	
 </body>
+
 
 </html>

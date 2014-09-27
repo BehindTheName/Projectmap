@@ -31,8 +31,17 @@ body {
 	
 }
 
+
+
 /* --------------navigatie balk + het logo----------- */ 
 .mainheader img {
+	height: auto;
+	width: 50%;
+	margin: 0 25%;
+	border-radius: 0px;
+}
+
+#Logo {
 	height: auto;
 	width: 50%;
 	margin: 0 25%;
@@ -295,7 +304,7 @@ right: 13px;
 	color: white;
 	background-color: #996699;
 	padding-top: 5px;
-	margin-top: 30px;
+	margin-top: 10px;
 
 
 }
@@ -318,11 +327,77 @@ right: 13px;
 /*---Specificaties Eind ---*/
 
 /*--- Contact Begin ---*/
+/* Contact formulier */
 
+#form-wrap{
+	width: 60%;
+	border: 3px solid #3D003D;
+	background-color: #993D3D;
+	margin: 5% auto;
+	padding:10% 0;
+}
+
+form{
+	width: 75%;
+	margin: 0 auto;
+}
+
+h4{
+	color:#524E53;
+	font: 24px sans-serif;
+	margin: 2% 0 0 2%;
+	font-weight: bold;
+}
+
+label{
+	display:block;
+	margin: 2% 0 0 2%;
+	font: 16px sans-serif;
+	color: #524E53;
+}
+
+input{
+	width: 50%;
+	margin: 0 0 0 2%;
+}
+
+textarea{
+	width: 75%;
+	margin: 0 0 0 2%;
+	height: 75px;
+}
+
+fieldset{
+	background-color:#E6E6FF;
+	padding: 0 0 20px 0;
+}
+
+/* einde contact formulier */
 /*---Contact Einde ---*/
 
 /*--- Reserveren Begin ---*/
+/* Reserveringstartpagina*/
 
+.Reserverenstart{
+	width: 100%;
+	float: left;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	background-color:#00FFAD;
+	text-align: center;
+	margin-top: 40px;
+	height: 400px;
+	color: #fff;
+
+	
+}
+/* dit zorgt ervoor dat de invoervakken een bepaalde grootte hebben, namelijk 15px*/
+#div_AanmeldenOFInloggen input{
+	width: 150px;
+
+
+}
 /*---Reserveren Einde ---*/
 
 /* tablet & kleinere schermen */
