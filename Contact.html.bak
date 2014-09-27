@@ -58,7 +58,7 @@
 				<label for="Email">Email: </label>
 				<input name="Email"/>
 				
-				<label for="Tekst">tekst</label>
+				<label for="Tekst">Bericht:</label>
 				<textarea name="tekst"> </textarea>
 			
 			</fieldset>
