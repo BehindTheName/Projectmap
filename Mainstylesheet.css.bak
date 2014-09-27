@@ -387,7 +387,7 @@ right: 13px;
 }
 
 #div_AanmeldenOFInloggen input{
-	width: 100px;
+	width: 150px;
 
 
 }
