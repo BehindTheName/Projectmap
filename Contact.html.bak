@@ -7,6 +7,15 @@
 	<link rel="stylesheet" type="text/css" href="Mainstylesheet.css">
 	<meta charset="UTF-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" >
+	//Dit geeft het bericht dat de email is verzonden, maar dit is niet zo!
+	//Er wordt dus geen email verzonden.
+	<script>
+	function verzend(){
+		alert("Uw bericht is verzonden!\nBedankt voor uw feedback!")
+	
+	}
+	
+	</script>
 </head>
 
 <body class="body">
@@ -14,7 +23,7 @@
 
     <!-- Navigatie balk + logo -->
 	<header class="mainheader">
-		<img src="filmpje-logo.png" alt="logo">
+		<a href="index.html"> <img src="filmpje-logo.png" alt="logo"></a>
 		
 		<nav>
 			<ul>
@@ -43,7 +52,7 @@
 	
 	<!-- formulier-->
 	<div id="form-wrap">
-		<form>
+		<form >
 			<fieldset>
 				<h4>Contact formulier</h4>
 				<label class="labelone" for="Voornaam">Voornaam: </label>
@@ -64,7 +73,7 @@
 			</fieldset>
 			
 			<fieldset>
-				<input class="btn" type="submit" value="Verzend"/>
+				<input  onclick="verzend()" class="btn" type="submit" value="Verzend"/>
 				<input class="btn" type="reset" value="Verwijder"/>
 			</fieldset>
 			
