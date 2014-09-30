@@ -90,17 +90,18 @@ a {
 	
 }
 /*----- einde navigatie balk + logo----------- */
-img{
-	width:80%;
-	height: 80%;
-	margin-left: 10%; /* let op losse img moet nog veranderd worden!!!!!<< veroorzaakt error let op!*/
-}
 
 
 
 /*---------------------------------------------------------------------------*/
 
 /*--- Home Begin ---*/
+ #myPhoto{
+	width:80%;
+	height: 80%;
+	margin-left: 10%; /* let op losse img moet nog veranderd worden!!!!!<< veroorzaakt error let op!*/
+}
+
 
 /*--- Home Einde ---*/
 
@@ -283,6 +284,12 @@ right: 13px;
 	margin-bottom:40px;
 	
 }
+#ActiesImg {
+	width: 100%
+
+}
+
+
 
 /* -----------------------------------Elize-------------------------------*/
 /*---Acties Einde ---*/

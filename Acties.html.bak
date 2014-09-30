@@ -14,7 +14,7 @@
 
     <!-- Navigatie balk + logo -->
 	<header class="mainheader">
-		<img src="filmpje-logo.png" alt="logo">
+		<a href="index.html"> <img src="filmpje-logo.png" alt="logo"></a>
 		
 		<nav>
 			<ul>
@@ -39,11 +39,13 @@
 		<div class="contentActies"> 
 		 <!-- hierin kun je coderen -->
 		 <!--Actie venster -->
-		<h1> Acties </h1>
-		<p> Sorry, er zijn momenteel geen acties.</p>
+		<img id="ActiesImg" src="ReclameKoffie.jpg">
+		
 		<!-- <img src=""> -->
 		</div>
 		</div>
+		<div id="ActiesButton1"> KLIK </div>
+		<div id="ActiesButton"> KLIK </div>
 	</div>
 	
 
