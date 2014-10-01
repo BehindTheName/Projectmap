@@ -12,7 +12,7 @@ body {
 	margin: 0 auto;
 	width: 70%;
 	clear: both;
-	color:#BC8F8F;
+	color:white;
 }
 
 .maincontent {
@@ -264,6 +264,65 @@ right: 13px;
 
 }
 
+/*--- aparte film Einde ---*/
+.filmp {
+	width: 200px;
+	height: 300px;
+	background-color: none;
+	float: left;
+	margin-left: 13%;
+	margin-top: 10px;
+	border: 0px solid black;
+	box-shadow: 2px 2px 20px black;
+}
+
+.trailerbox {
+	width: 50%;
+	height: 300px;
+	background-color: none;
+	float: left;
+	margin-left: 10px;
+	margin-top: 10px;
+}
+
+.trailerbox embed {
+	width:100%;
+	height:300px;
+}
+
+.infobox {
+	width: 78%;
+	height: auto;
+	background-color: #B2B2B2 ;
+	float: left;
+	margin-left: 10%;
+	margin-top: 10px;
+	box-shadow: 1px 1px 20px black;
+	border-radius: 5px;
+	border: 1px solid #808080;
+}
+
+.infobox span { 
+	color: #751975;
+}
+
+.infobox h1 { 
+	padding-bottom: -10px;
+}
+
+.boxtop {
+	display: block;
+	
+}
+
+.boxbottom {
+	display: block;
+	position: relative;
+}
+
+
+
+/*--- aparte film Einde ---*/
 /*--- Film Einde ---*/
 
 /*--- Acties Begin ---*/
@@ -435,7 +494,15 @@ fieldset{
 	padding-left: 35%;
 	
 }
+	.trailerbox {
+	display: block;
+	padding-left: 25%;
+}
+	.filmp {
+	margin-left: 40%;
 	
+	}
+
 
 	/* mobiele versie */
 /*-----------------------------------------------------------------------------------------------------*/	
@@ -476,7 +543,21 @@ fieldset{
 	display:none;
 }
 
+.trailerbox {
+	display: block;
+	padding-left: 80px;
+	widht: 400px;
+}
 
+.trailerbox embed {
+	width:480px;
+	height:300px;
+	
+}
+
+.filmp {
+	margin-left: 32%;
+	}
 
 
 
@@ -486,7 +567,21 @@ fieldset{
 	.navbar2 {
 	margin:auto;
 	padding-left: 18%;	
+	}
 	
+	.trailerbox {
+	display: block;
+	padding-right: 150%;
+	widht: 400px;
+	}
+
+	.trailerbox embed {
+	width:400px;
+	height:300px;
+	}
+	
+	.infobox {
+	width: 84%;
 	
 	}
 
