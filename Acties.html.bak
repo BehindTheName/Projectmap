@@ -10,7 +10,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" >
 </head>
 
-<body class="body">
+<body onload = "SlideStart()" class="body">
 
 
     <!-- Navigatie balk + logo -->
@@ -40,11 +40,20 @@
 		<div class="contentActies"> 
 		 <!-- hierin kun je coderen -->
 		 <!--Actie venster -->
-		<img id="ActiesImg" src="ReclameKoffie.jpg">
 		
-		<!-- <img src=""> -->
+		<img id="ActiesImg" src="ReclameKoffie.jpg">
+		<div id="Knoppenbalk">
+		<div id="SlideActies"> 
+		 <img onclick="Previous()" class="SlideKnoppen" src="Previous.png" /> 
+		 <img onclick="Pause()" class="SlideKnoppen" id="Pauseknop" src="Pause.png" /> 
+		 <img onclick="Next()" class="SlideKnoppen" src="next.png" /> 
+		
 		</div>
 		</div>
+		</div>
+		
+		</div>
+		
 	
 	</div>
 	

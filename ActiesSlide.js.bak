@@ -1,19 +1,16 @@
 var ReclameIMG = ['ReclameKoffie.jpg', 'ReclameActieMaand.jpg']
 
-/*ReclameIMG[0] = new Image();
-ReclameIMG[0].src = 'ReclameKoffie.jpg';
-
-ReclameIMG[1] = new Image();
-ReclameIMG[1].src = 'ReclameActieMaand.jpg';*/
+var Interval = setInterval(VeranderIMG, 5000);
 
 
-setInterval(VeranderIMG, 5000);
+
 var i = 0;
+
 function VeranderIMG() {
 
 
 	document.getElementById("ActiesImg").src = ReclameIMG[i];
-	i ++;
+	i++;
 	if (i >= ReclameIMG.length)
 	{ i = 0
 	}
@@ -21,3 +18,32 @@ function VeranderIMG() {
 
 
 
+function Pause(){
+clearInterval(Interval);
+document.getElementById("Pauseknop").src = "Start.png";
+
+}
+
+function Next(){
+	if (i >= ReclameIMG.length)
+	{ i = 0
+	}
+	
+	document.getElementById("ActiesImg").src = ReclameIMG[i];
+	i++;
+
+
+
+}
+
+function Previous(){
+	
+	if (i < 0)
+	{ i = ReclameIMG.length - 1;
+
+	}
+	i--;
+	document.getElementById("ActiesImg").src = ReclameIMG[i];
+
+
+}
