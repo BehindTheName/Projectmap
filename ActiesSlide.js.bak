@@ -39,7 +39,7 @@ function Next(){
 function Previous(){
 	
 	if (i < 0)
-	{ i = ReclameIMG.length;
+	{ i = ReclameIMG.length - 1;
 
 	}
 	i--;

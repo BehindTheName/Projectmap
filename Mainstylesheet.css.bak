@@ -281,24 +281,44 @@ right: 13px;
 	margin-top: 40px;
 	height: 250px;
 	color: #fff;
-	margin-bottom:40px;
-	
+	margin-bottom:40px;	
 }
+
 #ActiesImg {
-	width: 100%
+	width: 100%;
+	margin-bottom: 0px;
+}
+
+
+#SlideActies {	
+	width: 20%;
+	height: 15%;
+	margin: auto;
+	margin-top: 0px;
 
 }
 
-#ActiesButton1{
-	position:relative;
-	float:right;
-	width:60px;
-	height:30px;
-	background-color:#00FFAD;
-	border-radius:15px;
-
+.SlideKnoppen {
+	height:100%;
+	float:left;
+	padding-left: 2%;
+	padding-right: 2%;
+	background-color: #00FFAD;
+	margin-top: 0px;
 }
 
+.SlideKnoppen:hover{
+	background-color: #996699;
+}
+
+#Knoppenbalk {
+	width:100%;
+	background-color: #00FFAD;
+	height: 15%;
+}
+
+
+}
 /* -----------------------------------Elize-------------------------------*/
 /*---Acties Einde ---*/
 
