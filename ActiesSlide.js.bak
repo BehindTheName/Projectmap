@@ -1,5 +1,10 @@
 var ReclameIMG = ['ReclameKoffie.jpg', 'ReclameActieMaand.jpg']
 
+/*ReclameIMG[0] = new Image();
+ReclameIMG[0].src = 'ReclameKoffie.jpg';
+
+ReclameIMG[1] = new Image();
+ReclameIMG[1].src = 'ReclameActieMaand.jpg';*/
 
 
 setInterval(VeranderIMG, 5000);
