@@ -423,7 +423,6 @@ right: 13px;
 #contacttekst {
 	border: 3px solid #3D003D;
 	width: 35%;
-	height: 30%;
 	margin: 5% auto;
 	float: left;
 	padding:5px;
@@ -475,6 +474,10 @@ textarea{
 fieldset{
 	background-color:#E6E6FF;
 	padding: 0 0 20px 0;
+}
+
+#googlemaps_contactpagina {
+	position: relative;
 }
 
 /* einde contact formulier */
