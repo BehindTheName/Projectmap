@@ -28,6 +28,8 @@ document.getElementById("Pauseknop").style.display = 'none';
 
 function Start(){
 	var Interval = setInterval(VeranderIMG, 5000);	
+	document.getElementById("Startknop").style.display = 'none';
+	document.getElementById("Pauseknop").style.display = 'block';
 
 }
 
