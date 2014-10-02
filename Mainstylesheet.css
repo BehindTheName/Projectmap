@@ -321,7 +321,6 @@ right: 13px;
 }
 
 
-
 /*--- aparte film Einde ---*/
 /*--- Film Einde ---*/
 
@@ -487,6 +486,17 @@ fieldset{
 
 }
 /*---Reserveren Einde ---*/
+
+/* footer */
+
+#footerHomepage{ 
+	width: 100px;
+	height: 100px;
+	background-color: #000;
+	display: block;
+}
+
+/* einde footer*/
 
 /* tablet & kleinere schermen */
 /*-----------------------------------------------------------------------------------------------------*/	
