@@ -14,7 +14,7 @@
 
     <!-- Navigatie balk + logo -->
 	<header class="mainheader">
-		<img src="filmpje-logo.png" alt="logo">
+		<a href="index.html"> <img src="filmpje-logo.png" alt="logo"></a>
 		
 		<nav>
 			<ul>
@@ -37,7 +37,7 @@
 	
 	<div class="maincontent" >
 	
-		<div class="content"> 
+		<div class="contentHome"> 
 		 <img id="myPhoto" src="slide1.png" />
 	<script src="slide.js"></script>
 		
@@ -50,8 +50,9 @@
 	
 <!--=======-->
 	<div class="footerHomepage"> <!-- footer  -->
+
 		<footer>
-			
+			<p>Gemaakt door: <em>Behind the name</em></p>
 		</footer>
 	</div>   <!-- footer  -->
 	
