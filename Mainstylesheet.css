@@ -415,7 +415,22 @@ right: 13px;
 /*---Specificaties Eind ---*/
 
 /*--- Contact Begin ---*/
+
+.contact {
+	color:black;
+}
+
+#contacttekst {
+	border: 3px solid #3D003D;
+	width: 35%;
+	height: 30%;
+	margin: 5% auto;
+	float: left;
+	padding:5px;
+}
+
 /* Contact formulier */
+
 
 #form-wrap{
 	width: 60%;
@@ -423,11 +438,13 @@ right: 13px;
 	background-color: #993D3D;
 	margin: 5% auto;
 	padding:10% 0;
+	float: right;
 }
 
 form{
 	width: 75%;
 	margin: 0 auto;
+	
 }
 
 h4{
@@ -462,6 +479,8 @@ fieldset{
 
 /* einde contact formulier */
 /*---Contact Einde ---*/
+
+
 
 /*--- Reserveren Begin ---*/
 /* Reserveringstartpagina*/
