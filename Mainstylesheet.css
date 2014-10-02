@@ -362,22 +362,25 @@ right: 13px;
 	float:left;
 	padding-left: 2%;
 	padding-right: 2%;
-	background-color: #00FFAD;
+	background-color: #996699;
 	margin-top: 0px;
 }
 
 .SlideKnoppen:hover{
-	background-color: #996699;
+	background-color: #00FFAD;
 }
 
 #Knoppenbalk {
 	width:100%;
-	background-color: #00FFAD;
+	background-color: #996699;
 	height: 15%;
 }
 
+#Startknop {
+display: none;
 
 }
+
 /* -----------------------------------Elize-------------------------------*/
 /*---Acties Einde ---*/
 
@@ -403,6 +406,7 @@ right: 13px;
 
 .contentSpecificaties p{
 	margin: 30px;
+	
 
 }
 .contentSpecificaties a{
@@ -411,6 +415,12 @@ right: 13px;
 	text-decoration: none;
 
 }
+
+.SpecificatiesIMG {
+	width:70%;
+	margin-left:15%;
+}
+
 
 /*---Specificaties Eind ---*/
 

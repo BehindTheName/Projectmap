@@ -362,22 +362,25 @@ right: 13px;
 	float:left;
 	padding-left: 2%;
 	padding-right: 2%;
-	background-color: #00FFAD;
+	background-color: #996699;
 	margin-top: 0px;
 }
 
 .SlideKnoppen:hover{
-	background-color: #996699;
+	background-color: #00FFAD;
 }
 
 #Knoppenbalk {
 	width:100%;
-	background-color: #00FFAD;
+	background-color: #996699;
 	height: 15%;
 }
 
+#Startknop {
+display: none;
 
 }
+
 /* -----------------------------------Elize-------------------------------*/
 /*---Acties Einde ---*/
 
@@ -403,6 +406,7 @@ right: 13px;
 
 .contentSpecificaties p{
 	margin: 30px;
+	
 
 }
 .contentSpecificaties a{
@@ -412,10 +416,31 @@ right: 13px;
 
 }
 
+.SpecificatiesIMG {
+	width:70%;
+	margin-left:20%;
+}
+
+
 /*---Specificaties Eind ---*/
 
 /*--- Contact Begin ---*/
+
+.contact {
+	color:black;
+}
+
+#contacttekst {
+	border: 3px solid #3D003D;
+	width: 35%;
+	height: 30%;
+	margin: 5% auto;
+	float: left;
+	padding:5px;
+}
+
 /* Contact formulier */
+
 
 #form-wrap{
 	width: 60%;
@@ -423,11 +448,13 @@ right: 13px;
 	background-color: #993D3D;
 	margin: 5% auto;
 	padding:10% 0;
+	float: right;
 }
 
 form{
 	width: 75%;
 	margin: 0 auto;
+	
 }
 
 h4{
@@ -462,6 +489,8 @@ fieldset{
 
 /* einde contact formulier */
 /*---Contact Einde ---*/
+
+
 
 /*--- Reserveren Begin ---*/
 /* Reserveringstartpagina*/
@@ -503,6 +532,7 @@ fieldset{
 .PFooter {
 	text-align: center;
 	margin: auto;
+	bottom: 0;
 
 }
 

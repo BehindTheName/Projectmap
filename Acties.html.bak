@@ -10,9 +10,9 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" >
 </head>
 
-<body onload = "SlideStart()" class="body">
+<body  class="body">
 
-
+	<!--onload = "SlideStart()"-->
     <!-- Navigatie balk + logo -->
 	<header class="mainheader">
 		<a href="index.html"> <img src="filmpje-logo.png" alt="logo"></a>
@@ -46,6 +46,7 @@
 		<div id="SlideActies"> 
 		 <img onclick="Previous()" class="SlideKnoppen" src="Previous.png" /> 
 		 <img onclick="Pause()" class="SlideKnoppen" id="Pauseknop" src="Pause.png" /> 
+		 <img onclick="Start()" class="SlideKnoppen" id="Startknop" src="Pause.png" /> 
 		 <img onclick="Next()" class="SlideKnoppen" src="next.png" /> 
 		
 		</div>

@@ -20,9 +20,17 @@ function VeranderIMG() {
 
 function Pause(){
 clearInterval(Interval);
-document.getElementById("Pauseknop").src = "Start.png";
+//document.getElementById("Pauseknop").src = "Start.png";
+
+document.getElementById("Startknop").style.display = 'block';
+document.getElementById("Pauseknop").style.display = 'none';
+}
+
+function Start(){
+	var Interval = setInterval(VeranderIMG, 5000);	
 
 }
+
 
 function Next(){
 	if (i >= ReclameIMG.length)
@@ -39,7 +47,7 @@ function Next(){
 function Previous(){
 	
 	if (i < 0)
-	{ i = ReclameIMG.length - 1;
+	{ i = ReclameIMG.length;
 
 	}
 	i--;

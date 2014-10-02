@@ -27,7 +27,7 @@
 				<li> <a href="#" >Lounge</a> </li>
 				<li class="active"> <a href="Specificaties.html" >Specificaties</a> </li>
 				<li> <a href="Contact.html" >Contact </a> </li>
-=======
+
 <!--<<<<<< HEAD-->
 				
 <!--=======-->
@@ -41,6 +41,7 @@
 	<div class="maincontent" >
 		<div class="content"> 
 		<div class="contentSpecificaties">
+		<div class="TextSpecificaties">
 		
 		<h1> Specificaties </h1>
 		<p><em>Filmpje </em>maakt gebruik van de allernieuwste technologie&euml;n, zodat de filmervaring optimaal en uniek is. <em>Filmpje</em>  maakt onder andere gebruik van AURO 3D en IMAX 3D. </p> 
@@ -57,7 +58,7 @@
 		AURO 3D wordt niet alleen in bioscopen gebruikt, maar ook voor het audiosysteem thuis, in de auto of op mobiele apparaten. <br/>
 		
 		Kijk voor meer informatie op: <br/>
-		<a href="http://www.auro-3d.com/"> http://www.auro-3d.com/ </a>
+		<a href="http://www.auro-3d.com/"> www.auro-3d.com </a>
 		</p>
 
 		<p>
@@ -68,18 +69,22 @@
 		In bioscopen waar IMAX 3D wordt gebruikt, kan de kijker de schermrand niet zien. Dat komt omdat het scherm zo groot is, dat de rand buiten het blikveld van de kijker ligt! Zo begint de film pas echt te leven, en dat in combinatie met realistisch geluid, zorgt voor de ultieme filmervaring!</p>
 
 		<p> Kijk voor meer informatie op:<br>
-		<a href="https://www.imax.com/"> https://www.imax.com/</a> 
+		<a href="https://www.imax.com/">www.imax.com</a> 
 		</p>
 		
-		<img class="SpecificatiesIMG" src="AURO3D.jpg"/>
+		
 
+		
+		<div class="IMGSpecificaties">
+		<!--img class="SpecificatiesIMG" src="AURO3D.jpg"/-->
+		<img class="SpecificatiesIMG" src="Imax3D.jpg"/>
 		</div>
-	
+		</div>
 		</div>
 	</div>
+	</div>
 	
-	</div>
-	</div>
+	
 </body>
 
 </html>
