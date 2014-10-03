@@ -1,6 +1,6 @@
 var myImage=document.getElementById("myPhoto");
 
-var imageArray=["slide1.png","slide2.png","slide3.png"];
+var imageArray=["slideA1.png","slideA2.png","slideA3.png"];
 
 var imageIndex=0;
 
@@ -12,7 +12,7 @@ function changeImage(){
 	}
 }
 
-var intervalHandle = setInterval(changeImage,4000);
+var intervalHandle = setInterval(changeImage,6000);
 
 myPhoto.onclick=function(){
 	clearInterval(intervalHandle);

@@ -21,6 +21,7 @@ function VeranderIMG() {
 function Pause(){
 clearInterval(Interval);
 document.getElementById("Pauseknop").src = "Start.png";
+ 
 
 }
 
