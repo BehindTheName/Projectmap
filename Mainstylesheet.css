@@ -142,7 +142,7 @@ a {
 
 .moviebox {
 	boder: 1px solid black;
-	width: 130px;
+	width: 158px;
 	height: 202.5px;
 	
 }
@@ -293,13 +293,14 @@ right: 13px;
 .infobox {
 	width: 78%;
 	height: auto;
-	background-color: #B2B2B2 ;
+	background-color: rgba(128,128,128,0.7)  ;
 	float: left;
 	margin-left: 10%;
 	margin-top: 10px;
 	box-shadow: 1px 1px 20px black;
 	border-radius: 5px;
 	border: 1px solid #808080;
+	
 }
 
 .infobox span { 
