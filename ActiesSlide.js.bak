@@ -49,9 +49,9 @@ function Next(){
 function Previous(){
 	
 	
-	
-	document.getElementById("ActiesImg").src = ReclameIMG[i];
 	i--;
+	document.getElementById("ActiesImg").src = ReclameIMG[i];
+	
 	if (i <= 0)
 		{ 
 		i = ReclameIMG.length;

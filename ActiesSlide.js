@@ -1,4 +1,4 @@
-var ReclameIMG = ['ReclameKoffie.jpg', 'ReclameActieMaand.jpg'];
+var ReclameIMG = ['ReclameKoffie.jpg', 'ReclameActieMaand.jpg', 'ReclameOpeningsactie.png'];
 
 var Interval = setInterval(VeranderIMG, 5000);
 

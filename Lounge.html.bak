@@ -31,8 +31,7 @@
 	
 	<div class="maincontent" >
 	<div class="contentLounge"> 
-		 <!-- De contentLounge kan nog verandert worden, hij is nu 500px, omdat de footer anders tegen de taakbalk aan drijft.+
-		 In css staat de .contentLounge in het Loungestuk onder Reserveren.-->
+		 <!-- hierin kun je coderen -->
 
 
 	</div><!--contentLounge-->
