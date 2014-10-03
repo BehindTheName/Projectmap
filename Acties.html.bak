@@ -32,7 +32,7 @@
 	</header>
 	
 	<div class="maincontent" >
-		
+		<div class="contentA1">
 		<div class="contentActies"> 
 		 <!-- hierin kun je coderen -->
 		 <!--Actie venster -->
@@ -47,14 +47,16 @@
 		
 		</div>
 		</div>
-		
-		
-		</div>
-		
-	
-	</div>
-	
+			<div class="FooterAll"> <!-- footer-->
+				<footer>
+					<p class="PFooter">Gemaakt door: <em>Behind the name</em></p>
+				</footer>
 
+		</div> <!--footer-->
+
+</div>
+</div>
+</div>
 </body>
 
 </html>

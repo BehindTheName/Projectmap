@@ -137,7 +137,6 @@ a {
 	border-radius: 5px;
 	text-align: center;
 	padding: 3%;
-	
 }
 
 .moviebox {
@@ -344,9 +343,10 @@ right: 13px;
 }
 
 #ActiesImg {
-	/*width: 100%;*/
-	height: 100%;
+	height: 98%;
 	margin-bottom: 0px;
+	padding-top: 5px;
+	padding-bottom: 5px;
 }
 
 
@@ -375,6 +375,7 @@ right: 13px;
 	width:100%;
 	background-color: #996699;
 	height: 10%;
+	margin-bottom: 20px;
 }
 
 #Startknop {
@@ -396,7 +397,8 @@ display: none;
 	color: white;
 	background-color: #996699;
 	padding-top: 5px;
-	margin-top: 10px;
+	margin-top: 20px;
+	margin-bottom: 20px;
 
 
 }
@@ -513,32 +515,53 @@ fieldset{
 
 	
 }
-/* dit zorgt ervoor dat de invoervakken een bepaalde grootte hebben, namelijk 15px*/
+/* dit zorgt ervoor dat de invoervakken een bepaalde grootte hebben, namelijk 150px*/
 #div_AanmeldenOFInloggen input{
 	width: 150px;
 
 
 }
 /*---Reserveren Einde ---*/
+
+
+/*Lounge begin*/
+
+
+
+
+.contentLounge{
+	height:500px;
+}
+
+
+/*Lounge einde*/
+
 /*---Footer---*/
 .footerHomepage {
 	bottom:0;
 	width: 100%;
 	height: 48px;
 	background-color: #00FFAD;
-	}
+}
 
 .contentHome {
 	height:50%;
-
-
 }
+
 .PFooter {
 	text-align: center;
 	margin: auto;
 	bottom: 0;
+}
+
+.FooterAll {
+	bottom:0;
+	width: 100%;
+	height: 48px;
+	background-color: #00FFAD;
 
 }
+
 
 /*---Footer Einde---*/
 
