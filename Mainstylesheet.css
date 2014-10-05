@@ -102,6 +102,17 @@ a {
 	margin-left: 10%; /* let op losse img moet nog veranderd worden!!!!!<< veroorzaakt error let op!*/
 }
 
+.sidebar{
+			width: 550px;
+			background-color: white;
+			float: right;
+			margin-top:2px;
+			margin-right: 150px;
+		    border-style:dotted;
+			border-width:3px;
+			border-radius: 15px; /* << is voor de agenda */
+
+
 
 /*--- Home Einde ---*/
 
