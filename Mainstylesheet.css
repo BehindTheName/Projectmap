@@ -137,7 +137,6 @@ a {
 	border-radius: 5px;
 	text-align: center;
 	padding: 3%;
-	
 }
 
 .moviebox {
@@ -336,15 +335,17 @@ right: 13px;
 	-webkit-border-radius: 5px;
 	background-color: #996699;
 	text-align: center;
-	margin-top: 40px;
-	height: 250px;
+	margin-top: 20px;
+	height: 500px;
 	color: #fff;
 	margin-bottom:40px;	
 }
 
 #ActiesImg {
-	width: 100%;
+	height: 98%;
 	margin-bottom: 0px;
+	padding-top: 5px;
+	padding-bottom: 5px;
 }
 
 
@@ -361,22 +362,26 @@ right: 13px;
 	float:left;
 	padding-left: 2%;
 	padding-right: 2%;
-	background-color: #00FFAD;
+	background-color: #996699;
 	margin-top: 0px;
 }
 
 .SlideKnoppen:hover{
-	background-color: #996699;
+	background-color: #00FFAD;
 }
 
 #Knoppenbalk {
 	width:100%;
-	background-color: #00FFAD;
-	height: 15%;
+	background-color: #996699;
+	height: 10%;
+	margin-bottom: 20px;
 }
 
+#Startknop {
+display: none;
 
 }
+
 /* -----------------------------------Elize-------------------------------*/
 /*---Acties Einde ---*/
 
@@ -391,7 +396,8 @@ right: 13px;
 	color: white;
 	background-color: #996699;
 	padding-top: 5px;
-	margin-top: 10px;
+	margin-top: 20px;
+	margin-bottom: 20px;
 
 
 }
@@ -402,6 +408,7 @@ right: 13px;
 
 .contentSpecificaties p{
 	margin: 30px;
+	
 
 }
 .contentSpecificaties a{
@@ -411,10 +418,30 @@ right: 13px;
 
 }
 
+.SpecificatiesIMG {
+	width:70%;
+	margin-left:15%;
+}
+
+
 /*---Specificaties Eind ---*/
 
 /*--- Contact Begin ---*/
+
+.contact {
+	color:black;
+}
+
+#contacttekst {
+	border: 3px solid #3D003D;
+	width: 35%;
+	margin: 5% auto;
+	float: left;
+	padding:5px;
+}
+
 /* Contact formulier */
+
 
 #form-wrap{
 	width: 60%;
@@ -422,11 +449,13 @@ right: 13px;
 	background-color: #993D3D;
 	margin: 5% auto;
 	padding:10% 0;
+	float: right;
 }
 
 form{
 	width: 75%;
 	margin: 0 auto;
+	
 }
 
 #Contactp{
@@ -463,8 +492,14 @@ fieldset{
 	padding: 0 0 20px 0;
 }
 
+#googlemaps_contactpagina {
+	position: relative;
+}
+
 /* einde contact formulier */
 /*---Contact Einde ---*/
+
+
 
 /*--- Reserveren Begin ---*/
 /* Reserveringstartpagina*/
@@ -483,7 +518,7 @@ fieldset{
 
 	
 }
-/* dit zorgt ervoor dat de invoervakken een bepaalde grootte hebben, namelijk 15px*/
+/* dit zorgt ervoor dat de invoervakken een bepaalde grootte hebben, namelijk 150px*/
 #div_AanmeldenOFInloggen input{
 	width: 150px;
 
@@ -491,6 +526,7 @@ fieldset{
 }
 /*---Reserveren Einde ---*/
 
+<<<<<<< HEAD
 /* footer */
 
 #footerHomepage{ 
@@ -501,6 +537,59 @@ fieldset{
 }
 
 /* einde footer*/
+=======
+
+/*Lounge begin*/
+
+
+
+.contentLounge{
+	height:500px;
+}
+
+
+/*Lounge einde*/
+
+/*Plaatsen Begin*/
+
+.contentPlaatsen {
+	height:500px;
+}
+
+
+
+
+/*Plaatsen Einde*/
+
+/*---Footer---*/
+.footerHomepage {
+	bottom:0;
+	width: 100%;
+	height: 48px;
+	background-color: #00FFAD;
+}
+
+.contentHome {
+	height:50%;
+}
+
+.PFooter {
+	text-align: center;
+	margin: auto;
+	bottom: 0;
+}
+
+.FooterAll {
+	bottom:0;
+	width: 100%;
+	height: 48px;
+	background-color: #00FFAD;
+
+}
+
+
+/*---Footer Einde---*/
+>>>>>>> origin/master
 
 /* tablet & kleinere schermen */
 /*-----------------------------------------------------------------------------------------------------*/	
@@ -545,13 +634,34 @@ fieldset{
 	
 	}
 
+#ActiesImg {
+	width:100%;
+	margin-bottom: 0px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.SlideKnoppen {
+	height:35px;
+	float:left;
+	padding-left: 2%;
+	padding-right: 2%;
+	background-color: #996699;
+	margin-top: 0px;
+}
+
+#SlideActies {
+height: 20px;
+
+}
+	}
 
 	/* mobiele versie */
 /*-----------------------------------------------------------------------------------------------------*/	
 @media only screen and (min-width: 150px) and (max-width: 880px) 
 {
 	.mainheader nav {
-		height: 335px;
+		height: 384px;
 	}
 	
 	.mainheader nav ul {
@@ -601,7 +711,17 @@ fieldset{
 	margin-left: 32%;
 	}
 
+#ActiesImg {
+	width:100%;
+	margin-bottom: 0px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
 
+.contentActies {
+	height:100%;
+
+}
 
 }	
 @media only screen and (min-width: 150px) and (max-width: 600px) {
@@ -626,6 +746,19 @@ fieldset{
 	width: 84%;
 	
 	}
+#ActiesImg {
+	display:none;
 
+}
+
+#Knoppenbalk {
+	display:none;
+
+}
+
+.contentActies {
+	height:100%;
+
+}
 }
 
