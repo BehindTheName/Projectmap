@@ -32,12 +32,12 @@
 	</header>
 	
 	<div class="maincontent" >
-		<div class="contentA1">
+	
 		<div class="contentActies"> 
 		 <!-- hierin kun je coderen -->
 		 <!--Actie venster -->
 		
-		<img id="ActiesImg" src="ReclameKoffie.jpg">
+		<!--img id="ActiesImg" src="ReclameKoffie.jpg"-->
 		<div id="Knoppenbalk">
 		<div id="SlideActies"> 
 		 <img onclick="Previous()" class="SlideKnoppen" src="Previous.png" /> 
@@ -55,7 +55,7 @@
 		</div> <!--footer-->
 
 </div>
-</div>
+
 </div>
 </body>
 
