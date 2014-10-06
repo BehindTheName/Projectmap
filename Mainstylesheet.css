@@ -97,10 +97,43 @@ a {
 
 /*--- Home Begin ---*/
  #myPhoto{
-	width:80%;
-	height: 80%;
-	margin-left: 10%; /* let op losse img moet nog veranderd worden!!!!!<< veroorzaakt error let op!*/
+	width:50%;
+	height: 70%;
+	margin-left: 50%; 
+	border-radius: 25px;
+	
+	
 }
+
+.agendaHome{
+	color: #B8B894;
+	background-color: #fff;
+	
+}
+
+#agenda{
+	color: #B8B894;
+	font-size: 20px;
+}
+
+table, tr, td, th{
+	border-top: 1px solid black;
+	text-align: left;
+	padding: 2px;
+	border-collapse: collapse;
+}
+
+#td1{
+	text-align: center;
+	color: #00BFFF;
+}
+
+#td2{
+	color: #FF4500;
+}
+
+
+
 
 
 /*--- Home Einde ---*/
@@ -389,6 +422,10 @@ right: 13px;
 
 /*--- Lounge Begin ---*/
 
+
+
+
+
 /*---Lounge Einde ---*/
 
 /*---Specificaties Begin ---*/
@@ -459,12 +496,6 @@ form{
 	
 }
 
-h4{
-	color:#524E53;
-	font: 24px sans-serif;
-	margin: 2% 0 0 2%;
-	font-weight: bold;
-}
 
 label{
 	display:block;
@@ -544,9 +575,6 @@ fieldset{
 	background-color: #00FFAD;
 }
 
-.contentHome {
-	height:50%;
-}
 
 .PFooter {
 	text-align: center;
