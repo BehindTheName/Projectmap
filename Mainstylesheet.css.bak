@@ -343,7 +343,7 @@ right: 13px;
 }
 
 #ActiesImg {
-	height: 98%;
+	height: 98%%;
 	margin-bottom: 0px;
 	padding-top: 5px;
 	padding-bottom: 5px;
@@ -528,23 +528,13 @@ fieldset{
 
 
 
+
 .contentLounge{
 	height:500px;
 }
 
 
 /*Lounge einde*/
-
-/*Plaatsen Begin*/
-
-.contentPlaatsen {
-	height:500px;
-}
-
-
-
-
-/*Plaatsen Einde*/
 
 /*---Footer---*/
 .footerHomepage {
@@ -617,27 +607,6 @@ fieldset{
 	margin-left: 40%;
 	
 	}
-
-#ActiesImg {
-	width:100%;
-	margin-bottom: 0px;
-	padding-top: 5px;
-	padding-bottom: 5px;
-}
-
-.SlideKnoppen {
-	height:35px;
-	float:left;
-	padding-left: 2%;
-	padding-right: 2%;
-	background-color: #996699;
-	margin-top: 0px;
-}
-
-#SlideActies {
-height: 20px;
-
-}
 	}
 
 	/* mobiele versie */
@@ -645,7 +614,7 @@ height: 20px;
 @media only screen and (min-width: 150px) and (max-width: 880px) 
 {
 	.mainheader nav {
-		height: 385px;
+		height: 335px;
 	}
 	
 	.mainheader nav ul {
@@ -695,17 +664,7 @@ height: 20px;
 	margin-left: 32%;
 	}
 
-#ActiesImg {
-	width:100%;
-	margin-bottom: 0px;
-	padding-top: 5px;
-	padding-bottom: 5px;
-}
 
-.contentActies {
-	height:100%;
-
-}
 
 }	
 @media only screen and (min-width: 150px) and (max-width: 600px) {
@@ -730,19 +689,6 @@ height: 20px;
 	width: 84%;
 	
 	}
-#ActiesImg {
-	display:none;
 
-}
-
-#Knoppenbalk {
-	display:none;
-
-}
-
-.contentActies {
-	height:100%;
-
-}
 }
 

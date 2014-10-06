@@ -20,11 +20,6 @@ function VeranderIMG() {
 
 function Pause(){
 clearInterval(Interval);
-<<<<<<< HEAD
-document.getElementById("Pauseknop").src = "Start.png";
- 
-=======
->>>>>>> origin/master
 
 
 document.getElementById("Startknop").style.display = 'block';

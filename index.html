@@ -7,39 +7,10 @@
 	<link rel="stylesheet" type="text/css" href="Mainstylesheet.css">
 	<meta charset="UTF-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" >
-	
-		<script>
-	
-	
-	function verder(){
-		document.getElementById("dag").innerHTML="Dinsdag";
-		document.getElementById("agenda").innerHTML="<table><tr><td> Film 1</td><td> 16:00 </td></tr>" +
-		"<tr><td> Film 2</td><td> 17:00 </td></tr>" +
-		"<tr><td> Film 3</td><td> 19:30 </td></tr>" +
-		"<tr><td> Film 5</td><td> 21:40 </td></tr></table>";
-	}
-	
-
-		
-	function Terug(){
-		document.getElementById("dag").innerHTML="zondag";
-		document.getElementById("agenda").innerHTML="<table><tr><td> Film 3</td><td> 12:00 </td></tr>" +
-		"<tr><td> Film 89</td><td> 16:00 </td></tr>" +
-		"<tr><td> Film 22</td><td> 14:30 </td></tr>" +
-		"<tr><td> Film 2</td><td> 19:40 </td></tr></table>";
-	}
-	
-	
-	
-	
-	</script>
 </head>
 
 <body class="body">
 
-  <div id="bgimage">
-    <body background="achtergrondsite1A.jpg">
-  </div>
 
     <!-- Navigatie balk + logo -->
 	<header class="mainheader">
@@ -60,58 +31,26 @@
 		</nav>
 	</header>
 	
-<!--  -->	
 	<div class="maincontent" >
 	
-
-       <!--     slideshow  -->
-		<div class="content"> 
-		 <img id="myPhoto" src="slideA1.png" />
-
 		<div class="contentHome"> 
 		 <img id="myPhoto" src="slide1.png" />
-		 		 
 	<script src="slide.js"></script>
-	
-	<!-- JS agenda home pagina -->	
-		<div class="sidebar"> <!-- sidebar -->
-		   <button onclick="Terug()">Terug</button>
-		   <button id="dag">Maandag</button>
-		   <button onclick="verder()">volgende</button>
 		
-		<div id="agenda">
-		<table>
-			<tr>
-				<td> Film 1</td>
-				<td> 16:00 </td>				
-			</tr>
-			
-			<tr>
-				<td> Film 2</td>
-				<td> 17:00 </td>				
-			</tr>
-			
-			<tr>
-				<td> Film 3</td>
-				<td> 19:30 </td>				
-			</tr>
-			
-			<tr>
-				<td> Film 5</td>
-				<td> 21:40 </td>				
-			</tr>
-		
-		</table>
-		</div>
 						
 		</div>
 	</div>
-	<!-- einde js agenda homepagina -->
+	
 	
 <!--<<<<<<< HEAD-->
 	
 <!--=======-->
+	<div class="footerHomepage"> <!-- footer  -->
 
+		<footer>
+			<p class="PFooter">Gemaakt door: <em>Behind the name</em></p>
+		</footer>
+	</div>   <!-- footer  -->
 	
 	
 	 
