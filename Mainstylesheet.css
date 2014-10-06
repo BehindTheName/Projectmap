@@ -384,6 +384,17 @@ right: 13px;
 
 }
 
+.DivMobieleVersieActies{
+	display: none;
+	width: 90%;,
+	color: white;
+	background-color: #996699;
+	height: 50px;
+}
+
+
+
+
 /* -----------------------------------Elize-------------------------------*/
 /*---Acties Einde ---*/
 
@@ -515,6 +526,27 @@ fieldset{
 
 	
 }
+
+.contentReserverenINFO {
+	color: white;
+	background-color: #996699;
+	
+}
+.contentReserverenINFO table {
+	margin-left: 10%;
+	margin-right: 10%;
+	
+	padding-bottom: 10%;
+	font-size: 17px;
+
+
+}
+.contentReserverenINFO h1{
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+
 /* dit zorgt ervoor dat de invoervakken een bepaalde grootte hebben, namelijk 150px*/
 #div_AanmeldenOFInloggen input{
 	width: 150px;
@@ -607,6 +639,14 @@ fieldset{
 	margin-left: 40%;
 	
 	}
+#Knoppenbalk {
+	width:100%;
+	background-color: #996699;
+	height: 9%;
+	margin-bottom: 20px;
+}
+
+
 	}
 
 	/* mobiele versie */
@@ -614,7 +654,7 @@ fieldset{
 @media only screen and (min-width: 150px) and (max-width: 880px) 
 {
 	.mainheader nav {
-		height: 335px;
+		height: 384px;
 	}
 	
 	.mainheader nav ul {
@@ -664,6 +704,17 @@ fieldset{
 	margin-left: 32%;
 	}
 
+.contentActies {
+	display:none;
+
+}
+.DivMobieleVersieActies {
+	display: block;
+	width: 90%;
+	color: white;
+	background-color: #996699;
+	
+}
 
 
 }	
@@ -689,6 +740,15 @@ fieldset{
 	width: 84%;
 	
 	}
+
+.DivMobieleVersieActies {
+	display: block;
+	width: 90%;
+	background-color: #996699;
+}
+
+
+
 
 }
 
