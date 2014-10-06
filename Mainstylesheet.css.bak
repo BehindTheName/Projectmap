@@ -149,7 +149,7 @@ a {
 	width: 94%;
 	border: 1px solid #D0D0D0;
 	height: auto;
-	background-color: #F8F8F8;
+	background-color: #F8F8F8  ;
 	border-radius: 5px;
 	text-align: center;
 	padding: 3%;
@@ -394,7 +394,7 @@ right: 13px;
 }
 
 #Startknop {
-	display: none;
+display: none;
 
 }
 
@@ -428,6 +428,7 @@ right: 13px;
 
 }
 .contentSpecificaties a{
+	
 	color: white;
 	text-decoration: none;
 
