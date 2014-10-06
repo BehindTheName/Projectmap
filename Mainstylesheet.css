@@ -399,7 +399,21 @@ right: 13px;
 /*---Acties Einde ---*/
 
 /*--- Lounge Begin ---*/
+.contentLounge {
+	color: white;
+	background-color: #996699;
+	padding-top: 5px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
 
+.contentLounge h1 {
+	margin: 30px;
+}
+
+.contentLounge p {
+	margin: 30px;
+}
 /*---Lounge Einde ---*/
 
 /*---Specificaties Begin ---*/
