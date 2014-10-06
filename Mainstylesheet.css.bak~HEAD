@@ -15,6 +15,11 @@ body {
 	color:white;
 }
 
+#bgimage{
+	background-repeat: no-repeat;
+	
+}
+
 .maincontent {
 	border-radius: 5px;
 	-moz-border-radius: 5px;
@@ -101,6 +106,17 @@ a {
 	height: 80%;
 	margin-left: 10%; /* let op losse img moet nog veranderd worden!!!!!<< veroorzaakt error let op!*/
 }
+
+.sidebar{
+			width: 550px;
+			background-color: white;
+			float: right;
+			margin-top:2px;
+			margin-right: 150px;
+		    border-style:dotted;
+			border-width:3px;
+			border-radius: 15px; /* << is voor de agenda */
+
 
 
 /*--- Home Einde ---*/
@@ -320,7 +336,6 @@ right: 13px;
 }
 
 
-
 /*--- aparte film Einde ---*/
 /*--- Film Einde ---*/
 
@@ -459,6 +474,10 @@ form{
 	
 }
 
+#Contactp{
+	color: #524E53;
+}
+
 h4{
 	color:#524E53;
 	font: 24px sans-serif;
@@ -523,6 +542,18 @@ fieldset{
 }
 /*---Reserveren Einde ---*/
 
+<<<<<<< HEAD
+/* footer */
+
+#footerHomepage{ 
+	width: 100px;
+	height: 100px;
+	background-color: #000;
+	display: block;
+}
+
+/* einde footer*/
+=======
 
 /*Lounge begin*/
 
@@ -574,6 +605,7 @@ fieldset{
 
 
 /*---Footer Einde---*/
+>>>>>>> origin/master
 
 /* tablet & kleinere schermen */
 /*-----------------------------------------------------------------------------------------------------*/	
@@ -645,7 +677,7 @@ height: 20px;
 @media only screen and (min-width: 150px) and (max-width: 880px) 
 {
 	.mainheader nav {
-		height: 385px;
+		height: 384px;
 	}
 	
 	.mainheader nav ul {
