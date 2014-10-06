@@ -536,31 +536,28 @@ fieldset{
 	text-align: center;
 	margin-top: 40px;
 	height: 400px;
-	color: #fff;
+	color: #fff;	
+}
 
+.ReserverenText {
+	float:left;
+	padding: 5%;
+	padding-top: 1%;
+	font-size: 17px;
+}
+
+
+.ReserverenIMGZaal {
+	float:right;
+	height: 100%;
 	
 }
 
 .contentReserverenINFO {
-	color: white;
 	background-color: #996699;
-	
+	height: 400px;
+	margin-top: 15px;
 }
-.contentReserverenINFO table {
-	margin-left: 10%;
-	margin-right: 10%;
-	
-	padding-bottom: 10%;
-	font-size: 17px;
-
-
-}
-.contentReserverenINFO h1{
-	margin-left: 10%;
-	margin-right: 10%;
-}
-
-
 /* dit zorgt ervoor dat de invoervakken een bepaalde grootte hebben, namelijk 150px*/
 #div_AanmeldenOFInloggen input{
 	width: 150px;
