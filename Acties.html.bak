@@ -10,9 +10,9 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" >
 </head>
 
-<body onload = "SlideStart()" class="body">
+<body  class="body">
 
-
+	<!--onload = "SlideStart()"-->
     <!-- Navigatie balk + logo -->
 	<header class="mainheader">
 		<a href="index.html"> <img src="filmpje-logo.png" alt="logo"></a>
@@ -24,19 +24,15 @@
 				<li> <a href="#" >Agenda </a> </li>
 				<li> <a href="Film-actueel.html" >Films</a> </li>
 				<li  class="active"> <a href="Acties.html" >Acties</a> </li>
-				<li> <a href="#" >Lounge</a> </li>
+				<li> <a href="Lounge.html" >Lounge</a> </li>
 				<li> <a href="Specificaties.html" >Specificaties</a> </li>
-<!--<<<<<< HEAD-->
 				<li> <a href="Contact.html" >Contact </a> </li>
-<!--=======-->
-
-<!--origin/master-->
 			</ul>
 		</nav>
 	</header>
 	
 	<div class="maincontent" >
-		<div class="content">
+		<div class="contentA1">
 		<div class="contentActies"> 
 		 <!-- hierin kun je coderen -->
 		 <!--Actie venster -->
@@ -46,18 +42,21 @@
 		<div id="SlideActies"> 
 		 <img onclick="Previous()" class="SlideKnoppen" src="Previous.png" /> 
 		 <img onclick="Pause()" class="SlideKnoppen" id="Pauseknop" src="Pause.png" /> 
+		 <img onclick="Start()" class="SlideKnoppen" id="Startknop" src="Start.png" /> 
 		 <img onclick="Next()" class="SlideKnoppen" src="next.png" /> 
 		
 		</div>
 		</div>
-		</div>
-		
-		</div>
-		
-	
-	</div>
-	
+			<div class="FooterAll"> <!-- footer-->
+				<footer>
+					<p class="PFooter">Gemaakt door: <em>Behind the name</em></p>
+				</footer>
 
+		</div> <!--footer-->
+
+</div>
+</div>
+</div>
 </body>
 
 </html>

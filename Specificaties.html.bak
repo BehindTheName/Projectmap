@@ -19,20 +19,14 @@
 		
 		<nav>
 			<ul>
-				<li > <a href="index.html" >Home</a> </li>
+				<li> <a href="index.html" >Home</a> </li>
 				<li  > <a href="Algemene informatie.html" >Algemene informatie</a> </li>
 				<li> <a href="#" >Agenda </a> </li>
 				<li> <a href="Film-actueel.html" >Films</a> </li>
-				<li > <a href="Acties.html" >Acties</a> </li>
-				<li> <a href="#" >Lounge</a> </li>
+				<li> <a href="Acties.html" >Acties</a> </li>
+				<li> <a href="Lounge.html" >Lounge</a> </li>
 				<li class="active"> <a href="Specificaties.html" >Specificaties</a> </li>
 				<li> <a href="Contact.html" >Contact </a> </li>
-=======
-<!--<<<<<< HEAD-->
-				
-<!--=======-->
-			
-<!-- origin/master-->
 
 			</ul>
 		</nav>
@@ -57,7 +51,7 @@
 		AURO 3D wordt niet alleen in bioscopen gebruikt, maar ook voor het audiosysteem thuis, in de auto of op mobiele apparaten. <br/>
 		
 		Kijk voor meer informatie op: <br/>
-		<a href="http://www.auro-3d.com/"> http://www.auro-3d.com/ </a>
+		<a href="http://www.auro-3d.com/"> www.auro-3d.com/ </a>
 		</p>
 
 		<p>
@@ -68,18 +62,29 @@
 		In bioscopen waar IMAX 3D wordt gebruikt, kan de kijker de schermrand niet zien. Dat komt omdat het scherm zo groot is, dat de rand buiten het blikveld van de kijker ligt! Zo begint de film pas echt te leven, en dat in combinatie met realistisch geluid, zorgt voor de ultieme filmervaring!</p>
 
 		<p> Kijk voor meer informatie op:<br>
-		<a href="https://www.imax.com/"> https://www.imax.com/</a> 
+		<a href="https://www.imax.com/">www.imax.com</a> 
 		</p>
 		
 		<img class="SpecificatiesIMG" src="AURO3D.jpg"/>
 
-		</div>
+
 	
-		</div>
-	</div>
 	
-	</div>
-	</div>
+			
+	
+	
+	</div><!--contentSpecificaties-->
+
+<div class="FooterAll"> <!-- footer-->
+				<footer>
+					<p class="PFooter">Gemaakt door: <em>Behind the name</em></p>
+				</footer>
+
+			</div> <!--footer-->
+
+	</div><!--content-->1
+	</div><!--maincontent-->
+			
 </body>
 
 </html>

@@ -14,28 +14,26 @@
 
     <!-- Navigatie balk + logo -->
 		<header class="mainheader">
-		<img src="filmpje-logo.png" alt="logo">
+		<a href="index.html"> <img src="filmpje-logo.png" alt="logo"></a>
 		
 		<nav>
 			<ul>
-				<li > <a href="index.html" >Home</a> </li>
+				<li> <a href="index.html" >Home</a> </li>
 				<li> <a href="Algemene informatie.html" >Algemene informatie</a> </li>
 				<li> <a href="#" >Agenda </a> </li>
-				<li  class="active"> <a href="Film-actueel.html" >Films</a> </li>
-				<li > <a href="Acties.html" >Acties</a> </li>
-				<li> <a href="#" >Lounge</a> </li>
+				<li class="active"> <a href="Film-actueel.html" >Films</a> </li>
+				<li> <a href="Acties.html" >Acties</a> </li>
+				<li> <a href="Lounge.html" >Lounge</a> </li>
 				<li> <a href="Specificaties.html" >Specificaties</a> </li>
-<!--<<<<<< HEAD-->
-				<li> <a href="Contact.html" >Contact </a> </li>
-<!--=======-->
 
-<!-- origin/master-->
+				<li> <a href="Contact.html" >Contact </a> </li>
+
 			</ul>
 		</nav>
 	</header>
 	
 	<div class="maincontent" >
-		<div class="content"> 
+		<div class="contentt"> 
 		
 			<div class="navbar2">
 			<ul>
@@ -147,7 +145,12 @@
 	</div>
 	
 	 <!--  of hier hierin kan je code  -->
-	
+	<div class="FooterAll"> <!-- footer-->
+		<footer>
+			<p class="PFooter">Gemaakt door: <em>Behind the name</em></p>
+		</footer>
+
+	</div> <!--footer-->
 </body>
 
 </html>
