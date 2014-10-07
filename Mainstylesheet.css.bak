@@ -327,7 +327,15 @@ right: 13px;
 }
 
 
-
+.ReserverenKnopFilms {
+	background-color:#996699; 
+	padding: 1%; widht: 10px; 
+	float:left; 
+	border-radius:5px; 
+	margin:1%;
+	color:white;
+	
+}
 /*--- aparte film Einde ---*/
 /*--- Film Einde ---*/
 
@@ -788,6 +796,13 @@ fieldset{
 	float: left;
 	width: 100%;
 	padding-top: 7%;
+	
+}
+
+.ReserverenText {
+	float: left;
+	width:100%;
+	
 	
 }
 

@@ -327,7 +327,15 @@ right: 13px;
 }
 
 
-
+.ReserverenKnopFilms {
+	background-color:#996699; 
+	padding: 1%; widht: 10px; 
+	float:left; 
+	border-radius:5px; 
+	margin:1%;
+	
+	
+}
 /*--- aparte film Einde ---*/
 /*--- Film Einde ---*/
 
