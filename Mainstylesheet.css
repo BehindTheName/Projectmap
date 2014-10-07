@@ -419,6 +419,9 @@ right: 13px;
 	padding-top: 5px;
 	margin-top: 20px;
 	margin-bottom: 20px;
+	height:800px;
+	background-image: url('loungeachtergrond.jpg');
+	background-repeat: no-repeat;
 }
 
 .contentLounge h1 {
@@ -428,6 +431,29 @@ right: 13px;
 .contentLounge p {
 	margin: 30px;
 }
+
+.contentLoungetekst{
+	width: 60%;
+	float: left;
+	padding:5px;
+	padding-right: 700px;
+}
+
+.cocktails {
+	float: left;
+	padding: 30px;
+	font-family: Segoe Script;
+	font-size: 16px;
+}
+
+.cocktailprijzen {
+	float: left;
+	padding: 30px;
+	font-family: Segoe Script;
+	font-size: 16px;
+	margin-top: 55px;
+}
+
 /*---Lounge Einde ---*/
 
 /*---Specificaties Begin ---*/
@@ -605,9 +631,7 @@ fieldset{
 
 
 
-.contentLounge{
-	height:500px;
-}
+
 
 
 /*Lounge einde*/
