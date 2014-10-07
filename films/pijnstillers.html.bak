@@ -2,7 +2,7 @@
 <html>
 
 <head>
-	<title> Film - If I stay </title>
+	<title> Film - Pijnstillers </title>
 	
 	<link rel="stylesheet" type="text/css" href="../Mainstylesheet.css">
 	<meta charset="UTF-8" />
@@ -38,34 +38,31 @@
 				<div class="boxtop">
 					<div class="filmp">
 						<div class="filmpost">
-						<img src="../filmposters/If I Stay_00000.jpg" width="200px" height="300px"  alt="poster"/>
+						<img src="../filmposters/pijstillers_00000.jpg" width="200px" height="300px"  alt="poster"/>
 							
 						</div>
 					</div>
 					
 					<div class="trailerbox">
-						<embed  src="http://www.youtube.com/v/wH6PNeTy6Nc">
+						<embed  src="http://www.youtube.com/v/UlUcoqpW0c0">
 					</div>
 					
 					<div class="infobox">
-						<h1> If I Stay</h1>
+						<h1> Pijnstillers</h1>
 						<!-- -->
 						<div class="rating">
-								<span class="imdbRatingPlugin" data-user="ur55552000" data-title="tt1355630" data-style="p1"><a href="http://www.imdb.com/title/tt1355630/?ref_=plg_rt_1"><img src="http://g-ecx.images-amazon.com/images/G/01/imdb/plugins/rating/images/imdb_46x22.png" alt=" If I Stay
+								<span class="imdbRatingPlugin" data-user="ur55552000" data-title="tt3508590" data-style="p1"><a href="http://www.imdb.com/title/tt3508590/?ref_=plg_rt_1"><img src="http://g-ecx.images-amazon.com/images/G/01/imdb/plugins/rating/images/imdb_46x22.png" alt=" Pijnstillers
 (2014) on IMDb" />
 </a></span><script>(function(d,s,id){var js,stags=d.getElementsByTagName(s)[0];if(d.getElementById(id)){return;}js=d.createElement(s);js.id=id;js.src="http://g-ec2.images-amazon.com/images/G/01/imdb/plugins/rating/js/rating.min.js";stags.parentNode.insertBefore(js,stags);})(document,'script','imdb-rating-api');</script>
 						</div>						
 						<!-- -->
-						<p> <span> Duur: </span> 107 minuten</p>
-						<p> <span> Genre: </span> - Drama -  </p>
-						<p>Mia Hall (Chloë Grace Moretz) dacht altijd dat kiezen tussen een muziekopleiding aan Julliard of bij haar grote liefde Adam (Jamie Blackley) blijven, de moeilijkste beslissing van haar leven zou zijn
-
-							Maar wat een in eerste instantie een zorgeloos familie-uitje had moeten zijn, mondt uit in een tragedie die alles verandert. Zwevend tussen leven en dood, is er nog maar één beslissing over voor Mia, die niet alleen haar toekomst maar ook haar lot bepaalt.
-
-							Een film van New Line Cinema en Metro-Goldwyn-Mayer Pictures, naar de gelijknamige bestseller (Als ik blijf) van Gayle Forman.
-						<p> <span>Director:</span>  R.J. Cutler </p>
-						<p> <span>Stars:</span> Chloë Grace Moretz, Mireille Enos, Jamie Blackley </p>
-						<p class="ReserverenKnopFilms" "><a href="../Reserveren-info.html">Reserveren!</a></p>
+						<p> <span> Duur: </span> 100  minuten</p>
+						<p> <span> Genre: </span>- Drama - </p>
+						<p>Casper (Gijs Blom) heeft zijn vader nooit leren kennen en woont alleen met zijn moeder Marit (Birgit Schuurman). In zijn vrije tijd zit hij het liefst achter de piano. Hij is dan ook heel blij als hij wordt gekozen om pianist te worden in een jeugdorkest
+Lees minder
+Helemaal als hij daar bevriend raakt met Anouk (Susan Radder) die weet wat Casper meemaakt als hij ontdekt dat zijn moeder ernstig ziek is. Marit heeft kanker. Bang voor wat er met haar kan gebeuren besluit Casper met zijn beste vriend Pim (Massimo Pesik) zijn vader te gaan zoeken.
+						<p> <span>Director:</span>  Tessa Schram</p>
+						<p> <span>Stars:</span>Birgit Schuurman, Gijs Blom, Raymond Thiry | </p>
 						
 					</div>
 					
@@ -79,7 +76,6 @@
 	</div>
 	
 	 <!--  of hier hierin kan je code  -->
-
 	
 </body>
 

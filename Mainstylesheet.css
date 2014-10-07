@@ -1,6 +1,6 @@
 body {
-	/* background-image: url(""); */
-	background-color: ;
+	/*background-image: url("A the wave.jpg");*/
+	background-color:  ;
 	font-size: 87.5%;
 	font-family: Arial;
 	line-height: 1.5;
@@ -20,6 +20,7 @@ body {
 	-moz-border-radius: 5px;
 	-webkit-border-radius: 5px;
 	
+	
 }
 
 .content {
@@ -34,6 +35,11 @@ body {
 
 
 /* --------------navigatie balk + het logo----------- */ 
+.mainheader {
+background-image: url("A the wave.jpg");
+}
+
+
 .mainheader img {
 	height: auto;
 	width: 50%;
@@ -444,7 +450,15 @@ right: 13px;
 }
 
 
-
+.ReserverenKnopFilms {
+	background-color:#996699; 
+	padding: 1%; widht: 10px; 
+	float:left; 
+	border-radius:5px; 
+	margin:1%;
+	
+	
+}
 /*--- aparte film Einde ---*/
 /*--- Film Einde ---*/
 
@@ -507,10 +521,61 @@ right: 13px;
 
 }
 
+.DivMobieleVersieActies{
+	display: none;
+	width: 90%;,
+	color: white;
+	background-color: #996699;
+	height: 50px;
+}
+
+
+
+
 /* -----------------------------------Elize-------------------------------*/
 /*---Acties Einde ---*/
 
 /*--- Lounge Begin ---*/
+.contentLounge {
+	color: white;
+	background-color: #996699;
+	padding-top: 5px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	height:800px;
+	background-image: url('loungeachtergrond.jpg');
+	background-repeat: no-repeat;
+}
+
+.contentLounge h1 {
+	margin: 30px;
+}
+
+.contentLounge p {
+	margin: 30px;
+}
+
+.contentLoungetekst{
+	width:500px;
+	float: left;
+	padding:5px;
+	padding-right: 700px;
+}
+
+.cocktails {
+	float: left;
+	padding: 30px;
+	font-family: Segoe Script;
+	font-size: 16px;
+}
+
+.cocktailprijzen {
+	float: left;
+	padding: 30px;
+	font-family: Segoe Script;
+	font-size: 16px;
+	margin-top: 55px;
+}
 
 
 
@@ -632,16 +697,53 @@ fieldset{
 	text-align: center;
 	margin-top: 40px;
 	height: 400px;
-	color: #fff;
+	color: #fff;	
+}
 
+.ReserverenText {
+	padding: 5%;
+	padding-top: 1%;
+	font-size: 17px;
+	float:left;
+	width: 50%;
+}
+
+
+.ReserverenIMGZaal {
+	float:left;
+	width:50%;
 	
+}
+
+.contentReserverenINFO {
+	background-color: #996699;
+	/*background-color: #E15700;*/
+	height:820px;
+	margin-top: 15px;
 }
 /* dit zorgt ervoor dat de invoervakken een bepaalde grootte hebben, namelijk 150px*/
 #div_AanmeldenOFInloggen input{
 	width: 150px;
-
-
 }
+
+.ReserverenAfbeeldingen {
+
+	width: 100%;
+	float:left;
+	background-color:white;
+	
+}
+
+.ReserverenText2 {
+	float: right;
+	width: 40%;
+	padding-top: 7%;
+	
+}
+
+
+
+
 /*---Reserveren Einde ---*/
 
 
@@ -650,9 +752,7 @@ fieldset{
 
 
 
-.contentLounge{
-	height:500px;
-}
+
 
 
 /*Lounge einde*/
@@ -730,6 +830,14 @@ fieldset{
 	margin-left: 40%;
 	
 	}
+#Knoppenbalk {
+	width:100%;
+	background-color: #996699;
+	height: 9%;
+	margin-bottom: 20px;
+}
+
+
 	}
 
 	/* mobiele versie */
@@ -737,7 +845,7 @@ fieldset{
 @media only screen and (min-width: 150px) and (max-width: 880px) 
 {
 	.mainheader nav {
-		height: 335px;
+		height: 384px;
 	}
 	
 	.mainheader nav ul {
@@ -787,6 +895,17 @@ fieldset{
 	margin-left: 32%;
 	}
 
+.contentActies {
+	display:none;
+
+}
+.DivMobieleVersieActies {
+	display: block;
+	width: 90%;
+	color: white;
+	background-color: #996699;
+	
+}
 
 
 }	
@@ -812,6 +931,15 @@ fieldset{
 	width: 84%;
 	
 	}
+
+.DivMobieleVersieActies {
+	display: block;
+	width: 90%;
+	background-color: #996699;
+}
+
+
+
 
 }
 
