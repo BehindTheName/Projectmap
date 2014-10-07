@@ -97,43 +97,133 @@ a {
 
 /*--- Home Begin ---*/
  #myPhoto{
-	width:50%;
-	height: 70%;
-	margin-left: 50%; 
+	width: 100%;
+	height: 120%;
 	border-radius: 25px;
-	
-	
 }
+
+.contentHome{
+	width: 63%;
+	height: 350px;
+	float: right;
+}
+
+#FotoActie{
+	margin-top: 10%;
+	width: 80%;
+	height: 75%;
+}
+
+/* begin agenda home */
 
 .agendaHome{
 	color: #B8B894;
 	background-color: #fff;
-	
-}
+	width: 36%;
+	height: 80%;
+	float: left;
+	margin-top: 4%;
+} /* buttons */
 
-#agenda{
+
+.HomeA{
 	color: #B8B894;
-	font-size: 20px;
+	border: 1px solid black;
+	width: 35%;
+	margin-top: 2%;
+	height: 60%px;
 }
 
-table, tr, td, th{
-	border-top: 1px solid black;
-	text-align: left;
-	padding: 2px;
-	border-collapse: collapse;
-}
+#Tagenda{
+	color: #B8B894;
+}	
 
 #td1{
+	color: #B8B894;
+	font-size: 20px;
 	text-align: center;
-	color: #00BFFF;
+	border-top: 1px dotted black;
 }
 
 #td2{
 	color: #FF4500;
+	font-size: 20px;
+	border-top: 1px dotted black;
+}
+
+#td3{
+    color: #B8B894;
+	font-size: 20px;
+	border-top: 1px dotted black;
+}
+
+#td4{
+	color: #B8B894;
+	font-size: 20px;
+	border-top: 1px dotted black;
+}
+
+#tr5{
+	color: #B8B894;
+	font-size: 20px;
+	border-top: 1px dotted black;
+}
+
+#tr6{
+	text-align: center;
+	color: #B8B894;
+	font-size: 28px;
+}
+
+
+/* einde agenda home */
+
+/* begin top 10 */
+
+.topTien{
+	margin-top: 2%;
+	
+	height: 45%;
+	width: 50%;
+	
+}
+
+#tb10{
+	border: 1px solid black;
+	width: 80%;
+}
+
+#tr9{
+    color: #FF0000;
+	text-align: center;
+	font-size: 24px;
+}
+
+#tr10{
+	color: #B8B894;
+	font-size: 18px;
+	border-top: 1px solid black;
+	border-collapse: collapse;
+} 
+
+#td01{
+	color: #B8B894;
+	font-size: 18px;
+	border-top: 1px solid black;
+	border-collapse: collapse;
+	text-align: center;
+}
+
+#td02{
+	color: #B8B894;
+	font-size: 18px;
+	border-top: 1px solid black;
+	border-collapse: collapse;
 }
 
 
 
+/* einde top 10 */
 
 
 /*--- Home Einde ---*/
@@ -570,10 +660,15 @@ fieldset{
 /*---Footer---*/
 .footerHomepage {
 	bottom:0;
-	width: 100%;
+	width: 70%;
 	height: 48px;
 	background-color: #00FFAD;
+	position: absolute;
+	top: 210%;
+	display: block;
+	
 }
+
 
 
 .PFooter {
