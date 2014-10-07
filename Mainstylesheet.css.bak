@@ -399,7 +399,21 @@ right: 13px;
 /*---Acties Einde ---*/
 
 /*--- Lounge Begin ---*/
+.contentLounge {
+	color: white;
+	background-color: #996699;
+	padding-top: 5px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
 
+.contentLounge h1 {
+	margin: 30px;
+}
+
+.contentLounge p {
+	margin: 30px;
+}
 /*---Lounge Einde ---*/
 
 /*---Specificaties Begin ---*/
@@ -526,29 +540,48 @@ fieldset{
 }
 
 .ReserverenText {
-	float:left;
 	padding: 5%;
 	padding-top: 1%;
+	font-size: 17px;
+	float:left;
+	width: 50%;
 }
 
 
 .ReserverenIMGZaal {
-	float:right;
-	height: 100%;
+	float:left;
+	width:50%;
 	
 }
 
 .contentReserverenINFO {
 	background-color: #996699;
-	height: 400px;
+	height:860px;
 	margin-top: 15px;
 }
 /* dit zorgt ervoor dat de invoervakken een bepaalde grootte hebben, namelijk 150px*/
 #div_AanmeldenOFInloggen input{
 	width: 150px;
-
-
 }
+
+.ReserverenAfbeeldingen {
+	border: 1px solid black;
+	width: 100%;
+	float:left;
+	background-color:white;
+	
+}
+
+.ReserverenText2 {
+	float: right;
+	width: 40%;
+	padding-top: 7%;
+	
+}
+
+
+
+
 /*---Reserveren Einde ---*/
 
 
