@@ -1,6 +1,6 @@
 body {
-	/* background-image: url(""); */
-	background-color: ;
+	/*background-image: url("A the wave.jpg");*/
+	background-color:  ;
 	font-size: 87.5%;
 	font-family: Arial;
 	line-height: 1.5;
@@ -20,6 +20,7 @@ body {
 	-moz-border-radius: 5px;
 	-webkit-border-radius: 5px;
 	
+	
 }
 
 .content {
@@ -34,6 +35,11 @@ body {
 
 
 /* --------------navigatie balk + het logo----------- */ 
+.mainheader {
+
+}
+
+
 .mainheader img {
 	height: auto;
 	width: 50%;
@@ -556,7 +562,8 @@ fieldset{
 
 .contentReserverenINFO {
 	background-color: #996699;
-	height:860px;
+	/*background-color: #E15700;*/
+	height:820px;
 	margin-top: 15px;
 }
 /* dit zorgt ervoor dat de invoervakken een bepaalde grootte hebben, namelijk 150px*/
@@ -565,7 +572,7 @@ fieldset{
 }
 
 .ReserverenAfbeeldingen {
-	border: 1px solid black;
+
 	width: 100%;
 	float:left;
 	background-color:white;
