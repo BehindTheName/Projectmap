@@ -36,7 +36,7 @@ body {
 
 /* --------------navigatie balk + het logo----------- */ 
 .mainheader {
-background-image: url("A the wave.jpg");
+
 }
 
 
@@ -556,7 +556,7 @@ fieldset{
 .ReserverenText {
 	padding: 5%;
 	padding-top: 1%;
-	font-size: 100%;
+	font-size: 17px;
 	float:left;
 	width: 50%;
 }
@@ -588,7 +588,7 @@ fieldset{
 }
 
 .ReserverenText2 {
-	float: left;
+	float: right;
 	width: 40%;
 	padding-top: 7%;
 	
@@ -792,12 +792,7 @@ fieldset{
 }
 
 
-.ReserverenText2 {
-	float: left;
-	width: 100%;
-	padding-top: 7%;
-	
-}
+
 
 .ReserverenText {
 	float: left;
