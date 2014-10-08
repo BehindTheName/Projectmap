@@ -853,9 +853,8 @@ fieldset{
 	margin-left: 40%;
 	
 	}
-<<<<<<< HEAD
+
 }
-=======
 #Knoppenbalk {
 	width:100%;
 	background-color: #996699;
@@ -865,7 +864,7 @@ fieldset{
 
 
 	}
->>>>>>> d0e007637609e3fc7a690cd474617aa94145afd5
+
 
 	/* mobiele versie */
 /*-----------------------------------------------------------------------------------------------------*/	
@@ -922,11 +921,12 @@ fieldset{
 	margin-left: 32%;
 	}
 
-<<<<<<< HEAD
+
 .topbox3 {
 	
 	height: 40px;
-=======
+	}
+
 .contentActies {
 	display:none;
 
@@ -937,7 +937,7 @@ fieldset{
 	color: white;
 	background-color: #996699;
 	
->>>>>>> d0e007637609e3fc7a690cd474617aa94145afd5
+
 }
 
 .topbox3 p {
