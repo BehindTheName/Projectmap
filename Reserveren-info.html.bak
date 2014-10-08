@@ -1,0 +1,116 @@
+<!doctype html>
+<html>
+
+<head>
+	<title> Reserveren Info</title>
+	
+	<link rel="stylesheet" type="text/css" href="Mainstylesheet.css">
+
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" >
+</head>
+
+<body  class="body">
+	
+	
+	<!--onload = "SlideStart()"-->
+    <!-- Navigatie balk + logo -->
+	<header class="mainheader">
+		<a href="index.html"> <img  src="filmpjefilmrol.png" alt="logo"></a>
+		
+		<nav>
+			<ul>
+				<li > <a href="index.html" >Home</a> </li>
+				<li> <a href="Algemene informatie.html" >Algemene informatie</a> </li>
+				<li> <a href="#" >Agenda </a> </li>
+				<li> <a href="Film-actueel.html" >Films</a> </li>
+				<li> <a href="Acties.html" >Acties</a> </li>
+				<li> <a href="Lounge.html" >Lounge</a> </li>
+				<li> <a href="Specificaties.html" >Specificaties</a> </li>
+				<li> <a href="Contact.html" >Contact </a> </li>
+			</ul>
+		</nav>
+	</header>
+	
+	<!--div class="maincontent"-->
+	
+
+		<div class="contentReserverenINFO"> 
+		<div class="ReserverenText">
+		<h1>
+		Stoelen &amp Prijzen
+		</h1>
+		<table>
+			<thead>
+				<th>Stoel type
+				</th>
+				<th>Prijs
+				</th>
+				<th>Kleur
+				</th>
+			</thead>
+			<tr>
+				<td>
+				 Klasse A
+				</td>
+				<td>
+				 &euro; 13,00
+				</td>
+				<td>
+				 Rood
+				</td>
+				
+			</tr>
+			<tr>
+				<td>
+				Klasse B
+				</td>
+				<td>
+				&euro; 11,00
+				</td>
+				<td>
+				Oranje
+				</td>
+				
+			</tr>
+			<tr>
+				<td>
+				Klasse C
+				</td>
+				<td>
+				&euro; 7,50
+				</td>
+				<td>
+				Blauw
+				</td>
+				
+			</tr>
+		</table>
+		</div>
+		<div class="ReserverenText2">
+		<p> Hieronder ziet u een plattegrond van de zalen. Binnenkort zal er een 3e zaal worden toegevoegd, met daarin nog meer plaatsen!
+		De prijs van de stoelen is plaatsafhankelijk. De stoelen in het midden van de zaal zijn bijvoorbeeld &euro; 13,00. Deze stoelen hebben het beste beeld en het beste geluid. </br> Voor meer informatie kunt u in de tabel hiernaast kijken. 
+		</p>
+		</div>
+		
+		<div class="ReserverenAfbeeldingen">
+		<img class="ReserverenIMGZaal" src="zaal1.png">
+		<img class="ReserverenIMGZaal" src="zaal2.png">
+		
+		</div>
+		
+		<!-- Rood = € 13,- Oranje = € 11,- Blauw = € 7,50  -->
+
+		 <!-- hierin kun je coderen -->
+		 
+	</div>
+
+	</div>	
+		<div class="FooterAll" > <!-- footer-->
+		<footer>
+			<p class="PFooter">Gemaakt door: <em>Behind the name</em></p>
+		</footer>
+
+	</div> <!--footer-->
+</body>
+</html>

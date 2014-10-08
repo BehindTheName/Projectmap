@@ -25,7 +25,6 @@
 				<li> <a href="Acties.html" >Acties</a> </li>
 				<li> <a href="Lounge.html" >Lounge</a> </li>
 				<li> <a href="Specificaties.html" >Specificaties</a> </li>
-
 				<li> <a href="Contact.html" >Contact </a> </li>
 
 			</ul>
@@ -33,7 +32,7 @@
 	</header>
 	
 	<div class="maincontent" >
-		<div class="contentt"> 
+		<div class="contentFilm"> 
 		
 			<div class="navbar2">
 			<ul>
@@ -48,16 +47,16 @@
 			<!-- film 1 -->
 				<div class="filmcont">
 					<div class="moviebox">
-						<a href="http://www.imdb.com/title/tt1355630/?ref_=nv_sr_1" > <img src="filmposters/If I Stay_00000.jpg" width="130px" height="auto" alt="If I Stay" /> </a>						
+						<a href="films/if i stay.html" > <img src="filmposters/If I Stay_00000.jpg" width="130px" height="auto" alt="If I Stay" /> </a>						
 					</div>
 					
-					<p class="res"><a href="#" > Reserveren </a>	</p>			
+					<p class="res"><a href="#" > Reserveren </a></p>			
 				</div>
 				
 			<!-- film 1 -->
 				<div class="filmcont">
 					<div class="moviebox">
-						<a href="http://www.imdb.com/title/tt0455944/?ref_=nv_sr_1" > <img src="filmposters/equalizer_ver4_00000.jpg" width="130px" height="auto" alt="The Equalizer" /> </a>						
+						<a href="films/the equalizer.html" > <img src="filmposters/equalizer_ver4_00000.jpg" width="130px" height="auto" alt="The Equalizer" /> </a>						
 					</div>
 					<p class="res"><a href="#" > Reserveren </a>	</p>			
 				</div>
@@ -65,7 +64,7 @@
 				<!-- film 1 -->
 				<div class="filmcont">
 					<div class="moviebox">
-						<a href="http://www.imdb.com/title/tt1790864/?ref_=nv_sr_1" > <img src="filmposters/maze_runner_movie_poster_2_00000.jpg" width="130px" height="auto" alt="The Maze Runner" /> </a>						
+						<a href="films/the maze runner.html" > <img src="filmposters/maze_runner_movie_poster_2_00000.jpg" width="130px" height="auto" alt="The Maze Runner" /> </a>						
 					</div>
 					<p class="res"><a href="#" > Reserveren </a>	</p>			
 				</div>
@@ -73,7 +72,7 @@
 				<!-- film 1 -->
 				<div class="filmcont">
 					<div class="moviebox">
-						<a href="http://www.imdb.com/title/tt3508590/?ref_=nv_sr_1" > <img src="filmposters/pijstillers_00000.jpg" width="130px" height="auto" alt="Pijnstillers" /> </a>						
+						<a href="films/pijnstillers.html" > <img src="filmposters/pijstillers_00000.jpg" width="130px" height="auto" alt="Pijnstillers" /> </a>						
 					</div>
 					<p class="res"><a href="#" > Reserveren </a>	</p>			
 				</div>
@@ -81,7 +80,7 @@
 				<!-- film 1 -->
 				<div class="filmcont">
 					<div class="moviebox">
-						<a href="http://www.imdb.com/title/tt1924435/?ref_=nv_sr_1" > <img src="filmposters/letsbecops3_00000.jpg" width="130px" height="auto" alt="Lets be cops" /> </a>						
+						<a href="films/Let's be cops.html" > <img src="filmposters/letsbecops3_00000.jpg" width="130px" height="auto" alt="Lets be cops" /> </a>						
 					</div>
 					<p class="res"><a href="#" > Reserveren </a>	</p>			
 				</div>
@@ -89,7 +88,7 @@
 				<!-- film 1 -->
 				<div class="filmcont">
 					<div class="moviebox">
-						<a href="http://www.imdb.com/title/tt2377322/?ref_=nv_sr_1" > <img src="filmposters/deliverusfromevil1_00000.jpg" width="130px" height="auto" alt="Deliver us from evil" /> </a>						
+						<a href="films/Deliver us from evil.html" > <img src="filmposters/deliverusfromevil1_00000.jpg" width="130px" height="auto" alt="Deliver us from evil" /> </a>						
 					</div>
 					<p class="res"><a href="#" > Reserveren </a>	</p>			
 				</div>
@@ -97,7 +96,7 @@
 				<!-- film 1 -->
 				<div class="filmcont">
 					<div class="moviebox">
-						<a href="http://www.imdb.com/title/tt1972571/?ref_=nv_sr_1" > <img src="filmposters/amostwantedman2_00000.jpg" width="130px" height="auto" alt="a most wanted man" /> </a>						
+						<a href="films/A most wanted man.html" > <img src="filmposters/amostwantedman2_00000.jpg" width="130px" height="auto" alt="a most wanted man" /> </a>						
 					</div>
 					<p class="res"><a href="#" > Reserveren </a>	</p>			
 				</div>
@@ -105,7 +104,7 @@
 				<!-- film 1 -->
 				<div class="filmcont">
 					<div class="moviebox">
-						<a href="http://www.imdb.com/title/tt2402157/?ref_=nv_sr_1" > <img src="filmposters/novemberman3_00000.jpg" width="130px" height="auto" alt="Novemberman" /> </a>						
+						<a href="films/A most wanted man.html" > <img src="filmposters/novemberman3_00000.jpg" width="130px" height="auto" alt="Novemberman" /> </a>						
 					</div>
 					<p class="res"><a href="#" > Reserveren </a>	</p>			
 				</div>
@@ -113,7 +112,7 @@
 				<!-- film 1 -->
 				<div class="filmcont">
 					<div class="moviebox">
-						<a href="#" > <img src="filmposters/intothestormp2_00000.jpg" width="130px" height="auto" alt="Intothestorm" /> </a>						
+						<a href="films/into the storm.html" > <img src="filmposters/intothestormp2_00000.jpg" width="130px" height="auto" alt="Intothestorm" /> </a>						
 					</div>
 					<p class="res"><a href="#" > Reserveren </a>	</p>			
 				</div>
@@ -121,7 +120,7 @@
 				<!-- film 1 -->
 				<div class="filmcont">
 					<div class="moviebox">
-						<a href="http://www.imdb.com/title/tt2015381/?ref_=nv_sr_1" > <img src="filmposters/guardiansofthegalaxy1_00000.jpg" width="130px" height="auto" alt="Huardiansofthegalaxy" /> </a>						
+						<a href="films/Guardian of the galaxy.html" > <img src="filmposters/guardiansofthegalaxy1_00000.jpg" width="130px" height="auto" alt="Huardiansofthegalaxy" /> </a>						
 					</div>
 					<p class="res"><a href="#" > Reserveren </a>	</p>			
 				</div>
@@ -129,7 +128,7 @@
 				<!-- film 1 -->
 				<div class="filmcont">
 					<div class="moviebox">
-						<a href="http://www.imdb.com/title/tt2333784/?ref_=nv_sr_1" > <img src="filmposters/expendables3defposter_00000.jpg" width="130px" height="auto" alt="expendables" /> </a>						
+						<a href="films/The expandables.html" > <img src="filmposters/expendables3defposter_00000.jpg" width="130px" height="auto" alt="expendables" /> </a>						
 					</div>
 					<p class="res"><a href="#" > Reserveren </a>	</p>			
 				</div>

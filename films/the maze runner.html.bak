@@ -2,7 +2,7 @@
 <html>
 
 <head>
-	<title> Film - If I stay </title>
+	<title> Film - The Maze Runner	</title>
 	
 	<link rel="stylesheet" type="text/css" href="../Mainstylesheet.css">
 	<meta charset="UTF-8" />
@@ -38,34 +38,31 @@
 				<div class="boxtop">
 					<div class="filmp">
 						<div class="filmpost">
-						<img src="../filmposters/If I Stay_00000.jpg" width="200px" height="300px"  alt="poster"/>
+						<img src="../filmposters/maze_runner_movie_poster_2_00000.jpg" width="200px" height="300px"  alt="poster"/>
 							
 						</div>
 					</div>
 					
 					<div class="trailerbox">
-						<embed  src="http://www.youtube.com/v/wH6PNeTy6Nc">
+						<embed  src="http://www.youtube.com/v/AwwbhhjQ9Xk">
 					</div>
 					
 					<div class="infobox">
-						<h1> If I Stay</h1>
+						<h1> The Maze Runner</h1>
 						<!-- -->
 						<div class="rating">
-								<span class="imdbRatingPlugin" data-user="ur55552000" data-title="tt1355630" data-style="p1"><a href="http://www.imdb.com/title/tt1355630/?ref_=plg_rt_1"><img src="http://g-ecx.images-amazon.com/images/G/01/imdb/plugins/rating/images/imdb_46x22.png" alt=" If I Stay
+								<span class="imdbRatingPlugin" data-user="ur55552000" data-title="tt1790864" data-style="p1"><a href="http://www.imdb.com/title/tt1790864/?ref_=plg_rt_1"><img src="http://g-ecx.images-amazon.com/images/G/01/imdb/plugins/rating/images/imdb_46x22.png" alt=" The Maze Runner
 (2014) on IMDb" />
 </a></span><script>(function(d,s,id){var js,stags=d.getElementsByTagName(s)[0];if(d.getElementById(id)){return;}js=d.createElement(s);js.id=id;js.src="http://g-ec2.images-amazon.com/images/G/01/imdb/plugins/rating/js/rating.min.js";stags.parentNode.insertBefore(js,stags);})(document,'script','imdb-rating-api');</script>
 						</div>						
 						<!-- -->
-						<p> <span> Duur: </span> 107 minuten</p>
-						<p> <span> Genre: </span> - Drama -  </p>
-						<p>Mia Hall (Chloë Grace Moretz) dacht altijd dat kiezen tussen een muziekopleiding aan Julliard of bij haar grote liefde Adam (Jamie Blackley) blijven, de moeilijkste beslissing van haar leven zou zijn
+						<p> <span> Duur: </span> 113  minuten</p>
+						<p> <span> Genre: </span> -  Action | Mystery | Sci-Fi  -  </p>
+						<p>The Maze Runner, gebaseerd op de gelijknamige bestseller van James Dashner, speelt zich af in een post-apocalyptische wereld
 
-							Maar wat een in eerste instantie een zorgeloos familie-uitje had moeten zijn, mondt uit in een tragedie die alles verandert. Zwevend tussen leven en dood, is er nog maar één beslissing over voor Mia, die niet alleen haar toekomst maar ook haar lot bepaalt.
-
-							Een film van New Line Cinema en Metro-Goldwyn-Mayer Pictures, naar de gelijknamige bestseller (Als ik blijf) van Gayle Forman.
-						<p> <span>Director:</span>  R.J. Cutler </p>
-						<p> <span>Stars:</span> Chloë Grace Moretz, Mireille Enos, Jamie Blackley </p>
-
+							Nadat zijn geheugen is gewist, komt Thomas terecht in een gemeenschap van jonge mannen. Als hij ontdekt dat ze gevangen zitten in een doolhof, sluit Thomas zich aan bij de "runners". Niet alleen om uit het labyrinth te ontsnappen, maar ook om het ijzingwekkende geheim dat schuil gaat achter hun lot te ontrafelen.
+						<p> <span>Director:</span>  Wes Ball</p>
+						<p> <span>Stars:</span>Dylan O'Brien, Kaya Scodelario, Will Poulter | </p>
 						
 					</div>
 					
@@ -79,7 +76,6 @@
 	</div>
 	
 	 <!--  of hier hierin kan je code  -->
-
 	
 </body>
 

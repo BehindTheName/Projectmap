@@ -70,7 +70,12 @@
 	</div>	
 	</div>
 
-	<div class="Footer"
+	<div class="FooterAll"> <!-- footer-->
+		<footer>
+			<p class="PFooter">Gemaakt door: <em>Behind the name</em></p>
+		</footer>
+
+	</div> <!--footer-->
 </body>
 
 </html>

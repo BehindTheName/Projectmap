@@ -1,6 +1,6 @@
 body {
-	/*background-image: url("A the wave.jpg");*/
-	background-color:  ;
+	/* background-image: url(""); */
+	background-color: ;
 	font-size: 87.5%;
 	font-family: Arial;
 	line-height: 1.5;
@@ -15,11 +15,15 @@ body {
 	color:white;
 }
 
+#bgimage{
+	background-repeat: no-repeat;
+	
+}
+
 .maincontent {
 	border-radius: 5px;
 	-moz-border-radius: 5px;
 	-webkit-border-radius: 5px;
-	
 	
 }
 
@@ -35,11 +39,6 @@ body {
 
 
 /* --------------navigatie balk + het logo----------- */ 
-.mainheader {
-background-image: url("A the wave.jpg");
-}
-
-
 .mainheader img {
 	height: auto;
 	width: 50%;
@@ -108,6 +107,17 @@ a {
 	margin-left: 10%; /* let op losse img moet nog veranderd worden!!!!!<< veroorzaakt error let op!*/
 }
 
+.sidebar{
+			width: 550px;
+			background-color: white;
+			float: right;
+			margin-top:2px;
+			margin-right: 150px;
+		    border-style:dotted;
+			border-width:3px;
+			border-radius: 15px; /* << is voor de agenda */
+
+
 
 /*--- Home Einde ---*/
 
@@ -126,151 +136,6 @@ a {
 /*--- algemene Informatie Einde ---*/
 
 /*--- Agenda Begin ---*/
-.topbox2 {
-	background-color: #00FFAD;
-	width: 100%;
-	margin: 55px auto;
-	border-radius: 5px;
-	position: relative;
-	bottom: 25px;
-
-}
-
-.toptext2 {
-	font-size: 30px;
-	text-align: center;
-	margin: auto;
-	padding-top: -20px;
-		
-}
-
-.topbox2 a{
-	color: white;
-	padding-left: 15px;
-	margin-left: 4%;
-	margin-right: 4%;
-	padding-right: 15px;
-	font-size: 20px;
-	padding-top:4px;
-	padding-bottom:4px;
-	
-	
-	
-	
-	transition: background-color 0.4s;
-	-webkit-transition: background-color 0.4s;
-	}
-
-	
-.topbox2 a:hover{
-	background-color: #996699;
-	}
-
-.topbox3 {
-	
-	background-color: #00FFAD;
-	position: relative;
-	
-	text-align: center;
-	width: 50%;
-	margin: auto;
-	top: 25px;
-}
-
-.topbox3 p{
-	font-size: 30px;
-}
-
-.abox {
-	heigt: auto;
-	width: 150px;
-	background-color: #F8F8F8;
-	border: 1px solid #D0D0D0;
-	color: black;
-	display: inline-block;
-	margin-left: 5%;
-	margin-top: 2%;
-	margin-right: 1%;
-	position:relative; 
-	right: 20px;
-	
-}
-
-.abox p { 
-	text-align: center;
-}
-
-.abox img {
-	
-	margin: auto 0;
-	position: relative;
-	bottom: 10px;
-	
-	box-shadow: 0px 0px 20px black;	
-	transition: transform 0.7s; 	
-}
-
-.abox img:hover{
-	transform: scale(1.1,1.1); 
-}
-
-.atijd {
-	position: relative;
-	bottom: 10px ;
-	padding: 2px;
-	background-color:  #F8F8F8;
-	text-align: center;
-	color: white;
-	}
-
-.atijd a:link {
-	background-color: #00FFAD;
-	display: block;
-	position: relative;
-	top: 5px;
-	padding: 5px;
-	color:white;
-	
-	
-	transition: background-color, 0.5s;
-	transition: transform 0.3s; 	
-	}
-.atijd a:hover{
-	background-color: #996699;
-	transform: scale(1.1,1.1); 
-}
-
-.atijd .active1 {
-	background-color: #996699;
-}	
-
-#toggle1 {
-	padding: 2px;
-	background-color:  #00FFAD;
-	text-align: center;
-	color: white;
-	
-}
-#atijd1 {
-	display:none;
-}
-
-.container2 {
-	margin: 3% 0;
-	width: 94%;
-	border: 1px solid #D0D0D0;
-	height: auto;
-	background-color: #F8F8F8  ;
-	border-radius: 5px;
-	text-align: center;
-	padding: 3%;
-	position: relative;
-	bottom: 80px;
-	
-}
-
-
-
 
 /*--- Agenda Einde ---*/
 
@@ -284,7 +149,7 @@ a {
 	width: 94%;
 	border: 1px solid #D0D0D0;
 	height: auto;
-	background-color: #F8F8F8;
+	background-color: #F8F8F8  ;
 	border-radius: 5px;
 	text-align: center;
 	padding: 3%;
@@ -292,7 +157,7 @@ a {
 
 .moviebox {
 	boder: 1px solid black;
-	width: 158px;
+	width: 130px;
 	height: 202.5px;
 	
 }
@@ -414,7 +279,6 @@ right: 13px;
 
 }
 
-
 /*--- aparte film Einde ---*/
 .filmp {
 	width: 200px;
@@ -444,14 +308,13 @@ right: 13px;
 .infobox {
 	width: 78%;
 	height: auto;
-	background-color: rgba(128,128,128,0.5)  ;
+	background-color: #B2B2B2 ;
 	float: left;
 	margin-left: 10%;
 	margin-top: 10px;
 	box-shadow: 1px 1px 20px black;
 	border-radius: 5px;
 	border: 1px solid #808080;
-	
 }
 
 .infobox span { 
@@ -473,15 +336,6 @@ right: 13px;
 }
 
 
-.ReserverenKnopFilms {
-	background-color:#996699; 
-	padding: 1%; widht: 10px; 
-	float:left; 
-	border-radius:5px; 
-	margin:1%;
-	
-	
-}
 /*--- aparte film Einde ---*/
 /*--- Film Einde ---*/
 
@@ -540,65 +394,14 @@ right: 13px;
 }
 
 #Startknop {
-	display: none;
+display: none;
 
 }
-
-.DivMobieleVersieActies{
-	display: none;
-	width: 90%;,
-	color: white;
-	background-color: #996699;
-	height: 50px;
-}
-
-
-
 
 /* -----------------------------------Elize-------------------------------*/
 /*---Acties Einde ---*/
 
 /*--- Lounge Begin ---*/
-.contentLounge {
-	color: white;
-	background-color: #996699;
-	padding-top: 5px;
-	margin-top: 20px;
-	margin-bottom: 20px;
-	height:800px;
-	background-image: url('loungeachtergrond.jpg');
-	background-repeat: no-repeat;
-}
-
-.contentLounge h1 {
-	margin: 30px;
-}
-
-.contentLounge p {
-	margin: 30px;
-}
-
-.contentLoungetekst{
-	width:500px;
-	float: left;
-	padding:5px;
-	padding-right: 700px;
-}
-
-.cocktails {
-	float: left;
-	padding: 30px;
-	font-family: Segoe Script;
-	font-size: 16px;
-}
-
-.cocktailprijzen {
-	float: left;
-	padding: 30px;
-	font-family: Segoe Script;
-	font-size: 16px;
-	margin-top: 55px;
-}
 
 /*---Lounge Einde ---*/
 
@@ -625,6 +428,7 @@ right: 13px;
 
 }
 .contentSpecificaties a{
+	
 	color: white;
 	text-decoration: none;
 
@@ -668,6 +472,10 @@ form{
 	width: 75%;
 	margin: 0 auto;
 	
+}
+
+#Contactp{
+	color: #524E53;
 }
 
 h4{
@@ -722,65 +530,52 @@ fieldset{
 	text-align: center;
 	margin-top: 40px;
 	height: 400px;
-	color: #fff;	
-}
+	color: #fff;
 
-.ReserverenText {
-	padding: 5%;
-	padding-top: 1%;
-	font-size: 17px;
-	float:left;
-	width: 50%;
-}
-
-
-.ReserverenIMGZaal {
-	float:left;
-	width:50%;
 	
-}
-
-.contentReserverenINFO {
-	background-color: #996699;
-	/*background-color: #E15700;*/
-	height:820px;
-	margin-top: 15px;
 }
 /* dit zorgt ervoor dat de invoervakken een bepaalde grootte hebben, namelijk 150px*/
 #div_AanmeldenOFInloggen input{
 	width: 150px;
+
+
 }
-
-.ReserverenAfbeeldingen {
-
-	width: 100%;
-	float:left;
-	background-color:white;
-	
-}
-
-.ReserverenText2 {
-	float: right;
-	width: 40%;
-	padding-top: 7%;
-	
-}
-
-
-
-
 /*---Reserveren Einde ---*/
 
+<<<<<<< HEAD
+/* footer */
+
+#footerHomepage{ 
+	width: 100px;
+	height: 100px;
+	background-color: #000;
+	display: block;
+}
+
+/* einde footer*/
+=======
 
 /*Lounge begin*/
 
 
 
-
-
+.contentLounge{
+	height:500px;
+}
 
 
 /*Lounge einde*/
+
+/*Plaatsen Begin*/
+
+.contentPlaatsen {
+	height:500px;
+}
+
+
+
+
+/*Plaatsen Einde*/
 
 /*---Footer---*/
 .footerHomepage {
@@ -810,6 +605,7 @@ fieldset{
 
 
 /*---Footer Einde---*/
+>>>>>>> origin/master
 
 /* tablet & kleinere schermen */
 /*-----------------------------------------------------------------------------------------------------*/	
@@ -853,19 +649,28 @@ fieldset{
 	margin-left: 40%;
 	
 	}
-<<<<<<< HEAD
-}
-=======
-#Knoppenbalk {
+
+#ActiesImg {
 	width:100%;
-	background-color: #996699;
-	height: 9%;
-	margin-bottom: 20px;
+	margin-bottom: 0px;
+	padding-top: 5px;
+	padding-bottom: 5px;
 }
 
+.SlideKnoppen {
+	height:35px;
+	float:left;
+	padding-left: 2%;
+	padding-right: 2%;
+	background-color: #996699;
+	margin-top: 0px;
+}
 
+#SlideActies {
+height: 20px;
+
+}
 	}
->>>>>>> d0e007637609e3fc7a690cd474617aa94145afd5
 
 	/* mobiele versie */
 /*-----------------------------------------------------------------------------------------------------*/	
@@ -922,28 +727,16 @@ fieldset{
 	margin-left: 32%;
 	}
 
-<<<<<<< HEAD
-.topbox3 {
-	
-	height: 40px;
-=======
+#ActiesImg {
+	width:100%;
+	margin-bottom: 0px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
 .contentActies {
-	display:none;
+	height:100%;
 
-}
-.DivMobieleVersieActies {
-	display: block;
-	width: 90%;
-	color: white;
-	background-color: #996699;
-	
->>>>>>> d0e007637609e3fc7a690cd474617aa94145afd5
-}
-
-.topbox3 p {
-	
-	position: relative;
-	bottom: 50px;
 }
 
 }	
@@ -969,15 +762,19 @@ fieldset{
 	width: 84%;
 	
 	}
+#ActiesImg {
+	display:none;
 
-.DivMobieleVersieActies {
-	display: block;
-	width: 90%;
-	background-color: #996699;
 }
 
+#Knoppenbalk {
+	display:none;
 
+}
 
+.contentActies {
+	height:100%;
 
+}
 }
 
