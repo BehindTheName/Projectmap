@@ -2,7 +2,7 @@
 <html>
 
 <head>
-	<title> Film - A most wanted man	</title>
+	<title> Film - Winter Sleep	</title>
 	
 	<link rel="stylesheet" type="text/css" href="../Mainstylesheet.css">
 	<meta charset="UTF-8" />
@@ -14,7 +14,7 @@
 
     <!-- Navigatie balk + logo -->
 		<header class="mainheader">
-		<a href="../index.html"> <img src="../filmpje-logo.png" alt="logo"></a>
+		<a href="index.html"> <img src="../filmpje-logo.png" alt="logo"></a>
 		
 		<nav>
 			<ul>
@@ -38,32 +38,31 @@
 				<div class="boxtop">
 					<div class="filmp">
 						<div class="filmpost">
-						<img src="../filmposters/amostwantedman2_00000.jpg" width="200px" height="300px"  alt="poster"/>
+						<img src="../filmposters/wintersleep_00000.jpg" width="200px" height="300px"  alt="poster"/>
 							
 						</div>
 					</div>
 					
 					<div class="trailerbox">
-						<embed  src="http://www.youtube.com/v/OUyYBrlF_W8">
+						<embed  src="http://www.youtube.com/v/IMN4KX6BIpY">
 					</div>
 					
 					<div class="infobox">
-						<h1> A most wanted man</h1>
+						<h1> Winter Sleep</h1>
 						<!-- -->
 						<div class="rating">
-								<span class="imdbRatingPlugin" data-user="ur55552000" data-title="tt1972571" data-style="p1"><a href="http://www.imdb.com/title/tt1972571/?ref_=plg_rt_1"><img src="http://g-ecx.images-amazon.com/images/G/01/imdb/plugins/rating/images/imdb_46x22.png" alt=" A Most Wanted Man
+								<span class="imdbRatingPlugin" data-user="ur55552000" data-title="tt2758880" data-style="p1"><a href="http://www.imdb.com/title/tt2758880/?ref_=plg_rt_1"><img src="http://g-ecx.images-amazon.com/images/G/01/imdb/plugins/rating/images/imdb_46x22.png" alt=" Kis uykusu
 (2014) on IMDb" />
 </a></span><script>(function(d,s,id){var js,stags=d.getElementsByTagName(s)[0];if(d.getElementById(id)){return;}js=d.createElement(s);js.id=id;js.src="http://g-ec2.images-amazon.com/images/G/01/imdb/plugins/rating/js/rating.min.js";stags.parentNode.insertBefore(js,stags);})(document,'script','imdb-rating-api');</script>
 						</div>						
 						<!-- -->
-						<p> <span> Duur: </span> 122   minuten</p>
-						<p> <span> Genre: </span> -  Thriller  -  </p>
-						<p>In A Most Wanted Man, gebaseerd op de bestseller van John le Carré, volgen we een Tsjetsjeense moslim die illegaal naar Hamburg vlucht. Al snel komen de autoriteiten achter zijn komst en die zijn vastbesloten uit te zoeken wie de man is.
+						<p> <span> Duur: </span> 113  minuten</p>
+						<p> <span> Genre: </span> -  Drama  -  </p>
+						<p>De gepensioneerde acteur Aydin runt een hotelletje in Centraal-Anatolië samen met zijn jonge vrouw Nihal, met wie hij een stormachtige relatie heeft, en zijn zus Necla, die nog steeds haar recente scheiding verwerkt
 
-Wanneer de idealistische advocate Annabel Richter (Rachel McAdams) lucht krijgt van het verhaal, zet ze alles op alles om de Tsjetsjeen te beschermen. Ze krijgt echter tegenwerking uit onverwachte hoek. A Most Wanted Man is geregisseerd door de Nederlandse topfotograaf en regisseur Anton Corbijn, met een hoofdrol voor de recent overleden Philip Seymour Hoffman.
-						<p> <span>Director:</span>  Anton Corbijn</p>
-						<p> <span>Stars:</span>Philip Seymour Hoffman, Rachel McAdams, Daniel  </p>
-						<p class="ReserverenKnopFilms" "><a href="../Reserveren-info.html">Reserveren!</a></p>
+‘s Winters, bij het vallen van de eerste sneeuw, vormt het hotel hun schuilplek, maar evenzeer een onontkoombare plaats die hun onderlinge rancunes aanwakkert.
+						<p> <span>Director:</span> Nuri Bilge Ceylan</p>
+						<p> <span>Stars:</span>Haluk Bilginer, Melisa Sözen, Demet Akbag | </p>
 						
 					</div>
 					

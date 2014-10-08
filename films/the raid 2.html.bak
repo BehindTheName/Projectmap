@@ -2,7 +2,7 @@
 <html>
 
 <head>
-	<title> Film - A most wanted man	</title>
+	<title> Film - The Raid 2</title>
 	
 	<link rel="stylesheet" type="text/css" href="../Mainstylesheet.css">
 	<meta charset="UTF-8" />
@@ -14,7 +14,7 @@
 
     <!-- Navigatie balk + logo -->
 		<header class="mainheader">
-		<a href="../index.html"> <img src="../filmpje-logo.png" alt="logo"></a>
+		<a href="index.html"> <img src="../filmpje-logo.png" alt="logo"></a>
 		
 		<nav>
 			<ul>
@@ -38,32 +38,31 @@
 				<div class="boxtop">
 					<div class="filmp">
 						<div class="filmpost">
-						<img src="../filmposters/amostwantedman2_00000.jpg" width="200px" height="300px"  alt="poster"/>
+						<img src="../filmposters/raid_00000.jpg" width="200px" height="300px"  alt="poster"/>
 							
 						</div>
 					</div>
 					
 					<div class="trailerbox">
-						<embed  src="http://www.youtube.com/v/OUyYBrlF_W8">
+						<embed  src="http://www.youtube.com/v/MG9uFX3uYq4">
 					</div>
 					
 					<div class="infobox">
-						<h1> A most wanted man</h1>
+						<h1> The Raid 2: Berandal</h1>
 						<!-- -->
 						<div class="rating">
-								<span class="imdbRatingPlugin" data-user="ur55552000" data-title="tt1972571" data-style="p1"><a href="http://www.imdb.com/title/tt1972571/?ref_=plg_rt_1"><img src="http://g-ecx.images-amazon.com/images/G/01/imdb/plugins/rating/images/imdb_46x22.png" alt=" A Most Wanted Man
+								<span class="imdbRatingPlugin" data-user="ur55552000" data-title="tt2265171" data-style="p1"><a href="http://www.imdb.com/title/tt2265171/?ref_=plg_rt_1"><img src="http://g-ecx.images-amazon.com/images/G/01/imdb/plugins/rating/images/imdb_46x22.png" alt=" The Raid 2: Berandal
 (2014) on IMDb" />
 </a></span><script>(function(d,s,id){var js,stags=d.getElementsByTagName(s)[0];if(d.getElementById(id)){return;}js=d.createElement(s);js.id=id;js.src="http://g-ec2.images-amazon.com/images/G/01/imdb/plugins/rating/js/rating.min.js";stags.parentNode.insertBefore(js,stags);})(document,'script','imdb-rating-api');</script>
 						</div>						
 						<!-- -->
-						<p> <span> Duur: </span> 122   minuten</p>
-						<p> <span> Genre: </span> -  Thriller  -  </p>
-						<p>In A Most Wanted Man, gebaseerd op de bestseller van John le Carré, volgen we een Tsjetsjeense moslim die illegaal naar Hamburg vlucht. Al snel komen de autoriteiten achter zijn komst en die zijn vastbesloten uit te zoeken wie de man is.
+						<p> <span> Duur: </span> 150  minuten</p>
+						<p> <span> Genre: </span> -  Action | Crime | Thriller  -   </p>
+						<p>Na het bioscoopsucces van de spectaculaire martial arts film The Raid komt regisseur Gareth Evans met het langverwachte vervolg The Raid 2: Berandal.
 
-Wanneer de idealistische advocate Annabel Richter (Rachel McAdams) lucht krijgt van het verhaal, zet ze alles op alles om de Tsjetsjeen te beschermen. Ze krijgt echter tegenwerking uit onverwachte hoek. A Most Wanted Man is geregisseerd door de Nederlandse topfotograaf en regisseur Anton Corbijn, met een hoofdrol voor de recent overleden Philip Seymour Hoffman.
-						<p> <span>Director:</span>  Anton Corbijn</p>
-						<p> <span>Stars:</span>Philip Seymour Hoffman, Rachel McAdams, Daniel  </p>
-						<p class="ReserverenKnopFilms" "><a href="../Reserveren-info.html">Reserveren!</a></p>
+Rama (Iko Uwais) dacht dat hij de strijd tegen de Indonesische onderwereld had gewonnen. Niets is minder waar. De gangsters zijn uit op wraak en als hij wordt bedreigd, wordt Rama gedwongen undercover te gaan om zijn familie te beschermen. Terwijl hij zich een weg vecht door de criminele organisaties, komt hij erachter dat binnen zijn eigen korps corrupte politieagenten en politici aan de touwtjes trekken. Tijdens het daaropvolgende gevecht tegen corruptie moet Rama alles op het spel zetten om het leven van zijn vrouw, kind en hopelijk zichzelf te redden.
+						<p> <span>Director:</span> Gareth Evans</p>
+						<p> <span>Stars:</span> Iko Uwais, Yayan Ruhian, Arifin Putra |</p>
 						
 					</div>
 					

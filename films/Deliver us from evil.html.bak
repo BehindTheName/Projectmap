@@ -7,6 +7,9 @@
 	<link rel="stylesheet" type="text/css" href="../Mainstylesheet.css">
 	<meta charset="UTF-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" >
+	<meta name="Author" content="Behind the name">
+	<meta name="Keywords" content=" Filpje, Bioscoop ">
+	<meta name="Description" content="Algemene Informatie">
 </head>
 
 <body class="body">
@@ -66,7 +69,7 @@ Geïnspireerd op het boek van Ralph Sarchie waarin hij real-life cases beschrijf
 
 						<p> <span>Director:</span>  Scott Derrickson</p>
 						<p> <span>Stars:</span>Eric Bana, Édgar Ramírez, Olivia Munn | </p>
-
+						<p class="ReserverenKnopFilms" "><a href="../Reserveren-info.html">Reserveren!</a></p>
 						
 					</div>
 					
