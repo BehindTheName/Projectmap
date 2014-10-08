@@ -179,6 +179,8 @@ a {
 
 .topbox3 p{
 	font-size: 30px;
+	position: relative;
+	top: -2px;
 }
 
 .abox {
@@ -813,8 +815,8 @@ fieldset{
 
 /* tablet & kleinere schermen */
 /*-----------------------------------------------------------------------------------------------------*/	
-@media only screen and (min-width: 150px) and (max-width: 1090px) 
-{
+@media only screen and (min-width: 150px) and (max-width: 1090px)  {
+
 	.mainheader nav {
 	height: 48px;
 	}
@@ -835,41 +837,41 @@ fieldset{
 	}
 	
 	.topbox {
-	background-color: #00FFAD;
-	width: 50%;
-	margin-left: 25%;
-	border-radius: 5px;
+		background-color: #00FFAD;
+		width: 50%;
+		margin-left: 25%;
+		border-radius: 5px;
 	}
 	
 	.navbar2 {
 	padding-left: 35%;
-	
-}
+	}
+
 	.trailerbox {
 	display: block;
 	padding-left: 25%;
-}
-	.filmp {
-	margin-left: 40%;
+	}
 	
+	.filmp {
+		margin-left: 40%;
 	}
 
-}
-#Knoppenbalk {
-	width:100%;
-	background-color: #996699;
-	height: 9%;
-	margin-bottom: 20px;
-}
 
-
+	#Knoppenbalk {
+		width:100%;
+		background-color: #996699;
+		height: 9%;
+		margin-bottom: 20px;
 	}
+
+
+}
 
 
 	/* mobiele versie */
 /*-----------------------------------------------------------------------------------------------------*/	
-@media only screen and (min-width: 150px) and (max-width: 880px) 
-{
+@media only screen and (min-width: 150px) and (max-width: 880px) {
+
 	.mainheader nav {
 		height: 384px;
 	}
@@ -895,56 +897,52 @@ fieldset{
 	}
 	
 	.navbar2 {
-	
-	
-	margin-right: 10%;
-	padding-right: 5%;
+		margin-right: 10%;
+		padding-right: 5%;
 	}
 
 	.contentSpecificaties img{
-	display:none;
-}
+		display:none;
+	}
 
-.trailerbox {
-	display: block;
-	padding-left: 80px;
-	widht: 400px;
-}
+	.trailerbox {
+		display: block;
+		padding-left: 80px;
+		widht: 400px;
+	}
 
-.trailerbox embed {
-	width:480px;
-	height:300px;
-	
-}
+	.trailerbox embed {
+		width:480px;
+		height:300px;
+		
+	}
 
-.filmp {
-	margin-left: 32%;
+	.filmp {
+		margin-left: 32%;
 	}
 
 
-.topbox3 {
-	
-	height: 40px;
+	.topbox3 {
+		
+		height: 40px;
 	}
 
-.contentActies {
-	display:none;
+	.contentActies {
+		display:none;
 
-}
-.DivMobieleVersieActies {
-	display: block;
-	width: 90%;
-	color: white;
-	background-color: #996699;
+	}
 	
+	.DivMobieleVersieActies {
+		display: block;
+		width: 90%;
+		color: white;
+		background-color: #996699;
+	}
 
-}
-
-.topbox3 p {
-	
-	position: relative;
-	bottom: 50px;
-}
+	.topbox3 p {
+		position: relative;
+		bottom: 50px;
+	}
 
 }	
 @media only screen and (min-width: 150px) and (max-width: 600px) {
@@ -970,13 +968,11 @@ fieldset{
 	
 	}
 
-.DivMobieleVersieActies {
-	display: block;
-	width: 90%;
-	background-color: #996699;
-}
-
-
+	.DivMobieleVersieActies {
+		display: block;
+		width: 90%;
+		background-color: #996699;
+	}
 
 
 }
