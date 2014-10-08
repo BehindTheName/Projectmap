@@ -469,10 +469,10 @@ right: 13px;
 	
 }
 
-.boxbottom {
-	display: block;
-	position: relative;
-}
+	.boxbottom {
+		display: block;
+		position: relative;
+	}
 
 
 .ReserverenKnopFilms {
@@ -923,7 +923,6 @@ fieldset{
 
 
 	.topbox3 {
-		
 		height: 40px;
 	}
 
@@ -945,33 +944,47 @@ fieldset{
 	}
 
 }	
+@media only screen and (min-width: 601px) and (max-width: 799px) {
+	.trailerbox embed {
+		width:400px;
+		height:300px;
+		position: relative;
+		right: 30px;
+	}
+
+}
 @media only screen and (min-width: 150px) and (max-width: 600px) {
 
 	.navbar2 {
-	margin:auto;
-	padding-left: 18%;	
+		margin:auto;
+		padding-left: 18%;	
 	}
 	
 	.trailerbox {
-	display: block;
-	padding-right: 150%;
-	widht: 400px;
+		display: block;
+		padding-right: 150%;
+		widht: 400px;
 	}
 
 	.trailerbox embed {
-	width:400px;
-	height:300px;
+		width:300px;
+		height:300px;
+		position: relative;
+		right: 100px;
 	}
 	
 	.infobox {
-	width: 84%;
-	
+		width: 84%;
 	}
 
 	.DivMobieleVersieActies {
 		display: block;
 		width: 90%;
 		background-color: #996699;
+	}
+	
+	.filmp {
+		margin-left: 15%;
 	}
 
 
