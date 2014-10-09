@@ -1,0 +1,84 @@
+<!doctype html>
+<html>
+
+<head>
+	<title> Film - How to Train Your Dragon 2</title>
+	
+	<link rel="stylesheet" type="text/css" href="../Mainstylesheet.css">
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" >
+</head>
+
+<body class="body">
+
+
+    <!-- Navigatie balk + logo -->
+		<header class="mainheader">
+		<a href="index.html"> <img src="../filmpje-logo.png" alt="logo"></a>
+		
+		<nav>
+			<ul>
+				<li > <a href="../index.html" >Home</a> </li>
+				<li> <a href="../Algemene informatie.html" >Algemene informatie</a> </li>
+				<li> <a href="../Agenda.html" >Agenda </a> </li>
+				<li  class="active"> <a href="../Film-actueel.html" >Films</a> </li>
+				<li > <a href="../Acties.html" >Acties</a> </li>
+				<li> <a href="../Lounge.html" >Lounge</a> </li>
+				<li> <a href="../Specificaties.html" >Specificaties</a> </li>
+
+				<li> <a href="../Contact.html" >Contact </a> </li>
+
+			</ul>
+		</nav>
+	</header>
+	
+	<div class="maincontent" >
+		<div class="content">
+		
+				<div class="boxtop">
+					<div class="filmp">
+						<div class="filmpost">
+						<img src="../filmposters/howto_00000.jpg" width="200px" height="300px"  alt="poster"/>
+							
+						</div>
+					</div>
+					
+					<div class="trailerbox">
+						<embed  src="http://www.youtube.com/v/Z9a4PvzlqoQ">
+					</div>
+					
+					<div class="infobox">
+						<h1> How to Train Your Dragon 2</h1>
+						<!-- -->
+						<div class="rating">
+								<span class="imdbRatingPlugin" data-user="ur55552000" data-title="tt1646971" data-style="p1"><a href="http://www.imdb.com/title/tt1646971/?ref_=plg_rt_1"><img src="http://g-ecx.images-amazon.com/images/G/01/imdb/plugins/rating/images/imdb_46x22.png" alt=" How to Train Your Dragon 2
+(2014) on IMDb" />
+</a></span><script>(function(d,s,id){var js,stags=d.getElementsByTagName(s)[0];if(d.getElementById(id)){return;}js=d.createElement(s);js.id=id;js.src="http://g-ec2.images-amazon.com/images/G/01/imdb/plugins/rating/js/rating.min.js";stags.parentNode.insertBefore(js,stags);})(document,'script','imdb-rating-api');</script>
+						</div>						
+						<!-- -->
+						<p> <span> Duur: </span> 102  minuten</p>
+						<p> <span> Genre: </span>  -  Animation | Action | Adventure  -    </p>
+						<p>Het spannende tweede deel van de epische How To Train Your Dragon trilogie neemt je mee terug naar de fantastische wereld van Hikkie en Tandloos op het eiland Berg
+
+Vijf jaar nadat de draken en Vikingen verenigd zijn, houden Astrid, Snotvlerk en de rest van de bende zich voornamelijk bezig met drakenracen, de populairste sport op het eiland. Hikkie en Tandloos gaan liever op zoek naar onbekende gebieden en nieuwe werelden. Tijdens een van die avonturen ontdekt het onafscheidelijke duo een geheimzinnige ijsgrot, waar honderden wilde draken leven, en een mysterieuze drakenrijder.
+
+Hikkie en Tandloos raken verzeild in een strijd om de vrede en moeten zich sterk maken voor hun idealen. Alleen samen zijn ze sterk genoeg om de toekomst voor mens en draak veilig te stellen.
+						<p> <span>Director:</span> Dean DeBlois</p>
+						<p> <span>Stars:</span>Jay Baruchel, Cate Blanchett, Gerard Butler |</p>
+						
+					</div>
+					
+					
+					
+				</div>
+				
+				
+				
+		<div>
+	</div>
+	
+	 <!--  of hier hierin kan je code  -->
+	
+</body>
+
+</html>

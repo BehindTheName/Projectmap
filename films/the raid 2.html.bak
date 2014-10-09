@@ -1,0 +1,82 @@
+<!doctype html>
+<html>
+
+<head>
+	<title> Film - The Raid 2</title>
+	
+	<link rel="stylesheet" type="text/css" href="../Mainstylesheet.css">
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" >
+</head>
+
+<body class="body">
+
+
+    <!-- Navigatie balk + logo -->
+		<header class="mainheader">
+		<a href="index.html"> <img src="../filmpje-logo.png" alt="logo"></a>
+		
+		<nav>
+			<ul>
+				<li > <a href="../index.html" >Home</a> </li>
+				<li> <a href="../Algemene informatie.html" >Algemene informatie</a> </li>
+				<li> <a href="../Agenda.html" >Agenda </a> </li>
+				<li  class="active"> <a href="../Film-actueel.html" >Films</a> </li>
+				<li > <a href="../Acties.html" >Acties</a> </li>
+				<li> <a href="../Lounge.html" >Lounge</a> </li>
+				<li> <a href="../Specificaties.html" >Specificaties</a> </li>
+
+				<li> <a href="../Contact.html" >Contact </a> </li>
+
+			</ul>
+		</nav>
+	</header>
+	
+	<div class="maincontent" >
+		<div class="content">
+		
+				<div class="boxtop">
+					<div class="filmp">
+						<div class="filmpost">
+						<img src="../filmposters/raid_00000.jpg" width="200px" height="300px"  alt="poster"/>
+							
+						</div>
+					</div>
+					
+					<div class="trailerbox">
+						<embed  src="http://www.youtube.com/v/MG9uFX3uYq4">
+					</div>
+					
+					<div class="infobox">
+						<h1> The Raid 2: Berandal</h1>
+						<!-- -->
+						<div class="rating">
+								<span class="imdbRatingPlugin" data-user="ur55552000" data-title="tt2265171" data-style="p1"><a href="http://www.imdb.com/title/tt2265171/?ref_=plg_rt_1"><img src="http://g-ecx.images-amazon.com/images/G/01/imdb/plugins/rating/images/imdb_46x22.png" alt=" The Raid 2: Berandal
+(2014) on IMDb" />
+</a></span><script>(function(d,s,id){var js,stags=d.getElementsByTagName(s)[0];if(d.getElementById(id)){return;}js=d.createElement(s);js.id=id;js.src="http://g-ec2.images-amazon.com/images/G/01/imdb/plugins/rating/js/rating.min.js";stags.parentNode.insertBefore(js,stags);})(document,'script','imdb-rating-api');</script>
+						</div>						
+						<!-- -->
+						<p> <span> Duur: </span> 150  minuten</p>
+						<p> <span> Genre: </span> -  Action | Crime | Thriller  -   </p>
+						<p>Na het bioscoopsucces van de spectaculaire martial arts film The Raid komt regisseur Gareth Evans met het langverwachte vervolg The Raid 2: Berandal.
+
+Rama (Iko Uwais) dacht dat hij de strijd tegen de Indonesische onderwereld had gewonnen. Niets is minder waar. De gangsters zijn uit op wraak en als hij wordt bedreigd, wordt Rama gedwongen undercover te gaan om zijn familie te beschermen. Terwijl hij zich een weg vecht door de criminele organisaties, komt hij erachter dat binnen zijn eigen korps corrupte politieagenten en politici aan de touwtjes trekken. Tijdens het daaropvolgende gevecht tegen corruptie moet Rama alles op het spel zetten om het leven van zijn vrouw, kind en hopelijk zichzelf te redden.
+						<p> <span>Director:</span> Gareth Evans</p>
+						<p> <span>Stars:</span> Iko Uwais, Yayan Ruhian, Arifin Putra |</p>
+						
+					</div>
+					
+					
+					
+				</div>
+				
+				
+				
+		<div>
+	</div>
+	
+	 <!--  of hier hierin kan je code  -->
+	
+</body>
+
+</html>
