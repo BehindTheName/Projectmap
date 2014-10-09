@@ -6,7 +6,21 @@
 	
 	<link rel="stylesheet" type="text/css" href="Mainstylesheet.css">
 	<meta charset="UTF-8" />
+
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" >
+
+	<script>
+	
+		
+	
+	</script>
+	
+	
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" ><meta name="Author" content="Behind the name">
+	<meta name="Keywords" content=" Filpje, Bioscoop ">
+	<meta name="Description" content="Home">
+
 </head>
 
 <body class="body">
@@ -14,7 +28,7 @@
 
     <!-- Navigatie balk + logo -->
 	<header class="mainheader">
-		<a href="index.html"> <img src="filmpje-logo.png" alt="logo"></a>
+		<a href="index.html"> <img src="filmpje-logo2.png" alt="logo"></a>
 		
 		<nav>
 			<ul>
@@ -33,22 +47,175 @@
 	
 	<div class="maincontent" >
 	
-		<div class="contentHome"> 
-		 <img id="myPhoto" src="slide1.png" />
+	<div class="contentHome"> 
+		 <img id="myPhoto" src="slideA1.png" />
 	<script src="slide.js"></script>
 		
 						
 		</div>
+	
+	
+	<!-- Agenda'tje -->
+		
+	<div class="HomeA">
+	
+	<table id="Tagenda">
+			<tr id="tr6">
+				<th colspan="4"> Agenda </th>
+			</tr>
+			
+			<tr id="tr5">
+				<td id="td2"> Film </td>
+				<td id="td3"> Tijd </td>
+				<td id="td1"> Zaal </td>  
+				<td id="td4"> Reserveer </td>	
+			</tr>
+			
+			<tr id="tr5">
+				<td id="td2"> Pijnstillers </td>
+				<td id="td3"> 12:00  </td>
+				<td id="td1">  1 </td>  
+				<td id="td4"> Reserveer nu  </td>	
+			</tr>
+			
+			<tr id="tr5">
+				<td id="td2"> November man </td>
+				<td id="td3"> 12:30 </td>
+				<td id="td1">  3 </td>  
+				<td id="td4"> Reserveer nu </td>	
+			</tr>
+			
+			<tr id="tr5">
+				<td id="td2"> The Maze runner </td>
+				<td id="td3"> 15:00 </td>
+				<td id="td1">  1 </td>  
+				<td id="td4"> Reserveer nu </td>	
+			</tr>		
+		
+			<tr id="tr5">
+				<td id="td2"> Lucy </td>
+				<td id="td3"> 16:00 </td>
+				<td id="td1">  3 </td>  
+				<td id="td4"> Reserveer nu </td>	
+			</tr>
+			
+			<tr id="tr5">
+				<td id="td2"> Adventure 2</td>
+				<td id="td3"> 17:00 </td>
+				<td id="td1">  2 </td>
+				<td id="td4"> Reserveer nu </td>
+			</tr>
+			
+			<tr id="tr5">
+				<td id="td2"> The Maze runner </td>
+				<td id="td3"> 19:30 </td>
+				<td id="td1">  3 </td>		
+				<td id="td4"> Reserveer nu </td>	
+			</tr>
+			
+			<tr id="td5">
+				<td id="td2"> Pijnstillers </td>
+				<td id="td3"> 21:40 </td>	
+				<td id="td1">  1 </td>	
+				<td id="td4"> Reserveer nu </td>
+			</tr>
+		</table>
+		</div>
+		
+	<div class="agendaHome"> 
+		<button>Maandag</button>
+		<button>Dinsdag</button>
+		<button>Woensdag</button>
+		<button>Donderdag</button>
+		<button>Vrijdag</button>
+		<button>Zaterdag</button>
+		<button>Zondag</button>	
 	</div>
+	<!-- einde agenda'tje -->
+	
+	<div id="FotoActie">
+	<img src="ReclameOpeningsactie.png" /> 
+	</div>
+	<!-- top 10 -->
+	
+	<div class="topTien">
+		
+		<table id="tb10">
+		
+			<tr id="tr9">
+				<th colspan="3">Top 10</th>
+			</tr>
+			
+			<tr id="tr10">
+				<td id="td01">1<td>
+				<td id="td02">The Maze Runner<td>
+			</tr>
+			
+			<tr id="tr10">
+				<td id="td01">2<td>
+				<td id="td02">The Equalizer<td>
+			</tr>
+			
+			<tr id="tr10">
+				<td id="td01">3<td>
+				<td id="td02">Let's Be Cops<td>
+			</tr>
+			
+			<tr id="tr10">
+				<td id="td01">4<td>
+				<td id="td02">Pijnstillers<td>
+			</tr>
+			
+			<tr id="tr10">
+				<td id="td01">5<td>
+				<td id="td02">If I Stay<td>
+			</tr>
+			
+			<tr id="tr10">
+				<td id="td01">6<td>
+				<td id="td02">Bloedlink<td>
+			</tr>
+			
+			<tr id="tr10">
+				<td id="td01">7<td>
+				<td id="td02">A Most Wanted Man<td>
+			</tr>
+			
+			<tr id="tr10">
+				<td id="td01">8<td>
+				<td id="td02">Deliver Us from Hell<td>
+			</tr>
+			
+			<tr id="tr10">
+				<td id="td01">9<td>
+				<td id="td02">Dorsvloer vol confetti<td>
+			</tr>
+			
+			<tr id="tr10">
+				<td id="td01">10<td>
+				<td id="td02">Boyhood<td>
+			</tr>
+		
+		</table>
+	</div>
+	
+	
+	</div>
+	
+	
+		
+	
+	
+	
 	
 	
 <!--<<<<<<< HEAD-->
 	
 <!--=======-->
-	<div class="footerHomepage"> <!-- footer  -->
+	<!--<div class="footerHomepage"> <!-- footer  -->
 
-		<footer>
-			<p class="PFooter">Gemaakt door: <em>Behind the name</em></p>
+		<!--footer>
+			<!--p class="PFooter">Gemaakt door: <em>Behind the name</em></p>
 		</footer>
 	</div>   <!-- footer  -->
 	
