@@ -1064,6 +1064,7 @@ fieldset{
 		width: 100%;
 		color: white;
 		background-color: #996699;
+		height: 100%;
 	}
 
 	.topbox3 p {
