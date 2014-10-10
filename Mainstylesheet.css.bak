@@ -36,7 +36,7 @@ body {
 
 /* --------------navigatie balk + het logo----------- */ 
 .mainheader {
-
+background-image: url("A the wave.jpg");
 }
 
 
@@ -103,10 +103,133 @@ a {
 
 /*--- Home Begin ---*/
  #myPhoto{
-	width:80%;
-	height: 80%;
-	margin-left: 10%; /* let op losse img moet nog veranderd worden!!!!!<< veroorzaakt error let op!*/
+	width: 100%;
+	height: 120%;
+	border-radius: 25px;
 }
+
+.contentHome{
+	width: 63%;
+	height: 350px;
+	float: right;
+}
+
+#FotoActie{
+	margin-top: 10%;
+	width: 80%;
+	height: 75%;
+}
+
+/* begin agenda home */
+
+.agendaHome{
+	color: #B8B894;
+	background-color: #fff;
+	width: 36%;
+	height: 80%;
+	float: left;
+	margin-top: 4%;
+} /* buttons */
+
+
+.HomeA{
+	color: #B8B894;
+	border: 1px solid black;
+	width: 35%;
+	margin-top: 2%;
+	height: 60%px;
+}
+
+#Tagenda{
+	color: #B8B894;
+}	
+
+#td1{
+	color: #B8B894;
+	font-size: 20px;
+	text-align: center;
+	border-top: 1px dotted black;
+}
+
+#td2{
+	color: #FF4500;
+	font-size: 20px;
+	border-top: 1px dotted black;
+}
+
+#td3{
+    color: #B8B894;
+	font-size: 20px;
+	border-top: 1px dotted black;
+}
+
+#td4{
+	color: #B8B894;
+	font-size: 20px;
+	border-top: 1px dotted black;
+}
+
+#tr5{
+	color: #B8B894;
+	font-size: 20px;
+	border-top: 1px dotted black;
+}
+
+#tr6{
+	text-align: center;
+	color: #B8B894;
+	font-size: 28px;
+}
+
+
+/* einde agenda home */
+
+/* begin top 10 */
+
+.topTien{
+	margin-top: 2%;
+	
+	height: 45%;
+	width: 50%;
+	
+}
+
+#tb10{
+	border: 1px solid black;
+	width: 80%;
+}
+
+#tr9{
+    color: #FF0000;
+	text-align: center;
+	font-size: 24px;
+}
+
+#tr10{
+	color: #B8B894;
+	font-size: 18px;
+	border-top: 1px solid black;
+	border-collapse: collapse;
+} 
+
+#td01{
+	color: #B8B894;
+	font-size: 18px;
+	border-top: 1px solid black;
+	border-collapse: collapse;
+	text-align: center;
+}
+
+#td02{
+	color: #B8B894;
+	font-size: 18px;
+	border-top: 1px solid black;
+	border-collapse: collapse;
+}
+
+
+
+/* einde top 10 */
 
 
 /*--- Home Einde ---*/
@@ -126,6 +249,153 @@ a {
 /*--- algemene Informatie Einde ---*/
 
 /*--- Agenda Begin ---*/
+.topbox2 {
+	background-color: #00FFAD;
+	width: 100%;
+	margin: 55px auto;
+	border-radius: 5px;
+	position: relative;
+	bottom: 25px;
+
+}
+
+.toptext2 {
+	font-size: 30px;
+	text-align: center;
+	margin: auto;
+	padding-top: -20px;
+		
+}
+
+.topbox2 a{
+	color: white;
+	padding-left: 15px;
+	margin-left: 4%;
+	margin-right: 4%;
+	padding-right: 15px;
+	font-size: 20px;
+	padding-top:4px;
+	padding-bottom:4px;
+	
+	
+	
+	
+	transition: background-color 0.4s;
+	-webkit-transition: background-color 0.4s;
+	}
+
+	
+.topbox2 a:hover{
+	background-color: #996699;
+	}
+
+.topbox3 {
+	
+	background-color: #00FFAD;
+	position: relative;
+	
+	text-align: center;
+	width: 50%;
+	margin: auto;
+	top: 25px;
+}
+
+.topbox3 p{
+	font-size: 30px;
+	position: relative;
+	top: -2px;
+}
+
+.abox {
+	heigt: auto;
+	width: 150px;
+	background-color: #F8F8F8;
+	border: 1px solid #D0D0D0;
+	color: black;
+	display: inline-block;
+	margin-left: 5%;
+	margin-top: 2%;
+	margin-right: 1%;
+	position:relative; 
+	right: 20px;
+	
+}
+
+.abox p { 
+	text-align: center;
+}
+
+.abox img {
+	
+	margin: auto 0;
+	position: relative;
+	bottom: 10px;
+	
+	box-shadow: 0px 0px 20px black;	
+	transition: transform 0.7s; 	
+}
+
+.abox img:hover{
+	transform: scale(1.1,1.1); 
+}
+
+.atijd {
+	position: relative;
+	bottom: 10px ;
+	padding: 2px;
+	/*background-color:  #F8F8F8; */
+	text-align: center;
+	color: white;
+	}
+
+.atijd a:link {
+	background-color: #00FFAD;
+	display: block;
+	position: relative;
+	top: 5px;
+	padding: 5px;
+	color:white;
+	
+	
+	transition: background-color, 0.5s;
+	transition: transform 0.3s; 	
+	}
+.atijd a:hover{
+	background-color: #996699;
+	transform: scale(1.1,1.1); 
+}
+
+.atijd .active1 {
+	background-color: #996699;
+}	
+
+#toggle1 {
+	padding: 2px;
+	background-color:  #00FFAD;
+	text-align: center;
+	color: white;
+	
+}
+#atijd1 {
+	display:none;
+}
+
+.container2 {
+	margin: 3% 0;
+	width: 94%;
+	border: 1px solid #D0D0D0;
+	height: auto;
+	background-color: #F8F8F8  ;
+	border-radius: 5px;
+	text-align: center;
+	padding: 3%;
+	position: relative;
+	bottom: 80px;
+	
+}
+
+
+
 
 /*--- Agenda Einde ---*/
 
@@ -242,7 +512,7 @@ right: 13px;
 	background-color:  #00FFAD;
 	border-radius: 3px;
 	text-align: center;
-	margin: auto;
+	
 	padding-top: -20px;
 		
 	transition: background-color 0.5s;
@@ -268,6 +538,7 @@ right: 13px;
 	border-radius: 5px;
 
 }
+
 
 /*--- aparte film Einde ---*/
 .filmp {
@@ -321,10 +592,10 @@ right: 13px;
 	
 }
 
-.boxbottom {
-	display: block;
-	position: relative;
-}
+	.boxbottom {
+		display: block;
+		position: relative;
+	}
 
 
 .ReserverenKnopFilms {
@@ -333,7 +604,7 @@ right: 13px;
 	float:left; 
 	border-radius:5px; 
 	margin:1%;
-	color:white;
+	
 	
 }
 /*--- aparte film Einde ---*/
@@ -349,7 +620,7 @@ right: 13px;
 	border-radius: 5px;
 	-moz-border-radius: 5px;
 	-webkit-border-radius: 5px;
-	background-color: #996699;
+	
 	text-align: center;
 	margin-top: 20px;
 	height: 500px;
@@ -358,7 +629,7 @@ right: 13px;
 }
 
 #ActiesImg {
-	height: 98%;
+	height: 126%;
 	margin-bottom: 0px;
 	padding-top: 5px;
 	padding-bottom: 5px;
@@ -419,6 +690,9 @@ right: 13px;
 	padding-top: 5px;
 	margin-top: 20px;
 	margin-bottom: 20px;
+	height:800px;
+	background-image: url('loungeachtergrond.jpg');
+	background-repeat: no-repeat;
 }
 
 .contentLounge h1 {
@@ -428,6 +702,33 @@ right: 13px;
 .contentLounge p {
 	margin: 30px;
 }
+
+.contentLoungetekst{
+	width:500px;
+	float: left;
+	padding:5px;
+	padding-right: 700px;
+}
+
+.cocktails {
+	float: left;
+	padding: 30px;
+	font-family: Segoe Script;
+	font-size: 16px;
+}
+
+.cocktailprijzen {
+	float: left;
+	padding: 30px;
+	font-family: Segoe Script;
+	font-size: 16px;
+	margin-top: 55px;
+}
+
+
+
+
+
 /*---Lounge Einde ---*/
 
 /*---Specificaties Begin ---*/
@@ -498,12 +799,6 @@ form{
 	
 }
 
-h4{
-	color:#524E53;
-	font: 24px sans-serif;
-	margin: 2% 0 0 2%;
-	font-weight: bold;
-}
 
 label{
 	display:block;
@@ -605,9 +900,7 @@ fieldset{
 
 
 
-.contentLounge{
-	height:500px;
-}
+
 
 
 /*Lounge einde*/
@@ -615,14 +908,16 @@ fieldset{
 /*---Footer---*/
 .footerHomepage {
 	bottom:0;
-	width: 100%;
+	width: 70%;
 	height: 48px;
 	background-color: #00FFAD;
+	position: absolute;
+	top: 210%;
+	display: block;
+	
 }
 
-.contentHome {
-	height:50%;
-}
+
 
 .PFooter {
 	text-align: center;
@@ -643,8 +938,8 @@ fieldset{
 
 /* tablet & kleinere schermen */
 /*-----------------------------------------------------------------------------------------------------*/	
-@media only screen and (min-width: 150px) and (max-width: 1090px) 
-{
+@media only screen and (min-width: 150px) and (max-width: 1090px)  {
+
 	.mainheader nav {
 	height: 48px;
 	}
@@ -665,38 +960,45 @@ fieldset{
 	}
 	
 	.topbox {
-	background-color: #00FFAD;
-	width: 50%;
-	margin-left: 25%;
-	border-radius: 5px;
+		background-color: #00FFAD;
+		width: 50%;
+		margin-left: 25%;
+		border-radius: 5px;
 	}
 	
 	.navbar2 {
 	padding-left: 35%;
-	
-}
+	}
+
 	.trailerbox {
 	display: block;
 	padding-left: 25%;
-}
+	}
+	
 	.filmp {
-	margin-left: 40%;
+		margin-left: 40%;
+	}
+
+
+	#Knoppenbalk {
+		width:100%;
+		background-color: #996699;
+		height: 9%;
+		margin-bottom: 20px;
+	}
+	
+	#ActiesImg {
+	width: 100%;
 	
 	}
-#Knoppenbalk {
-	width:100%;
-	background-color: #996699;
-	height: 9%;
-	margin-bottom: 20px;
+
 }
 
-
-	}
 
 	/* mobiele versie */
 /*-----------------------------------------------------------------------------------------------------*/	
-@media only screen and (min-width: 150px) and (max-width: 880px) 
-{
+@media only screen and (min-width: 150px) and (max-width: 880px) {
+
 	.mainheader nav {
 		height: 384px;
 	}
@@ -722,84 +1024,98 @@ fieldset{
 	}
 	
 	.navbar2 {
-	
-	
-	margin-right: 10%;
-	padding-right: 5%;
+		margin-right: 10%;
+		padding-right: 5%;
 	}
 
 	.contentSpecificaties img{
-	display:none;
-}
-
-.trailerbox {
-	display: block;
-	padding-left: 80px;
-	widht: 400px;
-}
-
-.trailerbox embed {
-	width:480px;
-	height:300px;
-	
-}
-
-.filmp {
-	margin-left: 32%;
+		display:none;
 	}
 
-.contentActies {
-	display:none;
-
-}
-.DivMobieleVersieActies {
-	display: block;
-	width: 90%;
-	color: white;
-	background-color: #996699;
-	
-}
-
-
-}	
-@media only screen and (min-width: 150px) and (max-width: 600px) {
-
-	.navbar2 {
-	margin:auto;
-	padding-left: 18%;	
-	}
-	
 	.trailerbox {
-	display: block;
-	padding-right: 150%;
-	widht: 400px;
+		display: block;
+		padding-left: 80px;
+		widht: 400px;
 	}
 
 	.trailerbox embed {
-	width:400px;
-	height:300px;
+		width:480px;
+		height:300px;
+		
+	}
+
+	.filmp {
+		margin-left: 32%;
+	}
+
+
+	.topbox3 {
+		height: 40px;
+	}
+
+	.contentActies {
+		display:none;
+
+	}
+
+	
+	.DivMobieleVersieActies {
+		display: block;
+		width: 100%;
+		color: white;
+		background-color: #996699;
+	}
+
+	.topbox3 p {
+		position: relative;
+		bottom: 50px;
+	}
+
+}	
+@media only screen and (min-width: 601px) and (max-width: 799px) {
+	.trailerbox embed {
+		width:400px;
+		height:300px;
+		position: relative;
+		right: 30px;
+	}
+
+}
+@media only screen and (min-width: 150px) and (max-width: 600px) {
+
+	.navbar2 {
+		margin:auto;
+		padding-left: 18%;	
+	}
+	
+	.trailerbox {
+		display: block;
+		padding-right: 150%;
+		widht: 400px;
+	}
+
+	.trailerbox embed {
+		width:300px;
+		height:300px;
+		position: relative;
+		right: 100px;
 	}
 	
 	.infobox {
-	width: 84%;
-	
+		width: 84%;
 	}
 
-.DivMobieleVersieActies {
-	display: block;
-	width: 90%;
-	background-color: #996699;
-}
-
-
-
-
-.ReserverenText {
-	float: left;
-	width:100%;
+	.DivMobieleVersieActies {
+		display: block;
+		width: 100%;
+		background-color: #996699;
+		height:100%;
+	}
 	
-	
-}
+	.filmp {
+		margin-left: 15%;
+	}
+
 
 }
 

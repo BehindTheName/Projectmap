@@ -10,7 +10,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" >
 	<meta name="Author" content="Behind the name">
 	<meta name="Keywords" content=" Filpje, Bioscoop ">
-	<meta name="Description" content="Algemene Informatie">
+	<meta name="Description" content="Acties">
 </head>
 
 <body  class="body">
@@ -52,7 +52,17 @@
 		</div>
 		</div>
 
-		<div class="DivMobieleVersieActies">
+		
+
+
+		<div class="FooterAll"> <!-- footer-->
+				<footer>
+					<p class="PFooter">Gemaakt door: <em>Behind the name</em></p>
+				</footer>
+
+		</div> <!--footer-->
+		</div>
+<div class="DivMobieleVersieActies">
 		 <p><strong>
 		 Maart is de Action-Movie maand! Elke zaterdag bestaat het programma uit actiefilms!</br>
 		 </strong> </p>
@@ -66,15 +76,6 @@
 		</p>
 		 </div>
 
-
-		<div class="FooterAll"> <!-- footer-->
-				<footer>
-					<p class="PFooter">Gemaakt door: <em>Behind the name</em></p>
-				</footer>
-
-		</div> <!--footer-->
-
-</div>
 
 </div>
 </body>
