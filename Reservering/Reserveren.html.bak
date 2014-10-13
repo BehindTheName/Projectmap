@@ -4,9 +4,13 @@
   <meta charset="UTF-8">
   <meta name="Generator" content="EditPlus®">
   <meta name="Author" content="">
-  <meta name="Keywords" content="">
-  <meta name="Description" content="">
+  <meta name="Keywords" content="Filmpje Bioscoop ">
+  <meta name="Description" content="Reserveren">
+  <link rel="stylesheet" type="text/css" href="Mainstylesheet.css">
   <script src="Reserveren.js"></script>
+  <style>
+  
+  </style>
   <title>Document</title>
  </head>
  <body>
@@ -16,5 +20,6 @@
 	<option value="Zaal2" >Zaal 2 </option>
 	<option value="Zaal3">Zaal 3 </option>
   </select>
+  <div id="Zalen"> </div>
  </body>
 </html>

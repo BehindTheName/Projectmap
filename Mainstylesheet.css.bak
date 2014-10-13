@@ -59,6 +59,7 @@ background-image: url("A the wave.jpg");
 .mainheader nav ul {
 	list-style: none;	
 	margin: 0 auto;
+
 }
 
 .mainheader nav ul li {
@@ -889,7 +890,37 @@ fieldset{
 	
 }
 
+/*  ----------------Systeem Begin---------- */
+.leeg {
+	border:solid #fff;
+	background:#fff;
+	height:20px;
+	
+	
+}
 
+.klasse_1 {
+	background:#c00000;
+	height:20px;
+
+
+}
+
+
+.klasse_2 {
+	background:#f79646;
+	height:20px;
+	
+}
+
+.klasse_3 {
+	background:#4e81bd;
+	height:20px;
+
+}
+
+
+/*  ----------------Systeem Einde---------- */
 
 
 /*---Reserveren Einde ---*/
