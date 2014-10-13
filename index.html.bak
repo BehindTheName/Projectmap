@@ -28,7 +28,7 @@
 
     <!-- Navigatie balk + logo -->
 	<header class="mainheader">
-		<a href="index.html"> <img src="filmpje-logo2.png" alt="logo"></a>
+		<a href="index.html"> <img src="filmpje-logo.png" alt="logo"></a>
 		
 		<nav>
 			<ul>
@@ -133,9 +133,9 @@
 	</div>
 	<!-- einde agenda'tje -->
 	
-	<div id="FotoActie">
+	<!--div id="FotoActie">
 	<img src="ReclameOpeningsactie.png" /> 
-	</div>
+	</div-->
 	<!-- top 10 -->
 	
 	<div class="topTien">

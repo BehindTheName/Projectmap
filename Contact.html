@@ -14,9 +14,18 @@
 	<script>
 	// Dit geeft het bericht dat de email is verzonden, maar dit is niet zo!
 	//Er wordt dus geen email verzonden.
-	function verzend(){
-		alert("Uw bericht is verzonden!\nBedankt voor uw feedback!")
-	
+	function Verzend(){
+		var Voornaam = document.getElementById("Voornaam").value;
+		var Achternaam = document.getElementById("Achternaam").value;
+		var Telefoonnummer = document.getElementById("Telefoonnummer").value;
+		var Emailadres = document.getElementById("Email").value;
+		var Bericht = document.getElementById("Tekst").value;
+		
+		document.getElementById("form-wrap").innerHTML = "<p>Bedankt voor uw feedback! Uw gegevens:</br>"+
+		"Naam: " + Voornaam + " " + Achternaam + "</br>"+ 
+		"Telefoonnummer: " + Telefoonnummer +  " </br> Emailadres: " + Emailadres + "</p> <p> Uw bericht was: </br>" + Bericht + "</p>";
+
+		
 	}
 	
 	</script>
@@ -52,29 +61,29 @@
 	</div>
 	<!-- formulier-->
 	<div id="form-wrap">
-		<form >
+		<form onsubmit="Verzend()">
 			<fieldset>
 				<h4>Contact formulier</h4>
 				<label class="labelone" for="Voornaam">Voornaam: </label>
-				<input name="Voornaam"/>
+				<input id="Voornaam" name="Voornaam"/>
 				
 				<label for="Achternaam">Achternaam: </label>
-				<input name="Achternaam"/>
+				<input id="Achternaam"name="Achternaam"/>
 				
 				<label for="Telefoonnummer">Telefoonnummer: </label>
-				<input name="Telefoonnummer">
+				<input id="Telefoonnummer" name="Telefoonnummer">
 				
 				<label for="Email">Email: </label>
-				<input name="Email"/>
+				<input id="Email" name="Email"/>
 				
 				<label for="Tekst">Bericht:</label>
-				<textarea name="tekst"> </textarea>
+				<textarea id="Tekst" name="Tekst"> </textarea>
 			
 			</fieldset>
 			
 			<fieldset>
-				<input  onclick="verzend()" class="btn" type="submit" value="Verzend"/>
-				<input class="btn" type="reset" value="Verwijder"/>
+				<input   class="btn" type="submit" value="Verzend"/>
+				<input class="btn" type="reset" value="Verwijder" />
 			</fieldset>
 			
 		</form>

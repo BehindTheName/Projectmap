@@ -6,7 +6,7 @@
   <meta name="Author" content="">
   <meta name="Keywords" content="Filmpje Bioscoop ">
   <meta name="Description" content="Reserveren">
-  <link rel="stylesheet" type="text/css" href="Mainstylesheet.css">
+  <link rel="stylesheet" type="text/css" href="../Mainstylesheet.css">
   <script src="Reserveren.js"></script>
   <style>
   
@@ -14,8 +14,8 @@
   <title>Document</title>
  </head>
  <body>
-  <select id="Zalenselector" onchange="kieszaal()">
-	<option >Selecteer uw zaal </option>
+  <select id="Zalenselector" onchange="kieszaal()" onload="document.getElementById('Zalenselector').value = '0'">
+	<option value="0">Selecteer uw zaal </option>
 	<option value="Zaal1" >Zaal 1</option>
 	<option value="Zaal2" >Zaal 2 </option>
 	<option value="Zaal3">Zaal 3 </option>

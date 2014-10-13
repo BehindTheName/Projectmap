@@ -861,7 +861,6 @@ fieldset{
 .ReserverenIMGZaal {
 	float:left;
 	width:50%;
-	
 }
 
 .contentReserverenINFO {
@@ -870,31 +869,38 @@ fieldset{
 	height:820px;
 	margin-top: 15px;
 }
+
 /* dit zorgt ervoor dat de invoervakken een bepaalde grootte hebben, namelijk 150px*/
 #div_AanmeldenOFInloggen input{
 	width: 150px;
 }
 
 .ReserverenAfbeeldingen {
-
 	width: 100%;
 	float:left;
 	background-color:white;
-	
 }
 
 .ReserverenText2 {
 	float: right;
 	width: 40%;
 	padding-top: 7%;
-	
 }
 
+#Zalen {
+	border: 1px solid black;
+	float:left;
+}
+
+
+#Zalenselector {
+	float:left;
+}
 /*  ----------------Systeem Begin---------- */
 .leeg {
 	border:solid #fff;
 	background:#fff;
-	height:20px;
+	
 	
 	
 }
