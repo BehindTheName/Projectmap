@@ -13,13 +13,18 @@
   </style>
   <title>Document</title>
  </head>
- <body>
+ <body><div id="divinfoReseververen">
   <select id="Zalenselector" onchange="kieszaal()" onload="">
 	<option value="0">Selecteer uw zaal </option>
 	<option value="Zaal1" >Zaal 1</option>
 	<option value="Zaal2" >Zaal 2 </option>
 	<option value="Zaal3">Zaal 3 </option>
   </select>
+  <button> Reserveren! </button>
+  <button onclick="kieszaal()"> Wissen! </button>
+  <div id="divReserverenText"> </div>
+  
+  </div>
   <div id="Zalen"> </div>
  </body>
 </html>

@@ -673,7 +673,7 @@ right: 13px;
 
 .DivMobieleVersieActies{
 	display: none;
-	width: 90%;,
+	width: 90%;
 	color: white;
 	background-color: #996699;
 	height: 50px;
@@ -926,7 +926,28 @@ fieldset{
 
 }
 
+#divinfoReseververen {
+	float:left;
+	color:black;
+	width: 200px;
+	border: 2px solid black;
+	height: 508px;
+	
 
+
+}
+
+#divReserverenText {
+	float:left;
+	color:black;
+	
+}
+
+#divinfoReseververen button {
+	bottom: auto;
+	float:left; 
+	bottom: 0;
+}
 /*  ----------------Systeem Einde---------- */
 
 

@@ -107,6 +107,7 @@ a {
 	width: 100%;
 	height: 120%;
 	border-radius: 25px;
+	border: 2px solid black;
 }
 
 .contentHome{
@@ -672,7 +673,7 @@ right: 13px;
 
 .DivMobieleVersieActies{
 	display: none;
-	width: 90%;,
+	width: 90%;
 	color: white;
 	background-color: #996699;
 	height: 50px;
@@ -925,7 +926,28 @@ fieldset{
 
 }
 
+#divinfoReseververen {
+	float:left;
+	color:black;
+	width: 200px;
+	border: 2px solid black;
+	height: 508px;
+	
 
+
+}
+
+#divReserverenText {
+	float:left;
+	color:black;
+	height: 100%;
+}
+
+#divinfoReseververen button {
+	bottom: auto;
+	float:left; 
+	bottom: 0;
+}
 /*  ----------------Systeem Einde---------- */
 
 

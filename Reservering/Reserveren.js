@@ -9,18 +9,21 @@ switch (zaal) {
 	//Als dit niet zou gebeuren, zouden de zalen onder elkaar worden aangemaakt.
 	document.getElementById("Zalen").innerHTML = null;
 	var WelkeZaal = zaal1; 
+	document.getElementById("divReserverenText").innerHTML = "</br> U selecteerde zaal 1.";
 	MaakZaal(WelkeZaal);
 	break;
 
 	case "Zaal2": 
 	document.getElementById("Zalen").innerHTML = null;
 	var WelkeZaal = zaal2; 
+	document.getElementById("divReserverenText").innerHTML = "</br> U selecteerde zaal 2.";
 	MaakZaal(WelkeZaal);
 	break;
 
 	case "Zaal3":
 	document.getElementById("Zalen").innerHTML = null;
 	var WelkeZaal = zaal3; 
+	document.getElementById("divReserverenText").innerHTML = "</br> U selecteerde zaal 3.";
 	MaakZaal(WelkeZaal);
 	break;}
 
@@ -129,11 +132,24 @@ function MaakZaal(WelkeZaal){
 function Maak_Stoel(Klasse, RijNummer, StoelNummer, Prijs ){
 		var plaats = document.createElement("button");
 		plaats.type = "button";
-		plaats.id = "Stoel_" + RijNummer + "_" + StoelNummer;
+		plaats.id = "Rij_" + RijNummer + "_Stoel_" + StoelNummer;
 		plaats.value = Prijs;
 		var Klasse;
 		Klasse = "klasse_" + Klasse;
 		plaats.setAttribute("class", Klasse);
+		plaats.addEventListener("click", function(){
+		if (plaats.gereserveerd === "ja")
+		{
+		alert("Deze stoel is gereserveerd!");
+		}
+		else
+		{
+		plaats.style.backgroundColor = "#00FFAD"; 
+		plaats.gereserveerd = "ja";
+		document.getElementById("divReserverenText").innerHTML += "</br> Uw plaats is: " +  plaats.id;
+		
+		}
+		})
 		return plaats;
 
 }
@@ -145,3 +161,4 @@ function Maak_Leegte(){
 		return plaats;
 
 }
+
