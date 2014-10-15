@@ -49,7 +49,7 @@ background-image: url("A the wave.jpg");
 
 
 .mainheader nav {
-	background-color: #00FFAD;
+	background-color: #d25a05;
 	height: 48px;
 	border-radius: 0px;
 	-moz-border-radius: 0px;
@@ -82,7 +82,7 @@ a {
 }
 
 .mainheader nav a:hover, .mainheader  nav a:active, .mainheader nav .active a:link, .mainheader nav .active a:visited {
-	background-color: #996699;
+	background-color: #4b4c46;
 	text-shadow: none;
 	/*border-radius: 2px;
 	-moz-border-radius: 2px;
@@ -252,7 +252,7 @@ a {
 
 /*--- Agenda Begin ---*/
 .topbox2 {
-	background-color: #00FFAD;
+	background-color: #d25a05;
 	width: 100%;
 	margin: 55px auto;
 	border-radius: 5px;
@@ -288,12 +288,12 @@ a {
 
 	
 .topbox2 a:hover{
-	background-color: #996699;
+	background-color: #4b4c46;
 	}
 
 .topbox3 {
 	
-	background-color: #00FFAD;
+	background-color: #d25a05;
 	position: relative;
 	
 	text-align: center;
@@ -363,7 +363,7 @@ a {
 	transition: transform 0.3s; 	
 	}
 .atijd a:hover{
-	background-color: #996699;
+	background-color: #4b4c46;
 	transform: scale(1.1,1.1); 
 }
 
@@ -455,7 +455,7 @@ right: 13px;
 }
 
 .filmcont:hover .res a:link, a:visited {
-	background-color: #996699;
+	background-color: #4b4c46;
 	border-radius: 4px;
 	color: white;
 }
@@ -468,11 +468,11 @@ right: 13px;
 }
 
 .res a:link, a:visited {
-	
+		
 	border-radius: 4px;
 	color: black;
 	padding: 3px;
-	background-color: #00FFAD;
+	background-color: #d25a05;
 	
 	transition: color 0.5s, background-color 0.5s;
 	-webkit-transition: color 0.5s, background-color 0.5s;
@@ -511,7 +511,7 @@ right: 13px;
 }
 
 .bar2l {
-	background-color:  #00FFAD;
+	background-color:  #d25a05;
 	border-radius: 3px;
 	text-align: center;
 	
@@ -530,11 +530,11 @@ right: 13px;
 }
 
 .bar2l:hover {
-	background-color: #996699;
+	background-color: #4b4c46;
 }
 
 .topbox {
-	background-color: #00FFAD;
+	background-color: #d25a05;
 	width: 50%;
 	margin: auto;
 	border-radius: 5px;
@@ -651,7 +651,7 @@ right: 13px;
 	float:left;
 	padding-left: 2%;
 	padding-right: 2%;
-	background-color: #996699;
+	background-color: #d25a05;
 	margin-top: 0px;
 }
 
@@ -661,7 +661,7 @@ right: 13px;
 
 #Knoppenbalk {
 	width:100%;
-	background-color: #996699;
+	background-color: #d25a05;
 	height: 10%;
 	margin-bottom: 20px;
 }
@@ -675,7 +675,7 @@ right: 13px;
 	display: none;
 	width: 90%;
 	color: white;
-	background-color: #996699;
+	background-color: #d25a05;
 	height: 50px;
 }
 
@@ -688,7 +688,7 @@ right: 13px;
 /*--- Lounge Begin ---*/
 .contentLounge {
 	color: white;
-	background-color: #996699;
+	background-color: #d25a05;
 	padding-top: 5px;
 	margin-top: 20px;
 	margin-bottom: 20px;
@@ -738,7 +738,7 @@ right: 13px;
 /*---Elize---*/
 .contentSpecificaties{
 	color: white;
-	background-color: #996699;
+	background-color: #d25a05;
 	padding-top: 5px;
 	margin-top: 20px;
 	margin-bottom: 20px;
@@ -988,7 +988,7 @@ fieldset{
 	bottom:0;
 	width: 100%;
 	height: 48px;
-	background-color: #00FFAD;
+	background-color: #d25a05;
 
 }
 
@@ -1041,7 +1041,7 @@ fieldset{
 
 	#Knoppenbalk {
 		width:100%;
-		background-color: #996699;
+		background-color: #d25a05;
 		height: 9%;
 		margin-bottom: 20px;
 	}
