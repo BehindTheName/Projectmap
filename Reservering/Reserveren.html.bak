@@ -13,7 +13,19 @@
   </style>
   <title>Document</title>
  </head>
- <body><div id="divinfoReseververen">
+ <body>
+ <body class="body">
+
+
+    <!-- Navigatie balk + logo -->
+	<header class="mainheader">
+		<img src="../filmpje-logo.png" alt="logo" >
+		
+	
+	</header>
+	
+	<div class="maincontent" >
+ <div id="divinfoReseververen">
   <select id="Zalenselector" onchange="kieszaal()" onload="">
 	<option value="0">Selecteer uw zaal </option>
 	<option value="Zaal1" >Zaal 1</option>
@@ -21,9 +33,23 @@
 	<option value="Zaal3">Zaal 3 </option>
   </select>
   <button> Reserveren! </button>
-  <div id="divReserverenText"> </div>
-  
+  <button onclick="kieszaal()"> Wissen! </button>
+	<div id="divReserverenText"> Kies een zaal!</br></div>
+    <div id="PrijzenReserveringDiv"></br>
+	Prijzen: </br>
+	<p><div style="height:20px; width:20px; background-color: #c00000; float:left;"></div>
+	Klasse 1: €13,00 </p>
+	<p><div style="height:20px; width:20px; background-color: #f79646; float:left;"></div>
+	Klasse 2: €11,00</p>
+	<p><div style="height:20px; width:20px; background-color: #4e81bd; float:left;"></div>
+	Klasse 3: €7,50</p>
+	
+	</div>
+	<div id="TotaalprijsDiv"> </div>
+	</div>
+	
+	<div id="Zalen"> </div>
+ 
   </div>
-  <div id="Zalen"> </div>
  </body>
 </html>

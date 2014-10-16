@@ -917,13 +917,11 @@ fieldset{
 .klasse_2 {
 	background:#f79646;
 	height:20px;
-	
 }
 
 .klasse_3 {
 	background:#4e81bd;
 	height:20px;
-
 }
 
 #divinfoReseververen {
@@ -931,38 +929,36 @@ fieldset{
 	color:black;
 	width: 200px;
 	border: 2px solid black;
-	height: 508px;
-	
-
-
+	height: 100%;
+	padding-top:10px;
 }
 
 #divReserverenText {
 	float:left;
 	color:black;
-	
 }
 
 #divinfoReseververen button {
-	bottom: auto;
 	float:left; 
-	bottom: 0;
 }
+
+#PrijzenReserveringDiv {
+	float: left;
+}
+
+#TotaalprijsDiv {
+	float:left;
+
+}
+
+
 /*  ----------------Systeem Einde---------- */
 
 
 /*---Reserveren Einde ---*/
 
 
-/*Lounge begin*/
 
-
-
-
-
-
-
-/*Lounge einde*/
 
 /*---Footer---*/
 .footerHomepage {
