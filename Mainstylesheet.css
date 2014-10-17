@@ -1021,7 +1021,7 @@ fieldset{
 }
 
 
-/*---Footer Einde---*/
+
 
 /*--vacatures--*/
 #Vacatures h1{
@@ -1071,11 +1071,35 @@ fieldset{
 
 /*--- Medewerkers einde ---*/
 
+/*---Educatief ---*/
+#Educatief h1{
+	text-align: center;
+	color: #000;
+	font-size: 28px;
+	font-family: Ariel;
+}
+
+#Educatief p{
+	text-align: center;
+	color: #000;
+	font-size: 20px;
+	font-family: Ariel;
+}
+
+#cjp{
+	text-align: center;
+	color: #000;
+	font-size: 20px;
+	font-family: Ariel;
+	
+}
+
+
+/* einde Educatief */
 
 
 
-
-
+/*---Footer Einde---*/
 
 
 /* tablet & kleinere schermen */
