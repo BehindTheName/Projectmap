@@ -7,28 +7,39 @@ switch (zaal) {
 	//De regel "document.getElementById("Zalen").innerHTML = null" zorgt ervoor dat de div "Zalen" leeg wordt
 	//gemaakt als er een zaal aan wordt geklikt.
 	//Als dit niet zou gebeuren, zouden de zalen onder elkaar worden aangemaakt.
-	document.getElementById("Zalen").innerHTML = 0;
+	document.getElementById("Zalen").innerHTML = "";
 	var WelkeZaal = zaal1; 
 	document.getElementById("divReserverenText").innerHTML = "</br> U selecteerde zaal 1.";
+	document.getElementById("PrijzenReserveringDiv").innerHTML = "";
+	document.getElementById("TotaalprijsDiv").innerHTML = "";
+	Totaalprijs = 0;
 	MaakZaal(WelkeZaal);
 	break;
 
 	case "Zaal2": 
-	document.getElementById("Zalen").innerHTML = 0;
+	document.getElementById("Zalen").innerHTML = "";
 	var WelkeZaal = zaal2; 
 	document.getElementById("divReserverenText").innerHTML = "</br> U selecteerde zaal 2.";
+	document.getElementById("PrijzenReserveringDiv").innerHTML = "";
+	document.getElementById("TotaalprijsDiv").innerHTML = "";
+	Totaalprijs = 0;
 	MaakZaal(WelkeZaal);
 	break;
 
 	case "Zaal3":
-	document.getElementById("Zalen").innerHTML = 0;
+	document.getElementById("Zalen").innerHTML = "";
 	var WelkeZaal = zaal3; 
 	document.getElementById("divReserverenText").innerHTML = "</br> U selecteerde zaal 3.";
+	document.getElementById("PrijzenReserveringDiv").innerHTML = "";
+	document.getElementById("TotaalprijsDiv").innerHTML = "";
+	Totaalprijs = 0;
 	MaakZaal(WelkeZaal);
 	break;}
 
 
 }
+var Totaalprijs = 0;
+
 
 //In deze variabelen staan de waardes van de zalen opgeslagen.
 var zaal1 = [
@@ -126,7 +137,7 @@ function MaakZaal(WelkeZaal){
 
 
 
-var Totaalprijs = 0;
+
 //deze twee functies maken de buttons aan.
 function Maak_Stoel(Klasse, RijNummer, StoelNummer, Prijs ){
 		var plaats = document.createElement("button");
@@ -148,15 +159,15 @@ function Maak_Stoel(Klasse, RijNummer, StoelNummer, Prijs ){
 		switch (Prijs)
 		{
 		case 13.00: 
-			document.getElementById("PrijzenReserveringDiv").innerHTML += "<p>\u20AC" + Prijs.toFixed(2) + "</p>"; 
+			document.getElementById("PrijzenReserveringDiv").innerHTML += "</br>\u20AC" + Prijs.toFixed(2) ; 
 		    Totaalprijs += 13.00;
 			break;
 		case 11.00: 
-			document.getElementById("PrijzenReserveringDiv").innerHTML += "<p>\u20AC" + Prijs.toFixed(2) + "</p>"; 
+			document.getElementById("PrijzenReserveringDiv").innerHTML += "</br>\u20AC" + Prijs.toFixed(2); 
 			Totaalprijs += 11.00;
 			break;
 		case 7.50: 
-			document.getElementById("PrijzenReserveringDiv").innerHTML += "<p>\u20AC" + Prijs.toFixed(2) + "</p>"; 
+			document.getElementById("PrijzenReserveringDiv").innerHTML += "</br>\u20AC" + Prijs.toFixed(2); 
 			Totaalprijs += 7.50;
 			break;
 		}
@@ -165,7 +176,7 @@ function Maak_Stoel(Klasse, RijNummer, StoelNummer, Prijs ){
 		document.getElementById("divReserverenText").innerHTML += "</br> Uw plaats is: " +  plaats.id;
 		}
 
-		document.getElementById("TotaalprijsDiv").innerHTML = "<p> Totaalprijs: \u20AC" + Totaalprijs.toFixed(2);
+		document.getElementById("TotaalprijsDiv").innerHTML = "</br> Totaalprijs: \u20AC" + Totaalprijs.toFixed(2);
 		})
 		
 		return plaats;

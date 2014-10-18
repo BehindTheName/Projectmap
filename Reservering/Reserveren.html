@@ -19,9 +19,8 @@
 
     <!-- Navigatie balk + logo -->
 	<header class="mainheader">
-		<img src="../filmpje-logo.png" alt="logo" >
+		<a href="../index.html" ><img src="../filmpje-logo.png" alt="logo" /></a>
 		
-	
 	</header>
 	
 	<div class="maincontent" >
@@ -33,7 +32,7 @@
 	<option value="Zaal3">Zaal 3 </option>
   </select>
   <button onclick="Reserveren()"> Reserveren! </button>
-  <button onclick="kieszaal()"> Wissen! </button>
+  <button onclick="kieszaal(); Totaalprijs = 0;"> Wissen! </button>
 	<div id="divReserverenText"> Kies een zaal!</br></div>
     <div id="PrijzenReserveringDiv"></br>
 	Prijzen: </br>

@@ -889,7 +889,7 @@ fieldset{
 }
 
 #Zalen {
-	border: 1px solid black;
+	
 	float:left;
 }
 
@@ -928,7 +928,7 @@ fieldset{
 	float:left;
 	color:black;
 	width: 200px;
-	border: 2px solid black;
+	
 	height: 100%;
 	padding-top:10px;
 }
