@@ -237,17 +237,28 @@ a {
 /*--- Home Einde ---*/
 
 /*--- algemene Informatie Begin ---*/
-.algemene_informatie {
-	color: black;
+
+
+.alcont {
+	color: white;
+	background-color: #d25a05;
+	padding-top: 5px;
+	margin-top: 20px;
+	margin-bottom: 20px;
 	
 }
 
-.alcont {
-	width: 100%;
-	background-color: #F8F8F8;
-	height:auto;
-	border-radius: 5px;
+.alcont h1 {
+	margin: 30px;
 }
+.alcont h3 {
+	margin: 30px;
+}
+
+.alcont p {
+	margin: 30px;
+}
+
 /*--- algemene Informatie Einde ---*/
 
 /*--- Agenda Begin ---*/
