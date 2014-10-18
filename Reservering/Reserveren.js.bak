@@ -10,6 +10,9 @@ switch (zaal) {
 	document.getElementById("Zalen").innerHTML = "";
 	var WelkeZaal = zaal1; 
 	document.getElementById("divReserverenText").innerHTML = "</br> U selecteerde zaal 1.";
+	document.getElementById("PrijzenReserveringDiv").innerHTML = "";
+	document.getElementById("TotaalprijsDiv").innerHTML = "";
+	Totaalprijs = 0;
 	MaakZaal(WelkeZaal);
 	break;
 
@@ -18,7 +21,7 @@ switch (zaal) {
 	var WelkeZaal = zaal2; 
 	document.getElementById("divReserverenText").innerHTML = "</br> U selecteerde zaal 2.";
 	document.getElementById("PrijzenReserveringDiv").innerHTML = "";
-	document.getElementById("TotaalprijsDiv").innerHTML = 0;
+	document.getElementById("TotaalprijsDiv").innerHTML = "";
 	Totaalprijs = 0;
 	MaakZaal(WelkeZaal);
 	break;
@@ -27,6 +30,9 @@ switch (zaal) {
 	document.getElementById("Zalen").innerHTML = "";
 	var WelkeZaal = zaal3; 
 	document.getElementById("divReserverenText").innerHTML = "</br> U selecteerde zaal 3.";
+	document.getElementById("PrijzenReserveringDiv").innerHTML = "";
+	document.getElementById("TotaalprijsDiv").innerHTML = "";
+	Totaalprijs = 0;
 	MaakZaal(WelkeZaal);
 	break;}
 
@@ -186,6 +192,8 @@ function Maak_Leegte(){
 }
 
 function Reserveren(){
-
+	window.open("Ticket.html", "Ticket", "height=324, width=615");
+	
+	
 
 }

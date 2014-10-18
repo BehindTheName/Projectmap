@@ -2,7 +2,7 @@
 <html>
 
 <head>
-	<title>Abbonnementen & Cadeaukaarten</title>
+	<title>Educatief</title>
 	
 	<link rel="stylesheet" type="text/css" href="Mainstylesheet.css">
 	<meta charset="UTF-8" />
@@ -41,8 +41,17 @@
 	
 	<!--Begin code-->
 	
-	<div id="Abbonementen">
-		<img src="Abbonnement.png" width="100%" height="550px">
+	<div id="Educatief">
+		<h1> Educatief</h1>
+		<p>Filmpje verzorgd ook voor het onderwijs leuke leerzame dagjes uit.</p>
+		<p>Ook willecht bekend is de CJP pas.</p>
+		<p>Filmpje accepteerd deze kaarten. Zo kunnen leerlingen met korting naar de bioscoop.</p>
+		<p> Voor meer informatie over de CJP pas kunt u terecht op:
+		<a id="cjp" href="http://www.cjp.nl/" target="_black"> www.cjp.nl</a></p>
+		<br>
+		<p>Voor meer informatie over groepsresering adviseren wij u contact op te nemen met:</p>
+		<p>M. Slingerland</p>
+		<p>MarianSlingerland@filmpje.nl</p>
 	</div>
 	
 
@@ -53,7 +62,7 @@
 				<p>3014 AK te Rotterdam</p>
 				<p>010-459 9000</p>
 				<p></p>
-				<p>Deze site is gemaakt door:<a href="behindthenames.html">Behind the names</a></p>
+				<p>Deze site is gemaakt door:<a href="behind the names.html">Behind the names</a></p>
 			</div>
 			
 			<div id="navigatie_1">

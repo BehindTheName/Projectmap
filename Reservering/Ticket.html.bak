@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="Ticket">
+  <title>Document</title>
+  <style>
+
+  #DivTicket {
+ 
+  background-image: url('../Ticket.jpg');
+  width: 600px;
+  height: 324px;
+  position:absolute; 
+
+  }
+  </style>
+
+  <script src="Reserveren.js"> </script> 
+ </head>
+ <body>
+  
+<div id="DivTicket">
+
+
+<div id="DivTextTicket" style="float:left; margin: 8%; maring-left: 6%;">Bedankt voor uw bestelling!</br>
+Uw plaats is: </div>
+<img src="../QRcode.png" style="width: 40%; margin: 8%; margin-right: 6%; float: right;"/>
+
+</div>
+
+
+
+
+ </body>
+</html>

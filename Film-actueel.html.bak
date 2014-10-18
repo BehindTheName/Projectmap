@@ -2,14 +2,14 @@
 <html>
 
 <head>
-	<title> Film - Acuteel </title>
+	<title> Film - Actueel </title>
 	
 	<link rel="stylesheet" type="text/css" href="Mainstylesheet.css">
 	<meta charset="UTF-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" >
 	<meta name="Author" content="Behind the name">
 	<meta name="Keywords" content=" Filpje, Bioscoop ">
-	<meta name="Description" content="Algemene Informatie">
+	<meta name="Description" content="Filmpagina">
 </head>
 
 <body class="body">
@@ -147,9 +147,39 @@
 	</div>
 	
 	 <!--  of hier hierin kan je code  -->
-	<div class="FooterAll"> <!-- footer-->
+		<div class="FooterAll"> <!-- footer-->
 		<footer>
-			<p class="PFooter">Gemaakt door: <em>Behind the name</em></p>
+			<div id="div_adresFooter">
+				<p>Adres:West-Kruiskade 23<p> 
+				<p>3014 AK te Rotterdam</p>
+				<p>010-459 9000</p>
+				<p></p>
+				<p>Deze site is gemaakt door:<a href="behind the names.html">Behind the names</a></p>
+			</div>
+			
+			<div id="navigatie_1">
+				<nav>
+				<ul>
+					<li><a href=" Vacatures.html" >Vacatures</a></li>
+					<li><a href=" Medewerkers.html" >Medewerkers</a></li>
+					
+				</ul>
+				</nav>
+			</div>
+			
+			<div id="navigatie_2">
+				<nav>
+				<ul>
+					<li><a href=" Groepsreserveringen.html" >Groepsreserveringen</a></li>
+					<li><a href=" Abbonementen.html" >Abbonnementen & cadeaukaarten</a></li>
+					<li><a href=" Educatief.html" >Educatief</a></li>
+				</ul>
+				</nav>
+			</div>
+			
+			
+			
+			
 		</footer>
 
 	</div> <!--footer-->

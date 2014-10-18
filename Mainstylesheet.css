@@ -847,123 +847,21 @@ fieldset{
 /*--- Reserveren Begin ---*/
 /* Reserveringstartpagina*/
 
-.Reserverenstart{
-	width: 100%;
-	float: left;
-	border-radius: 5px;
-	-moz-border-radius: 5px;
-	-webkit-border-radius: 5px;
-	background-color:#00FFAD;
-	text-align: center;
-	margin-top: 40px;
-	height: 400px;
-	color: #fff;	
-}
-
-.ReserverenText {
-	padding: 5%;
-	padding-top: 1%;
-	font-size: 17px;
-	float:left;
-	width: 50%;
-}
 
 
-.ReserverenIMGZaal {
-	float:left;
-	width:50%;
-}
-
-.contentReserverenINFO {
-	background-color: #996699;
-	/*background-color: #E15700;*/
-	height:820px;
-	margin-top: 15px;
-}
-
-/* dit zorgt ervoor dat de invoervakken een bepaalde grootte hebben, namelijk 150px*/
-#div_AanmeldenOFInloggen input{
-	width: 150px;
-}
-
-.ReserverenAfbeeldingen {
-	width: 100%;
-	float:left;
-	background-color:white;
-}
-
-.ReserverenText2 {
-	float: right;
-	width: 40%;
-	padding-top: 7%;
-}
-
-#Zalen {
-	
-	float:left;
-}
+/*De stylesheet van de reserveringspagina is verplaatst naar Reserveren.html.
+Dit in verband met te weinig ruimte op de pagina. */ 
 
 
-#Zalenselector {
-	float:left;
-}
-/*  ----------------Systeem Begin---------- */
-.leeg {
-	border:solid #fff;
-	background:#fff;
-	
-	
-	
-}
-
-.klasse_1 {
-	background:#c00000;
-	height:20px;
 
 
-}
 
 
-.klasse_2 {
-	background:#f79646;
-	height:20px;
-}
-
-.klasse_3 {
-	background:#4e81bd;
-	height:20px;
-}
-
-#divinfoReseververen {
-	float:left;
-	color:black;
-	width: 200px;
-	
-	height: 100%;
-	padding-top:10px;
-}
-
-#divReserverenText {
-	float:left;
-	color:black;
-}
-
-#divinfoReseververen button {
-	float:left; 
-}
-
-#PrijzenReserveringDiv {
-	float: left;
-}
-
-#TotaalprijsDiv {
-	float:left;
-	width: 100%;
-
-}
 
 
-/*  ----------------Systeem Einde---------- */
+
+
+
 
 
 /*---Reserveren Einde ---*/

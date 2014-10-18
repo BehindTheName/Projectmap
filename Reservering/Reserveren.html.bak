@@ -6,7 +6,93 @@
   <meta name="Author" content="">
   <meta name="Keywords" content="Filmpje Bioscoop ">
   <meta name="Description" content="Reserveren">
-  <link rel="stylesheet" type="text/css" href="../Mainstylesheet.css">
+  <!--link rel="stylesheet" type="text/css" href="../Mainstylesheet.css"-->
+  <style>
+
+  /* Logo */ 
+
+  .mainheader {
+background-image: url("../A the wave.jpg");
+}
+
+
+.mainheader img {
+	height: auto;
+	width: 50%;
+	margin: 0 25%;
+	border-radius: 0px;
+}
+
+
+.mainheader nav {
+	background-color: #d25a05;
+	height: 48px;
+	border-radius: 0px;
+	-moz-border-radius: 0px;
+	-webkit-border-radius: 0px; 
+}
+/* Begin reservering */ 
+  #Zalen {
+	float:left;
+	margin:auto;
+}
+
+
+#Zalenselector {
+	float:left;
+}
+/*  ----------------Systeem Begin---------- */
+.leeg {
+	border:solid #fff;
+	background:#fff;
+}
+
+.klasse_1 {
+	background:#c00000;
+	height:20px;
+}
+
+
+.klasse_2 {
+	background:#f79646;
+	height:20px;
+}
+
+.klasse_3 {
+	background:#4e81bd;
+	height:20px;
+}
+
+#divinfoReseververen {
+	float:left;
+	color:black;
+	width: 200px;
+	height: 100%;
+	padding-top:10px;
+}
+
+#divReserverenText {
+	float:left;
+	color:black;
+}
+
+#divinfoReseververen button {
+	float:left; 
+}
+
+
+
+
+
+
+
+#ReserveringDivRechts {
+	float: right;
+	
+}
+/*  ----------------Systeem Einde---------- */  
+  
+  </style>
   <script src="Reserveren.js"></script>
   <style>
   
@@ -21,7 +107,6 @@
 	<header class="mainheader">
 		<a href="../index.html" ><img src="../filmpje-logo.png" alt="logo" /></a>
 		
-	
 	</header>
 	
 	<div class="maincontent" >
@@ -32,10 +117,14 @@
 	<option value="Zaal2" >Zaal 2 </option>
 	<option value="Zaal3">Zaal 3 </option>
   </select>
-  <button onclick="Reserveren()"> Reserveren! </button>
-  <button onclick="kieszaal(); Totaalprijs = 0;"> Wissen! </button>
+  
 	<div id="divReserverenText"> Kies een zaal!</br></div>
-    <div id="PrijzenReserveringDiv"></br>
+
+	</div>
+	
+	<div id="Zalen"> </div>
+	<div id="ReserveringDivRechts">
+    <div id="DivPrijzenPlaatsen"></br>
 	Prijzen: </br>
 	<p><div style="height:20px; width:20px; background-color: #c00000; float:left;"></div>
 	Klasse 1: €13,00 </p>
@@ -43,13 +132,17 @@
 	Klasse 2: €11,00</p>
 	<p><div style="height:20px; width:20px; background-color: #4e81bd; float:left;"></div>
 	Klasse 3: €7,50</p>
-	
-	</div>
+	<div id="PrijzenReserveringDiv"></div>
 	<div id="TotaalprijsDiv"> </div>
+	<button onclick="Reserveren()"> Reserveren! </button>
+	<button onclick="kieszaal(); Totaalprijs = 0;"> Wissen! </button>
 	</div>
+	</div>
+
+	<div id="DivOnderaan"> 
 	
-	<div id="Zalen"> </div>
- 
+	
+	</div><!-- DivOnderaan-->
   </div>
  </body>
 </html>

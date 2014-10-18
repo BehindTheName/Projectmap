@@ -20,7 +20,7 @@
 		var Telefoonnummer = document.getElementById("Telefoonnummer").value;
 		var Emailadres = document.getElementById("Email").value;
 		var Bericht = document.getElementById("Tekst").value;
-		alert("Uw bericht is verzonden!\nBedankt voor uw feedback!");
+		
 		document.getElementById("form-wrap").innerHTML = "<p>Bedankt voor uw feedback! Uw gegevens:</br>"+
 		"Naam: " + Voornaam + " " + Achternaam + "</br>"+ 
 		"Telefoonnummer: " + Telefoonnummer +  " </br> Emailadres: " + Emailadres + "</p> <p> Uw bericht was: </br>" + Bericht + "</p>";
@@ -94,12 +94,40 @@
 	
 	<iframe id="googlemaps_contactpagina" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2460.7289172634214!2d4.469601838634266!3d51.92065676813693!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c434a3f419b639%3A0x4f8cf7fd6d728f6a!2sWest-Kruiskade+23%2C+3014+Rotterdam!5e0!3m2!1snl!2snl!4v1412236440310" width="35%" height="400 em" frameborder="0" style="border:0"></iframe>	
 		
-		<div class="FooterAll"> <!-- footer-->
-				<footer>
-					<p class="PFooter">Gemaakt door: <em>Behind the name</em></p>
-				</footer>
-
-			</div> <!--footer-->
+			<div class="FooterAll"> <!-- footer-->
+		<footer>
+			<div id="div_adresFooter">
+				<p>Adres:West-Kruiskade 23<p> 
+				<p>3014 AK te Rotterdam</p>
+				<p>010-459 9000</p>
+				<p></p>
+				<p>Deze site is gemaakt door:<a href="behind the names.html">Behind the names</a></p>
+			</div>
+			
+			<div id="navigatie_1">
+				<nav>
+				<ul>
+					<li><a href=" Vacatures.html" >Vacatures</a></li>
+					<li><a href=" Medewerkers.html" >Medewerkers</a></li>
+					
+				</ul>
+				</nav>
+			</div>
+			
+			<div id="navigatie_2">
+				<nav>
+				<ul>
+					<li><a href=" Groepsreserveringen.html" >Groepsreserveringen</a></li>
+					<li><a href=" Abbonementen.html" >Abbonnementen & cadeaukaarten</a></li>
+					<li><a href=" Educatief.html" >Educatief</a></li>
+				</ul>
+				</nav>
+			</div>
+			
+			
+			
+			
+		</footer> <!--footer-->
 	</div>
 	</div>
 	

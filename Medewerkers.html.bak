@@ -2,7 +2,7 @@
 <html>
 
 <head>
-	<title>Abbonnementen & Cadeaukaarten</title>
+	<title>Medewerkers</title>
 	
 	<link rel="stylesheet" type="text/css" href="Mainstylesheet.css">
 	<meta charset="UTF-8" />
@@ -41,8 +41,24 @@
 	
 	<!--Begin code-->
 	
-	<div id="Abbonementen">
-		<img src="Abbonnement.png" width="100%" height="550px">
+	<div id="Medewerkers">
+		
+		<h1>Welkom bij Filmpje!</h1>
+		<p>Filmpje is niet zomaar een bioscoop. Samen met ons personeel zorgen wij voor de ultieme avond uit!</p>
+		<p> In het onderstaande overzicht stellen wij ons personeel voor. Ook kunt u met hen voor zaken contact opnemen</p>
+		<br>
+		<h3>Algemeen</h3>
+		<p>Directeur: S. Paraschiv. StelianParaschiv@filmpje.nl</p>
+		<br>
+		<h3>Marketing, Communicatie en Educatie</h3>
+		<p>Afdelingshoofd: A. Omar. AhmedOmar@filmpje.nl</p>
+		<p>Educatie: M. Slingerland. MarianSlingerland@filmpje.nl</p>
+		<br>
+		<h3> Bedrijfsvoering & Programmering</h3>
+		<p>	Programmering: E. van Ende. EdvanEnde@filmpje.nl</p>
+		<p> Administratie: L. bergkamp. lizetteBergkamp@filmpje.nl</p>
+		
+		
 	</div>
 	
 
@@ -53,7 +69,7 @@
 				<p>3014 AK te Rotterdam</p>
 				<p>010-459 9000</p>
 				<p></p>
-				<p>Deze site is gemaakt door:<a href="behindthenames.html">Behind the names</a></p>
+				<p>Deze site is gemaakt door:<a href="behind the names.html">Behind the names</a></p>
 			</div>
 			
 			<div id="navigatie_1">

@@ -79,14 +79,14 @@
 			</tr>
 			
 			<tr id="tr5">
-				<td id="td2"> November man </td>
+				<td id="td2"> November Man </td>
 				<td id="td3"> 12:30 </td>
 				<td id="td1">  3 </td>  
 				<td id="td4"> Reserveer nu </td>	
 			</tr>
 			
 			<tr id="tr5">
-				<td id="td2"> The Maze runner </td>
+				<td id="td2"> The Maze Runner </td>
 				<td id="td3"> 15:00 </td>
 				<td id="td1">  1 </td>  
 				<td id="td4"> Reserveer nu </td>	
@@ -133,9 +133,7 @@
 	</div>
 	<!-- einde agenda'tje -->
 	
-	<div id="FotoActie">
-	<img src="ReclameOpeningsactie.png" /> 
-	</div>
+
 	<!-- top 10 -->
 	
 	<div class="topTien">
@@ -183,12 +181,12 @@
 			
 			<tr id="tr10">
 				<td id="td01">8<td>
-				<td id="td02">Deliver Us from Hell<td>
+				<td id="td02">Deliver Us From Evil<td>
 			</tr>
 			
 			<tr id="tr10">
 				<td id="td01">9<td>
-				<td id="td02">Dorsvloer vol confetti<td>
+				<td id="td02">Dorsvloer Vol Confetti<td>
 			</tr>
 			
 			<tr id="tr10">
@@ -212,11 +210,41 @@
 <!--<<<<<<< HEAD-->
 	
 <!--=======-->
-	<!--<div class="footerHomepage"> <!-- footer  -->
-
-		<!--footer>
-			<!--p class="PFooter">Gemaakt door: <em>Behind the name</em></p>
+	<div class="FooterAll"> <!-- footer-->
+		<footer>
+			<div id="div_adresFooter">
+				<p>Adres:West-Kruiskade 23<p> 
+				<p>3014 AK te Rotterdam</p>
+				<p>010-459 9000</p>
+				<p></p>
+				<p>Deze site is gemaakt door:<a href="behindthenames.html"> Behind the names</a></p>
+			</div>
+			
+			<div id="navigatie_1">
+				<nav>
+				<ul>
+					<li><a href=" Vacatures.html" >Vacatures</a></li>
+					<li><a href=" Medewerkers.html" >Medewerkers</a></li>
+					
+				</ul>
+				</nav>
+			</div>
+			
+			<div id="navigatie_2">
+				<nav>
+				<ul>
+					<li><a href=" Groepsreserveringen.html" >Groepsreserveringen</a></li>
+					<li><a href=" Abbonementen.html" >Abbonnementen & cadeaukaarten</a></li>
+					<li><a href=" Educatief.html" >Educatief</a></li>
+				</ul>
+				</nav>
+			</div>
+			
+			
+			
+			
 		</footer>
+
 	</div>   <!-- footer  -->
 	
 	

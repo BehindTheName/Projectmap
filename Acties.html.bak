@@ -52,16 +52,43 @@
 		</div>
 		</div>
 
+	<div class="FooterAll"> <!-- footer-->
+		<footer>
+			<div id="div_adresFooter">
+				<p>Adres:West-Kruiskade 23<p> 
+				<p>3014 AK te Rotterdam</p>
+				<p>010-459 9000</p>
+				<p></p>
+				<p>Deze site is gemaakt door:<a href="behind the names.html">Behind the names</a></p>
+			</div>
+			
+			<div id="navigatie_1">
+				<nav>
+				<ul>
+					<li><a href=" Vacatures.html" >Vacatures</a></li>
+					<li><a href=" Medewerkers.html" >Medewerkers</a></li>
+					
+				</ul>
+				</nav>
+			</div>
+			
+			<div id="navigatie_2">
+				<nav>
+				<ul>
+					<li><a href=" Groepsreserveringen.html" >Groepsreserveringen</a></li>
+					<li><a href=" Abbonementen.html" >Abbonnementen & cadeaukaarten</a></li>
+					<li><a href=" Educatief.html" >Educatief</a></li>
+				</ul>
+				</nav>
+			</div>
+			
+		</footer>
+
+       
+    </div>
+
+		 <!--footer-->
 		
-
-
-		<div class="FooterAll"> <!-- footer-->
-				<footer>
-					<p class="PFooter">Gemaakt door: <em>Behind the name</em></p>
-				</footer>
-
-		</div> <!--footer-->
-		</div>
 <div class="DivMobieleVersieActies">
 		 <p><strong>
 		 Maart is de Action-Movie maand! Elke zaterdag bestaat het programma uit actiefilms!</br>
@@ -70,11 +97,11 @@
 		 Na het bekijken van <em>November man</em> kunt u een gratis kopje koffie komen drinken in de lounge!</br>
 		 </strong> </p>
 		 <p><strong>
-		Openingsactie: Tweede film voor de halve prijs!
-		</br>
-		</strong> 
-		</p>
-		 </div>
+		 Openingsactie: Tweede film voor de halve prijs!
+		 </br>
+		 </strong> 
+		 </p>
+		 </div> <!--DivMobieleVersieActies -->
 
 
 </div>

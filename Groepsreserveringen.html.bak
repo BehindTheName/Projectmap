@@ -2,7 +2,7 @@
 <html>
 
 <head>
-	<title>Abbonnementen & Cadeaukaarten</title>
+	<title>Groepsreserveringen</title>
 	
 	<link rel="stylesheet" type="text/css" href="Mainstylesheet.css">
 	<meta charset="UTF-8" />
@@ -41,8 +41,12 @@
 	
 	<!--Begin code-->
 	
-	<div id="Abbonementen">
-		<img src="Abbonnement.png" width="100%" height="550px">
+	<div id="Groepsreserveringen">
+		
+		
+		<img id="Arrangementen" src="Arrangementen.png" width="100%" height="600px">
+		
+		
 	</div>
 	
 
@@ -53,7 +57,7 @@
 				<p>3014 AK te Rotterdam</p>
 				<p>010-459 9000</p>
 				<p></p>
-				<p>Deze site is gemaakt door:<a href="behindthenames.html">Behind the names</a></p>
+				<p>Deze site is gemaakt door:<a href="behind the names.html">Behind the names</a></p>
 			</div>
 			
 			<div id="navigatie_1">
