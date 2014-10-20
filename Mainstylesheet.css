@@ -66,8 +66,9 @@ background-image: url("A the wave.jpg");
 	display: inline;
 }
 
-#balk_home{
+#balk_positie{
 	margin-left: -40px;
+	padding-left: 40px;
 }
 /*---Begin Zoekbalk */
 
@@ -726,12 +727,11 @@ right: 13px;
 	margin-top: 20px;
 	margin-bottom: 20px;
 	height:800px;
-	background-image: url('loungeachtergrond.jpg');
-	background-repeat: no-repeat;
 }
 
 .contentLounge h1 {
 	margin: 30px;
+	width: 10%;
 }
 
 .contentLounge p {
@@ -742,8 +742,14 @@ right: 13px;
 	width:500px;
 	float: left;
 	padding:5px;
-	padding-right: 700px;
+	margin-top: -30px;
 }
+
+.cocktails_en_prijzen {
+	width: 500px;
+	height: 700px;
+}
+
 
 .cocktails {
 	float: left;
@@ -760,9 +766,33 @@ right: 13px;
 	margin-top: 55px;
 }
 
+.lounge_plaatjes{
+	float:right;
+	margin-right: 30px;
+	margin-top: -30px;
+}
 
+.loungereclame{
+	float: right;
+	margin-top: -210px;
+	margin-right: 30px;
+}
 
+#loungefoto_1{
+	width: 280px;
+}
 
+#loungefoto_2{
+	width: 280px;
+}
+
+#loungefoto_3{
+	width: 280px;
+}
+
+#loungereclame{
+	width: 450px;
+}
 
 /*---Lounge Einde ---*/
 
