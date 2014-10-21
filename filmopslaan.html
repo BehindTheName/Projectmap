@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+
+<body>
+
+<form>
+<input class="check_films" type="checkbox" name="Film" value="Transformers" > Tranformers <br>
+<input class="check_films" type="checkbox" name="Film" value="dub" > Tranformers <br>
+<input class="check_films" type="checkbox" name="Film" value="DBZ" > DBZ <br>
+<button onclick="maak_lijst()">Submit </button>
+<button onclick="uncheck_lijst()"> uncheck alles </button>
+<p id="lijst"></p>
+</form>
+<script>
+
+function maak_lijst(){
+	var checked_boxes = [];
+	var input_films = document.getElementsByClassName("check_films");
+	for(var i=0; input_films[i]; ++i){
+		if(input_films[i].checked){
+			checked_boxes = input_films[i].value;
+			alert(checked_boxes)
+			document.getElementById("lijst").innerHTML = checked_boxes +"<br>";
+			break;
+		}
+	
+	}
+
+}
+
+
+	
+
+
+function uncheck_lijst() {
+	var y = document.getElementByName("Film").checked = false;
+	}
+
+f	
+</script>
+</body>
+</html>
