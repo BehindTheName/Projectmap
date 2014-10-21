@@ -47,17 +47,12 @@
 	
 	<div class="maincontent" >
 	
-	<div class="contentHome"> 
-		 <img id="myPhoto" src="slideA1.png" />
-	<script src="slide.js"></script>
-		
-						
-		</div>
+	<div id="HomeTopPage">
 	
 	
 	<!-- Agenda'tje -->
 		
-	<div class="HomeA">
+
 	
 	<table id="Tagenda">
 			<tr id="tr6">
@@ -65,78 +60,76 @@
 			</tr>
 			
 			<tr id="tr5">
-				<td id="td2"> Film </td>
+				<td id="td2"> <a>Film</a> </td>
 				<td id="td3"> Tijd </td>
 				<td id="td1"> Zaal </td>  
 				<td id="td4"> Reserveer </td>	
 			</tr>
 			
 			<tr id="tr5">
-				<td id="td2"> Pijnstillers </td>
+				<td id="td2"> <a href="films/pijnstillers.html"> Pijnstillers</a> </td>
 				<td id="td3"> 12:00  </td>
 				<td id="td1">  1 </td>  
-				<td id="td4"> Reserveer nu  </td>	
+				<td id="td4"> <a href="reservering/reserveren.html">Reserveer nu!  </a></td>	
 			</tr>
 			
 			<tr id="tr5">
-				<td id="td2"> November Man </td>
+				<td id="td2"> <a href="films/November man.html">November Man</a> </td>
 				<td id="td3"> 12:30 </td>
 				<td id="td1">  3 </td>  
-				<td id="td4"> Reserveer nu </td>	
+				<td id="td4"> <a href="reservering/reserveren.html">Reserveer nu!  </a></td>		
 			</tr>
 			
 			<tr id="tr5">
-				<td id="td2"> The Maze Runner </td>
+				<td id="td2"> <a href="films/the maze runner.html">The Maze Runner</a> </td>
 				<td id="td3"> 15:00 </td>
 				<td id="td1">  1 </td>  
-				<td id="td4"> Reserveer nu </td>	
+				<td id="td4"> <a href="reservering/reserveren.html">Reserveer nu!  </a></td>		
 			</tr>		
-		
+			<!-- let op! deze film bestaat niet! -->
 			<tr id="tr5">
-				<td id="td2"> Lucy </td>
+				<td id="td2"> <a href=""> Lucy</a> </td>
 				<td id="td3"> 16:00 </td>
 				<td id="td1">  3 </td>  
-				<td id="td4"> Reserveer nu </td>	
+				<td id="td4"> <a href="reservering/reserveren.html">Reserveer nu!  </a></td>		
 			</tr>
-			
+			<!-- let op! deze film bestaat niet! -->
 			<tr id="tr5">
-				<td id="td2"> Adventure 2</td>
+				<td id="td2"><a> Adventure 2</a></td>
 				<td id="td3"> 17:00 </td>
 				<td id="td1">  2 </td>
-				<td id="td4"> Reserveer nu </td>
+				<td id="td4"> <a href="reservering/reserveren.html">Reserveer nu!  </a></td>	
 			</tr>
 			
 			<tr id="tr5">
-				<td id="td2"> The Maze runner </td>
+				<td id="td2"> <a href="films/the maze runner.html">The Maze Runner</a> </td>
 				<td id="td3"> 19:30 </td>
 				<td id="td1">  3 </td>		
-				<td id="td4"> Reserveer nu </td>	
+				<td id="td4"> <a href="reservering/reserveren.html">Reserveer nu!  </a></td>		
 			</tr>
 			
 			<tr id="td5">
-				<td id="td2"> Pijnstillers </td>
+				<td id="td2"> <a href="films/pijnstillers.html"> Pijnstillers</a> </td>
 				<td id="td3"> 21:40 </td>	
 				<td id="td1">  1 </td>	
-				<td id="td4"> Reserveer nu </td>
+				<td id="td4"> <a href="reservering/reserveren.html">Reserveer nu!  </a></td>	
 			</tr>
 		</table>
-		</div>
-		
-	<div class="agendaHome"> 
-		<button>Maandag</button>
-		<button>Dinsdag</button>
-		<button>Woensdag</button>
-		<button>Donderdag</button>
-		<button>Vrijdag</button>
-		<button>Zaterdag</button>
-		<button>Zondag</button>	
-	</div>
-	<!-- einde agenda'tje -->
 	
+
+			
+		 <img id="myPhoto" src="slideA1.png" />
+	<script src="slide.js"></script>
+						
+		
+
+	
+
+
 
 	<!-- top 10 -->
 	
-	<div class="topTien">
+
 		
 		<table id="tb10">
 		
@@ -146,70 +139,71 @@
 			
 			<tr id="tr10">
 				<td id="td01">1<td>
-				<td id="td02">The Maze Runner<td>
+				<td id="td02"><a href="films/the maze runner.html">The Maze Runner</a><td>
 			</tr>
 			
 			<tr id="tr10">
 				<td id="td01">2<td>
-				<td id="td02">The Equalizer<td>
+				<td id="td02"><a href="films/the equalizer.html">The Equalizer</a><td>
 			</tr>
 			
 			<tr id="tr10">
 				<td id="td01">3<td>
-				<td id="td02">Let's Be Cops<td>
+				<td id="td02"><a href="films/Let's be cops.html">Let's Be Cops</a><td>
 			</tr>
 			
 			<tr id="tr10">
 				<td id="td01">4<td>
-				<td id="td02">Pijnstillers<td>
+				<td id="td02"><a href="films/pijnstillers.html">Pijnstillers</a><td>
 			</tr>
 			
 			<tr id="tr10">
 				<td id="td01">5<td>
-				<td id="td02">If I Stay<td>
+				<td id="td02"><a href="films/if i stay.html">If I Stay</a><td>
 			</tr>
 			
 			<tr id="tr10">
 				<td id="td01">6<td>
-				<td id="td02">Bloedlink<td>
+				<td id="td02"><a href="films/live die repeat">Live die repeat</a><td>
 			</tr>
 			
 			<tr id="tr10">
 				<td id="td01">7<td>
-				<td id="td02">A Most Wanted Man<td>
+				<td id="td02"><a href="films/A most wanted man.html">A Most Wanted Man</a><td>
 			</tr>
 			
 			<tr id="tr10">
 				<td id="td01">8<td>
-				<td id="td02">Deliver Us From Evil<td>
+				<td id="td02"><a href="films/Deliver us form evil.html">Deliver Us From Evil</a><td>
 			</tr>
 			
 			<tr id="tr10">
 				<td id="td01">9<td>
-				<td id="td02">Dorsvloer Vol Confetti<td>
+				<td id="td02"><a href="films/X-men.html">X-men</a><td>
 			</tr>
 			
 			<tr id="tr10">
 				<td id="td01">10<td>
-				<td id="td02">Boyhood<td>
+				<td id="td02"><a href="films/12 years a slave.html">12 years a slave </a><td>
 			</tr>
 		
 		</table>
+		<div id="SocialMediaHome">
+		Hier komen Faceboook en Twitter.
+		</div> 
+	</div> <!-- HomeTopPage -->
+	
 	</div>
 	
 	
-	</div>
-	
-	
-		
+
+	<!-- einde agenda'tje -->	
 	
 	
 	
 	
 	
-<!--<<<<<<< HEAD-->
-	
-<!--=======-->
+
 	<div class="FooterAll"> <!-- footer-->
 		<footer>
 			<div id="div_adresFooter">
@@ -217,7 +211,7 @@
 				<p>3014 AK te Rotterdam</p>
 				<p>010-459 9000</p>
 				<p></p>
-				<p>Deze site is gemaakt door:<a href="behindthenames.html"> Behind the names</a></p>
+				<p>Deze site is gemaakt door:<a href="behindthenames.html"> Behind The Names</a></p>
 			</div>
 			
 			<div id="navigatie_1">

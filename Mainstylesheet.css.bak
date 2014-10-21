@@ -104,76 +104,74 @@ a {
 
 /*--- Home Begin ---*/
  #myPhoto{
-	width: 100%;
-	height: 120%;
-	border-radius: 25px;
-	border: 2px solid black;
+	width:560px;
+	height: 80%;
+	/*border-radius: 25px;*/
+	float:left;
 }
 
-.contentHome{
-	width: 63%;
-	height: 350px;
-	float: right;
+
+#HomeTopPage {
+	height:560px;
+	margin-top: 2%;
+	margin-bottom: 5%;
+	
+
 }
 
-#FotoActie{
-	margin-top: 10%;
-	width: 80%;
-	height: 75%;
-}
+#HomeTopPage a {
+	text-decoration: none;
+	color:#D25A05;
+	
 
+}
 /* begin agenda home */
 
-.agendaHome{
-	color: #B8B894;
-	background-color: #fff;
-	width: 36%;
-	height: 80%;
-	float: left;
-	margin-top: 4%;
-} /* buttons */
 
+#SocialMediaHome {
+height: 20%;
+width:75.60%;
+background-color: #D25A05;
+float:left;
+margin:auto;
 
-.HomeA{
-	color: #B8B894;
-	border: 1px solid black;
-	width: 35%;
-	margin-top: 2%;
-	height: 60%px;
 }
-
 #Tagenda{
 	color: #B8B894;
+	float:left;
+	width:20%;
+	border: 1px solid black;
+	height: 100%;
 }	
 
 #td1{
 	color: #B8B894;
-	font-size: 20px;
+	font-size: 16px;
 	text-align: center;
-	border-top: 1px dotted black;
+	border-top: 1px solid black;
 }
 
 #td2{
 	color: #FF4500;
-	font-size: 20px;
-	border-top: 1px dotted black;
+	font-size: 16px;
+	border-top: 1px solid black;
 }
 
 #td3{
     color: #B8B894;
-	font-size: 20px;
-	border-top: 1px dotted black;
+	font-size: 16px;
+	border-top: 1px solid black;
 }
 
 #td4{
 	color: #B8B894;
-	font-size: 20px;
-	border-top: 1px dotted black;
+	font-size: 16px;
+	border-top: 1px solid black;
 }
 
 #tr5{
 	color: #B8B894;
-	font-size: 20px;
+	font-size: 16px;
 	border-top: 1px dotted black;
 }
 
@@ -188,23 +186,19 @@ a {
 
 /* begin top 10 */
 
-.topTien{
-	margin-top: 2%;
-	
-	height: 45%;
-	width: 50%;
-	
-}
+
 
 #tb10{
 	border: 1px solid black;
-	width: 80%;
+	height: 80%;
+	float:left;
+	width: 19.4%;
 }
 
 #tr9{
-    color: #FF0000;
+    color: #B8B894;
 	text-align: center;
-	font-size: 24px;
+	font-size: 20px;
 }
 
 #tr10{
@@ -216,7 +210,7 @@ a {
 
 #td01{
 	color: #B8B894;
-	font-size: 18px;
+	font-size: 16px;
 	border-top: 1px solid black;
 	border-collapse: collapse;
 	text-align: center;
@@ -224,7 +218,7 @@ a {
 
 #td02{
 	color: #B8B894;
-	font-size: 18px;
+	font-size: 16px;
 	border-top: 1px solid black;
 	border-collapse: collapse;
 }
@@ -237,17 +231,28 @@ a {
 /*--- Home Einde ---*/
 
 /*--- algemene Informatie Begin ---*/
-.algemene_informatie {
-	color: black;
+
+
+.alcont {
+	color: white;
+	background-color: #d25a05;
+	padding-top: 5px;
+	margin-top: 20px;
+	margin-bottom: 20px;
 	
 }
 
-.alcont {
-	width: 100%;
-	background-color: #F8F8F8;
-	height:auto;
-	border-radius: 5px;
+.alcont h1 {
+	margin: 30px;
 }
+.alcont h3 {
+	margin: 30px;
+}
+
+.alcont p {
+	margin: 30px;
+}
+
 /*--- algemene Informatie Einde ---*/
 
 /*--- Agenda Begin ---*/
@@ -838,6 +843,8 @@ fieldset{
 
 
 
+/*De stylesheet van de reserveringspagina is verplaatst naar Reserveren.html.
+Dit in verband met te weinig ruimte op de pagina. */ 
 
 
 
@@ -846,72 +853,9 @@ fieldset{
 
 
 
-#Zalen {
-	
-	float:left;
-}
 
 
-#Zalenselector {
-	float:left;
-}
-/*  ----------------Systeem Begin---------- */
-.leeg {
-	border:solid #fff;
-	background:#fff;
-	
-	
-	
-}
 
-.klasse_1 {
-	background:#c00000;
-	height:20px;
-
-
-}
-
-
-.klasse_2 {
-	background:#f79646;
-	height:20px;
-}
-
-.klasse_3 {
-	background:#4e81bd;
-	height:20px;
-}
-
-#divinfoReseververen {
-	float:left;
-	color:black;
-	width: 200px;
-	
-	height: 100%;
-	padding-top:10px;
-}
-
-#divReserverenText {
-	float:left;
-	color:black;
-}
-
-#divinfoReseververen button {
-	float:left; 
-}
-
-#PrijzenReserveringDiv {
-	float: left;
-}
-
-#TotaalprijsDiv {
-	float:left;
-	width: 100%;
-
-}
-
-
-/*  ----------------Systeem Einde---------- */
 
 
 /*---Reserveren Einde ---*/
