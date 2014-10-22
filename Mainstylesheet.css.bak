@@ -59,13 +59,36 @@ background-image: url("A the wave.jpg");
 .mainheader nav ul {
 	list-style: none;	
 	margin: 0 auto;
-
 }
 
 .mainheader nav ul li {
 	float: left;
 	display: inline;
 }
+
+#balk_positie{
+	margin-left: -40px;
+	padding-left: 40px;
+}
+/*---Begin Zoekbalk */
+
+.mainheader nav ul li div form {
+	float: left;
+	display: inline;
+	width: 90px;
+	margin-top: -2px;
+}
+
+#search {
+	margin-top: 5px;
+	width: 70px;
+}
+
+#submit {
+	width: 72px;
+}
+
+/*---Eind Zoekbalk---*/
 
 a {
 	text-decoration: none;
@@ -104,10 +127,11 @@ a {
 
 /*--- Home Begin ---*/
  #myPhoto{
-	width:560px;
+	width:56%;
 	height: 80%;
-	/*border-radius: 25px;*/
+	border: 3px solid #D25A05;
 	float:left;
+	border-right: none;
 }
 
 
@@ -116,54 +140,55 @@ a {
 	margin-top: 2%;
 	margin-bottom: 5%;
 	
+	
 
 }
 
 #HomeTopPage a {
 	text-decoration: none;
-	color:#D25A05;
-	
-
+	color: #D25A05
 }
 /* begin agenda home */
 
 
 #SocialMediaHome {
-height: 20%;
-width:75.60%;
+height: 18.9%;
+width:74%;
 background-color: #D25A05;
 float:left;
-margin:auto;
+
 
 }
 #Tagenda{
-	color: #B8B894;
+	color: #D25A05;
 	float:left;
-	width:20%;
-	border: 1px solid black;
+	width:268px;
+	border: 3px solid #D25A05;
 	height: 100%;
+	text-align: center;
+	border-right: none;
 }	
 
-#td1{
+.td1{
 	color: #B8B894;
 	font-size: 16px;
 	text-align: center;
 	border-top: 1px solid black;
 }
 
-#td2{
+.td2{
 	color: #FF4500;
 	font-size: 16px;
 	border-top: 1px solid black;
 }
 
-#td3{
+.td3{
     color: #B8B894;
 	font-size: 16px;
 	border-top: 1px solid black;
 }
 
-#td4{
+.td4{
 	color: #B8B894;
 	font-size: 16px;
 	border-top: 1px solid black;
@@ -179,8 +204,20 @@ margin:auto;
 	text-align: center;
 	color: #B8B894;
 	font-size: 28px;
+
 }
 
+#HomeImgPrevious:hover {
+	background-color: #FF4500;
+	height:40px;	
+	
+}
+
+#HomeImgNext:hover {
+	background-color: #FF4500;
+	height:40px;	
+
+}
 
 /* einde agenda home */
 
@@ -189,10 +226,12 @@ margin:auto;
 
 
 #tb10{
-	border: 1px solid black;
-	height: 80%;
+	border: 3px solid #D25A05;
+	height: 81.2%;
 	float:left;
-	width: 19.4%;
+	width: 16.86%;
+	
+
 }
 
 #tr9{
@@ -206,11 +245,12 @@ margin:auto;
 	font-size: 18px;
 	border-top: 1px solid black;
 	border-collapse: collapse;
+	
 } 
 
 #td01{
 	color: #B8B894;
-	font-size: 16px;
+	font-size: 15px;
 	border-top: 1px solid black;
 	border-collapse: collapse;
 	text-align: center;
@@ -223,6 +263,10 @@ margin:auto;
 	border-collapse: collapse;
 }
 
+#td4:hover {
+	background-color: #B8B894;
+	
+}
 
 
 /* einde top 10 */
@@ -698,12 +742,11 @@ right: 13px;
 	margin-top: 20px;
 	margin-bottom: 20px;
 	height:800px;
-	background-image: url('loungeachtergrond.jpg');
-	background-repeat: no-repeat;
 }
 
 .contentLounge h1 {
 	margin: 30px;
+	width: 10%;
 }
 
 .contentLounge p {
@@ -714,8 +757,14 @@ right: 13px;
 	width:500px;
 	float: left;
 	padding:5px;
-	padding-right: 700px;
+	margin-top: -30px;
 }
+
+.cocktails_en_prijzen {
+	width: 500px;
+	height: 700px;
+}
+
 
 .cocktails {
 	float: left;
@@ -732,9 +781,33 @@ right: 13px;
 	margin-top: 55px;
 }
 
+.lounge_plaatjes{
+	float:right;
+	margin-right: 30px;
+	margin-top: -30px;
+}
 
+.loungereclame{
+	float: right;
+	margin-top: -210px;
+	margin-right: 30px;
+}
 
+#loungefoto_1{
+	width: 280px;
+}
 
+#loungefoto_2{
+	width: 280px;
+}
+
+#loungefoto_3{
+	width: 280px;
+}
+
+#loungereclame{
+	width: 450px;
+}
 
 /*---Lounge Einde ---*/
 

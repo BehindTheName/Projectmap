@@ -6,24 +6,15 @@
 	
 	<link rel="stylesheet" type="text/css" href="Mainstylesheet.css">
 	<meta charset="UTF-8" />
-
-	<meta name="viewport" content="width=device-width, initial-scale=1.0" >
-
-	<script>
-	
-		
-	
-	</script>
-	
-	
-
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" ><meta name="Author" content="Behind the name">
 	<meta name="Keywords" content=" Filpje, Bioscoop ">
 	<meta name="Description" content="Home">
-
+	<script src="AgendaJS.js">
+	</script>
 </head>
 
-<body class="body">
+<body class="body" onload="Dagbepalen()">
 
 
     <!-- Navigatie balk + logo -->
@@ -31,8 +22,8 @@
 		<a href="index.html"> <img src="filmpje-logo.png" alt="logo"></a>
 		
 		<nav>
-			<ul>
-				<li  class="active"> <a href="index.html" >Home</a> </li>
+			<ul id = "balk_positie">
+				<li class="active"> <a href="index.html" >Home</a> </li>
 				<li> <a href="Algemene informatie.html" >Algemene informatie</a> </li>
 				<li> <a href="Agenda.html" >Agenda </a> </li>
 				<li> <a href="Film-actueel.html" >Films</a> </li>
@@ -40,7 +31,14 @@
 				<li> <a href="Lounge.html" >Lounge</a> </li>
 				<li> <a href="Specificaties.html" >Specificaties</a> </li>
 				<li> <a href="Contact.html" >Contact </a> </li>
-				
+				<li><!--Zoekbalk-->
+					<div class = "search">
+						<form id = "searchbox"/>
+						<input type = "text" id = "search" required placeholder = "Zoek hier..."/>
+						<input type = "submit" id = "submit" value = "Zoek"/>
+						</form>
+					</div>
+				</li><!-- eind zoekbalk-->
 			</ul>
 		</nav>
 	</header>
@@ -54,65 +52,56 @@
 		
 
 	
-	<table id="Tagenda">
-			<tr id="tr6">
-				<th colspan="4"> Agenda </th>
+	<table id="Tagenda" >
+	
+			<thead  id="tr6" >
+			<th >
+			<td style="text-align: center; " ><strong> Agenda</strong> </td> </th>
+			</thead>
+			<tr>
+			<td colspan="3"> 
+			Kies een tijd!
+			<select id="SelectTijd" onchange="Dagbepalen()">
+			<option value="9:00">9:00</option>
+			<option value="12:00">12:00</option>
+			<option value="15:00">15:00</option>
+			<option value="16:00">16:00</option>
+			<option value="18:00">18:00</option>
+			<option value="20:00">20:00</option>
+			<option value="22:00">22:00</option>
+			</select>
+			</td> 
+			</tr>
+			<tr> 
+			<td style="border-top: 2px solid black;" id="Film1"> </td> 
+			<td style="border-top: 2px solid black;"id="Zaal1" >  </td> 
+			<td style="border-top: 2px solid black;"id="td4" ><a href="reservering/reserveren.html">Reserveer nu!  </a></td> 
+			</tr>
+			<tr> 
+			<td style="border-top: 2px solid black;" id="Film2" > </td> 
+			<td style="border-top: 2px solid black;" id="Zaal2"> </td> 
+			<td style="border-top: 2px solid black;" id="td4" ><a href="reservering/reserveren.html">Reserveer nu!  </a></td> 
+			</tr>
+ 			<tr> 
+			<td style="border-top: 2px solid black;" id="Film3" > </td> 
+			<td style="border-top: 2px solid black;" id="Zaal3"> </td> 
+			<td style="border-top: 2px solid black;" id="td4" ><a href="reservering/reserveren.html">Reserveer nu!  </a></td> 
 			</tr>
 			
-			<tr id="tr5">
-				<td id="td2"> <a>Film</a> </td>
-				<td id="td3"> Tijd </td>
-				<td id="td1"> Zaal </td>  
-				<td id="td4"> Reserveer </td>	
+			</tr id="HomeAgendaNavigatie">	<tr> 
+			<td class="HomeKlikKnop" ><img id="HomeImgPrevious"style="float:left; height: 29px;" src="PreviousGrijs.png"/ onclick="VorigeDag()"></td>
+			<td id="DagCel" style=" text-align: center; color:#D25A05; font-size:17px; height: 40px;">
+			</td>
+			<td class="HomeKlikKnop"><img id="HomeImgNext" style=" height: 29px; float:right;" src="NextGrijs.png" onclick="VolgendeDag()"> </td>
 			</tr>
+			<tr> 
+			<td style=" border-top: 2px solid black; color: #D25A05; font-size: 17px;" colspan="3">
+			Welkom op de website van <em> Filmpje</em>!</br>
+			Hier kunt u online films reserveren, en meer informatie over de bioscoop vinden.
+			We wensen u veel kijk- en surfplezier!
+			</td>
 			
-			<tr id="tr5">
-				<td id="td2"> <a href="films/pijnstillers.html"> Pijnstillers</a> </td>
-				<td id="td3"> 12:00  </td>
-				<td id="td1">  1 </td>  
-				<td id="td4"> <a href="reservering/reserveren.html">Reserveer nu!  </a></td>	
-			</tr>
 			
-			<tr id="tr5">
-				<td id="td2"> <a href="films/November man.html">November Man</a> </td>
-				<td id="td3"> 12:30 </td>
-				<td id="td1">  3 </td>  
-				<td id="td4"> <a href="reservering/reserveren.html">Reserveer nu!  </a></td>		
-			</tr>
-			
-			<tr id="tr5">
-				<td id="td2"> <a href="films/the maze runner.html">The Maze Runner</a> </td>
-				<td id="td3"> 15:00 </td>
-				<td id="td1">  1 </td>  
-				<td id="td4"> <a href="reservering/reserveren.html">Reserveer nu!  </a></td>		
-			</tr>		
-			<!-- let op! deze film bestaat niet! -->
-			<tr id="tr5">
-				<td id="td2"> <a href=""> Lucy</a> </td>
-				<td id="td3"> 16:00 </td>
-				<td id="td1">  3 </td>  
-				<td id="td4"> <a href="reservering/reserveren.html">Reserveer nu!  </a></td>		
-			</tr>
-			<!-- let op! deze film bestaat niet! -->
-			<tr id="tr5">
-				<td id="td2"><a> Adventure 2</a></td>
-				<td id="td3"> 17:00 </td>
-				<td id="td1">  2 </td>
-				<td id="td4"> <a href="reservering/reserveren.html">Reserveer nu!  </a></td>	
-			</tr>
-			
-			<tr id="tr5">
-				<td id="td2"> <a href="films/the maze runner.html">The Maze Runner</a> </td>
-				<td id="td3"> 19:30 </td>
-				<td id="td1">  3 </td>		
-				<td id="td4"> <a href="reservering/reserveren.html">Reserveer nu!  </a></td>		
-			</tr>
-			
-			<tr id="td5">
-				<td id="td2"> <a href="films/pijnstillers.html"> Pijnstillers</a> </td>
-				<td id="td3"> 21:40 </td>	
-				<td id="td1">  1 </td>	
-				<td id="td4"> <a href="reservering/reserveren.html">Reserveer nu!  </a></td>	
 			</tr>
 		</table>
 	
@@ -184,12 +173,14 @@
 			
 			<tr id="tr10">
 				<td id="td01">10<td>
-				<td id="td02"><a href="films/12 years a slave.html">12 years a slave </a><td>
+				<td id="td02"><a href="films/12 years a slave.html">12 Years A Slave </a><td>
 			</tr>
 		
 		</table>
+
+		
 		<div id="SocialMediaHome">
-		Hier komen Faceboook en Twitter.
+		Hier komen Facebook en Twitter.
 		</div> 
 	</div> <!-- HomeTopPage -->
 	
