@@ -130,8 +130,10 @@ a {
 	width:56%;
 	height: 80%;
 	border: 3px solid #D25A05;
-	float:left;
-	border-right: none;
+	/*float:left;*/
+	margin:0px auto;
+	
+
 }
 
 
@@ -139,7 +141,7 @@ a {
 	height:560px;
 	margin-top: 2%;
 	margin-bottom: 5%;
-	
+	background-color:#D25A05;
 	
 
 }
@@ -152,8 +154,8 @@ a {
 
 
 #SocialMediaHome {
-height: 18.9%;
-width:74%;
+height: 17%;
+width:71%;
 background-color: #D25A05;
 float:left;
 
@@ -167,6 +169,7 @@ float:left;
 	height: 100%;
 	text-align: center;
 	border-right: none;
+	background-color: white;
 }	
 
 .td1{
@@ -228,8 +231,9 @@ float:left;
 #tb10{
 	border: 3px solid #D25A05;
 	height: 81.2%;
-	float:left;
-	width: 16.86%;
+	float:right;
+	width: 15%;
+	background-color:white;
 	
 
 }

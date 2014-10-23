@@ -38,7 +38,7 @@ function uncheck_lijst() {
 	var y = document.getElementByName("Film").checked = false;
 	}
 
-f
+
 </script>
 </body>
 </html>
