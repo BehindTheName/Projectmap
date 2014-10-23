@@ -69,14 +69,15 @@
 			<option value="18:00">18:00</option>
 			<option value="20:00">20:00</option>
 			<option value="22:00">22:00</option>
-			</select>
+			</select> 
+			uur.
 			</td> 
 			</tr>
 			<tr> 
 			<td style="border-top: 2px solid black;" id="Film1"> </td> 
 			<td style="border-top: 2px solid black;"id="Zaal1" >  </td> 
 			<td style="border-top: 2px solid black;"id="td4" ><a href="reservering/reserveren.html">Reserveer nu!  </a></td> 
-			</tr>
+			</tr>e
 			<tr> 
 			<td style="border-top: 2px solid black;" id="Film2" > </td> 
 			<td style="border-top: 2px solid black;" id="Zaal2"> </td> 

@@ -55,7 +55,7 @@ background-image: url("A the wave.jpg");
 	border-radius: 0px;
 	-moz-border-radius: 0px;
 	-webkit-border-radius: 0px; 
-	font-size: 12pt;
+	font-size: 13pt;
 }
 
 .mainheader nav ul {
@@ -109,6 +109,7 @@ a {
 	height: 40px;
 	transition: background-color 0.2s;
 	-webkit-transition: background-color 0.3s;
+	text-align:center;
 }
 
 .mainheader nav a:hover, .mainheader  nav a:active, .mainheader nav .active a:link, .mainheader nav .active a:visited {
