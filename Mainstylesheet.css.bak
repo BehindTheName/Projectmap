@@ -13,6 +13,7 @@ body {
 	width: 70%;
 	clear: both;
 	color:white;
+	font-family: Ariël;
 }
 
 .maincontent {
@@ -50,10 +51,11 @@ background-image: url("A the wave.jpg");
 
 .mainheader nav {
 	background-color: #d25a05;
-	height: 48px;
+	height: 60px;
 	border-radius: 0px;
 	-moz-border-radius: 0px;
 	-webkit-border-radius: 0px; 
+	font-size: 12pt;
 }
 
 .mainheader nav ul {
@@ -64,6 +66,8 @@ background-image: url("A the wave.jpg");
 .mainheader nav ul li {
 	float: left;
 	display: inline;
+
+	
 }
 
 #balk_positie{
@@ -77,15 +81,19 @@ background-image: url("A the wave.jpg");
 	display: inline;
 	width: 90px;
 	margin-top: -2px;
+	text-align:center;
+	
 }
 
 #search {
 	margin-top: 5px;
 	width: 70px;
+	margin-bottom:0;
 }
 
 #submit {
 	width: 72px;
+	margin-top: 0;
 }
 
 /*---Eind Zoekbalk---*/
@@ -97,9 +105,8 @@ a {
 .mainheader nav a:link, .mainheader nav a:visited {
 	color: #fff;
 	display: inline-block;
-	padding: 10px 20px;
-	height: 28px;
-	
+	padding: 10px 11%;
+	height: 40px;
 	transition: background-color 0.2s;
 	-webkit-transition: background-color 0.3s;
 }
@@ -116,6 +123,7 @@ a {
 	/*border-radius: 5px;
 	-moz-border-radius: 5px;
 	-webkit-border-radius: 5px; */
+
 	
 	
 }
@@ -127,13 +135,13 @@ a {
 
 /*--- Home Begin ---*/
  #myPhoto{
-	width:56%;
+	width:54.3%;
 	height: 80%;
 	border: 3px solid #D25A05;
 	/*float:left;*/
-	margin:0px auto;
-	
 
+	 margin-left:auto;
+	margin-right:auto;
 }
 
 
@@ -155,7 +163,7 @@ a {
 
 #SocialMediaHome {
 height: 17%;
-width:71%;
+width:50%;
 background-color: #D25A05;
 float:left;
 
@@ -164,7 +172,7 @@ float:left;
 #Tagenda{
 	color: #D25A05;
 	float:left;
-	width:268px;
+	width:25%;
 	border: 3px solid #D25A05;
 	height: 100%;
 	text-align: center;
@@ -219,7 +227,6 @@ float:left;
 #HomeImgNext:hover {
 	background-color: #FF4500;
 	height:40px;	
-
 }
 
 /* einde agenda home */
@@ -230,10 +237,11 @@ float:left;
 
 #tb10{
 	border: 3px solid #D25A05;
-	height: 81.2%;
+	height: 100%;
 	float:right;
 	width: 15%;
 	background-color:white;
+	
 	
 
 }
@@ -923,18 +931,6 @@ fieldset{
 /*De stylesheet van de reserveringspagina is verplaatst naar Reserveren.html.
 Dit in verband met te weinig ruimte op de pagina. */ 
 
-
-
-
-
-
-
-
-
-
-
-
-
 /*---Reserveren Einde ---*/
 
 
@@ -1088,7 +1084,7 @@ Dit in verband met te weinig ruimte op de pagina. */
 @media only screen and (min-width: 150px) and (max-width: 1090px)  {
 
 	.mainheader nav {
-	height: 48px;
+	height: 60px;
 	}
 	
 	.body {
@@ -1100,6 +1096,7 @@ Dit in verband met te weinig ruimte op de pagina. */
 	
 	.mainheader nav ul li {
 		text-align: center;
+	
 	}
 	
 	.filmcont {
@@ -1139,15 +1136,39 @@ Dit in verband met te weinig ruimte op de pagina. */
 	
 	}
 
-}
 
+ #myPhoto {
+display: none;
+ }
 
+ #tb10 {
+ width: 100%;
+
+ }
+
+ #SocialMediaHome {
+ width:100%;
+ }
+
+ #Tagenda {
+ width:100%;
+ border: 3px solid #D25A05;
+ }
+ 
+ #HomeTopPage {
+ width:100%;
+ }
+
+ .mainheader nav ul li div form{
+	float:center;
+ }
+ }
 	/* mobiele versie */
 /*-----------------------------------------------------------------------------------------------------*/	
 @media only screen and (min-width: 150px) and (max-width: 880px) {
 
 	.mainheader nav {
-		height: 384px;
+		height: 440px;
 	}
 	
 	.mainheader nav ul {
@@ -1218,6 +1239,10 @@ Dit in verband met te weinig ruimte op de pagina. */
 		position: relative;
 		bottom: 50px;
 	}
+
+.mainheader nav ul li div form{
+	float:center;
+ }
 
 }	
 @media only screen and (min-width: 601px) and (max-width: 799px) {

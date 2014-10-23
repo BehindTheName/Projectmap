@@ -15,14 +15,21 @@
   width: 600px;
   height: 324px;
   position:absolute; 
+  background-repeat:no-repeat;
+   background-size:contain;
+  }
 
+  @media print {
+  #NietPrinten {display: none;}
+  #DivTicket{display:block;}
+  
   }
   </style>
 
-  <script src="Reserveren.js"> </script> 
+ <script src="Reserveren.js"> </script> 
  </head>
  <body>
-  <form>
+  <form id="NietPrinten">
   Klik op de knop om uw ticket te printen!<input type="button" value=" Print deze pagina "
 onclick="window.print();return false;" /></form> 
 <div id="DivTicket">
