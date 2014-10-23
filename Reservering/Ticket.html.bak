@@ -26,7 +26,7 @@
 <div id="DivTicket">
 
 
-<div id="DivTextTicket" style="float:left; margin: 8%; margin-right:0;">Bedankt voor uw bestelling!</br>
+<div id="DivTextTicket" style="float:left; margin: 8%; margin-right:0; width: 40%; ">Bedankt voor uw bestelling!</br>
 Scan deze code bij de ingang van de bioscoop.</br>
 Veel kijkplezier!
 </div>
