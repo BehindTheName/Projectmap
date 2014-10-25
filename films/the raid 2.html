@@ -10,10 +10,33 @@
 	<meta name="Author" content="Behind the name">
 	<meta name="Keywords" content=" Filpje, Bioscoop ">
 	<meta name="Description" content="The Raid 2">
+		<script>
+	function Bewaarfilm(){
+	if (localStorage.getItem("FavorietTheRaid2") == "true")
+	{
+		document.getElementById("SterIMG").src = "../StarLeeg.png";
+		localStorage.removeItem("FavorietTheRaid2");
+	}
+	else {
+	document.getElementById("SterIMG").src = "../Star.png";
+	localStorage.setItem("FavorietTheRaid2", "true");
+
+	}
+	
+	}
+
+	function BepaalFavoriet(){
+	if (localStorage.getItem("FavorietTheRaid2") == "true")
+	{
+		document.getElementById("SterIMG").src = "../Star.png";
+	}
+	
+	}
+	</script>
 	
 </head>
 
-<body class="body">
+<body class="body" onload="BepaalFavoriet()">
 
 
     <!-- Navigatie balk + logo -->
@@ -68,6 +91,7 @@ Rama (Iko Uwais) dacht dat hij de strijd tegen de Indonesische onderwereld had g
 						<p> <span>Director:</span> Gareth Evans</p>
 						<p> <span>Stars:</span> Iko Uwais, Yayan Ruhian, Arifin Putra |</p>
 						<p class="ReserverenKnopFilms" "><a href="../Reserveren-info.html">Reserveren!</a></p>
+						<div class="Ster" ><img onclick="Bewaarfilm()" id="SterIMG"src="../StarLeeg.png"/></div>
 					</div>
 					
 					

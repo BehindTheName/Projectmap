@@ -10,11 +10,31 @@
 	<meta name="Author" content="Behind the name">
 	<meta name="Keywords" content=" Filpje, Bioscoop ">
 	<meta name="Description" content="How To Train Your Dragon 2">
+	<script>
+	function Bewaarfilm(){
+	if (localStorage.getItem("FavorietHowToTrainYourDragon") == "true")
+	{
+		document.getElementById("SterIMG").src = "../StarLeeg.png";
+		localStorage.removeItem("FavorietHowToTrainYourDragon");
+	}
+	else {
+	document.getElementById("SterIMG").src = "../Star.png";
+	localStorage.setItem("FavorietHowToTrainYourDragon", "true");
+
+	}
+	}
+
+	function BepaalFavoriet(){
+	if (localStorage.getItem("FavorietHowToTrainYourDragon") == "true")
+	{
+		document.getElementById("SterIMG").src = "../Star.png";
+	}
 	
+	}
+	</script>
 </head>
 
-<body class="body">
-
+<body class="body" onload="BepaalFavoriet()">
 
     <!-- Navigatie balk + logo -->
 		<header class="mainheader">
@@ -70,6 +90,7 @@ Hikkie en Tandloos raken verzeild in een strijd om de vrede en moeten zich sterk
 						<p> <span>Director:</span> Dean DeBlois</p>
 						<p> <span>Stars:</span>Jay Baruchel, Cate Blanchett, Gerard Butler |</p>
 						<p class="ReserverenKnopFilms" "><a href="../Reserveren-info.html">Reserveren!</a></p>
+						<div class="Ster" ><img onclick="Bewaarfilm()" id="SterIMG"src="../StarLeeg.png"/></div>
 					</div>
 					
 					

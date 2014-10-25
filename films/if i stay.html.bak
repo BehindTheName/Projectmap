@@ -7,9 +7,35 @@
 	<link rel="stylesheet" type="text/css" href="../Mainstylesheet.css">
 	<meta charset="UTF-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" >
+	<meta name="Author" content="Behind the name">
+	<meta name="Keywords" content=" Filpje, Bioscoop ">
+	<meta name="Description" content="If I stay">
+	<script>
+	function Bewaarfilm(){
+	if (localStorage.getItem("Favoriet") == "true")
+	{
+		document.getElementById("SterIMG").src = "../StarLeeg.png";
+		localStorage.removeItem("Favoriet");
+	}
+	else {
+	document.getElementById("SterIMG").src = "../Star.png";
+	localStorage.setItem("Favoriet", "true");
+
+	}
+	
+	}
+
+	function BepaalFavoriet(){
+	if (localStorage.getItem("Favoriet") == "true")
+	{
+		document.getElementById("SterIMG").src = "../Star.png";
+	}
+	
+	}
+	</script>
 </head>
 
-<body class="body">
+<body class="body" onload="BepaalFavoriet()">
 
 
     <!-- Navigatie balk + logo -->
@@ -49,6 +75,7 @@
 					
 					<div class="infobox">
 						<h1> If I Stay</h1>
+						
 						<!-- -->
 						<div class="rating">
 								<span class="imdbRatingPlugin" data-user="ur55552000" data-title="tt1355630" data-style="p1"><a href="http://www.imdb.com/title/tt1355630/?ref_=plg_rt_1"><img src="http://g-ecx.images-amazon.com/images/G/01/imdb/plugins/rating/images/imdb_46x22.png" alt=" If I Stay
@@ -66,7 +93,7 @@
 						<p> <span>Director:</span>  R.J. Cutler </p>
 						<p> <span>Stars:</span> Chloë Grace Moretz, Mireille Enos, Jamie Blackley </p>
 						<p class="ReserverenKnopFilms" "><a href="../Reserveren-info.html">Reserveren!</a></p>
-						
+						<div class="Ster" ><img onclick="Bewaarfilm()" id="SterIMG"src="../StarLeeg.png"/></div>
 					</div>
 					
 					

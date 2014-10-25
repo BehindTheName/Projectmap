@@ -77,7 +77,7 @@
 			<td style="border-top: 2px solid black;" id="Film1"> </td> 
 			<td style="border-top: 2px solid black;"id="Zaal1" >  </td> 
 			<td style="border-top: 2px solid black;"id="td4" ><a href="reservering/reserveren.html">Reserveer nu!  </a></td> 
-			</tr>e
+			</tr>
 			<tr> 
 			<td style="border-top: 2px solid black;" id="Film2" > </td> 
 			<td style="border-top: 2px solid black;" id="Zaal2"> </td> 
@@ -154,7 +154,7 @@
 			
 			<tr id="tr10">
 				<td id="td01">6<td>
-				<td id="td02"><a href="films/live die repeat">Live die repeat</a><td>
+				<td id="td02"><a href="films/live die repeat.html">Live die repeat</a><td>
 			</tr>
 			
 			<tr id="tr10">

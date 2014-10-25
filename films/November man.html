@@ -10,9 +10,32 @@
 	<meta name="Author" content="Behind the name">
 	<meta name="Keywords" content=" Filpje, Bioscoop ">
 	<meta name="Description" content="The November Man">
+	<script>
+	function Bewaarfilm(){
+	if (localStorage.getItem("FavorietNovemberMan") == "true")
+	{
+		document.getElementById("SterIMG").src = "../StarLeeg.png";
+		localStorage.removeItem("FavorietNovemberMan");
+	}
+	else {
+	document.getElementById("SterIMG").src = "../Star.png";
+	localStorage.setItem("FavorietNovemberMan", "true");
+
+	}
+	
+	}
+
+	function BepaalFavoriet(){
+	if (localStorage.getItem("FavorietNovemberMan") == "true")
+	{
+		document.getElementById("SterIMG").src = "../Star.png";
+	}
+	
+	}
+	</script>
 </head>
 
-<body class="body">
+<body class="body" onload="BepaalFavoriet()">
 
 
     <!-- Navigatie balk + logo -->
@@ -71,6 +94,7 @@ De enige die hij kan vertrouwen is de mysterieuze advocate Alice (Olga Kurylenko
 						<p> <span>Director:</span>  Roger Donaldson</p>
 						<p> <span>Stars:</span>Pierce Brosnan, Luke Bracey, Olga Kurylenko  </p>
 						<p class="ReserverenKnopFilms" "><a href="../Reserveren-info.html">Reserveren!</a></p>
+						<div class="Ster" ><img onclick="Bewaarfilm()" id="SterIMG"src="../StarLeeg.png"/></div>
 					</div>
 					
 					
