@@ -348,8 +348,13 @@ float:left;
 	-webkit-transition: background-color 0.4s;
 	}
 
+
 	
 .topbox2 a:hover{
+	background-color: #4b4c46;
+	}
+
+.topbox2 a:active{
 	background-color: #4b4c46;
 	}
 
@@ -367,7 +372,7 @@ float:left;
 .topbox3 p{
 	font-size: 30px;
 	position: relative;
-	top: -2px;
+/*	top: -2px; */
 }
 
 .abox {
@@ -459,7 +464,9 @@ float:left;
 }
 
 
-
+.active1 {
+	background-color: #4b4c46;
+}
 
 /*--- Agenda Einde ---*/
 
@@ -1239,6 +1246,7 @@ display: none;
 	.topbox3 p {
 		position: relative;
 		bottom: 50px;
+		
 	}
 
 .mainheader nav ul li div form{
