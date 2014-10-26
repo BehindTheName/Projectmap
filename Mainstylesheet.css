@@ -640,7 +640,7 @@ right: 13px;
 .infobox {
 	width: 78%;
 	height: auto;
-	background-color: rgba(128,128,128,0.5)  ;
+	background-color: /*rgba(128,128,128,0.5)*/ #4b4c46 ;
 	float: left;
 	margin-left: 10%;
 	margin-top: 10px;
@@ -651,7 +651,7 @@ right: 13px;
 }
 
 .infobox span { 
-	color: #751975;
+	color: #d25a05;
 }
 
 .infobox h1 { 
@@ -670,7 +670,7 @@ right: 13px;
 
 
 .ReserverenKnopFilms {
-	background-color:#996699; 
+	background-color:#d25a05; 
 	padding: 1%; widht: 10px; 
 	float:left; 
 	border-radius:5px; 
@@ -1254,7 +1254,7 @@ display: none;
 
 	.topbox3 p {
 		position: relative;
-		bottom: 50px;
+		/*bottom: 50px; */
 		
 	}
 
