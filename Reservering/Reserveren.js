@@ -137,7 +137,7 @@ function MaakZaal(WelkeZaal){
 
 
 
-
+var PlaatsenTicket = "";
 //deze twee functies maken de buttons aan.
 function Maak_Stoel(Klasse, RijNummer, StoelNummer, Prijs ){
 		var plaats = document.createElement("button");
@@ -174,6 +174,7 @@ function Maak_Stoel(Klasse, RijNummer, StoelNummer, Prijs ){
 		plaats.style.backgroundColor = "#00FFAD"; 
 		plaats.gereserveerd = "ja";
 		document.getElementById("divReserverenText").innerHTML += "</br> Uw plaats is: " +  plaats.id;
+		PlaatsenTicket += plaats.id;
 		}
 
 		document.getElementById("TotaalprijsDiv").innerHTML = "</br> Totaalprijs: \u20AC" + Totaalprijs.toFixed(2);
@@ -193,7 +194,6 @@ function Maak_Leegte(){
 
 function Reserveren(){
 	window.open("Ticket.html", "Ticket", "height=350, width=615");
-	
 	
 
 }

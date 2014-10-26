@@ -15,21 +15,32 @@
   width: 600px;
   height: 324px;
   position:absolute; 
+  background-repeat:no-repeat;
+   background-size:contain;
+  }
 
+  @media print {
+  #NietPrinten {display: none;}
+  #DivTicket{display:block;}
+  
   }
   </style>
 
-  <script src="Reserveren.js"> </script> 
+ <script src="Reserveren.js"> </script> 
  </head>
  <body>
-  
+  <form id="NietPrinten">
+  Klik op de knop om uw ticket te printen!<input type="button" value=" Print deze pagina "
+onclick="window.print();return false;" /></form> 
 <div id="DivTicket">
 
 
-<div id="DivTextTicket" style="float:left; margin: 8%; maring-left: 6%; margin-right:0;">Bedankt voor uw bestelling!</br>
-Uw plaats is: </div>
+<div id="DivTextTicket" style="float:left; margin: 8%; margin-right:0; width: 40%; ">Bedankt voor uw bestelling!</br>
+Scan deze code bij de ingang van de bioscoop.</br>
+Veel kijkplezier!
+</div>
 <img src="../QRcode.png" style="width: 40%; margin: 8%; margin-right: 6%; float: right; margin-left:0;"/>
-
+<div id="WelkeplaatsTicket" style="float:left; margin: 8%; background-color:green;" > </div> 
 </div>
 
 

@@ -19,7 +19,7 @@
 		<a href="index.html"> <img src="filmpje-logo.png" alt="logo"></a>
 		
 		<nav>
-			<ul>
+			<ul id = "balk_positie">
 				<li> <a href="index.html" > Home </a> </li>
 				<li> <a href="Algemene informatie.html" >Algemene informatie</a> </li>
 				<li> <a href="Agenda.html" >Agenda </a> </li>
@@ -28,17 +28,25 @@
 				<li class="active"> <a href="Lounge.html" >Lounge </a> </li>
 				<li> <a href="Specificaties.html" >Specificaties</a> </li>
 				<li> <a href="Contact.html" >Contact </a> </li>
+				<li><!--Zoekbalk-->
+					<div class = "search">
+						<form id = "searchbox"/>
+						<input type = "text" id = "search" required placeholder = "Zoek hier..."/>
+						<input type = "submit" id = "submit" value = "Zoek"/>
+						</form>
+					</div>
+				</li><!-- eind zoekbalk-->
 			</ul>
 		</nav>
 	</header>
 	
-	<div class="maincontent" style="background-image:loungeachtergrond.jpg" >
+	<div class="maincontent" <!--style="background-color: #CF6AEB"-->>
 	<div class="contentLounge"> 
 		 <!-- De contentLounge kan nog verandert worden, hij is nu 500px, omdat de footer anders tegen de taakbalk aan drijft.+
 		 In css staat de .contentLounge in het Loungestuk onder Reserveren.-->
-	<h1>Lounge</h1>
+	<h1 >Lounge</h1>
 	
-	<div class="contentLoungetekst">
+	<div class="contentLoungetekst" >
 	<p>
 		Filmpje introduceert de nieuwe Lounge™. Hier kunt u voor of na de film lekker een hapje en een drankje nemen, en gezellig bijpraten met uw vrienden, familie, collega's en andere filmgangers.
 		Door de supercomfortable zitstoelen, strak interieur, lekker eten, drinken en fijne atmosfeer voelt u zich al snel thuis.
@@ -49,8 +57,18 @@
 	</p>
 	</div>
 	
+	<div class = "lounge_plaatjes" > <!--plaatjes-->
 	
-	<div class="cocktails"><!--begin cocktails-->
+	<img src = "lounge1_klein.png" id = "loungefoto_1"> <br>
+	<img src = "lounge2_klein.png" id = "loungefoto_2"> <br>
+	<img src = "barfoto.jpg" id = "loungefoto_3">
+	
+	</div>															<!--eind plaatjes-->
+	
+	
+	<div class = "cocktails_en_prijzen" style = "2px solid blue" >
+	
+	<div class="cocktails" ><!--begin cocktails-->
 	<p>
 		<h2>Cocktails</h2>
 		
@@ -65,9 +83,9 @@
 		Caipirinha	<br>				<!--€7,00--->
 		Kir Royale	<br>				<!--€7,00--->
 	</p>
-	</div>
+	</div><!--Eind cocktails-->
 	
-	<div class="cocktailprijzen">
+	<div class="cocktailprijzen" >
 	<p>
 		€5,00- <br>
 		€5,00- <br>
@@ -81,6 +99,15 @@
 		€7,00- <br>
 	</p>
 	</div><!--einde cocktails-->
+	
+	</div><!--einde cocktails en prijzen-->
+	
+	<div class = "loungereclame" >
+	
+	<img id = "loungereclame"" src= "loungereclame.jpg">
+	
+	</div>
+	
 	</div><!--contentLounge-->
 	</div><!--Maincontent"--> 
 	

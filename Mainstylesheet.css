@@ -13,6 +13,7 @@ body {
 	width: 70%;
 	clear: both;
 	color:white;
+	font-family: Ariël;
 }
 
 .maincontent {
@@ -50,22 +51,52 @@ background-image: url("A the wave.jpg");
 
 .mainheader nav {
 	background-color: #d25a05;
-	height: 48px;
+	height: 60px;
 	border-radius: 0px;
 	-moz-border-radius: 0px;
 	-webkit-border-radius: 0px; 
+	font-size: 13pt;
 }
 
 .mainheader nav ul {
 	list-style: none;	
 	margin: 0 auto;
-
 }
 
 .mainheader nav ul li {
 	float: left;
 	display: inline;
+
+	
 }
+
+#balk_positie{
+	margin-left: -40px;
+	padding-left: 40px;
+}
+/*---Begin Zoekbalk */
+
+.mainheader nav ul li div form {
+	float: left;
+	display: inline;
+	width: 90px;
+	margin-top: -2px;
+	text-align:center;
+	
+}
+
+#search {
+	margin-top: 5px;
+	width: 70px;
+	margin-bottom:0;
+}
+
+#submit {
+	width: 72px;
+	margin-top: 0;
+}
+
+/*---Eind Zoekbalk---*/
 
 a {
 	text-decoration: none;
@@ -74,11 +105,11 @@ a {
 .mainheader nav a:link, .mainheader nav a:visited {
 	color: #fff;
 	display: inline-block;
-	padding: 10px 20px;
-	height: 28px;
-	
+	padding: 10px 10px;
+	height: 40px;
 	transition: background-color 0.2s;
 	-webkit-transition: background-color 0.3s;
+	text-align:center;
 }
 
 .mainheader nav a:hover, .mainheader  nav a:active, .mainheader nav .active a:link, .mainheader nav .active a:visited {
@@ -93,6 +124,7 @@ a {
 	/*border-radius: 5px;
 	-moz-border-radius: 5px;
 	-webkit-border-radius: 5px; */
+
 	
 	
 }
@@ -104,76 +136,79 @@ a {
 
 /*--- Home Begin ---*/
  #myPhoto{
-	width: 100%;
-	height: 120%;
-	border-radius: 25px;
-	border: 2px solid black;
+	width:54.3%;
+	height: 80%;
+	border: 3px solid #D25A05;
+	/*float:left;*/
+
+	 margin-left:auto;
+	margin-right:auto;
 }
 
-.contentHome{
-	width: 63%;
-	height: 350px;
-	float: right;
+
+#HomeTopPage {
+	height:560px;
+	margin-top: 2%;
+	margin-bottom: 5%;
+	background-color:#D25A05;
+	
+
 }
 
-#FotoActie{
-	margin-top: 10%;
-	width: 80%;
-	height: 75%;
+#HomeTopPage a {
+	text-decoration: none;
+	color: #D25A05
 }
-
 /* begin agenda home */
 
-.agendaHome{
-	color: #B8B894;
-	background-color: #fff;
-	width: 36%;
-	height: 80%;
-	float: left;
-	margin-top: 4%;
-} /* buttons */
+
+#SocialMediaHome {
+height: 17%;
+width:50%;
+background-color: #D25A05;
+float:left;
 
 
-.HomeA{
-	color: #B8B894;
-	border: 1px solid black;
-	width: 35%;
-	margin-top: 2%;
-	height: 60%px;
 }
-
 #Tagenda{
-	color: #B8B894;
+	color: #D25A05;
+	float:left;
+	width:25%;
+	border: 3px solid #D25A05;
+	height: 100%;
+	text-align: center;
+	border-right: none;
+	background-color: white;
 }	
 
-#td1{
+.td1{
 	color: #B8B894;
-	font-size: 20px;
+	font-size: 16px;
 	text-align: center;
-	border-top: 1px dotted black;
+	border-top: 1px solid black;
 }
 
-#td2{
+.td2{
 	color: #FF4500;
-	font-size: 20px;
-	border-top: 1px dotted black;
+	font-size: 16px;
+	border-top: 1px solid black;
 }
 
-#td3{
+.td3{
     color: #B8B894;
-	font-size: 20px;
-	border-top: 1px dotted black;
+	font-size: 16px;
+	border-top: 1px solid black;
 }
 
-#td4{
+.td4{
 	color: #B8B894;
-	font-size: 20px;
-	border-top: 1px dotted black;
+	font-size: 16px;
+	border-top: 1px solid black;
 }
 
 #tr5{
 	color: #B8B894;
-	font-size: 20px;
+	font-size: 16px;
 	border-top: 1px dotted black;
 }
 
@@ -181,30 +216,41 @@ a {
 	text-align: center;
 	color: #B8B894;
 	font-size: 28px;
+
 }
 
+#HomeImgPrevious:hover {
+	background-color: #FF4500;
+	height:40px;	
+	
+}
+
+#HomeImgNext:hover {
+	background-color: #FF4500;
+	height:40px;	
+}
 
 /* einde agenda home */
 
 /* begin top 10 */
 
-.topTien{
-	margin-top: 2%;
-	
-	height: 45%;
-	width: 50%;
-	
-}
+
 
 #tb10{
-	border: 1px solid black;
-	width: 80%;
+	border: 3px solid #D25A05;
+	height: 100%;
+	float:right;
+	width: 15%;
+	background-color:white;
+	
+	
+
 }
 
 #tr9{
-    color: #FF0000;
+    color: #B8B894;
 	text-align: center;
-	font-size: 24px;
+	font-size: 20px;
 }
 
 #tr10{
@@ -212,11 +258,12 @@ a {
 	font-size: 18px;
 	border-top: 1px solid black;
 	border-collapse: collapse;
+	
 } 
 
 #td01{
 	color: #B8B894;
-	font-size: 18px;
+	font-size: 15px;
 	border-top: 1px solid black;
 	border-collapse: collapse;
 	text-align: center;
@@ -224,11 +271,15 @@ a {
 
 #td02{
 	color: #B8B894;
-	font-size: 18px;
+	font-size: 16px;
 	border-top: 1px solid black;
 	border-collapse: collapse;
 }
 
+#td4:hover {
+	background-color: #B8B894;
+	
+}
 
 
 /* einde top 10 */
@@ -297,8 +348,13 @@ a {
 	-webkit-transition: background-color 0.4s;
 	}
 
+
 	
 .topbox2 a:hover{
+	background-color: #4b4c46;
+	}
+
+.topbox2 a:active{
 	background-color: #4b4c46;
 	}
 
@@ -316,7 +372,7 @@ a {
 .topbox3 p{
 	font-size: 30px;
 	position: relative;
-	top: -2px;
+/*	top: -2px; */
 }
 
 .abox {
@@ -408,7 +464,9 @@ a {
 }
 
 
-
+.active1 {
+	background-color: #4b4c46;
+}
 
 /*--- Agenda Einde ---*/
 
@@ -704,12 +762,11 @@ right: 13px;
 	margin-top: 20px;
 	margin-bottom: 20px;
 	height:800px;
-	background-image: url('loungeachtergrond.jpg');
-	background-repeat: no-repeat;
 }
 
 .contentLounge h1 {
 	margin: 30px;
+	width: 10%;
 }
 
 .contentLounge p {
@@ -720,8 +777,14 @@ right: 13px;
 	width:500px;
 	float: left;
 	padding:5px;
-	padding-right: 700px;
+	margin-top: -30px;
 }
+
+.cocktails_en_prijzen {
+	width: 500px;
+	height: 700px;
+}
+
 
 .cocktails {
 	float: left;
@@ -738,9 +801,33 @@ right: 13px;
 	margin-top: 55px;
 }
 
+.lounge_plaatjes{
+	float:right;
+	margin-right: 30px;
+	margin-top: -30px;
+}
 
+.loungereclame{
+	float: right;
+	margin-top: -210px;
+	margin-right: 30px;
+}
 
+#loungefoto_1{
+	width: 280px;
+}
 
+#loungefoto_2{
+	width: 280px;
+}
+
+#loungefoto_3{
+	width: 280px;
+}
+
+#loungereclame{
+	width: 450px;
+}
 
 /*---Lounge Einde ---*/
 
@@ -851,18 +938,6 @@ fieldset{
 
 /*De stylesheet van de reserveringspagina is verplaatst naar Reserveren.html.
 Dit in verband met te weinig ruimte op de pagina. */ 
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*---Reserveren Einde ---*/
 
@@ -1026,7 +1101,7 @@ Dit in verband met te weinig ruimte op de pagina. */
 @media only screen and (min-width: 150px) and (max-width: 1090px)  {
 
 	.mainheader nav {
-	height: 48px;
+	height: 60px;
 	}
 	
 	.body {
@@ -1038,6 +1113,7 @@ Dit in verband met te weinig ruimte op de pagina. */
 	
 	.mainheader nav ul li {
 		text-align: center;
+	
 	}
 	
 	.filmcont {
@@ -1045,7 +1121,7 @@ Dit in verband met te weinig ruimte op de pagina. */
 	}
 	
 	.topbox {
-		background-color: #00FFAD;
+		background-color: #d25a05;
 		width: 50%;
 		margin-left: 25%;
 		border-radius: 5px;
@@ -1077,15 +1153,39 @@ Dit in verband met te weinig ruimte op de pagina. */
 	
 	}
 
-}
 
+ #myPhoto {
+display: none;
+ }
 
+ #tb10 {
+ width: 100%;
+
+ }
+
+ #SocialMediaHome {
+ width:100%;
+ }
+
+ #Tagenda {
+ width:100%;
+ border: 3px solid #D25A05;
+ }
+ 
+ #HomeTopPage {
+ width:100%;
+ }
+
+ .mainheader nav ul li div form{
+	float:center;
+ }
+ }
 	/* mobiele versie */
 /*-----------------------------------------------------------------------------------------------------*/	
 @media only screen and (min-width: 150px) and (max-width: 880px) {
 
 	.mainheader nav {
-		height: 384px;
+		height: 440px;
 	}
 	
 	.mainheader nav ul {
@@ -1155,7 +1255,12 @@ Dit in verband met te weinig ruimte op de pagina. */
 	.topbox3 p {
 		position: relative;
 		bottom: 50px;
+		
 	}
+
+.mainheader nav ul li div form{
+	float:center;
+ }
 
 }	
 @media only screen and (min-width: 601px) and (max-width: 799px) {

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+
+<body>
+
+<form>
+<input class="check_films" type="checkbox" name="Film" value="Transformers" /> Tranformers <br>
+<input class="check_films" type="checkbox" name="Film" value="Equalizer" /> The Equalizer <br>
+<input class="check_films" type="checkbox" name="Film" value="How To Train your Dragon" /> How To Train Your Dragon <br>
+<button onclick="maak_lijst()">Submit </button>
+<button onclick="uncheck_lijst()"> uncheck alles </button>
+<div id="lijst"></div>
+</form>
+<script>
+
+function maak_lijst(){
+	var checked_boxes = []; 
+	var input_films = document.getElementsByClassName("check_films");
+	var lengte_input = input_films.length;
+	for(var i=0; input_films[i]; ++i){
+		if(input_films[i].checked){
+			checked_boxes = input_films[i].value;
+			//alert(checked_boxes)
+			document.getElementById("lijst").innerHTML = checked_boxes +"<br>";
+			break;
+		}
+	
+	}
+
+}
+
+
+	
+
+
+function uncheck_lijst() {
+	var y = document.getElementByName("Film").checked = false;
+}
+
+
+
+
+<<<<<<< HEAD
+f
+=======
+>>>>>>> origin/master
+</script>
+</body>
+</html>
