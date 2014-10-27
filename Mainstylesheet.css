@@ -151,6 +151,7 @@ a {
 	margin-top: 2%;
 	margin-bottom: 5%;
 	background-color:#D25A05;
+	box-shadow: 1px 1px 20px black;
 	
 
 }
@@ -179,6 +180,7 @@ float:left;
 	text-align: center;
 	border-right: none;
 	background-color: white;
+	border-radius: 5px;
 }	
 
 .td1{
@@ -242,6 +244,7 @@ float:left;
 	float:right;
 	width: 15%;
 	background-color:white;
+	border-radius: 5px;
 	
 	
 
@@ -296,6 +299,7 @@ float:left;
 	padding-top: 5px;
 	margin-top: 20px;
 	margin-bottom: 20px;
+	box-shadow: 1px 1px 20px black;
 	
 }
 
@@ -471,6 +475,21 @@ float:left;
 /*--- Agenda Einde ---*/
 
 /*--- Film Begin ---*/
+.top_nummers {
+	color: black;
+	font-size: 20px;
+	/*margin-top: -5px;
+	margin-bottom: -10px; */
+	margin: 4px auto -10px auto;
+	width: 29px;
+	background-color: #4b4c46;
+	height: 27px;
+	border-radius: 100%;
+	text-align: center;
+	box-shadow: 1px 1px 10px black;
+	
+
+}
 .filmheader {
 	text-align: center;
 }
@@ -725,7 +744,7 @@ right: 13px;
 }
 
 .SlideKnoppen:hover{
-	background-color: #00FFAD;
+	background-color: #4b4c46;	
 }
 
 #Knoppenbalk {
@@ -762,6 +781,7 @@ right: 13px;
 	margin-top: 20px;
 	margin-bottom: 20px;
 	height:800px;
+	box-shadow: 1px 1px 20px black;
 }
 
 .contentLounge h1 {
@@ -815,18 +835,26 @@ right: 13px;
 
 #loungefoto_1{
 	width: 280px;
+	border: 2px solid #4b4c46;
+	border-radius: 5px;
 }
 
 #loungefoto_2{
 	width: 280px;
+	border: 2px solid #4b4c46;
+	border-radius: 5px;
 }
 
 #loungefoto_3{
 	width: 280px;
+	border: 2px solid #4b4c46;
+	border-radius: 5px;
 }
 
 #loungereclame{
 	width: 450px;
+	border-radius: 5px;
+	border: 2px solid #4b4c46;
 }
 
 /*---Lounge Einde ---*/
@@ -840,6 +868,7 @@ right: 13px;
 	padding-top: 5px;
 	margin-top: 20px;
 	margin-bottom: 20px;
+	box-shadow: 1px 1px 20px black;
 
 
 }
@@ -862,6 +891,9 @@ right: 13px;
 .SpecificatiesIMG {
 	width:70%;
 	margin-left:15%;
+	border-radius: 5px;
+	border: 2px solid #4b4c46;			
+	
 }
 
 
