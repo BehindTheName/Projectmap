@@ -2,6 +2,8 @@ var WelkeDag = ["Zondag", "Maandag","Dinsdag","Woensdag","Donderdag","Vrijdag","
 var d = new Date();
 var n = d.getDay(); 
 var dag; 
+
+var WelkeFilm = "";
 function Dagbepalen () {
 
 
@@ -30,13 +32,14 @@ var WelkeTijd;
 
 	document.getElementById("Film1").innerHTML = Dagen[n][WelkeTijd][0][0];
 	document.getElementById("Zaal1").innerHTML = Dagen[n][WelkeTijd][0][1];
+	
 
 	document.getElementById("Film2").innerHTML = Dagen[n][WelkeTijd][1][0];
 	document.getElementById("Zaal2").innerHTML = Dagen[n][WelkeTijd][1][1];
 
 	document.getElementById("Film3").innerHTML = Dagen[n][WelkeTijd][2][0];
 	document.getElementById("Zaal3").innerHTML = Dagen[n][WelkeTijd][2][1];
-
+	
 }
 
 var Dagen = [

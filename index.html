@@ -2,20 +2,8 @@
 <html>
 
 <head>
-<<<<<<< HEAD
-<script>
-function redirect(){
-	document.location.href = "films/" + document.getElementById("search").value + ".html";
-	return false;
-}
-
-</script>
-
-
-	<title> home </title>
-=======
 	<title> Home </title>
->>>>>>> origin/master
+
 	
 	<link rel="stylesheet" type="text/css" href="Mainstylesheet.css">
 	<meta charset="UTF-8" />
@@ -53,6 +41,11 @@ function redirect(){
 		}
 	}
 
+	function redirect(){
+	document.location.href = "films/" + document.getElementById("search").value + ".html";
+	return false;
+	}
+
 	</script> 
 </head>
 
@@ -68,7 +61,7 @@ function redirect(){
 				<li class="active"> <a href="index.html" >Home</a> </<li>
 				<li> <a href="Algemene informatie.html" >Algemene informatie</a> </li>
 				<li> <a onclick="GaAgenda()" >Agenda </a> </li>
-				
+
 				<li> <a href="Film-actueel.html" >Films</a> </li>
 				<li> <a href="Acties.html" >Acties</a> </li>
 				<li> <a href="Lounge.html" >Lounge</a> </li>
@@ -80,6 +73,7 @@ function redirect(){
 						<input type = "submit" onclick = "return redirect()" value = "Zoek"/>
 					</form>
 				</li>
+			</ul>
 		</nav>
 	</header>
 	
@@ -121,12 +115,12 @@ function redirect(){
 			<tr> 
 			<td style="border-top: 2px solid black;" id="Film2" > </td> 
 			<td style="border-top: 2px solid black;" id="Zaal2"> </td> 
-			<td style="border-top: 2px solid black;" id="td4" ><a href="reservering/reserveren.html">Reserveer nu!  </a></td> 
+			<td style="border-top: 2px solid black;" id="td4" ><a href="reservering/reserveren2.html">Reserveer nu!  </a></td> 
 			</tr>
  			<tr> 
 			<td style="border-top: 2px solid black;" id="Film3" > </td> 
 			<td style="border-top: 2px solid black;" id="Zaal3"> </td> 
-			<td style="border-top: 2px solid black;" id="td4" ><a href="reservering/reserveren.html">Reserveer nu!  </a></td> 
+			<td style="border-top: 2px solid black;" id="td4" ><a href="reservering/reserveren3.html">Reserveer nu!  </a></td> 
 			</tr>
 			
 			</tr id="HomeAgendaNavigatie">	<tr> 
