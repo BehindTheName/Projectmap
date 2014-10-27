@@ -53,15 +53,32 @@ function Maak_Stoel(Klasse, RijNummer, StoelNummer, Prijs ){
 		var plaats = document.createElement("button");
 		
 		plaats.type = "button";
-		plaats.id = "Rij " + RijNummer + " Stoel " + StoelNummer;
+		plaats.id = "Zaal 1 Rij " + RijNummer + " Stoel " + StoelNummer;
 		plaats.value = Prijs;
 		var Klasse;
 		Klasse = "klasse_" + Klasse;
 		plaats.setAttribute("class", Klasse);
+		
+
+		//Dit gedeelte zou de localstorage op moeten halen.
+		if (localStorage.length)
+		{
+		
+		for (var a = 0; a < localStorage.length; a++ ){
+		if (plaats.id == localStorage.key[a])
+		{
+			plaats.gereserveerd = "ja"; 
+			plaats.style.backgroundColor = "#00FFAD";
+		}
+		}
+		}
+		//Einde Localstorage 
+
 		plaats.addEventListener("click", function(){
 		if (plaats.gereserveerd === "ja")
 		{
 		alert("Deze stoel is gereserveerd!");
+		plaats.style.backgroundColor = "#00FFAD";
 		}
 		else
 		{
@@ -83,6 +100,7 @@ function Maak_Stoel(Klasse, RijNummer, StoelNummer, Prijs ){
 		}
 		plaats.style.backgroundColor = "#00FFAD"; 
 		plaats.gereserveerd = "ja";
+		localStorage.setItem(plaats.id, "bezet")
 		document.getElementById("divReserverenText").innerHTML += "</br> Uw plaats is: " +  plaats.id;
 		PlaatsenTicket += plaats.id;
 		}
@@ -107,3 +125,4 @@ function Reserveren(){
 	
 
 }
+
