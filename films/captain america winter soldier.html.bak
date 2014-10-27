@@ -9,10 +9,33 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" >
 	<meta name="Author" content="Behind the name">
 	<meta name="Keywords" content=" Filpje, Bioscoop ">
-	<meta name="Description" content="Winter Sleep">
+	<meta name="Description" content="Captain America: The Winter Soldier">
+	<script>
+	function Bewaarfilm(){
+	if (localStorage.getItem("FavorietCaptianAmericaTheWinterSoldier") == "true")
+	{
+		document.getElementById("SterIMG").src = "../StarLeeg.png";
+		localStorage.removeItem("FavorietCaptianAmericaTheWinterSoldier");
+	}
+	else {
+	document.getElementById("SterIMG").src = "../Star.png";
+	localStorage.setItem("FavorietCaptianAmericaTheWinterSoldier", "true");
+
+	}
+	
+	}
+
+	function BepaalFavoriet(){
+	if (localStorage.getItem("FavorietCaptianAmericaTheWinterSoldier") == "true")
+	{
+		document.getElementById("SterIMG").src = "../Star.png";
+	}
+	
+	}
+	</script>
 </head>
 
-<body class="body">
+<body class="body" onload="BepaalFavoriet()">
 
 
     <!-- Navigatie balk + logo -->
@@ -68,7 +91,10 @@ Na de catastrofale gebeurtenissen in New York met de Avengers leidt Steve Rogers
 Ondertussen wordt hij ook nog beziggehouden door professionele huurmoordenaars die continu achter hem aan worden gestuurd om hem het zwijgen op te leggen. Als duidelijk wordt wat de omvang van het doortrapte plan is, schakelen Captain America en Black Widow de hulp in van een nieuwe bondgenoot, de Falcon. Maar al snel moeten ze het opnemen tegen een onverwachte en schrikbarende vijand: de Winter Soldier.
 						<p> <span>Directors:</span> Anthony Russo, Joe Russo</p>
 						<p> <span>Stars:</span> Chris Evans, Samuel L. Jackson, Scarlett Johansson | </p>
+
 						<p class="ReserverenKnopFilms" "><a href="../Reserveren-info.html">Reserveren!</a></p>
+						<div class="Ster" ><img onclick="Bewaarfilm()" id="SterIMG"src="../StarLeeg.png"/></div>
+
 					</div>
 					
 					

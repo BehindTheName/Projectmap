@@ -7,9 +7,36 @@
 	<link rel="stylesheet" type="text/css" href="../Mainstylesheet.css">
 	<meta charset="UTF-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" >
+	<meta name="Author" content="Behind the name">
+	<meta name="Keywords" content=" Filpje, Bioscoop ">
+	<meta name="Description" content="The Expandables 3">
+	<script>
+	function Bewaarfilm(){
+	if (localStorage.getItem("FavorietTheExpandables3") == "true")
+	{
+		document.getElementById("SterIMG").src = "../StarLeeg.png";
+		localStorage.removeItem("FavorietTheExpandables3");
+	}
+	else {
+	document.getElementById("SterIMG").src = "../Star.png";
+	localStorage.setItem("FavorietTheExpandables3", "true");
+
+	}
+	
+	}
+
+	function BepaalFavoriet(){
+	if (localStorage.getItem("FavorietTheExpandables3") == "true")
+	{
+		document.getElementById("SterIMG").src = "../Star.png";
+	}
+	
+	}
+	</script>
 </head>
 
-<body class="body">
+<body class="body" onload="BepaalFavoriet()">
+
 
 
     <!-- Navigatie balk + logo -->
@@ -65,7 +92,12 @@ Stonebanks werd vervolgens een meedogenloze wapenhandelaar en iemand die Barney 
 Barney beslist dat hij oud bloed met nieuw bloed moet mengen en komt opdraven met een nieuw tijdperk van Expendables teamleden. Hij gaat op zoek naar personen die jonger en sneller zijn. De laatste missie wordt een botsing van de klassieke old-school stijl versus hightech expertise in de meeste persoonlijke strijd van The Expendables aller tijden
 						<p> <span>Director:</span>   Patrick Hughes</p>
 						<p> <span>Stars:</span> Sylvester Stallone, Jason Statham, Jet Li | </p>
+<<<<<<< HEAD
 						<p class="ReserverenKnopFilms" "><a href="../Reserveren-info.html">Reserveren!</a></p>
+						<div class="Ster" ><img onclick="Bewaarfilm()" id="SterIMG"src="../StarLeeg.png"/></div>
+=======
+						<p class="ReserverenKnopFilms" "><a href="../Reservering/Reserveren.html">Reserveren!</a></p>
+>>>>>>> origin/master
 					</div>
 					
 					

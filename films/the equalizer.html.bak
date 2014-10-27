@@ -7,9 +7,35 @@
 	<link rel="stylesheet" type="text/css" href="../Mainstylesheet.css">
 	<meta charset="UTF-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" >
+	<meta name="Author" content="Behind the name">
+	<meta name="Keywords" content=" Filpje, Bioscoop ">
+	<meta name="Description" content="The Equalizer">
+	<script>
+	function Bewaarfilm(){
+	if (localStorage.getItem("FavorietTheEqualizer") == "true")
+	{
+		document.getElementById("SterIMG").src = "../StarLeeg.png";
+		localStorage.removeItem("FavorietTheEqualizer");
+	}
+	else {
+	document.getElementById("SterIMG").src = "../Star.png";
+	localStorage.setItem("FavorietTheEqualizer", "true");
+
+	}
+	
+	}
+
+	function BepaalFavoriet(){
+	if (localStorage.getItem("FavorietTheEqualizer") == "true")
+	{
+		document.getElementById("SterIMG").src = "../Star.png";
+	}
+	
+	}
+	</script>
 </head>
 
-<body class="body">
+<body class="body" onload="BepaalFavoriet()">
 
 
     <!-- Navigatie balk + logo -->
@@ -63,8 +89,10 @@
 							Zijn leven verandert als hij een jonge prostituee, Teri (Chloë Grace Moretz), probeert te redden. Hij komt oog in oog te staan met zeer gewelddadige Russische gangsters en mensenhandelaren die hij één voor één probeert uit te schakelen.</p>
 						<p> <span>Director:</span>  Antoine Fuqua </p>
 						<p> <span>Stars:</span> Denzel Washington, Marton Csokas, Chloë Grace Moretz </p>
+
 						<p class="ReserverenKnopFilms" "><a href="../Reserveren-info.html">Reserveren!</a></p>
-						
+						<div class="Ster" ><img onclick="Bewaarfilm()" id="SterIMG"src="../StarLeeg.png"/></div>
+
 					</div>
 					
 					

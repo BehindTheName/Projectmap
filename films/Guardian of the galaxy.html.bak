@@ -7,9 +7,34 @@
 	<link rel="stylesheet" type="text/css" href="../Mainstylesheet.css">
 	<meta charset="UTF-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" >
+	<meta name="Author" content="Behind the name">
+	<meta name="Keywords" content=" Filpje, Bioscoop ">
+	<meta name="Description" content="Guardians of the Galaxy">
+		<script>
+	function Bewaarfilm(){
+	if (localStorage.getItem("FavorietGuardiansOfTheGalaxy") == "true")
+	{
+		document.getElementById("SterIMG").src = "../StarLeeg.png";
+		localStorage.removeItem("FavorietGuardiansOfTheGalaxy");
+	}
+	else {
+	document.getElementById("SterIMG").src = "../Star.png";
+	localStorage.setItem("FavorietGuardiansOfTheGalaxy", "true");
+
+	}
+	
+	}
+
+	function BepaalFavoriet(){
+	if (localStorage.getItem("FavorietGuardiansOfTheGalaxy") == "true")
+	{
+		document.getElementById("SterIMG").src = "../Star.png";
+	}
+	}
+	</script>
 </head>
 
-<body class="body">
+<body class="body" onload="BepaalFavoriet()">
 
 
     <!-- Navigatie balk + logo -->
@@ -68,7 +93,10 @@ Om de Melkweg te redden, moet hij alles op alles zetten om zijn rivalen bij elka
 .
 						<p> <span>Director:</span>   James Gunn</p>
 						<p> <span>Stars:</span>Chris Pratt, Vin Diesel, Bradley Cooper | </p>
+
 						<p class="ReserverenKnopFilms" "><a href="../Reserveren-info.html">Reserveren!</a></p>
+						<div class="Ster" ><img onclick="Bewaarfilm()" id="SterIMG"src="../StarLeeg.png"/></div>
+
 					</div>
 					
 					
