@@ -1,0 +1,109 @@
+<!doctype html>
+<html>
+
+<head>
+	<title> Film - Dansen op de vulkaan</title>
+	
+	<link rel="stylesheet" type="text/css" href="../Mainstylesheet.css">
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" >
+	<meta name="Author" content="Behind the name">
+	<meta name="Keywords" content=" Filpje, Bioscoop ">
+	<meta name="Description" content="12 Years a Slave">
+	<script>
+	function Bewaarfilm(){
+	if (localStorage.getItem("Favoriet12YearsASlave") == "true")
+	{
+		document.getElementById("SterIMG").src = "../StarLeeg.png";
+		localStorage.removeItem("Favoriet12YearsASlave");
+	}
+	else {
+	document.getElementById("SterIMG").src = "../Star.png";
+	localStorage.setItem("Favoriet12YearsASlave", "true");
+
+	}
+	
+	}
+
+	function BepaalFavoriet(){
+	if (localStorage.getItem("Favoriet12YearsASlave") == "true")
+	{
+		document.getElementById("SterIMG").src = "../Star.png";
+	}
+	
+	}
+	</script>
+</head>
+
+<body class="body" onload="BepaalFavoriet()">
+
+
+    <!-- Navigatie balk + logo -->
+		<header class="mainheader">
+		<a href="index.html"> <img src="../filmpje-logo.png" alt="logo"></a>
+		
+		<nav>
+			<ul>
+				<li > <a href="../index.html" >Home</a> </<li>
+				<li> <a href="../Algemene informatie.html" >Algemene informatie</a> </<li>
+				<li> <a href="../Agenda.html" >Agenda </a> </<li>
+				<li  class="active"> <a href="../Film-actueel.html" >Films</a> </<li>
+				<li > <a href="../Acties.html" >Acties</a> </<li>
+				<li> <a href="../Lounge.html" >Lounge</a> </<li>
+				<li> <a href="../Specificaties.html" >Specificaties</a> </<li>
+
+				<li> <a href="../Contact.html" >Contact </a> </<li>
+
+				<li>
+		</nav>
+	</header>
+	
+	<div class="maincontent" >
+		<div class="content">
+		
+				<div class="boxtop">
+					<div class="filmp">
+						<div class="filmpost">
+						<img src="../filmposters/dansen_00000.jpg" width="200px" height="300px"  alt="poster"/>
+							
+						</div>
+					</div>
+					
+					<div class="trailerbox">
+						<embed  src="http://www.youtube.com/v/_UOjZJH33Qo">
+					</div>
+					
+					<div class="infobox">
+						<h1> Dansen op de Vulkaan</h1>
+						<!-- -->
+						<div class="rating">
+								<span class="imdbRatingPlugin" data-user="ur55552000" data-title="tt2024544" data-style="p1"><a href="http://www.imdb.com/title/tt2024544/?ref_=plg_rt_1"><img src="http://g-ecx.images-amazon.com/images/G/01/imdb/plugins/rating/images/imdb_46x22.png" alt=" 12 Years a Slave
+(2013) on IMDb" />
+</a></span><script>(function(d,s,id){var js,stags=d.getElementsByTagName(s)[0];if(d.getElementById(id)){return;}js=d.createElement(s);js.id=id;js.src="http://g-ec2.images-amazon.com/images/G/01/imdb/plugins/rating/js/rating.min.js";stags.parentNode.insertBefore(js,stags);})(document,'script','imdb-rating-api');</script>
+						</div>						
+						<!-- -->
+						<p> <span> Duur: </span> 84  minuten</p>
+						<p> <span> Genre: </span> -    Drama | Nederlands  - </p>
+						<p>Het verhaal draait om Maarten (Nils Verkooijen), een jongen van 16 die supergoed kan dansen. Elk uurtje dat hij over heeft, is hij in de dansschool te vinden
+
+Maar Maarten draagt een geheim met zich mee dat maar weinig mensen kennen. Hij heeft een stofwisselingsziekte en als daar niet snel medicijnen voor worden gevonden, is de kans groot dat hij binnen een paar jaar zal overlijden. Ondanks zijn ziekte wil Maarten volop genieten van het leven en overal aan meedoen, maar hij loopt tegen steeds meer beperkingen aan.
+						<p> <span>Director:</span> Adriënne Wurpel</p>
+						<p> <span>Stars:</span>Nils Verkooijen, Marcel Musters, Gina van Os </p>
+						<p class="ReserverenKnopFilms" "><a href="../Reserveren-info.html">Reserveren!</a></p>
+						<div class="Ster" ><img onclick="Bewaarfilm()" id="SterIMG"src="../StarLeeg.png"/></div>
+					</div>
+					
+					
+					
+				</div>
+				
+				
+				
+		<div>
+	</div>
+	
+	 <!--  of hier hierin kan je code  -->
+	
+</body>
+
+</html>
