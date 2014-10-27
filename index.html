@@ -2,7 +2,20 @@
 <html>
 
 <head>
+<<<<<<< HEAD
+<script>
+function redirect(){
+	document.location.href = "films/" + document.getElementById("search").value + ".html";
+	return false;
+}
+
+</script>
+
+
 	<title> home </title>
+=======
+	<title> Home </title>
+>>>>>>> origin/master
 	
 	<link rel="stylesheet" type="text/css" href="Mainstylesheet.css">
 	<meta charset="UTF-8" />
@@ -11,7 +24,36 @@
 	<meta name="Keywords" content=" Filpje, Bioscoop ">
 	<meta name="Description" content="Home">
 	<script src="AgendaJS.js">
+
+	
+
 	</script>
+	<script>
+	var d =  new Date();
+	var N = d.getDay();
+	function GaAgenda() {
+		
+	
+		switch (N)
+		{
+		case 0 :  location.href="Agenda/Agenda-zo.html"; 0.
+		break;
+		case 1 :  location.href ="Agenda/Agenda-ma.html";
+		break;
+		case 2 :  location.href="Agenda/Agenda-di.html";
+		break;
+		case 3 :  location.href="Agenda/Agenda-wo.html";
+		break;
+		case 4 :  location.href="Agenda/Agenda-do.html";
+		break;
+		case 5 :  location.href="Agenda/Agenda-vr.html";
+		break;
+		case 6 :  location.href="Agenda/Agenda-za.html";
+		break;
+		}
+	}
+
+	</script> 
 </head>
 
 <body class="body" onload="Dagbepalen()">
@@ -23,23 +65,21 @@
 		
 		<nav>
 			<ul id = "balk_positie">
-				<li class="active"> <a href="index.html" >Home</a> </li>
+				<li class="active"> <a href="index.html" >Home</a> </<li>
 				<li> <a href="Algemene informatie.html" >Algemene informatie</a> </li>
-				<li> <a href="Agenda/Agenda-ma.html" >Agenda </a> </li>
+				<li> <a onclick="GaAgenda()" >Agenda </a> </li>
+				
 				<li> <a href="Film-actueel.html" >Films</a> </li>
 				<li> <a href="Acties.html" >Acties</a> </li>
 				<li> <a href="Lounge.html" >Lounge</a> </li>
 				<li> <a href="Specificaties.html" >Specificaties</a> </li>
 				<li> <a href="Contact.html" >Contact </a> </li>
-				<li><!--Zoekbalk-->
-					<div class = "search">
-						<form id = "searchbox"/>
-						<input type = "text" id = "search" required placeholder = "Zoek hier..."/>
-						<input type = "submit" id = "submit" value = "Zoek"/>
-						</form>
-					</div>
-				</li><!-- eind zoekbalk-->
-			</ul>
+				<li>
+					<form onsubmit = "return redirect();">
+						<input id = "search"  type = "text" placeholder = "Zoek film"/>
+						<input type = "submit" onclick = "return redirect()" value = "Zoek"/>
+					</form>
+				</li>
 		</nav>
 	</header>
 	
@@ -101,10 +141,12 @@
 			Hier kunt u online films reserveren, en meer informatie over de bioscoop vinden.
 			We wensen u veel kijk- en surfplezier!
 			</td>
-			
-			
+			<tr>
+			<td style = "border-top : 2px solid black; color: #D25A05; font-size: 17px" colspan = "3">
+			<strong>Voor een groter overzicht van de agenda, <a href = "Agenda/Agenda-ma.html" style = "color: blue">klik hier</a>.</strong>
+			</td>
 			</tr>
-		</table>
+	</table>
 	
 
 			
@@ -215,7 +257,7 @@
 					<li><a href=" Vacatures.html" >Vacatures</a></li>
 					<li><a href=" Medewerkers.html" >Medewerkers</a></li>
 					
-				</ul>
+					<li>
 				</nav>
 			</div>
 			
@@ -225,7 +267,7 @@
 					<li><a href=" Groepsreserveringen.html" >Groepsreserveringen</a></li>
 					<li><a href=" Abbonementen.html" >Abbonnementen & cadeaukaarten</a></li>
 					<li><a href=" Educatief.html" >Educatief</a></li>
-				</ul>
+					<li>
 				</nav>
 				
 			</div>

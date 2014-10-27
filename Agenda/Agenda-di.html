@@ -20,23 +20,21 @@
 		
 		<nav>
 			<ul>
-				<li id = "balk_home"> <a href="../index.html" >Home</a> </li>
-				<li> <a href="../Algemene informatie.html" >Algemene informatie</a> </li>
-				<li class="active"> <a href="Agenda.html" >Agenda </a> </li>
-				<li> <a href="../Film-actueel.html" >Films</a> </li>
-				<li> <a href="../Acties.html" >Acties</a> </li>
-				<li> <a href="../Lounge.html" >Lounge</a> </li>
-				<li> <a href="../Specificaties.html" >Specificaties</a> </li>
-				<li> <a href="../Contact.html" >Contact </a> </li>
-				<li><!--Zoekbalk-->
-					<div class = "search">
-						<form id = "searchbox"/>
-						<input type = "text" id = "search" required placeholder = "Zoek hier..."/>
-						<input type = "submit" id = "submit" value = "Zoek"/>
-						</form>
-					</div>
-				</li><!-- eind zoekbalk-->
-			</ul>
+				<li id = "balk_home"> <a href="../index.html" >Home</a> </<li>
+				<li> <a href="../Algemene informatie.html" >Algemene informatie</a> </<li>
+				<li class="active"> <a href="Agenda.html" >Agenda </a> </<li>
+				<li> <a href="../Film-actueel.html" >Films</a> </<li>
+				<li> <a href="../Acties.html" >Acties</a> </<li>
+				<li> <a href="../Lounge.html" >Lounge</a> </<li>
+				<li> <a href="../Specificaties.html" >Specificaties</a> </<li>
+				<li> <a href="../Contact.html" >Contact </a> </<li>
+
+				<li>
+					<form onsubmit = "return redirect();">
+						<input id = "search"  type = "text" placeholder = "Zoek film"/>
+						<input type = "submit" onclick = "return redirect()" value = "Zoek"/>
+					</form>
+				</<li>
 		</nav>
 	</header>
 	

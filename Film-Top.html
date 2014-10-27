@@ -10,6 +10,13 @@
 	<meta name="Author" content="Behind the name">
 	<meta name="Keywords" content=" Filpje, Bioscoop ">
 	<meta name="Description" content="Top 10">
+<script>
+	function redirect(){
+	document.location.href = "films/" + document.getElementById("search").value + ".html";
+	return false;
+	}
+
+</script>
 </head>
 
 <body class="body">
@@ -21,23 +28,20 @@
 		
 		<nav>
 			<ul id = "balk_positie">
-				<li> <a href="index.html" >Home</a> </li>
-				<li> <a href="Algemene informatie.html" >Algemene informatie</a> </li>
-				<li> <a href="Agenda/Agenda-ma.html" >Agenda </a> </li>
-				<li class="active"> <a href="Film-actueel.html" >Films</a> </li>
-				<li> <a href="Acties.html" >Acties</a> </li>
-				<li> <a href="Lounge.html" >Lounge</a> </li>
-				<li> <a href="Specificaties.html" >Specificaties</a> </li>
-				<li> <a href="Contact.html" >Contact </a> </li>
-				<li><!--Zoekbalk-->
-					<div class = "search">
-						<form id = "searchbox"/>
-						<input type = "text" id = "search" required placeholder = "Zoek hier..."/>
-						<input type = "submit" id = "submit" value = "Zoek"/>
-						</form>
-					</div>
-				</li><!-- eind zoekbalk-->
-			</ul>
+				<li> <a href="index.html" >Home</a> </<li>
+				<li> <a href="Algemene informatie.html" >Algemene informatie</a> </<li>
+				<li> <a href="Agenda/Agenda-ma.html" >Agenda </a> </<li>
+				<li class="active"> <a href="Film-actueel.html" >Films</a> </<li>
+				<li> <a href="Acties.html" >Acties</a> </<li>
+				<li> <a href="Lounge.html" >Lounge</a> </<li>
+				<li> <a href="Specificaties.html" >Specificaties</a> </<li>
+				<li> <a href="Contact.html" >Contact </a> </<li>
+				<li>
+					<form onsubmit = "return redirect();">
+						<input id = "search"  type = "text" placeholder = "Zoek film"/>
+						<input type = "submit" onclick = "return redirect()" value = "Zoek"/>
+					</form>
+				</<li>
 		</nav>
 	</header>
 	
@@ -46,9 +50,9 @@
 		
 			<div class="navbar2">
 			<ul>
-				<li ><a class="bar2l" href="Film-actueel.html" >Actueel </a> </li>
-				<li><a class="bar2l" href="Film-Top.html" >top 10 </a> </li>
-			</ul>
+				<li ><a class="bar2l" href="Film-actueel.html" >Actueel </a> </<li>
+				<li><a class="bar2l" href="Film-Top.html" >top 10 </a> </<li>
+				<li>
 		</div>
 		<div class="topbox">
 			<p class="toptext">Top 10</p>
