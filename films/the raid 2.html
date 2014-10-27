@@ -10,10 +10,33 @@
 	<meta name="Author" content="Behind the name">
 	<meta name="Keywords" content=" Filpje, Bioscoop ">
 	<meta name="Description" content="The Raid 2">
+		<script>
+	function Bewaarfilm(){
+	if (localStorage.getItem("FavorietTheRaid2") == "true")
+	{
+		document.getElementById("SterIMG").src = "../StarLeeg.png";
+		localStorage.removeItem("FavorietTheRaid2");
+	}
+	else {
+	document.getElementById("SterIMG").src = "../Star.png";
+	localStorage.setItem("FavorietTheRaid2", "true");
+
+	}
+	
+	}
+
+	function BepaalFavoriet(){
+	if (localStorage.getItem("FavorietTheRaid2") == "true")
+	{
+		document.getElementById("SterIMG").src = "../Star.png";
+	}
+	
+	}
+	</script>
 	
 </head>
 
-<body class="body">
+<body class="body" onload="BepaalFavoriet()">
 
 
     <!-- Navigatie balk + logo -->
@@ -67,7 +90,10 @@
 Rama (Iko Uwais) dacht dat hij de strijd tegen de Indonesische onderwereld had gewonnen. Niets is minder waar. De gangsters zijn uit op wraak en als hij wordt bedreigd, wordt Rama gedwongen undercover te gaan om zijn familie te beschermen. Terwijl hij zich een weg vecht door de criminele organisaties, komt hij erachter dat binnen zijn eigen korps corrupte politieagenten en politici aan de touwtjes trekken. Tijdens het daaropvolgende gevecht tegen corruptie moet Rama alles op het spel zetten om het leven van zijn vrouw, kind en hopelijk zichzelf te redden.
 						<p> <span>Director:</span> Gareth Evans</p>
 						<p> <span>Stars:</span> Iko Uwais, Yayan Ruhian, Arifin Putra |</p>
+
 						<p class="ReserverenKnopFilms" "><a href="../Reserveren-info.html">Reserveren!</a></p>
+						<div class="Ster" ><img onclick="Bewaarfilm()" id="SterIMG"src="../StarLeeg.png"/></div>
+
 					</div>
 					
 					

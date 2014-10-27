@@ -21,6 +21,7 @@
 		var Emailadres = document.getElementById("Email").value;
 		var Bericht = document.getElementById("Tekst").value;
 		
+		document.getElementById("form-wrap").innerHTML = "";
 		document.getElementById("form-wrap").innerHTML = "<p>Bedankt voor uw feedback! Uw gegevens:</br>"+
 		"Naam: " + Voornaam + " " + Achternaam + "</br>"+ 
 		"Telefoonnummer: " + Telefoonnummer +  " </br> Emailadres: " + Emailadres + "</p> <p> Uw bericht was: </br>" + Bericht + "</p>";
@@ -42,7 +43,7 @@
 			<ul id = "balk_positie">
 				<li> <a href="index.html" > Home </a> </li>
 				<li> <a href="Algemene informatie.html" >Algemene informatie</a> </li>
-				<li> <a href="Agenda.html" >Agenda </a> </li>
+				<li> <a href="Agenda/Agenda-ma.html" >Agenda </a> </li>
 				<li> <a href="Film-actueel.html" >Films </a> </li>
 				<li> <a href="Acties.html" >Acties </a> </li>
 				<li> <a href="Lounge.html" >Lounge </a> </li>
@@ -69,7 +70,7 @@
 	</div>
 	<!-- formulier-->
 	<div id="form-wrap">
-		<form onsubmit="Verzend()">
+		<form >
 			<fieldset>
 				<h4>Contact formulier</h4>
 				<label class="labelone" for="Voornaam">Voornaam: </label>
@@ -90,7 +91,7 @@
 			</fieldset>
 			
 			<fieldset>
-				<input   class="btn" type="submit" value="Verzend"/>
+				<input onclick="Verzend()"class="btn" type="button" value="Verzend"/>
 				<input class="btn" type="reset" value="Verwijder" />
 			</fieldset>
 			

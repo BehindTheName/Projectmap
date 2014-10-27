@@ -7,9 +7,35 @@
 	<link rel="stylesheet" type="text/css" href="../Mainstylesheet.css">
 	<meta charset="UTF-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" >
+	<meta name="Author" content="Behind the name">
+	<meta name="Keywords" content=" Filpje, Bioscoop ">
+	<meta name="Description" content="The Maze Runner">
+		<script>
+	function Bewaarfilm(){
+	if (localStorage.getItem("FavorietTheMazeRunner") == "true")
+	{
+		document.getElementById("SterIMG").src = "../StarLeeg.png";
+		localStorage.removeItem("FavorietTheMazeRunner");
+	}
+	else {
+	document.getElementById("SterIMG").src = "../Star.png";
+	localStorage.setItem("FavorietTheMazeRunner", "true");
+
+	}
+	
+	}
+
+	function BepaalFavoriet(){
+	if (localStorage.getItem("FavorietTheMazeRunner") == "true")
+	{
+		document.getElementById("SterIMG").src = "../Star.png";
+	}
+	
+	}
+	</script>
 </head>
 
-<body class="body">
+<body class="body" onload="BepaalFavoriet()">
 
 
     <!-- Navigatie balk + logo -->
@@ -63,8 +89,13 @@
 							Nadat zijn geheugen is gewist, komt Thomas terecht in een gemeenschap van jonge mannen. Als hij ontdekt dat ze gevangen zitten in een doolhof, sluit Thomas zich aan bij de "runners". Niet alleen om uit het labyrinth te ontsnappen, maar ook om het ijzingwekkende geheim dat schuil gaat achter hun lot te ontrafelen.
 						<p> <span>Director:</span>  Wes Ball</p>
 						<p> <span>Stars:</span>Dylan O'Brien, Kaya Scodelario, Will Poulter | </p>
+<<<<<<< HEAD
 						<p class="ReserverenKnopFilms" "><a href="../Reserveren-info.html">Reserveren!</a></p>
+						<div class="Ster" ><img onclick="Bewaarfilm()" id="SterIMG"src="../StarLeeg.png"/></div>
+=======
+						<p class="ReserverenKnopFilms" "><a href="../Reservering/Reserveren.html">Reserveren!</a></p>
 						
+>>>>>>> origin/master
 					</div>
 					
 					

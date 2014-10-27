@@ -7,9 +7,35 @@
 	<link rel="stylesheet" type="text/css" href="../Mainstylesheet.css">
 	<meta charset="UTF-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" >
+	<meta name="Author" content="Behind the name">
+	<meta name="Keywords" content=" Filpje, Bioscoop ">
+	<meta name="Description" content="12 Years a Slave">
+	<script>
+	function Bewaarfilm(){
+	if (localStorage.getItem("Favoriet12YearsASlave") == "true")
+	{
+		document.getElementById("SterIMG").src = "../StarLeeg.png";
+		localStorage.removeItem("Favoriet12YearsASlave");
+	}
+	else {
+	document.getElementById("SterIMG").src = "../Star.png";
+	localStorage.setItem("Favoriet12YearsASlave", "true");
+
+	}
+	
+	}
+
+	function BepaalFavoriet(){
+	if (localStorage.getItem("Favoriet12YearsASlave") == "true")
+	{
+		document.getElementById("SterIMG").src = "../Star.png";
+	}
+	
+	}
+	</script>
 </head>
 
-<body class="body">
+<body class="body" onload="BepaalFavoriet()">
 
 
     <!-- Navigatie balk + logo -->
@@ -63,7 +89,10 @@
 Dan wordt Solomon ontvoerd en verkocht als slaaf in het zuiden. Hij vecht om niet alleen te overleven, maar ook zijn waardigheid te behouden. Als slaaf wordt hij geconfronteerd met de verschrikkelijke wreedheid van een slaveneigenaar (Michael Fassbender) en onverwachte vriendelijkheid. Na 12 jaar ontmoet hij een Canadees (Brad Pitt) die zijn leven voorgoed verandert.
 						<p> <span>Director:</span> Steve McQueen</p>
 						<p> <span>Stars:</span>Chiwetel Ejiofor, Michael Kenneth Williams, Michael Fassbender </p>
-						
+
+						<p class="ReserverenKnopFilms" "><a href="../Reserveren-info.html">Reserveren!</a></p>
+						<div class="Ster" ><img onclick="Bewaarfilm()" id="SterIMG"src="../StarLeeg.png"/></div>
+
 					</div>
 					
 					

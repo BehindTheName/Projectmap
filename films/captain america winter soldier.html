@@ -10,9 +10,32 @@
 	<meta name="Author" content="Behind the name">
 	<meta name="Keywords" content=" Filpje, Bioscoop ">
 	<meta name="Description" content="Captain America: The Winter Soldier">
+	<script>
+	function Bewaarfilm(){
+	if (localStorage.getItem("FavorietCaptianAmericaTheWinterSoldier") == "true")
+	{
+		document.getElementById("SterIMG").src = "../StarLeeg.png";
+		localStorage.removeItem("FavorietCaptianAmericaTheWinterSoldier");
+	}
+	else {
+	document.getElementById("SterIMG").src = "../Star.png";
+	localStorage.setItem("FavorietCaptianAmericaTheWinterSoldier", "true");
+
+	}
+	
+	}
+
+	function BepaalFavoriet(){
+	if (localStorage.getItem("FavorietCaptianAmericaTheWinterSoldier") == "true")
+	{
+		document.getElementById("SterIMG").src = "../Star.png";
+	}
+	
+	}
+	</script>
 </head>
 
-<body class="body">
+<body class="body" onload="BepaalFavoriet()">
 
 
     <!-- Navigatie balk + logo -->
@@ -69,6 +92,7 @@ Ondertussen wordt hij ook nog beziggehouden door professionele huurmoordenaars d
 						<p> <span>Directors:</span> Anthony Russo, Joe Russo</p>
 						<p> <span>Stars:</span> Chris Evans, Samuel L. Jackson, Scarlett Johansson | </p>
 						<p class="ReserverenKnopFilms" "><a href="../Reserveren-info.html">Reserveren!</a></p>
+						<div class="Ster" ><img onclick="Bewaarfilm()" id="SterIMG"src="../StarLeeg.png"/></div>
 					</div>
 					
 					

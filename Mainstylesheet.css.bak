@@ -1,7 +1,7 @@
 body {
 	/*background-image: url("A the wave.jpg");*/
 	background-color:  ;
-	font-size: 87.5%;
+
 	font-family: Arial;
 	line-height: 1.5;
 	text-align: left;
@@ -56,6 +56,7 @@ background-image: url("A the wave.jpg");
 	-moz-border-radius: 0px;
 	-webkit-border-radius: 0px; 
 	font-size: 13pt;
+	position:relative;
 }
 
 .mainheader nav ul {
@@ -105,11 +106,12 @@ a {
 .mainheader nav a:link, .mainheader nav a:visited {
 	color: #fff;
 	display: inline-block;
-	padding: 10px 11%;
+	padding: 10px 10px;
 	height: 40px;
 	transition: background-color 0.2s;
 	-webkit-transition: background-color 0.3s;
 	text-align:center;
+
 }
 
 .mainheader nav a:hover, .mainheader  nav a:active, .mainheader nav .active a:link, .mainheader nav .active a:visited {
@@ -136,13 +138,15 @@ a {
 
 /*--- Home Begin ---*/
  #myPhoto{
-	width:54.3%;
+	width:55%;
+	max-width:687px;
 	height: 80%;
 	border: 3px solid #D25A05;
 	/*float:left;*/
-
-	 margin-left:auto;
+	margin-left:auto;
 	margin-right:auto;
+	
+
 }
 
 
@@ -151,13 +155,14 @@ a {
 	margin-top: 2%;
 	margin-bottom: 5%;
 	background-color:#D25A05;
-	
-
+	position: relative;
+	width:100%;
+	display:inline-block;
 }
 
 #HomeTopPage a {
 	text-decoration: none;
-	color: #D25A05
+	color: #D25A05;
 }
 /* begin agenda home */
 
@@ -169,11 +174,12 @@ background-color: #D25A05;
 float:left;
 
 
+
 }
 #Tagenda{
 	color: #D25A05;
 	float:left;
-	width:25%;
+	width:250px;
 	border: 3px solid #D25A05;
 	height: 100%;
 	text-align: center;
@@ -183,32 +189,32 @@ float:left;
 
 .td1{
 	color: #B8B894;
-	font-size: 16px;
+	font-size: 17px;
 	text-align: center;
 	border-top: 1px solid black;
 }
 
 .td2{
 	color: #FF4500;
-	font-size: 16px;
+	font-size: 17px;
 	border-top: 1px solid black;
 }
 
 .td3{
     color: #B8B894;
-	font-size: 16px;
+	font-size: 17px;
 	border-top: 1px solid black;
 }
 
 .td4{
 	color: #B8B894;
-	font-size: 16px;
+	font-size: 17px;
 	border-top: 1px solid black;
 }
 
 #tr5{
 	color: #B8B894;
-	font-size: 16px;
+	font-size: 17px;
 	border-top: 1px dotted black;
 }
 
@@ -240,9 +246,8 @@ float:left;
 	border: 3px solid #D25A05;
 	height: 100%;
 	float:right;
-	width: 15%;
+	width: 165px;
 	background-color:white;
-	
 	
 
 }
@@ -603,7 +608,23 @@ right: 13px;
 
 }
 
+.Ster {
+	width:50px;
+	height:50px;
+	float:right; 
+	bottom: 0;
+	position: relative;
+}
 
+#SterIMG {
+	width:50px;
+	height:50px;
+	float:right; 
+
+}
+.Ster:hover {
+cursor: pointer;0
+}
 /*--- aparte film Einde ---*/
 .filmp {
 	width: 200px;
