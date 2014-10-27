@@ -12,21 +12,21 @@
 	<meta name="Description" content="Pijnstillers">
 	<script>
 	function Bewaarfilm(){
-	if (localStorage.getItem("FavorietIfIStay") == "true")
+	if (localStorage.getItem("FavorietPijnstillers") == "true")
 	{
 		document.getElementById("SterIMG").src = "../StarLeeg.png";
-		localStorage.removeItem("FavorietIfIStay");
+		localStorage.removeItem("FavorietPijnstillers");
 	}
 	else {
 	document.getElementById("SterIMG").src = "../Star.png";
-	localStorage.setItem("FavorietIfIStay", "true");
+	localStorage.setItem("FavorietPijnstillers", "true");
 
 	}
 	
 	}
 
 	function BepaalFavoriet(){
-	if (localStorage.getItem("FavorietIfIStay") == "true")
+	if (localStorage.getItem("FavorietPijnstillers") == "true")
 	{
 		document.getElementById("SterIMG").src = "../Star.png";
 	}
@@ -89,8 +89,10 @@ Lees minder
 Helemaal als hij daar bevriend raakt met Anouk (Susan Radder) die weet wat Casper meemaakt als hij ontdekt dat zijn moeder ernstig ziek is. Marit heeft kanker. Bang voor wat er met haar kan gebeuren besluit Casper met zijn beste vriend Pim (Massimo Pesik) zijn vader te gaan zoeken.
 						<p> <span>Director:</span>  Tessa Schram</p>
 						<p> <span>Stars:</span>Birgit Schuurman, Gijs Blom, Raymond Thiry | </p>
+
 						<p class="ReserverenKnopFilms" "><a href="../Reserveren-info.html">Reserveren!</a></p>
 						<div class="Ster" ><img onclick="Bewaarfilm()" id="SterIMG"src="../StarLeeg.png"/></div>
+
 					</div>
 					
 					

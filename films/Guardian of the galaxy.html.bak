@@ -12,25 +12,24 @@
 	<meta name="Description" content="Guardians of the Galaxy">
 		<script>
 	function Bewaarfilm(){
-	if (localStorage.getItem("FavorietIfIStay") == "true")
+	if (localStorage.getItem("FavorietGuardiansOfTheGalaxy") == "true")
 	{
 		document.getElementById("SterIMG").src = "../StarLeeg.png";
-		localStorage.removeItem("FavorietIfIStay");
+		localStorage.removeItem("FavorietGuardiansOfTheGalaxy");
 	}
 	else {
 	document.getElementById("SterIMG").src = "../Star.png";
-	localStorage.setItem("FavorietIfIStay", "true");
+	localStorage.setItem("FavorietGuardiansOfTheGalaxy", "true");
 
 	}
 	
 	}
 
 	function BepaalFavoriet(){
-	if (localStorage.getItem("FavorietIfIStay") == "true")
+	if (localStorage.getItem("FavorietGuardiansOfTheGalaxy") == "true")
 	{
 		document.getElementById("SterIMG").src = "../Star.png";
 	}
-	
 	}
 	</script>
 </head>
@@ -94,8 +93,10 @@ Om de Melkweg te redden, moet hij alles op alles zetten om zijn rivalen bij elka
 .
 						<p> <span>Director:</span>   James Gunn</p>
 						<p> <span>Stars:</span>Chris Pratt, Vin Diesel, Bradley Cooper | </p>
+
 						<p class="ReserverenKnopFilms" "><a href="../Reserveren-info.html">Reserveren!</a></p>
 						<div class="Ster" ><img onclick="Bewaarfilm()" id="SterIMG"src="../StarLeeg.png"/></div>
+
 					</div>
 					
 					

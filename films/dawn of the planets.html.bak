@@ -10,9 +10,32 @@
 	<meta name="Author" content="Behind the name">
 	<meta name="Keywords" content=" Filpje, Bioscoop, Dawn of the Planet of the Apes ">
 	<meta name="Description" content=" Dawn of the Planet of the Apes filmpagina">
+		<script>
+	function Bewaarfilm(){
+	if (localStorage.getItem("FavorietDawnOfThePlanetOfApes") == "true")
+	{
+		document.getElementById("SterIMG").src = "../StarLeeg.png";
+		localStorage.removeItem("FavorietDawnOfThePlanetOfApes");
+	}
+	else {
+	document.getElementById("SterIMG").src = "../Star.png";
+	localStorage.setItem("FavorietDawnOfThePlanetOfApes", "true");
+
+	}
+	
+	}
+
+	function BepaalFavoriet(){
+	if (localStorage.getItem("FavorietDawnOfThePlanetOfApes") == "true")
+	{
+		document.getElementById("SterIMG").src = "../Star.png";
+	}
+	
+	}
+	</script>
 </head>
 
-<body class="body">
+<body class="body" onload="BepaalFavoriet()">
 
 
     <!-- Navigatie balk + logo -->
@@ -66,7 +89,10 @@
 Na een kort en wankel vredesbestand barst de strijd los. Wie wordt de dominante soort op aarde?
 						<p> <span>Director:</span> Matt Reeves</p>
 						<p> <span>Stars:</span>Gary Oldman, Keri Russell, Andy Serkis | </p>
+
 						<p class="ReserverenKnopFilms" "><a href="../Reserveren-info.html">Reserveren!</a></p>
+						<div class="Ster" ><img onclick="Bewaarfilm()" id="SterIMG"src="../StarLeeg.png"/></div>
+
 					</div>
 					
 					

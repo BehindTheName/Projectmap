@@ -10,10 +10,32 @@
 	<meta name="Author" content="Behind the name">
 	<meta name="Keywords" content=" Filpje, Bioscoop ">
 	<meta name="Description" content="Winter Sleep">
+		<script>
+	function Bewaarfilm(){
+	if (localStorage.getItem("FavorietWinterSleep") == "true")
+	{
+		document.getElementById("SterIMG").src = "../StarLeeg.png";
+		localStorage.removeItem("FavorietWinterSleep");
+	}
+	else {
+	document.getElementById("SterIMG").src = "../Star.png";
+	localStorage.setItem("FavorietWinterSleep", "true");
+
+	}
 	
+	}
+
+	function BepaalFavoriet(){
+	if (localStorage.getItem("FavorietWinterSleep") == "true")
+	{
+		document.getElementById("SterIMG").src = "../Star.png";
+	}
+	
+	}
+	</script>
 </head>
 
-<body class="body">
+<body class="body" onload="BepaalFavoriet()">
 
 
     <!-- Navigatie balk + logo -->
@@ -67,7 +89,12 @@
 ‘s Winters, bij het vallen van de eerste sneeuw, vormt het hotel hun schuilplek, maar evenzeer een onontkoombare plaats die hun onderlinge rancunes aanwakkert.
 						<p> <span>Director:</span> Nuri Bilge Ceylan</p>
 						<p> <span>Stars:</span>Haluk Bilginer, Melisa Sözen, Demet Akbag | </p>
+<<<<<<< HEAD
 						<p class="ReserverenKnopFilms" "><a href="../Reserveren-info.html">Reserveren!</a></p>
+						<div class="Ster" ><img onclick="Bewaarfilm()" id="SterIMG"src="../StarLeeg.png"/></div>
+=======
+						<p class="ReserverenKnopFilms" "><a href="../Reservering/Reserveren.html">Reserveren!</a></p>
+>>>>>>> origin/master
 					</div>
 					
 					

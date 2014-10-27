@@ -12,21 +12,21 @@
 	<meta name="Description" content="If I stay">
 	<script>
 	function Bewaarfilm(){
-	if (localStorage.getItem("Favoriet") == "true")
+	if (localStorage.getItem("FavorietIfIStay") == "true")
 	{
 		document.getElementById("SterIMG").src = "../StarLeeg.png";
-		localStorage.removeItem("Favoriet");
+		localStorage.removeItem("FavorietIfIStay");
 	}
 	else {
 	document.getElementById("SterIMG").src = "../Star.png";
-	localStorage.setItem("Favoriet", "true");
+	localStorage.setItem("FavorietIfIStay", "true");
 
 	}
 	
 	}
 
 	function BepaalFavoriet(){
-	if (localStorage.getItem("Favoriet") == "true")
+	if (localStorage.getItem("FavorietIfIStay") == "true")
 	{
 		document.getElementById("SterIMG").src = "../Star.png";
 	}
@@ -92,8 +92,10 @@
 							Een film van New Line Cinema en Metro-Goldwyn-Mayer Pictures, naar de gelijknamige bestseller (Als ik blijf) van Gayle Forman.
 						<p> <span>Director:</span>  R.J. Cutler </p>
 						<p> <span>Stars:</span> Chloë Grace Moretz, Mireille Enos, Jamie Blackley </p>
+
 						<p class="ReserverenKnopFilms" "><a href="../Reserveren-info.html">Reserveren!</a></p>
 						<div class="Ster" ><img onclick="Bewaarfilm()" id="SterIMG"src="../StarLeeg.png"/></div>
+
 					</div>
 					
 					

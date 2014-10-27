@@ -10,9 +10,31 @@
 	<meta name="Author" content="Behind the name">
 	<meta name="Keywords" content=" Filpje, Bioscoop ">
 	<meta name="Description" content="A most wanted man">
+		<script>
+	function Bewaarfilm(){
+	if (localStorage.getItem("FavorietAMostWantedMan") == "true")
+	{
+		document.getElementById("SterIMG").src = "../StarLeeg.png";
+		localStorage.removeItem("FavorietAMostWantedMan");
+	}
+	else {
+	document.getElementById("SterIMG").src = "../Star.png";
+	localStorage.setItem("FavorietAMostWantedMan", "true");
+
+	}
+	
+	}
+
+	function BepaalFavoriet(){
+	if (localStorage.getItem("FavorietAMostWantedMan") == "true")
+	{
+		document.getElementById("SterIMG").src = "../Star.png";
+	}
+	}
+	</script>
 </head>
 
-<body class="body">
+<body class="body" onload="BepaalFavoriet()">
 
 
     <!-- Navigatie balk + logo -->
@@ -66,8 +88,13 @@
 Wanneer de idealistische advocate Annabel Richter (Rachel McAdams) lucht krijgt van het verhaal, zet ze alles op alles om de Tsjetsjeen te beschermen. Ze krijgt echter tegenwerking uit onverwachte hoek. A Most Wanted Man is geregisseerd door de Nederlandse topfotograaf en regisseur Anton Corbijn, met een hoofdrol voor de recent overleden Philip Seymour Hoffman.
 						<p> <span>Director:</span>  Anton Corbijn</p>
 						<p> <span>Stars:</span>Philip Seymour Hoffman, Rachel McAdams, Daniel  </p>
+<<<<<<< HEAD
 						<p class="ReserverenKnopFilms" "><a href="../Reserveren-info.html">Reserveren!</a></p>
+						<div class="Ster" ><img onclick="Bewaarfilm()" id="SterIMG"src="../StarLeeg.png"/></div>
+=======
+						<p class="ReserverenKnopFilms" "><a href="../Reservering/Reserveren.html">Reserveren!</a></p>
 						
+>>>>>>> origin/master
 					</div>
 					
 					

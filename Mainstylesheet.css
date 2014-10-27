@@ -352,8 +352,13 @@ float:left;
 	-webkit-transition: background-color 0.4s;
 	}
 
+
 	
 .topbox2 a:hover{
+	background-color: #4b4c46;
+	}
+
+.topbox2 a:active{
 	background-color: #4b4c46;
 	}
 
@@ -371,7 +376,7 @@ float:left;
 .topbox3 p{
 	font-size: 30px;
 	position: relative;
-	top: -2px;
+/*	top: -2px; */
 }
 
 .abox {
@@ -463,7 +468,9 @@ float:left;
 }
 
 
-
+.active1 {
+	background-color: #4b4c46;
+}
 
 /*--- Agenda Einde ---*/
 
@@ -653,7 +660,7 @@ cursor: pointer;0
 .infobox {
 	width: 78%;
 	height: auto;
-	background-color: rgba(128,128,128,0.5)  ;
+	background-color: /*rgba(128,128,128,0.5)*/ #4b4c46 ;
 	float: left;
 	margin-left: 10%;
 	margin-top: 10px;
@@ -664,7 +671,7 @@ cursor: pointer;0
 }
 
 .infobox span { 
-	color: #751975;
+	color: #d25a05;
 }
 
 .infobox h1 { 
@@ -683,7 +690,7 @@ cursor: pointer;0
 
 
 .ReserverenKnopFilms {
-	background-color:#996699; 
+	background-color:#d25a05; 
 	padding: 1%; widht: 10px; 
 	float:left; 
 	border-radius:5px; 
@@ -1095,6 +1102,15 @@ Dit in verband met te weinig ruimte op de pagina. */
 
 /* einde Educatief */
 
+/* facebook */
+
+#Facebook{
+	margin-left: 2%;
+
+}
+
+
+/* einde facebook */
 
 
 /*---Footer Einde---*/
@@ -1125,7 +1141,7 @@ Dit in verband met te weinig ruimte op de pagina. */
 	}
 	
 	.topbox {
-		background-color: #00FFAD;
+		background-color: #d25a05;
 		width: 50%;
 		margin-left: 25%;
 		border-radius: 5px;
@@ -1258,7 +1274,8 @@ display: none;
 
 	.topbox3 p {
 		position: relative;
-		bottom: 50px;
+		/*bottom: 50px; */
+		
 	}
 
 .mainheader nav ul li div form{
