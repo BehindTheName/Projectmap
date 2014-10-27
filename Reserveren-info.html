@@ -2,6 +2,13 @@
 <html>
 
 <head>
+<script>
+function redirect(){
+	document.location.href = "films/" + document.getElementById("search").value + ".html";
+	return false;
+}
+
+</script>
 	<title> Reserveren Info</title>
 	
 	<link rel="stylesheet" type="text/css" href="Mainstylesheet.css">
@@ -20,23 +27,20 @@
 		
 		<nav>
 			<ul id = "balk_positie">
-				<li> <a href="index.html" >Home</a> </li>
-				<li> <a href="Algemene informatie.html" >Algemene informatie</a> </li>
-				<li> <a href="Agenda/Agenda-ma.html" >Agenda </a> </li>
-				<li> <a href="Film-actueel.html" >Films</a> </li>
-				<li> <a href="Acties.html" >Acties</a> </li>
-				<li> <a href="Lounge.html" >Lounge</a> </li>
-				<li> <a href="Specificaties.html" >Specificaties</a> </li>
-				<li> <a href="Contact.html" >Contact </a> </li>
-				<li><!--Zoekbalk-->
-					<div class = "search">
-						<form id = "searchbox"/>
-						<input type = "text" id = "search" required placeholder = "Zoek hier..."/>
-						<input type = "submit" id = "submit" value = "Zoek"/>
-						</form>
-					</div>
-				</li><!-- eind zoekbalk-->
-			</ul>
+				<li> <a href="index.html" >Home</a> </<li>
+				<li> <a href="Algemene informatie.html" >Algemene informatie</a> </<li>
+				<li> <a href="Agenda/Agenda-ma.html" >Agenda </a> </<li>
+				<li> <a href="Film-actueel.html" >Films</a> </<li>
+				<li> <a href="Acties.html" >Acties</a> </<li>
+				<li> <a href="Lounge.html" >Lounge</a> </<li>
+				<li> <a href="Specificaties.html" >Specificaties</a> </<li>
+				<li> <a href="Contact.html" >Contact </a> </<li>
+				<li>
+					<form onsubmit = "return redirect();">
+						<input id = "search"  type = "text" placeholder = "Zoek film"/>
+						<input type = "submit" onclick = "return redirect()" value = "Zoek"/>
+					</form>
+				</<li>
 		</nav>
 	</header>
 	
@@ -127,20 +131,20 @@
 			<div id="navigatie_1">
 				<nav>
 				<ul>
-					<li><a href=" Vacatures.html" >Vacatures</a></li>
-					<li><a href=" Medewerkers.html" >Medewerkers</a></li>
+					<li><a href=" Vacatures.html" >Vacatures</a></<li>
+					<li><a href=" Medewerkers.html" >Medewerkers</a></<li>
 					
-				</ul>
+					<li>
 				</nav>
 			</div>
 			
 			<div id="navigatie_2">
 				<nav>
 				<ul>
-					<li><a href=" Groepsreserveringen.html" >Groepsreserveringen</a></li>
-					<li><a href=" Abbonementen.html" >Abbonnementen & cadeaukaarten</a></li>
-					<li><a href=" Educatief.html" >Educatief</a></li>
-				</ul>
+					<li><a href=" Groepsreserveringen.html" >Groepsreserveringen</a></<li>
+					<li><a href=" Abbonementen.html" >Abbonnementen & cadeaukaarten</a></<li>
+					<li><a href=" Educatief.html" >Educatief</a></<li>
+					<li>
 				</nav>
 			</div>
 			
