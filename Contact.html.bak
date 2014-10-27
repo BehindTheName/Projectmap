@@ -21,6 +21,7 @@
 		var Emailadres = document.getElementById("Email").value;
 		var Bericht = document.getElementById("Tekst").value;
 		
+		document.getElementById("form-wrap").innerHTML = "";
 		document.getElementById("form-wrap").innerHTML = "<p>Bedankt voor uw feedback! Uw gegevens:</br>"+
 		"Naam: " + Voornaam + " " + Achternaam + "</br>"+ 
 		"Telefoonnummer: " + Telefoonnummer +  " </br> Emailadres: " + Emailadres + "</p> <p> Uw bericht was: </br>" + Bericht + "</p>";
@@ -39,15 +40,23 @@
 		<a href="index.html"> <img src="filmpje-logo.png" alt="logo"></a>
 		
 		<nav>
-			<ul>
+			<ul id = "balk_positie">
 				<li> <a href="index.html" > Home </a> </li>
 				<li> <a href="Algemene informatie.html" >Algemene informatie</a> </li>
-				<li> <a href="Agenda.html" >Agenda </a> </li>
+				<li> <a href="Agenda/Agenda-ma.html" >Agenda </a> </li>
 				<li> <a href="Film-actueel.html" >Films </a> </li>
 				<li> <a href="Acties.html" >Acties </a> </li>
 				<li> <a href="Lounge.html" >Lounge </a> </li>
 				<li> <a href="Specificaties.html" >Specificaties</a> </li>
 				<li class="active"> <a href="Contact.html" >Contact </a> </li>
+				<li><!--Zoekbalk-->
+					<div class = "search">
+						<form id = "searchbox"/>
+						<input type = "text" id = "search" required placeholder = "Zoek hier..."/>
+						<input type = "submit" id = "submit" value = "Zoek"/>
+						</form>
+					</div>
+				</li><!-- eind zoekbalk-->
 			</ul>
 		</nav>
 	</header>
@@ -61,7 +70,7 @@
 	</div>
 	<!-- formulier-->
 	<div id="form-wrap">
-		<form onsubmit="Verzend()">
+		<form >
 			<fieldset>
 				<h4>Contact formulier</h4>
 				<label class="labelone" for="Voornaam">Voornaam: </label>
@@ -82,7 +91,7 @@
 			</fieldset>
 			
 			<fieldset>
-				<input   class="btn" type="submit" value="Verzend"/>
+				<input onclick="Verzend()"class="btn"  value="Verzend"/>
 				<input class="btn" type="reset" value="Verwijder" />
 			</fieldset>
 			
@@ -101,7 +110,7 @@
 				<p>3014 AK te Rotterdam</p>
 				<p>010-459 9000</p>
 				<p></p>
-				<p>Deze site is gemaakt door:<a href="behind the names.html">Behind the names</a></p>
+				<p>Deze site is gemaakt door:<a href="behindthenames.html">Behind the names</a></p>
 			</div>
 			
 			<div id="navigatie_1">
