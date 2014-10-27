@@ -1,7 +1,6 @@
 body {
 	/*background-image: url("A the wave.jpg");*/
 	background-color:  ;
-	font-size: 87.5%;
 	font-family: Arial;
 	line-height: 1.5;
 	text-align: left;
@@ -13,7 +12,7 @@ body {
 	width: 70%;
 	clear: both;
 	color:white;
-	font-family: Ariël;
+	font-family: Arial;
 }
 
 .maincontent {
@@ -179,6 +178,7 @@ float:left;
 	text-align: center;
 	border-right: none;
 	background-color: white;
+	font-family:Arial;
 }	
 
 .td1{
@@ -186,36 +186,42 @@ float:left;
 	font-size: 16px;
 	text-align: center;
 	border-top: 1px solid black;
+	font-family: Arial;
 }
 
 .td2{
 	color: #FF4500;
 	font-size: 16px;
 	border-top: 1px solid black;
+	font-family:Arial;
 }
 
 .td3{
     color: #B8B894;
 	font-size: 16px;
 	border-top: 1px solid black;
+	font-family: Arial;
 }
 
 .td4{
 	color: #B8B894;
 	font-size: 16px;
 	border-top: 1px solid black;
+	font-family:Arial;
 }
 
 #tr5{
 	color: #B8B894;
 	font-size: 16px;
 	border-top: 1px dotted black;
+	font-family:Arial;
 }
 
 #tr6{
 	text-align: center;
 	color: #B8B894;
 	font-size: 28px;
+	font-family:Arial;
 
 }
 
@@ -242,23 +248,21 @@ float:left;
 	float:right;
 	width: 15%;
 	background-color:white;
-	
-	
-
 }
 
 #tr9{
     color: #B8B894;
 	text-align: center;
 	font-size: 20px;
-}
+	font-family:Arial;
+	}
 
 #tr10{
 	color: #B8B894;
 	font-size: 18px;
 	border-top: 1px solid black;
 	border-collapse: collapse;
-	
+	font-family: Arial;
 } 
 
 #td01{
@@ -267,6 +271,7 @@ float:left;
 	border-top: 1px solid black;
 	border-collapse: collapse;
 	text-align: center;
+	font-family:Arial;
 }
 
 #td02{
@@ -274,6 +279,7 @@ float:left;
 	font-size: 16px;
 	border-top: 1px solid black;
 	border-collapse: collapse;
+	font-family:Arial;
 }
 
 #td4:hover {
@@ -392,6 +398,7 @@ float:left;
 
 .abox p { 
 	text-align: center;
+	font-family:Arial;
 }
 
 .abox img {
@@ -557,6 +564,7 @@ right: 13px;
 	text-align: center;
 	border-radius:10px;
 	display: inline-block;
+	font-family:Arial;
 }
 
 .navbar2 ul li {
@@ -565,7 +573,7 @@ right: 13px;
 	font-size: 20px;
 	text-align: center;
 	color: white;
-	
+	font-family:Arial;
 }
 
 .navbar2 ul li a:link, a:visited {
@@ -595,7 +603,7 @@ right: 13px;
 	text-align: center;
 	margin: auto;
 	padding-top: -20px;
-		
+	font-family:Arial;	
 }
 
 .bar2l:hover {
@@ -767,6 +775,7 @@ right: 13px;
 .contentLounge h1 {
 	margin: 30px;
 	width: 10%;
+	font-family:Arial;
 }
 
 .contentLounge p {
@@ -850,13 +859,10 @@ right: 13px;
 
 .contentSpecificaties p{
 	margin: 30px;
-	
-
 }
 .contentSpecificaties a{
 	color: white;
 	text-decoration: none;
-
 }
 
 .SpecificatiesIMG {
@@ -948,7 +954,8 @@ Dit in verband met te weinig ruimte op de pagina. */
 
 #div_adresFooter{
 	color:#FFF;
-	font:18px solid;
+	font-family:Arial;
+	font-size: 18px;
 	float: left;
 	border: 1px solid black;
 	width: 30%;
@@ -960,9 +967,10 @@ Dit in verband met te weinig ruimte op de pagina. */
 
 #navigatie_1{
 	color:#FFF;
-	font: 18px solid;
+	font-family:Arial;
+	font-size:18px;
 	float: left;
-	border: solid black;
+	border: 1px solid black;
 	width: 25%;
 	height: 100px;
 	margin: 0 5% 5% 0;
@@ -980,8 +988,9 @@ Dit in verband met te weinig ruimte op de pagina. */
 #navigatie_2{
 	color:#FFF;
 	float: left;
-	font:18px solid;
-	border: solid black;
+	font-family:Arial;
+	font-size:18px;
+	border: 1px solid black;
 	width: 26%;
 	margin: 0% 5% 5% 0;
 	text-align: left;
@@ -1013,13 +1022,13 @@ Dit in verband met te weinig ruimte op de pagina. */
 	color:#000; 
 	text-align: center;
 	font-size: 36px;
-	font-family: Ariel;
+	font-family: Arial;
 }
 #Vacatures p{
 	color:#000; 
 	text-align: center;
 	font-size: 18px;
-	font-family: Ariel;
+	font-family: Arial;
 }
 #Vacatures{
 	margin-top: 5%;
@@ -1033,20 +1042,20 @@ Dit in verband met te weinig ruimte op de pagina. */
 	color:#000; 
 	text-align: center;
 	font-size: 36px;
-	font-family: Ariel;	
+	font-family: Arial;	
 }
 #Medewerkers h3{
 	color: #000;
 	text-align: center;
 	font-size: 30px;
-	font-family: Ariel;
+	font-family: Arial;
 }
 
 #Medewerkers p{
 	color:#000; 
 	text-align: center;
 	font-size: 18px;
-	font-family: Ariel;
+	font-family: Arial;
 }
 #Medewerkers{
 	margin-top: 5%;
@@ -1056,26 +1065,80 @@ Dit in verband met te weinig ruimte op de pagina. */
 
 /*--- Medewerkers einde ---*/
 
+/* Groepsarrangementen */
+
+#Groepsreserveringen{
+	color:#000; 
+	font-size: 28px;
+	font-family: Arial;
+	text-align: center;
+}
+#Groepsreserveringen1{
+	color:#000; 
+	text-align: center;
+	border: 1px solid #D2691E;
+	width: 40%;
+	height: 280px;
+	margin-bottom: 4%;
+	float: left;
+	
+}
+#Groepsreserveringen1 h2{
+	color:#000;
+	text-align: center;
+	font-family: Arial;
+	font-size: 28px;
+}
+
+
+#Groepsreserveringen2 h2{
+	color:#000;
+	text-align: center;
+	font-family: Arial;
+	font-size: 28px;
+}
+#Groepsreserveringen2 p{
+	color:#000; 
+	text-align: center;
+	border: 1px solid #D2691E;
+	margin-bottom: 4%;
+}
+#Groepsreserveringen2{
+	color:#000; 
+	text-align: center;
+	border: 1px solid #D2691E;
+	width: 20%;
+	height: 280px;
+	margin-bottom: 4%;
+	float: right;
+}
+
+
+
+
+
+/* Groepsarrangementen einde */
+
 /*---Educatief ---*/
 #Educatief h1{
 	text-align: center;
 	color: #000;
 	font-size: 28px;
-	font-family: Ariel;
+	font-family: Arial;
 }
 
 #Educatief p{
 	text-align: center;
 	color: #000;
 	font-size: 20px;
-	font-family: Ariel;
+	font-family: Arial;
 }
 
 #cjp{
 	text-align: center;
 	color: #000;
 	font-size: 20px;
-	font-family: Ariel;
+	font-family: Arial;
 	
 }
 
