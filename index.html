@@ -2,6 +2,7 @@
 <html>
 
 <head>
+<<<<<<< HEAD
 <script>
 function redirect(){
 	document.location.href = "films/" + document.getElementById("search").value + ".html";
@@ -12,6 +13,9 @@ function redirect(){
 
 
 	<title> home </title>
+=======
+	<title> Home </title>
+>>>>>>> origin/master
 	
 	<link rel="stylesheet" type="text/css" href="Mainstylesheet.css">
 	<meta charset="UTF-8" />
@@ -20,7 +24,36 @@ function redirect(){
 	<meta name="Keywords" content=" Filpje, Bioscoop ">
 	<meta name="Description" content="Home">
 	<script src="AgendaJS.js">
+
+	
+
 	</script>
+	<script>
+	var d =  new Date();
+	var N = d.getDay();
+	function GaAgenda() {
+		
+	
+		switch (N)
+		{
+		case 0 :  location.href="Agenda/Agenda-zo.html"; 0.
+		break;
+		case 1 :  location.href ="Agenda/Agenda-ma.html";
+		break;
+		case 2 :  location.href="Agenda/Agenda-di.html";
+		break;
+		case 3 :  location.href="Agenda/Agenda-wo.html";
+		break;
+		case 4 :  location.href="Agenda/Agenda-do.html";
+		break;
+		case 5 :  location.href="Agenda/Agenda-vr.html";
+		break;
+		case 6 :  location.href="Agenda/Agenda-za.html";
+		break;
+		}
+	}
+
+	</script> 
 </head>
 
 <body class="body" onload="Dagbepalen()">
@@ -34,7 +67,8 @@ function redirect(){
 			<ul id = "balk_positie">
 				<li class="active"> <a href="index.html" >Home</a> </<li>
 				<li> <a href="Algemene informatie.html" >Algemene informatie</a> </li>
-				<li> <a href="Agenda/Agenda-ma.html" >Agenda </a> </li>
+				<li> <a onclick="GaAgenda()" >Agenda </a> </li>
+				
 				<li> <a href="Film-actueel.html" >Films</a> </li>
 				<li> <a href="Acties.html" >Acties</a> </li>
 				<li> <a href="Lounge.html" >Lounge</a> </li>
