@@ -143,7 +143,7 @@ function Maak_Stoel(Klasse, RijNummer, StoelNummer, Prijs ){
 		var plaats = document.createElement("button");
 		
 		plaats.type = "button";
-		plaats.id = Welkezaal + "Rij_" + RijNummer + "_Stoel_" + StoelNummer;
+		plaats.id = "Rij_" + RijNummer + "_Stoel_" + StoelNummer;
 		plaats.value = Prijs;
 		var Klasse;
 		Klasse = "klasse_" + Klasse;
