@@ -35,7 +35,7 @@ background-image: url("../A the wave.jpg");
   #Zalen {
 	float:left;
 	margin:auto;
-	margin-left: 20%;
+	margin-left: 15%;
 }
 
 
@@ -46,22 +46,27 @@ background-image: url("../A the wave.jpg");
 .leeg {
 	border:solid #fff;
 	background:#fff;
+	height:40px;
+	width:40px;
 }
 
 .klasse_1 {
 	background:#c00000;
-	height:20px;
+	height:40px;
+	width:40px;
 }
 
 
 .klasse_2 {
 	background:#f79646;
-	height:20px;
+	height:40px;
+	width:40px;
 }
 
 .klasse_3 {
 	background:#4e81bd;
-	height:20px;
+	height:40px;
+	width:40px;
 }
 
 #divinfoReseververen {
@@ -75,10 +80,13 @@ background-image: url("../A the wave.jpg");
 #divReserverenText {
 	float:left;
 	color:black;
+	width: 20%;
+	font-size: 17px;
 }
 
 #divinfoReseververen button {
 	float:left; 
+
 }
 
 #ReserveringDivRechts {
@@ -95,9 +103,9 @@ background-image: url("../A the wave.jpg");
   <title>Document</title>
  </head>
  <body>
- <body  class="body">
+ <body  class="body" onload="MaakZaal()">
 
-
+	
     <!-- Navigatie balk + logo -->
 	<header class="mainheader">
 		<a href="../index.html" ><img src="../filmpje-logo.png" alt="logo" /></a>
@@ -105,28 +113,18 @@ background-image: url("../A the wave.jpg");
 	</header>
 	
 	<div class="maincontent" >
- <div id="divinfoReseververen">
-  <select id="Zalenselector" onchange="kieszaal()" onload="">
-	<option value="0">Selecteer uw zaal </option>
-	<option value="Zaal1" >Zaal 1</option>
-	<option value="Zaal2" >Zaal 2 </option>
-	<option value="Zaal3">Zaal 3 </option>
-  </select>
-  
-	<div id="divReserverenText"> Kies een zaal!</br></div>
-
-	</div>
+	<div id="divReserverenText">Zaal 1<br></div>
 	
 	<div id="Zalen"> </div>
 	<div id="ReserveringDivRechts">
     <div id="DivPrijzenPlaatsen"></br>
 	Prijzen: </br>
 	<p><div style="height:20px; width:20px; background-color: #c00000; float:left;"></div>
-	Klasse 1: €13,00 </p>
+	Klasse 1: €13.00 </p>
 	<p><div style="height:20px; width:20px; background-color: #f79646; float:left;"></div>
-	Klasse 2: €11,00</p>
+	Klasse 2: €11.00</p>
 	<p><div style="height:20px; width:20px; background-color: #4e81bd; float:left;"></div>
-	Klasse 3: €7,50</p>
+	Klasse 3: €7.50</p>
 	<div id="PrijzenReserveringDiv"></div>
 	<div id="TotaalprijsDiv"> </div>
 	<button onclick="Reserveren()"> Reserveren! </button>

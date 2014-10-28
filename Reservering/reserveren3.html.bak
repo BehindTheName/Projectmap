@@ -46,27 +46,27 @@ background-image: url("../A the wave.jpg");
 .leeg {
 	border:solid #fff;
 	background:#fff;
-	height:40px;
-	width:40px;
+	height:25px;
+	width: 25px;
 }
 
 .klasse_1 {
 	background:#c00000;
-	height:40px;
-	width:40px;
+	height:25px;
+	width: 25px;
 }
 
 
 .klasse_2 {
 	background:#f79646;
-	height:40px;
-	width:40px;
+	height:15px;
+	width: 25px;
 }
 
 .klasse_3 {
 	background:#4e81bd;
-	height:40px;
-	width:40px;
+	height:25px;
+	width: 25px;
 }
 
 #divinfoReseververen {
@@ -80,24 +80,20 @@ background-image: url("../A the wave.jpg");
 #divReserverenText {
 	float:left;
 	color:black;
-	width: 20%;
-	font-size: 17px;
 }
 
 #divinfoReseververen button {
 	float:left; 
-
 }
 
 #ReserveringDivRechts {
 	float: right;
-	font-size: 17px;
 	
 }
 /*  ----------------Systeem Einde---------- */  
   
   </style>
-  <script src="Reserveren.js"></script>
+  <script src="Reserveren3.js"></script>
   <style>
   
   </style>
@@ -106,7 +102,7 @@ background-image: url("../A the wave.jpg");
  <body>
  <body  class="body" onload="MaakZaal()">
 
-	
+
     <!-- Navigatie balk + logo -->
 	<header class="mainheader">
 		<a href="../index.html" ><img src="../filmpje-logo.png" alt="logo" /></a>
@@ -114,7 +110,7 @@ background-image: url("../A the wave.jpg");
 	</header>
 	
 	<div class="maincontent" >
-	<div id="divReserverenText">Zaal 1<br></div>
+	<div id="divReserverenText">Zaal 3<br></div>
 	
 	<div id="Zalen"> </div>
 	<div id="ReserveringDivRechts">

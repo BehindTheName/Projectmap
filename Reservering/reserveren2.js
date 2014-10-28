@@ -71,6 +71,12 @@ function Maak_Stoel(Klasse, RijNummer, StoelNummer, Prijs ){
 		var Klasse;
 		Klasse = "klasse_" + Klasse;
 		plaats.setAttribute("class", Klasse);
+			
+		if (  localStorage.getItem(plaats.id)=== "bezet")
+		{
+			plaats.gereserveerd = "ja"; 
+			plaats.style.backgroundColor = "#00FFAD";
+		}
 		plaats.addEventListener("click", function(){
 		if (plaats.gereserveerd === "ja")
 		{
@@ -96,6 +102,7 @@ function Maak_Stoel(Klasse, RijNummer, StoelNummer, Prijs ){
 		}
 		plaats.style.backgroundColor = "#00FFAD"; 
 		plaats.gereserveerd = "ja";
+		localStorage.setItem(plaats.id, "bezet")
 		document.getElementById("divReserverenText").innerHTML += "</br> Uw plaats is: " +  plaats.id;
 		PlaatsenTicket += plaats.id;
 		}

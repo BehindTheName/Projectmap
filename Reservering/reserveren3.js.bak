@@ -71,7 +71,7 @@ function Maak_Stoel(Klasse, RijNummer, StoelNummer, Prijs ){
 		Klasse = "klasse_" + Klasse;
 		plaats.setAttribute("class", Klasse);
 			
-		if (localStorage.getItem(plaats.id)=== "bezet")
+		if (  localStorage.getItem(plaats.id)=== "bezet")
 		{
 			plaats.gereserveerd = "ja"; 
 			plaats.style.backgroundColor = "#00FFAD";
