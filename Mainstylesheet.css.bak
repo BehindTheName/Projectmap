@@ -543,7 +543,6 @@ background-color: #B8B894;
 	boder: 1px solid black;
 	width: 158px;
 	height: 202.5px;
-	
 }
 
 .moviebox img {
@@ -564,8 +563,6 @@ right: 13px;
 	margin-left: 5%;
 	margin-top: 3%;
 	margin-right: auto;
-	
-	
 	box-shadow: 5px 5px 20px black;	
 	transition: transform 1s; 	
 }
@@ -603,7 +600,6 @@ right: 13px;
 
 .button {
 	margin-top: 1%;
-	
 	width: 60px;
 	height: 22px;
 	/*background-color: red; */
@@ -732,6 +728,12 @@ right: 13px;
 	margin:1%;
 	
 	
+}
+
+#SterIMG {
+ width: 50px;
+	float: right;
+
 }
 /*--- aparte film Einde ---*/
 /*--- Film Einde ---*/
@@ -1071,7 +1073,7 @@ Dit in verband met te weinig ruimte op de pagina. */
 	width: 100%;
 	height: 120px;
 	background-color: #d25a05;
-	margin-top:2%;
+	margin-top:5%;
 	border: 1px solid black;
 }
 
@@ -1126,52 +1128,49 @@ Dit in verband met te weinig ruimte op de pagina. */
 
 /*--- Medewerkers einde ---*/
 
+/* abbonementen */
+
+#Abonementen h1{
+	color: #000;
+	font-size: 28px ;
+	font-family: Arial ;
+	text-align:center;
+}
+#Abonementen h2{
+	color: #000;
+	font-size: 20px ;
+	font-family: Arial ;
+	text-align:center;
+}
+#Abonementen p{
+	color: #000;
+	font-size: 16px ;
+	font-family: Arial ;
+	text-align:center;
+}
+
+
+/* abbonementen einde */
+
 /* Groepsarrangementen */
 
-#Groepsreserveringen{
-	color:#000; 
-	font-size: 28px;
-	font-family: Arial;
-	text-align: center;
+#Groepsreserveringen h1{
+	color: #000;
+	font-size: 28px ;
+	font-family: Arial ;
+	text-align:center;
 }
-#Groepsreserveringen1{
-	color:#000; 
-	text-align: center;
-	border: 1px solid #D2691E;
-	width: 40%;
-	height: 280px;
-	margin-bottom: 4%;
-	float: left;
-	
+#Groepsreserveringen h2{
+	color: #000;
+	font-size: 20px ;
+	font-family: Arial ;
+	text-align:center;
 }
-#Groepsreserveringen1 h2{
-	color:#000;
-	text-align: center;
-	font-family: Arial;
-	font-size: 28px;
-}
-
-
-#Groepsreserveringen2 h2{
-	color:#000;
-	text-align: center;
-	font-family: Arial;
-	font-size: 28px;
-}
-#Groepsreserveringen2 p{
-	color:#000; 
-	text-align: center;
-	border: 1px solid #D2691E;
-	margin-bottom: 4%;
-}
-#Groepsreserveringen2{
-	color:#000; 
-	text-align: center;
-	border: 1px solid #D2691E;
-	width: 20%;
-	height: 280px;
-	margin-bottom: 4%;
-	float: right;
+#Groepsreserveringen p{
+	color: #000;
+	font-size: 16px ;
+	font-family: Arial ;
+	text-align:center;
 }
 
 
@@ -1179,7 +1178,6 @@ Dit in verband met te weinig ruimte op de pagina. */
 
 
 /* Groepsarrangementen einde */
-
 /*---Educatief ---*/
 #Educatief h1{
 	text-align: center;
