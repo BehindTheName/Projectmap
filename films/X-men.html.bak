@@ -10,7 +10,7 @@
 	<meta name="Author" content="Behind the name">
 	<meta name="Keywords" content=" Filpje, Bioscoop ">
 	<meta name="Description" content="X-Men: Days of Future Past">
-		<script>
+	<script>
 	function Bewaarfilm(){
 	if (localStorage.getItem("FavorietX-Men") == "true")
 	{
