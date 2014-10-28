@@ -29,6 +29,12 @@
 		
 	}
 	
+	function redirect(){
+	document.location.href = "films/" + document.getElementById("search").value + ".html";
+	return false;
+	}
+
+
 	</script>
 </head>
 
@@ -43,14 +49,18 @@
 			<ul id = "balk_positie">
 				<li> <a href="index.html" > Home </a> </<li>
 				<li> <a href="Algemene informatie.html" >Algemene informatie</a> </<li>
-				<li> <a href="Agenda/Agenda-ma.html" >Agenda </a> </<li>
+				<li> <a id="AgendaNavBalk"onclick="GaAgenda()" >Agenda </a></<li>
 				<li> <a href="Film-actueel.html" >Films </a> </<li>
 				<li> <a href="Acties.html" >Acties </a> </<li>
 				<li> <a href="Lounge.html" >Lounge </a> </<li>
 				<li> <a href="Specificaties.html" >Specificaties</a> </<li>
 				<li class="active"> <a href="Contact.html" >Contact </a> </<li>
-
 				<li>
+					<form onsubmit = "return redirect();">
+						<input id = "search"  type = "text" placeholder = "Zoek film"/>
+						<input type = "submit" onclick = "return redirect()" value = "Zoek"/>
+					</form>
+				</<li>
 		</nav>
 	</header>
 	
@@ -84,7 +94,7 @@
 			</fieldset>
 			
 			<fieldset>
-				<input onclick="Verzend()"class="btn"  value="Verzend"/>
+				<input onclick="Verzend()"class="btn" type="button" value="Verzend"/>
 				<input class="btn" type="reset" value="Verwijder" />
 			</fieldset>
 			

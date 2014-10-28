@@ -31,6 +31,35 @@
 		document.getElementById("SterIMG").src = "../Star.png";
 	}
 	}
+
+	var d =  new Date();
+	var N = d.getDay();
+	function GaAgenda() {
+		
+	
+		switch (N)
+		{
+		case 0 :  location.href="Agenda/Agenda-zo.html"; 0.
+		break;
+		case 1 :  location.href ="Agenda/Agenda-ma.html";
+		break;
+		case 2 :  location.href="Agenda/Agenda-di.html";
+		break;
+		case 3 :  location.href="Agenda/Agenda-wo.html";
+		break;
+		case 4 :  location.href="Agenda/Agenda-do.html";
+		break;
+		case 5 :  location.href="Agenda/Agenda-vr.html";
+		break;
+		case 6 :  location.href="Agenda/Agenda-za.html";
+		break;
+		}
+	}
+
+	function redirect(){
+	document.location.href = "films/" + document.getElementById("search").value + ".html";
+	return false;
+	}
 	</script>
 </head>
 
@@ -42,18 +71,23 @@
 		<a href="../index.html"> <img src="../filmpje-logo.png" alt="logo"></a>
 		
 		<nav>
-			<ul>
-				<li > <a href="../index.html" >Home</a> </<li>
-				<li> <a href="../Algemene informatie.html" >Algemene informatie</a> </<li>
-				<li> <a href="../Agenda.html" >Agenda </a> </<li>
-				<li  class="active"> <a href="../Film-actueel.html" >Films</a> </<li>
-				<li > <a href="../Acties.html" >Acties</a> </<li>
-				<li> <a href="../Lounge.html" >Lounge</a> </<li>
-				<li> <a href="../Specificaties.html" >Specificaties</a> </<li>
+			<ul id = "balk_positie">
+				<li > <a href="../index.html" >Home</a> </li>
+				<li> <a href="../Algemene informatie.html" >Algemene informatie</a> </li>
+				<li> <a id="AgendaNavBalk"onclick="GaAgenda()" >Agenda </a> </li>
+				<li  class="active"> <a href="../Film-actueel.html" >Films</a> </li>
+				<li > <a href="../Acties.html" >Acties</a> </li>
+				<li> <a href="../Lounge.html" >Lounge</a> </li>
+				<li> <a href="../Specificaties.html" >Specificaties</a> </li>
 
-				<li> <a href="../Contact.html" >Contact </a> </<li>
+				<li> <a href="../Contact.html" >Contact </a> </li>
 
 				<li>
+					<form onsubmit = "return redirect();">
+						<input id = "search"  type = "text" placeholder = "Zoek film"/>
+						<input type = "submit" onclick = "return redirect()" value = "Zoek"/>
+					</form>
+				</li>
 		</nav>
 	</header>
 	
@@ -88,13 +122,10 @@
 Wanneer de idealistische advocate Annabel Richter (Rachel McAdams) lucht krijgt van het verhaal, zet ze alles op alles om de Tsjetsjeen te beschermen. Ze krijgt echter tegenwerking uit onverwachte hoek. A Most Wanted Man is geregisseerd door de Nederlandse topfotograaf en regisseur Anton Corbijn, met een hoofdrol voor de recent overleden Philip Seymour Hoffman.
 						<p> <span>Director:</span>  Anton Corbijn</p>
 						<p> <span>Stars:</span>Philip Seymour Hoffman, Rachel McAdams, Daniel  </p>
-<<<<<<< HEAD
+
 						<p class="ReserverenKnopFilms" "><a href="../Reserveren-info.html">Reserveren!</a></p>
 						<div class="Ster" ><img onclick="Bewaarfilm()" id="SterIMG"src="../StarLeeg.png"/></div>
-=======
-						<p class="ReserverenKnopFilms" "><a href="../Reservering/Reserveren.html">Reserveren!</a></p>
-						
->>>>>>> origin/master
+
 					</div>
 					
 					

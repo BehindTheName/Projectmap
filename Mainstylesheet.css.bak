@@ -232,7 +232,7 @@ float:left;
 background-color: #B8B894;
 }
 
-#td4{
+#td4 a{
 	display: inline-block;
 	padding: 10px 10px;
 	height: 100%;

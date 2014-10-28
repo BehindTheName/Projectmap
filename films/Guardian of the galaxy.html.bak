@@ -42,18 +42,21 @@
 		<a href="../index.html"> <img src="../filmpje-logo.png" alt="logo"></a>
 		
 		<nav>
-			<ul>
-				<li > <a href="../index.html" >Home</a> </<li>
-				<li> <a href="../Algemene informatie.html" >Algemene informatie</a> </<li>
-				<li> <a href="../Agenda.html" >Agenda </a> </<li>
-				<li  class="active"> <a href="../Film-actueel.html" >Films</a> </<li>
-				<li > <a href="../Acties.html" >Acties</a> </<li>
-				<li> <a href="../Lounge.html" >Lounge</a> </<li>
-				<li> <a href="../Specificaties.html" >Specificaties</a> </<li>
-
-				<li> <a href="../Contact.html" >Contact </a> </<li>
-
+			<ul id = "balk_positie">
+				<li > <a href="../index.html" >Home</a> </li>
+				<li> <a href="../Algemene informatie.html" >Algemene informatie</a> </li>
+				<li> <a href="../Agenda.html" >Agenda </a> </li>
+				<li  class="active"> <a href="../Film-actueel.html" >Films</a> </li>
+				<li > <a href="../Acties.html" >Acties</a> </li>
+				<li> <a href="../Lounge.html" >Lounge</a> </li>
+				<li> <a href="../Specificaties.html" >Specificaties</a> </li>
+				<li> <a href="../Contact.html" >Contact </a> </li>
 				<li>
+					<form onsubmit = "return redirect();">
+						<input id = "search"  type = "text" placeholder = "Zoek film"/>
+						<input type = "submit" onclick = "return redirect()" value = "Zoek"/>
+					</form>
+				</li>
 		</nav>
 	</header>
 	
@@ -93,10 +96,8 @@ Om de Melkweg te redden, moet hij alles op alles zetten om zijn rivalen bij elka
 .
 						<p> <span>Director:</span>   James Gunn</p>
 						<p> <span>Stars:</span>Chris Pratt, Vin Diesel, Bradley Cooper | </p>
-
 						<p class="ReserverenKnopFilms" "><a href="../Reserveren-info.html">Reserveren!</a></p>
 						<div class="Ster" ><img onclick="Bewaarfilm()" id="SterIMG"src="../StarLeeg.png"/></div>
-
 					</div>
 					
 					

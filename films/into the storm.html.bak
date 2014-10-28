@@ -43,18 +43,23 @@
 		<a href="../index.html"> <img src="../filmpje-logo.png" alt="logo"></a>
 		
 		<nav>
-			<ul>
-				<li > <a href="../index.html" >Home</a> </<li>
-				<li> <a href="../Algemene informatie.html" >Algemene informatie</a> </<li>
-				<li> <a href="../Agenda.html" >Agenda </a> </<li>
-				<li  class="active"> <a href="../Film-actueel.html" >Films</a> </<li>
-				<li > <a href="../Acties.html" >Acties</a> </<li>
-				<li> <a href="../Lounge.html" >Lounge</a> </<li>
-				<li> <a href="../Specificaties.html" >Specificaties</a> </<li>
+			<ul id = "balk_positie">
+				<li > <a href="../index.html" >Home</a> </li>
+				<li> <a href="../Algemene informatie.html" >Algemene informatie</a> </li>
+				<li> <a href="../Agenda.html" >Agenda </a> </li>
+				<li  class="active"> <a href="../Film-actueel.html" >Films</a> </li>
+				<li > <a href="../Acties.html" >Acties</a> </li>
+				<li> <a href="../Lounge.html" >Lounge</a> </li>
+				<li> <a href="../Specificaties.html" >Specificaties</a> </li>
 
-				<li> <a href="../Contact.html" >Contact </a> </<li>
+				<li> <a href="../Contact.html" >Contact </a> </li>
 
 				<li>
+					<form onsubmit = "return redirect();">
+						<input id = "search"  type = "text" placeholder = "Zoek film"/>
+						<input type = "submit" onclick = "return redirect()" value = "Zoek"/>
+					</form>
+				</li>
 		</nav>
 	</header>
 	
@@ -93,10 +98,8 @@ Into the Storm laat je ervaren hoe extreem Moeder Natuur kan zijn.
 Into the Storm is een film van New Line Cinema en Village Roadshow Pictures over de rampzalige gevolgen van een tornado. De film is geregisseerd door Steven Quale (Final Destination 5) en geproduceerd door Todd Garner (Zookeeper, Knight and Day).
 						<p> <span>Director:</span>  Steven Quale</p>
 						<p> <span>Stars:</span> Richard Armitage, Sarah Wayne Callies, Matt Walsh | </p>
-
 						<p class="ReserverenKnopFilms" "><a href="../Reserveren-info.html">Reserveren!</a></p>
 						<div class="Ster" ><img onclick="Bewaarfilm()" id="SterIMG"src="../StarLeeg.png"/></div>
-
 					</div>
 					
 					

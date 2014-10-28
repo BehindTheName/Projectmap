@@ -44,18 +44,23 @@
 		<a href="../index.html"> <img src="../filmpje-logo.png" alt="logo"></a>
 		
 		<nav>
-			<ul>
-				<li > <a href="../index.html" >Home</a> </<li>
-				<li> <a href="../Algemene informatie.html" >Algemene informatie</a> </<li>
-				<li> <a href="../Agenda.html" >Agenda </a> </<li>
-				<li  class="active"> <a href="../Film-actueel.html" >Films</a> </<li>
-				<li > <a href="../Acties.html" >Acties</a> </<li>
-				<li> <a href="../Lounge.html" >Lounge</a> </<li>
-				<li> <a href="../Specificaties.html" >Specificaties</a> </<li>
+			<ul id = "balk_positie">
+				<li > <a href="../index.html" >Home</a> </li>
+				<li> <a href="../Algemene informatie.html" >Algemene informatie</a> </li>
+				<li> <a href="../Agenda.html" >Agenda </a> </li>
+				<li  class="active"> <a href="../Film-actueel.html" >Films</a> </li>
+				<li > <a href="../Acties.html" >Acties</a> </li>
+				<li> <a href="../Lounge.html" >Lounge</a> </li>
+				<li> <a href="../Specificaties.html" >Specificaties</a> </li>
 
-				<li> <a href="../Contact.html" >Contact </a> </<li>
+				<li> <a href="../Contact.html" >Contact </a> </li>
 
 				<li>
+					<form onsubmit = "return redirect();">
+						<input id = "search"  type = "text" placeholder = "Zoek film"/>
+						<input type = "submit" onclick = "return redirect()" value = "Zoek"/>
+					</form>
+				</li>
 		</nav>
 	</header>
 	
@@ -92,12 +97,8 @@ Stonebanks werd vervolgens een meedogenloze wapenhandelaar en iemand die Barney 
 Barney beslist dat hij oud bloed met nieuw bloed moet mengen en komt opdraven met een nieuw tijdperk van Expendables teamleden. Hij gaat op zoek naar personen die jonger en sneller zijn. De laatste missie wordt een botsing van de klassieke old-school stijl versus hightech expertise in de meeste persoonlijke strijd van The Expendables aller tijden
 						<p> <span>Director:</span>   Patrick Hughes</p>
 						<p> <span>Stars:</span> Sylvester Stallone, Jason Statham, Jet Li | </p>
-<<<<<<< HEAD
 						<p class="ReserverenKnopFilms" "><a href="../Reserveren-info.html">Reserveren!</a></p>
 						<div class="Ster" ><img onclick="Bewaarfilm()" id="SterIMG"src="../StarLeeg.png"/></div>
-=======
-						<p class="ReserverenKnopFilms" "><a href="../Reservering/Reserveren.html">Reserveren!</a></p>
->>>>>>> origin/master
 					</div>
 					
 					

@@ -60,19 +60,13 @@ function Maak_Stoel(Klasse, RijNummer, StoelNummer, Prijs ){
 		plaats.setAttribute("class", Klasse);
 		
 
-		//Dit gedeelte zou de localstorage op moeten halen.
-		if (localStorage.length)
-		{
 		
-		for (var a = 0; a < localStorage.length; a++ ){
-		if (plaats.id == localStorage.key[a])
+		if (  localStorage.getItem(plaats.id)=== "bezet")
 		{
 			plaats.gereserveerd = "ja"; 
 			plaats.style.backgroundColor = "#00FFAD";
 		}
-		}
-		}
-		//Einde Localstorage 
+	
 
 		plaats.addEventListener("click", function(){
 		if (plaats.gereserveerd === "ja")

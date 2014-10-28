@@ -43,18 +43,23 @@
 		<a href="index.html"> <img src="../filmpje-logo.png" alt="logo"></a>
 		
 		<nav>
-			<ul>
-				<li > <a href="../index.html" >Home</a> </<li>
-				<li> <a href="../Algemene informatie.html" >Algemene informatie</a> </<li>
-				<li> <a href="../Agenda.html" >Agenda </a> </<li>
-				<li  class="active"> <a href="../Film-actueel.html" >Films</a> </<li>
-				<li > <a href="../Acties.html" >Acties</a> </<li>
-				<li> <a href="../Lounge.html" >Lounge</a> </<li>
-				<li> <a href="../Specificaties.html" >Specificaties</a> </<li>
+			<ul id = "balk_positie">
+				<li > <a href="../index.html" >Home</a> </li>
+				<li> <a href="../Algemene informatie.html" >Algemene informatie</a> </li>
+				<li> <a href="../Agenda.html" >Agenda </a> </li>
+				<li  class="active"> <a href="../Film-actueel.html" >Films</a> </li>
+				<li > <a href="../Acties.html" >Acties</a> </li>
+				<li> <a href="../Lounge.html" >Lounge</a> </li>
+				<li> <a href="../Specificaties.html" >Specificaties</a> </li>
 
-				<li> <a href="../Contact.html" >Contact </a> </<li>
+				<li> <a href="../Contact.html" >Contact </a> </li>
 
 				<li>
+					<form onsubmit = "return redirect();">
+						<input id = "search"  type = "text" placeholder = "Zoek film"/>
+						<input type = "submit" onclick = "return redirect()" value = "Zoek"/>
+					</form>
+				</li>
 		</nav>
 	</header>
 	
@@ -91,10 +96,8 @@ Na de catastrofale gebeurtenissen in New York met de Avengers leidt Steve Rogers
 Ondertussen wordt hij ook nog beziggehouden door professionele huurmoordenaars die continu achter hem aan worden gestuurd om hem het zwijgen op te leggen. Als duidelijk wordt wat de omvang van het doortrapte plan is, schakelen Captain America en Black Widow de hulp in van een nieuwe bondgenoot, de Falcon. Maar al snel moeten ze het opnemen tegen een onverwachte en schrikbarende vijand: de Winter Soldier.
 						<p> <span>Directors:</span> Anthony Russo, Joe Russo</p>
 						<p> <span>Stars:</span> Chris Evans, Samuel L. Jackson, Scarlett Johansson | </p>
-
 						<p class="ReserverenKnopFilms" "><a href="../Reserveren-info.html">Reserveren!</a></p>
 						<div class="Ster" ><img onclick="Bewaarfilm()" id="SterIMG"src="../StarLeeg.png"/></div>
-
 					</div>
 					
 					
