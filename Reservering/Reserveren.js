@@ -111,12 +111,17 @@ function Maak_Leegte(){
 		plaats.type = "button";
 		plaats.setAttribute("class", "leeg");
 		return plaats;
-
 }
 
 function Reserveren(){
 	window.open("Ticket.html", "Ticket", "height=360, width=625");
-	
-
 }
 
+function Wissen() {
+	localStorage.clear(); 
+	Totaalprijs = 0; 
+	document.getElementById("Zalen").innerHTML = ''; 
+	MaakZaal();
+
+
+}

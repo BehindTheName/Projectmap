@@ -126,3 +126,12 @@ function Reserveren(){
 	
 
 }
+
+function Wissen() {
+	localStorage.clear(); 
+	Totaalprijs = 0; 
+	document.getElementById("Zalen").innerHTML = ''; 
+	MaakZaal();
+
+
+}

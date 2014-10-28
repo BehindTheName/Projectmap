@@ -7,7 +7,7 @@
   <meta name="Keywords" content="Filmpje Bioscoop ">
   <meta name="Description" content="Reserveren">
   <title> Reserveren</title>
-  <!--link rel="stylesheet" type="text/css" href="../Mainstylesheet.css"-->
+  
   <style>
 
   /* Logo */ 
@@ -128,7 +128,7 @@ background-image: url("../A the wave.jpg");
 	<div id="PrijzenReserveringDiv"></div>
 	<div id="TotaalprijsDiv"> </div>
 	<button onclick="Reserveren()"> Reserveren! </button>
-	<button onclick="kieszaal(); Totaalprijs = 0;"> Wissen! </button>
+	<button onclick="localStorage.clear(); Totaalprijs = 0; MaakZaal()"> Wissen! </button>
 	</div>
 	</div>
 

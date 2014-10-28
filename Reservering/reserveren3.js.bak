@@ -122,7 +122,16 @@ function Maak_Leegte(){
 }
 
 function Reserveren(){
-	window.open("Ticket.html", "Ticket", "height=360, width=625" "resizable=no");
+	window.open("Ticket.html", "Ticket", "height=360, width=625" );
 	
+
+}
+
+function Wissen() {
+	localStorage.clear(); 
+	Totaalprijs = 0; 
+	document.getElementById("Zalen").innerHTML = ''; 
+	MaakZaal()
+
 
 }

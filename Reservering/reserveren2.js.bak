@@ -123,7 +123,7 @@ function Maak_Leegte(){
 }
 
 function Reserveren(){
-	window.open("Ticket.html", "Ticket", "height=350, width=615");
+	window.open("Ticket.html", "Ticket", "height=360, width=625");
 	
 
 }
