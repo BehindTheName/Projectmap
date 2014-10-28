@@ -7,7 +7,7 @@
 	<link rel="stylesheet" type="text/css" href="../Mainstylesheet.css">
 	<meta charset="UTF-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" >
-	<script src="AgendaJS.js">
+		<script src="AgendaJS.js">
 
 	
 
@@ -56,7 +56,7 @@
 			<ul id = "balk_positie">
 				<li id = "balk_home"> <a href="../index.html" >Home</a> </<li>
 				<li> <a href="../Algemene informatie.html" >Algemene informatie</a> </<li>
-				<li class="active"> <a id="AgendaNavBalk"onclick="GaAgenda()" >Agenda </a> </<li>
+				<li class="active"> <a onclick="GaAgenda()" >Agenda </a> </<li>
 				<li> <a href="../Film-actueel.html" >Films</a> </<li>
 				<li> <a href="../Acties.html" >Acties</a> </<li>
 				<li> <a href="../Lounge.html" >Lounge</a> </<li>
@@ -75,15 +75,15 @@
 	
 	
 	<div class="topbox3">
-			<p class="toptext"> Donderdag</p>
+			<p class="toptext"> Maandag</p>
 		</div>
 	<div class="maincontent" >
 		<!--  dagen -->
 		<div class="topbox2">
-			<a href="Agenda-ma.html"> Ma</a>
+			<a href="Agenda-ma.html" class="active1"> Ma</a>
 			<a href="Agenda-di.html"> Di</a>
 			<a href="Agenda-wo.html"> Wo</a>
-			<a href="Agenda-do.html" class="active1"> Do</a>
+			<a href="Agenda-do.html"> Do</a>
 			<a href="Agenda-vr.html"> Vr</a>
 			<a href="Agenda-za.html"> Za</a>
 			<a href="Agenda-zo.html"> Zo</a>
@@ -97,26 +97,23 @@
 					<a href="../films/if i stay.html"> <img src="../filmposters/If I Stay_00000.jpg" alt="poster" height="150px" widht ="200px"/> </a>
 					
 					<div class="atijd">
-						<a href="../reservering/reserveren.html" target="_reserveer6"> 12:00 Zaal 1 </a>
-						<a href="../reservering/reserveren2.html" target="_reserveer6"> 20:00 Zaal 2 </a>
+						<a href="../reservering/reserveren.html" target="_reserveer1" > 9:00 Zaal 1</a>
+						<a href="../reservering/reserveren2.html" target="_reserveer2"> 18:00 Zaal 2 </a>
 						
 					</div>
 				</div>
 				
 				<!--  Film 2 -->
-				<!--<div class="abox"> 
+				<div class="abox"> 
 					<p> The equalizer </p>
 					<a href="../films/the equalizer.html"> <img src="../filmposters/equalizer_ver4_00000.jpg" alt="poster" height="150px" widht ="200px"/> </a>
 					
 					<div class="atijd">
-						<a href="#"> 8:00 </a>
-						<a href="#"> 10:00 </a>
-						<a href="#"> 12:00 </a>
-						<a href="#"> 14:00 </a>
-						<a href="#"> 18:00 </a>
-						<a href="#"> 22:00 </a>
+						<a href="../reservering/reserveren.html" target="_reserveer1"> 12:00 Zaal 1 </a>
+						<a href="../reservering/reserveren2.html" target="_reserveer2"> 20:00 Zaal 2 </a>
+						
 					</div>
-				</div>	-->
+				</div>	
 					
 					<!--  Film 2 -->
 				<div class="abox"> 
@@ -124,9 +121,9 @@
 					<a href="../films/the maze runner.html"> <img src="../filmposters/maze_runner_movie_poster_2_00000.jpg" alt="poster" height="150px" widht ="200px"/> </a>
 					
 					<div class="atijd">
-						<a href="../reservering/reserveren2.html" target="_reserveer6"> 12:00 Zaal 2 </a>
-						<a href="../reservering/reserveren3.html" target="_reserveer6"> 15:00 Zaal 3 </a>
-						<a href="../reservering/reserveren.html" target="_reserveer6"> 16:00 Zaal 1 </a>
+						<a href="../reservering/reserveren3.html" target="_reserveer3"> 9:00   Zaal 3 </a>
+						<a href="../reservering/reserveren.html" target="_reserveer1"> 15:00 Zaal 1 </a>
+						<a href="../reservering/reserveren2.html" target="_reserveer2"> 22:00 Zaal 2 </a>
 						
 					</div>
 				</div>
@@ -137,8 +134,8 @@
 					<a href="../films/pijnstillers.html"> <img src="../filmposters/pijstillers_00000.jpg" alt="poster" height="150px" widht ="200px"/> </a>
 					
 					<div class="atijd">
-						<a href="../reservering/reserveren2.html" target="_reserveer6"> 9:00   Zaal 2 </a>
-						<a href="../reservering/reserveren3.html" target="_reserveer6"> 22:00 Zaal 3 </a>
+						<a href="../reservering/reserveren3.html" target="_reserveer3"> 15:00 Zaal 3 </a>
+						<a href="../reservering/reserveren.html" target="_reserveer1"> 16:00 Zaal 1 </a>
 						
 					</div>
 				</div>
@@ -149,8 +146,8 @@
 					<a href="../films/letsbecops3_00000.html"> <img src="../filmposters/letsbecops3_00000.jpg" alt="poster" height="150px" widht ="200px"/> </a>
 					
 					<div class="atijd">
-						<a href="#">12:00 Zaal 3 </a>
-						<a href="../reservering/reserveren.html" target="_reserveer6">18:00 Zaal 1 </a>
+						<a href="../reservering/reserveren2.html" target="_reserveer2"> 15:00 Zaal 2 </a>
+						<a href="../reservering/reserveren.html" target="_reserveer1"> 18:00 Zaal 1 </a>
 						
 					</div>
 				</div>
@@ -162,15 +159,50 @@
 					<a href="../films/A most wanted man.html"> <img src="../filmposters/amostwantedman2_00000.jpg" alt="poster" height="150px" widht ="200px"/> </a>
 					
 					<div class="atijd">
-						<a href="../reservering/reserveren3.html" target="_reserveer6"> 18:00 Zaal 3 </a>
+						<a href="reservering/reserveren2.html"> 9:00 Zaal 2 </a>
+						<a href="../reservering/reserveren.html" target="_reserveer1"> 20:00 Zaal 1 </a>
 						
 					</div>
 				</div>
 				
 					<!--  Film 2 -->
-			<!--	<div class="abox"> 
+				<div class="abox"> 
 					<p> Novemberman </p>
 					<a href="../films/November man"> <img src="../filmposters/novemberman3_00000.jpg" alt="poster" height="150px" widht ="200px"/> </a>
+					
+					<div class="atijd">
+						<a href="../reservering/reserveren2.html" target="_reserveer2"> 16:00 Zaal 2</a>
+						<a href="../reservering/reserveren.html" target="_reserveer1"> 22:00 Zaal 1 </a>
+						
+					</div>
+				</div>
+				
+					<!--  Film 2 -->
+				<div class="abox"> 
+					<p> Deliver Us From Evil </p>
+					<a href="../films/Deliver us from evil.html"> <img src="../filmposters/deliverusfromevil1_00000.jpg" alt="poster" height="150px" widht ="200px"/> </a>
+					
+					<div class="atijd">
+						<a href="../reservering/reserveren3.html" target="_reserveer3"> 18:00 Zaal 3 </a>
+						
+					</div>
+				</div>
+				
+					<!--  Film 2 -->
+				<div class="abox"> 
+					<p> Into The Storm </p>
+					<a href="../films/into the storm.html"> <img src="../filmposters/intothestormp2_00000.jpg" alt="poster" height="150px" widht ="200px"/> </a>
+					
+					<div class="atijd">
+						<a href="../reservering/reserveren3.html" target="_reserveer3"> 16:00 Zaal 3</a>
+						
+					</div>
+				</div>
+				
+					<!--  Film 2 --> <!--
+				<div class="abox"> 
+					<p> Guardians of the galaxy </p>
+					<a href="../films/Guardian of the galaxy.html"> <img src="../filmposters/guardiansofthegalaxy1_00000.jpg" alt="poster" height="150px" widht ="200px"/> </a>
 					
 					<div class="atijd">
 						<a href="#"> 8:00 </a>
@@ -182,40 +214,6 @@
 					</div>
 				</div> -->
 				
-					<!--  Film 2 -->
-				<div class="abox"> 
-					<p> Deliver Us From Evil </p>
-					<a href="../films/Deliver us from evil.html"> <img src="../filmposters/deliverusfromevil1_00000.jpg" alt="poster" height="150px" widht ="200px"/> </a>
-					
-					<div class="atijd">
-						<a href="../reservering/reserveren2.html" target="_reserveer6"> 15:00 Zaal 2 </a>
-						<a href="../reservering/reserveren.html" target="_reserveer6"> 18:00 Zaal 1 </a>
-						
-					</div>
-				</div>
-				
-					<!--  Film 2 -->
-				<div class="abox"> 
-					<p> Into The Storm </p>
-					<a href="../films/into the storm.html"> <img src="../filmposters/intothestormp2_00000.jpg" alt="poster" height="150px" widht ="200px"/> </a>
-					
-					<div class="atijd">
-						<a href="../reservering/reserveren.html" target="_reserveer6"> 22:00 Zaal 1 </a>
-						
-					</div>
-				</div>
-				
-					<!--  Film 2 -->
-				<div class="abox"> 
-					<p> Guardians of the galaxy </p>
-					<a href="../films/Guardian of the galaxy.html"> <img src="../filmposters/guardiansofthegalaxy1_00000.jpg" alt="poster" height="150px" widht ="200px"/> </a>
-					
-					<div class="atijd">
-						<a href="../reservering/reserveren.html" target="_reserveer6"> 20:00 Zaal 1 </a>
-						
-					</div>
-				</div>
-				
 				
 					<!--  Film 2 -->
 				<div class="abox"> 
@@ -223,25 +221,28 @@
 					<a href="../films/The expandables.html"> <img src="../filmposters/expendables3defposter_00000.jpg" alt="poster" height="150px" widht ="200px"/> </a>
 					
 					<div class="atijd">
-						<a href="../reservering/reserveren2.html" target="_reserveer6"> 16:00 Zaal 2 </a>
+						<a href="../reservering/reserveren2.html" target="_reserveer2"> 18:00 Zaal 2</a>
 						
 					</div>
 				</div>
 				
 					<!--  Film 2 -->
+					<!--
 				<div class="abox"> 
 					<p> Winter Sleep </p>
 					<a href="../films/winter sleep.html"> <img src="../filmposters/wintersleep_00000.jpg" alt="poster" height="150px" widht ="200px"/> </a>
 					
 					<div class="atijd">
-						<a href="../reservering/reserveren3.html" target="_reserveer6"> 9:00   Zaal 3 </a>
-						<a href="../reservering/reserveren.html" target="_reserveer6"> 15:00 Zaal 1 </a>
-						<a href="../reservering/reserveren2.html" target="_reserveer6"> 22:00 Zaal 2 </a>
-						
+						<a href="#"> 8:00 </a>
+						<a href="#"> 10:00 </a>
+						<a href="#"> 12:00 </a>
+						<a href="#"> 14:00 </a>
+						<a href="#"> 18:00 </a>
+						<a href="#"> 22:00 </a>
 					</div>
-				</div>
+				</div> -->
 				
-				<!--<div class="abox"> 
+			<!--	<div class="abox"> 
 					<p> X-men </p>
 					<a href="../films/X-men.html"> <img src="../filmposters/xmen_00000.jpg" alt="poster" height="150px" widht ="200px"/> </a>
 					
@@ -253,16 +254,15 @@
 						<a href="#"> 18:00 </a>
 						<a href="#"> 22:00 </a>
 					</div>
-				</div>-->
+				</div> -->
 				
 				<div class="abox"> 
 					<p> 12 Years A Slave </p>
 					<a href="../films/12 years a slave.html"> <img src="../filmposters/12years_00000.jpg" alt="poster" height="150px" widht ="200px"/> </a>
 					
 					<div class="atijd">
-						<a href="../reservering/reserveren.html" target="_reserveer6"> 9:00   Zaal 1</a>
-						<a href="../reservering/reserveren2.html" target="_reserveer6"> 18:00 Zaal 2</a>
-						<a href="../reservering/reserveren3.html" target="_reserveer6"> 20:00 Zaal 3</a>
+						<a href="../reservering/reserveren3.html" target="_reserveer3"> 20:00 Zaal 3 </a>
+						
 						
 					</div>
 				</div>
@@ -272,38 +272,31 @@
 					<a href="../films/how to train a dragon.html"> <img src="../filmposters/howto_00000.jpg" alt="poster" height="150px" widht ="200px"/> </a>
 					
 					<div class="atijd">
-						<a href="../reservering/reserveren3.html" target="_reserveer6"> 16:00 Zaal 3 </a>
+						<a href="../reservering/reserveren3.html" target="_reserveer3"> 12:00 Zaal 3 </a>
 						
 					</div>
 				</div>
 				
-			<!--	<div class="abox"> 
+				<div class="abox"> 
 					<p> The Raid 2: Berandal </p>
 					<a href="../films/the raid 2"> <img src="../filmposters/raid_00000.jpg" alt="poster" height="150px" widht ="200px"/> </a>
 					
 					<div class="atijd">
-						<a href="#"> 8:00 </a>
-						<a href="#"> 10:00 </a>
-						<a href="#"> 12:00 </a>
-						<a href="#"> 14:00 </a>
-						<a href="#"> 18:00 </a>
-						<a href="#"> 22:00 </a>
+						<a href="../reservering/reserveren2.html" target="_reserveer2"> 20:00 Zaal 2 </a>
+						<a href="../reservering/reserveren3.html" target="_reserveer3"> 22:00 Zaal 3 </a>
+						
 					</div>
-				</div> -->
+				</div>
 				
-			<!--	<div class="abox"> 
+				<div class="abox"> 
 					<p> Dawn of the Planet of the Apes </p>
 					<a href="../films/dawn of the planets.html"> <img src="../filmposters/dawn_00000.jpg" alt="poster" height="150px" widht ="200px"/> </a>
 					
 					<div class="atijd">
-						<a href="#"> 8:00 </a>
-						<a href="#"> 10:00 </a>
-						<a href="#"> 12:00 </a>
-						<a href="#"> 14:00 </a>
-						<a href="#"> 18:00 </a>
-						<a href="#"> 22:00 </a>
+						<a href="../reservering/reserveren.html" target="_reserveer1"> 20:00 Zaal 1 </a>
+											
 					</div>
-				</div> -->
+				</div>
 				
 			<!--	<div class="abox"> 
 					<p> Edge of Tomorrow </p>
@@ -317,8 +310,8 @@
 						<a href="#"> 18:00 </a>
 						<a href="#"> 22:00 </a>
 					</div>
-				</div>
-				-->
+				</div> -->
+				
 				
 				
 				
