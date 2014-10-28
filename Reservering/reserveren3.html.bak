@@ -35,7 +35,7 @@ background-image: url("../A the wave.jpg");
   #Zalen {
 	float:left;
 	margin:auto;
-	margin-left: 15%;
+	margin-left: 10%;
 }
 
 
@@ -59,7 +59,7 @@ background-image: url("../A the wave.jpg");
 
 .klasse_2 {
 	background:#f79646;
-	height:15px;
+	height:25px;
 	width: 25px;
 }
 
@@ -80,6 +80,7 @@ background-image: url("../A the wave.jpg");
 #divReserverenText {
 	float:left;
 	color:black;
+	width:15%;
 }
 
 #divinfoReseververen button {
@@ -110,7 +111,11 @@ background-image: url("../A the wave.jpg");
 	</header>
 	
 	<div class="maincontent" >
-	<div id="divReserverenText">Zaal 3<br></div>
+	<div id="divReserverenText">
+	Naam:<br><input></input> </br>
+	E-mailadres: <br><input> </input> </br>
+	
+	Zaal 3<br></div>
 	
 	<div id="Zalen"> </div>
 	<div id="ReserveringDivRechts">
