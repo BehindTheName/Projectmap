@@ -36,7 +36,7 @@ background-image: url("../A the wave.jpg");
   #Zalen {
 	float:left;
 	margin:auto;
-	margin-left: 15%;
+	margin-left: 10%;
 }
 
 
@@ -76,7 +76,7 @@ background-image: url("../A the wave.jpg");
 	float:left;
 	color:black;
 	font-size: 17px;
-	width:15%;
+	width:20%;
 }
 
 #divinfoReseververen button {
@@ -128,7 +128,7 @@ background-image: url("../A the wave.jpg");
 	<div id="PrijzenReserveringDiv"></div>
 	<div id="TotaalprijsDiv"> </div>
 	<button onclick="Reserveren()"> Reserveren! </button>
-	<button onclick="localStorage.clear(); Totaalprijs = 0; MaakZaal()"> Wissen! </button>
+	<button onclick="Wissen()"> Wissen! </button>
 	</div>
 	</div>
 

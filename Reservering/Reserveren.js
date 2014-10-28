@@ -121,6 +121,12 @@ function Wissen() {
 	localStorage.clear(); 
 	Totaalprijs = 0; 
 	document.getElementById("Zalen").innerHTML = ''; 
+	document.getElementById("divReserverenText").innerHTML = "Naam:<br><input></input> </br>"+
+	"E-mailadres: <br><input> </input> </br>"+
+	"Zaal 1<br></div>;" 
+	document.getElementById("PrijzenReserveringDiv").innerHTML = ''; 
+	document.getElementById("TotaalprijsDiv").innerHTML = ''; 
+
 	MaakZaal();
 
 

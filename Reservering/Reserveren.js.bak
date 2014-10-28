@@ -117,3 +117,16 @@ function Reserveren(){
 	window.open("Ticket.html", "Ticket", "height=360, width=625");
 }
 
+function Wissen() {
+	localStorage.clear(); 
+	Totaalprijs = 0; 
+	document.getElementById("Zalen").innerHTML = ''; 
+	document.getElementById("divReserverenText").innerHTML = "Naam:<br><input></input> </br>"+
+	"E-mailadres: <br><input> </input> </br>"+
+	"Zaal 1<br></div>;" 
+	document.getElementById("Zalen").innerHTML = ''; 
+
+	MaakZaal();
+
+
+}

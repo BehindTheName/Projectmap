@@ -66,7 +66,7 @@ function Maak_Stoel(Klasse, RijNummer, StoelNummer, Prijs ){
 		var plaats = document.createElement("button");
 		
 		plaats.type = "button";
-		plaats.id = "Rij " + RijNummer + " Stoel " + StoelNummer;
+		plaats.id = "Zaal 2 Rij " + RijNummer + " Stoel " + StoelNummer;
 		plaats.value = Prijs;
 		var Klasse;
 		Klasse = "klasse_" + Klasse;
@@ -132,6 +132,11 @@ function Wissen() {
 	localStorage.clear(); 
 	Totaalprijs = 0; 
 	document.getElementById("Zalen").innerHTML = ''; 
+	document.getElementById("divReserverenText").innerHTML = "Naam:<br><input></input> </br>"+
+	"E-mailadres: <br><input> </input> </br>"+
+	"Zaal 1<br></div>;" 
+	document.getElementById("PrijzenReserveringDiv").innerHTML = ''; 
+	document.getElementById("TotaalprijsDiv").innerHTML = ''; 
 	MaakZaal();
 
 
