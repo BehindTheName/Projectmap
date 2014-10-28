@@ -1,13 +1,58 @@
-
 <!doctype html>
 <html>
 
 <head>
-	<title>algemene informatie</title>
+<script>
+function redirect(){
+	document.location.href = "films/" + document.getElementById("search").value + ".html";
+	return false;
+}
+
+</script>
+	<title>Algemene informatie</title>
 	
 	<link rel="stylesheet" type="text/css" href="Mainstylesheet.css">
 	<meta charset="UTF-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" >
+	<meta name="Author" content="Behind the name">
+	<meta name="Keywords" content=" Filpje, Bioscoop ">
+	<meta name="Description" content="Algemene Informatie">
+		<script src="AgendaJS.js">
+
+	
+
+	</script>
+	<script>
+	var d =  new Date();
+	var N = d.getDay();
+	function GaAgenda() {
+		
+	
+		switch (N)
+		{
+		case 0 :  location.href="Agenda/Agenda-zo.html"; 0.
+		break;
+		case 1 :  location.href ="Agenda/Agenda-ma.html";
+		break;
+		case 2 :  location.href="Agenda/Agenda-di.html";
+		break;
+		case 3 :  location.href="Agenda/Agenda-wo.html";
+		break;
+		case 4 :  location.href="Agenda/Agenda-do.html";
+		break;
+		case 5 :  location.href="Agenda/Agenda-vr.html";
+		break;
+		case 6 :  location.href="Agenda/Agenda-za.html";
+		break;
+		}
+	}
+
+	function redirect(){
+	document.location.href = "films/" + document.getElementById("search").value + ".html";
+	return false;
+	}
+
+	</script>
 </head>
 
 <body class="body">
@@ -18,16 +63,34 @@
 		<a href="index.html"> <img src="filmpje-logo.png" alt="logo"></a>
 		
 		<nav>
-			<ul>
-				<li > <a href="index.html" >Home</a> </<li>
+			<ul id = "balk_positie">
+<<<<<<< HEAD
+				<li> <a href="index.html" >Home</a> </li>
+				<li  class="active"> <a href="Algemene informatie.html" >Algemene informatie</a> </li>
+				<li> <a id="AgendaNavBalk"onclick="GaAgenda()" >Agenda </a></li>
+				<li> <a href="Film-actueel.html" >Films</a> </li>
+				<li> <a href="Acties.html" >Acties</a> </li>
+				<li> <a href="Lounge.html" >Lounge</a> </li>
+				<li> <a href="Specificaties.html" >Specificaties</a> </li>
+				<li> <a href="Contact.html" >Contact </a> </li>
+=======
+				<li> <a href="index.html" >Home</a> </<li>
 				<li  class="active"> <a href="Algemene informatie.html" >Algemene informatie</a> </<li>
-				<li> <a href="Agenda.html" >Agenda </a> </<li>
+				<li> <a onclick="GaAgenda()" >Agenda </a> </li>
 				<li> <a href="Film-actueel.html" >Films</a> </<li>
-				<li > <a href="Acties.html" >Acties</a> </<li>
+				<li> <a href="Acties.html" >Acties</a> </<li>
 				<li> <a href="Lounge.html" >Lounge</a> </<li>
 				<li> <a href="Specificaties.html" >Specificaties</a> </<li>
 				<li> <a href="Contact.html" >Contact </a> </<li>
+>>>>>>> origin/master
+
 				<li>
+					<form onsubmit = "return redirect();">
+						<input id = "search"  type = "text" placeholder = "Zoek film"/>
+						<input type = "submit" onclick = "return redirect()" value = "Zoek"/>
+					</form>
+				</li>
+				
 		</nav>
 	</header>
 	
@@ -44,35 +107,69 @@
 		<h1>Algemene Informatie</h1>
 		
 		<h3>Onze filosofie</h3>
-		Dus u wilt naar de film, maar u wilt meer? Meer dan de gemiddelde bioscoop. U wilt iets speciaals. Die mogelijkheid biedt Filmpje. Door de Auro 3D- gecertificeerde cinemageluidsinstallatie, IMAX 3D digital gecertificeerde visuele projectoren en super comfortabele (VIP)zitplaatsen met voldoende been- en tussenruimte zorgt het voor een unieke meeslepende ervaring. Daarnaast kunt u na de film nog fijn loungen met uw vrienden en familie. Als je bij Filmpje een filmpje pakt, heb je een hele goede tijd tegemoet. Het is een unieke ervaring, die u niet wilt missen!
 		
 		<p>
+		Dus u wilt naar de film, maar u wilt meer? Meer dan de gemiddelde bioscoop. U wilt iets speciaals. Die mogelijkheid biedt Filmpje. Door de Auro 3D- gecertificeerde cinemageluidsinstallatie, IMAX 3D digital gecertificeerde visuele projectoren en comfortabele zitplaatsen met voldoende been- en tussenruimte zorgt het voor een unieke meeslepende ervaring. Daarnaast kunt u na de film nog fijn loungen met uw vrienden en familie. Als je bij Filmpje een filmpje pakt, heb je een hele goede tijd tegemoet. Het is een unieke ervaring, die u niet wilt missen!
+		</p>
+		
+		</p>
 			
 		<h3>Achtergrond van <em>Filmpje</em></h3>
 			
 		<p>
-			
 		De Europese crisis heeft de afgelopen jaren een flinke impact gehad op de Nederlandse economie. Toch zijn er branches te vinden die door deze crisis minder diep zijn geraakt of zelfs de crisis in hun voordeel hebben weten te gebruiken. De bioscoopbranche behoort tot deze laatste groep. Met de komst van IMAX-en 3D- technologie hebben bioscopen, ondanks de crisis en piraterij, volle zalen weten te trekken. <br> En de trend zet zich voort. Jongeren en de gemiddelde student behoren tot de (kern)doelgroep van de bioscoopbranche en de interesse is wederzijds. Kortom een perfecte match! Een jonge ondernemer had het plan om een oer-Hollandse bioscoopketen op te
 		zetten, genaamd "Filmpje", waarbij naar de film gaan een filmbeleving wordt en
 		waarbij loungen het trefwoord is.
 		</p>	
-			
-		<p>In Nederland was hier nogal een gebrek aan. De eerste bioscoop was opgezet in Rotterdam. Aangezien de ondernemer zelf ook een filmliefhebber is, weet hij waarover hij praat. Zijn visie was de bioscoop te voorzien van de allernieuwste technologie&euml;n, zoals Auro 3D- gecertificeerde cinemageluidsinstallatie, IMAX 3D- digital gecertificeerde visuele projectoren en super comfortabele (VIP)zitplaatsen met voldoende been- en tussenruimte. Hij realiseerde zich dat dit niet voldoende is om consumenten aan te trekken; de concurrentie in dit marktsegment is immers groot. Gebruiksvriendelijkheid staat bovenaan de prioriteitenlijstje. Dit is terug te vinden in alles wat met de bioscoop te maken heeft. </p>
 		
-		<p>
-			
+		<p>		
+		In Nederland was hier nogal een gebrek aan. De eerste bioscoop was opgezet in Rotterdam. Aangezien de ondernemer zelf ook een filmliefhebber is, weet hij waarover hij praat. Zijn visie was de bioscoop te voorzien van de allernieuwste technologie&euml;n, zoals Auro 3D- gecertificeerde cinemageluidsinstallatie, IMAX 3D- digital gecertificeerde visuele projectoren en super comfortabele (VIP)zitplaatsen met voldoende been- en tussenruimte. Hij realiseerde zich dat dit niet voldoende is om consumenten aan te trekken; de concurrentie in dit marktsegment is immers groot. Gebruiksvriendelijkheid staat bovenaan de prioriteitenlijstje. Dit is terug te vinden in alles wat met de bioscoop te maken heeft. 
+		</p>
+		
 		<h3>Locatie</h3>
 		
+		<p>
 		West-Kruiskade 23 
-		<br>
+		</br>
 		3014 AK te Rotterdam
-		<br>
+		</p>
+		
 	</div>	
 	</div>
 
 	<div class="FooterAll"> <!-- footer-->
 		<footer>
-			<p class="PFooter">Gemaakt door: <em>Behind the name</em></p>
+			<div id="div_adresFooter">
+				<p>Adres:West-Kruiskade 23<p> 
+				<p>3014 AK te Rotterdam</p>
+				<p>010-459 9000</p>
+				<p></p>
+				<p>Deze site is gemaakt door:<a href="behindthenames.html"> Behind the names</a></p>
+			</div>
+			
+			<div id="navigatie_1">
+				<nav>
+				<ul>
+					<li><a href=" Vacatures.html" >Vacatures</a></li>
+					<li><a href=" Medewerkers.html" >Medewerkers</a></li>
+					
+					<li>
+				</nav>
+			</div>
+			
+			<div id="navigatie_2">
+				<nav>
+				<ul>
+					<li><a href=" Groepsreserveringen.html" >Groepsreserveringen</a></li>
+					<li><a href=" Abbonementen.html" >Abbonnementen & cadeaukaarten</a></li>
+					<li><a href=" Educatief.html" >Educatief</a></li>
+					<li>
+				</nav>
+			</div>
+			
+			
+			
+			
 		</footer>
 
 	</div> <!--footer-->

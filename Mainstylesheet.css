@@ -543,7 +543,6 @@ background-color: #B8B894;
 	boder: 1px solid black;
 	width: 158px;
 	height: 202.5px;
-	
 }
 
 .moviebox img {
@@ -564,8 +563,6 @@ right: 13px;
 	margin-left: 5%;
 	margin-top: 3%;
 	margin-right: auto;
-	
-	
 	box-shadow: 5px 5px 20px black;	
 	transition: transform 1s; 	
 }
@@ -603,7 +600,6 @@ right: 13px;
 
 .button {
 	margin-top: 1%;
-	
 	width: 60px;
 	height: 22px;
 	/*background-color: red; */

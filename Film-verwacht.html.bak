@@ -52,7 +52,7 @@
 	return false;
 	}
 
-	</script>
+	</script> 
 </head>
 
 <body class="body">
@@ -64,7 +64,7 @@
 		
 		<nav>
 			<ul id = "balk_positie">
-
+<<<<<<< HEAD
 				<li> <a href="index.html" >Home</a> </li>
 				<li> <a href="Algemene informatie.html" >Algemene informatie</a> </li>
 				<li> <a id="AgendaNavBalk"onclick="GaAgenda()" >Agenda </a></li>
@@ -73,7 +73,16 @@
 				<li> <a href="Lounge.html" >Lounge</a> </li>
 				<li> <a href="Specificaties.html" >Specificaties</a> </li>
 				<li> <a href="Contact.html" >Contact </a> </li>
-
+=======
+				<li> <a href="index.html" >Home</a> </<li>
+				<li> <a href="Algemene informatie.html" >Algemene informatie</a> </<li>
+				<li> <a onclick="GaAgenda()" >Agenda </a> </li>
+				<li class="active"> <a href="Film-actueel.html" >Films</a> </<li>
+				<li> <a href="Acties.html" >Acties</a> </<li>
+				<li> <a href="Lounge.html" >Lounge</a> </<li>
+				<li> <a href="Specificaties.html" >Specificaties</a> </<li>
+				<li> <a href="Contact.html" >Contact </a> </<li>
+>>>>>>> origin/master
 				<li>
 					<form onsubmit = "return redirect();">
 						<input id = "search"  type = "text" placeholder = "Zoek film"/>
@@ -102,102 +111,40 @@
 			<!-- film 1 -->
 				<div class="filmcont">
 					<div class="moviebox">
-						<a href="films/Guardian of the galaxy.html" > <img src="filmposters/guardiansofthegalaxy1_00000.jpg" width="130px" height="auto" alt="Guardians of the galaxy" /> </a>						
+						<a href="films/interstellar.html" > <img src="filmposters/interstellar_00000.jpg" width="130px" height="auto" alt="Guardians of the galaxy" /> </a>						
 					</div>
-					<p class="top_nummers">1</p>
+					
 					<p class="res"><a href="Reservering/Reserveren.html" > Reserveren </a>	</p>			
 				</div>
 				
 				<!-- film 1 -->
 				<div class="filmcont">
 					<div class="moviebox">
-						<a href="films/X-men.html" > <img src="filmposters/xmen_00000.jpg" width="130px" height="auto" alt="X-men days of future past" /> </a>						
+						<a href="films/Dansen op de vulkaan.html" > <img src="filmposters/dansen_00000.jpg" width="130px" height="auto" alt="X-men days of future past" /> </a>						
 					</div>
-					<p class="top_nummers">2</p>
+					
 					<p class="res"><a href="Reservering/Reserveren.html" > Reserveren </a>	</p>			
 				</div>
 				
 				<!-- film 1 -->
 				<div class="filmcont">
 					<div class="moviebox">
-						<a href="films/12 years a slave.html" > <img src="filmposters/12years_00000.jpg" width="130px" height="auto" alt="12 Years a slave" /> </a>						
+						<a href="films/higer.html" > <img src="filmposters/higher_00000.jpg" width="130px" height="auto" alt="12 Years a slave" /> </a>						
 					</div>
-					<p class="top_nummers">3</p>
+					
 					<p class="res"><a href="Reservering/Reserveren.html" > Reserveren </a>	</p>			
 				</div>
 				
 				<!-- film 1 -->
 				<div class="filmcont">
 					<div class="moviebox">
-						<a href="films/how to train a dragon.html" > <img src="filmposters/howto_00000.jpg" width="130px" height="auto" alt="How to Train Your dragon 2" /> </a>						
+						<a href="films/the drop.html" > <img src="filmposters/the drop_00000.jpg" width="130px" height="auto" alt="How to Train Your dragon 2" /> </a>						
 					</div>
-					<p class="top_nummers">4</p>
+					
 					<p class="res"><a href="Reservering/Reserveren.html" > Reserveren </a>	</p>			
 				</div>
 				
-				<!-- film 1 -->
-				<div class="filmcont">
-					<div class="moviebox">
-						<a href="films/the raid 2.html" > <img src="filmposters/raid_00000.jpg" width="130px" height="auto" alt="The Raid 2" /> </a>						
-					</div>
-					<p class="top_nummers">5</p>
-					<p class="res"><a href="Reservering/Reserveren.html" > Reserveren </a>	</p>			
-				</div>
 				
-				<!-- film 1 -->
-				<div class="filmcont">
-					<div class="moviebox">
-						<a href="films/the equalizer.html" > <img src="filmposters/equalizer_ver4_00000.jpg" width="130px" height="auto" alt="The Qualizer" /> </a>						
-					</div>
-					<p class="top_nummers">6</p>
-					<p class="res"><a href="Reservering/Reserveren.html" > Reserveren </a>	</p>			
-				</div>
-				
-				<!-- film 1 -->
-				<div class="filmcont">
-					<div class="moviebox">
-						<a href="films/dawn of the planets.html" > <img src="filmposters/dawn_00000.jpg" width="130px" height="auto" alt="Dawn of the planets of the apes" /> </a>						
-					</div>
-					<p class="top_nummers">7</p>
-					<p class="res"><a href="Reservering/Reserveren.html" > Reserveren </a>	</p>			
-				</div>
-				
-				<!-- film 1 -->
-				<div class="filmcont">
-					<div class="moviebox">
-						<a href="films/captain america winter soldier.html" > <img src="filmposters/winter_00000.jpg" width="130px" height="auto" alt="Captain america: The winter soldier" /> </a>						
-					</div>
-					<p class="top_nummers">8</p>
-					<p class="res"><a href="Reservering/Reserveren.html" > Reserveren </a>	</p>			
-				</div>
-				
-				<!-- film 1 -->
-				<div class="filmcont">
-					<div class="moviebox">
-						<a href="films/live die repeat.html" > <img src="filmposters/edge_00000.jpg" width="130px" height="auto" alt="Edge of Tomorrow" /> </a>						
-					</div>
-					<p class="top_nummers">9</p>
-					<p class="res"><a href="Reservering/Reserveren.html" > Reserveren </a>	</p>			
-				</div>
-				
-				<!-- film 1 -->
-				<div class="filmcont">
-					<div class="moviebox">
-						<a href="films/winter sleep.html" > <img src="filmposters/wintersleep_00000.jpg" width="130px" height="auto" alt="Wintersleep" /> </a>						
-					</div>
-					<p class="top_nummers">10</p>
-					<p class="res"><a href="Reservering/Reserveren.html" > Reserveren </a>	</p>			
-				</div>
-				
-				<!-- film 1 
-				<div class="filmcont">
-					<div class="moviebox">
-						<a href="http://www.imdb.com/title/tt1924435/?ref_=nv_sr_1" > <img src="letsbecops3_00000.jpg" width="130px" height="auto" alt="Let's be Cops" /> </a>						
-					</div>
-					<p class="res"><a href="Reservering/Reserveren.html" > Reserveren </a>	</p>			
-				</div>  -->
-
-
 
 
 				
@@ -208,7 +155,6 @@
 	</div>
 	
 	 <!--  of hier hierin kan je code  -->
-	 
 	
 </body>
 

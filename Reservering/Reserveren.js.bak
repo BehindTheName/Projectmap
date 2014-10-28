@@ -61,17 +61,17 @@ function Maak_Stoel(Klasse, RijNummer, StoelNummer, Prijs ){
 		
 
 		//Dit gedeelte zou de localstorage op moeten halen.
-		if (localStorage.length)
-		{
+		//if (localStorage.length)
+		//{
 		
-		for (var a in window.localStorage){
-		if (plaats.id == localStorage.key[a])
+		//for (var a = 0; a < localStorage.length; a++ ){
+		if (  localStorage.getItem(plaats.id)=== "bezet")
 		{
 			plaats.gereserveerd = "ja"; 
 			plaats.style.backgroundColor = "#00FFAD";
 		}
-		}
-		}
+		//}
+		//}
 		//Einde Localstorage 
 
 		plaats.addEventListener("click", function(){

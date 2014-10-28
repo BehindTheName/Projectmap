@@ -42,18 +42,23 @@
 		<a href="index.html"> <img src="../filmpje-logo.png" alt="logo"></a>
 		
 		<nav>
-			<ul>
-				<li > <a href="../index.html" >Home</a> </<li>
-				<li> <a href="../Algemene informatie.html" >Algemene informatie</a> </<li>
-				<li> <a href="../Agenda.html" >Agenda </a> </<li>
-				<li  class="active"> <a href="../Film-actueel.html" >Films</a> </<li>
-				<li > <a href="../Acties.html" >Acties</a> </<li>
-				<li> <a href="../Lounge.html" >Lounge</a> </<li>
-				<li> <a href="../Specificaties.html" >Specificaties</a> </<li>
+			<ul id = "balk_positie">
+				<li > <a href="../index.html" >Home</a> </li>
+				<li> <a href="../Algemene informatie.html" >Algemene informatie</a> </li>
+				<li> <a id="AgendaNavBalk"onclick="GaAgenda()" >Agenda </a> </li>
+				<li  class="active"> <a href="../Film-actueel.html" >Films</a> </li>
+				<li > <a href="../Acties.html" >Acties</a> </li>
+				<li> <a href="../Lounge.html" >Lounge</a> </li>
+				<li> <a href="../Specificaties.html" >Specificaties</a> </li>
 
-				<li> <a href="../Contact.html" >Contact </a> </<li>
+				<li> <a href="../Contact.html" >Contact </a> </li>
 
 				<li>
+					<form onsubmit = "return redirect();">
+						<input id = "search"  type = "text" placeholder = "Zoek film"/>
+						<input type = "submit" onclick = "return redirect()" value = "Zoek"/>
+					</form>
+				</li>
 		</nav>
 	</header>
 	
@@ -90,10 +95,8 @@ Majoor William Cage (Tom Cruise) is een officier die nog nooit een oorlogsfront 
 Oscar-genomineerde Tom Cruise (de “Mission: Impossible” films, “Collateral,” “Jerry Maguire”) en Emily Blunt (“The Devil Wears Prada,” “The Adjustment Bureau”) vertolken de hoofdrollen in de actien thriller “Edge of Tomorrow” van Warner Bros. Pictures en Village Roadshow Pictures. De regie is in handen van Doug Liman (“The Bourne Identity,” “Mr. & Mrs. Smith”).
 						<p> <span>Director:</span>  Doug Liman</p>
 						<p> <span>Stars:</span> Tom Cruise, Emily Blunt, Bill Paxton | </p>
-
 						<p class="ReserverenKnopFilms" "><a href="../Reserveren-info.html">Reserveren!</a></p>
 						<div class="Ster" ><img onclick="Bewaarfilm()" id="SterIMG"src="../StarLeeg.png"/></div>
-
 					</div>
 					
 					

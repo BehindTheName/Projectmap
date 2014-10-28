@@ -41,16 +41,16 @@
 		<a href="index.html"> <img src="../filmpje-logo.png" alt="logo"></a>
 		
 		<nav>
-			<ul>
-				<li > <a href="../index.html" >Home</a> </<li>
-				<li> <a href="../Algemene informatie.html" >Algemene informatie</a> </<li>
-				<li> <a href="../Agenda.html" >Agenda </a> </<li>
-				<li  class="active"> <a href="../Film-actueel.html" >Films</a> </<li>
-				<li > <a href="../Acties.html" >Acties</a> </<li>
-				<li> <a href="../Lounge.html" >Lounge</a> </<li>
-				<li> <a href="../Specificaties.html" >Specificaties</a> </<li>
+			<ul id = "balk_positie">
+				<li > <a href="../index.html" >Home</a> </li>
+				<li> <a href="../Algemene informatie.html" >Algemene informatie</a> </li>
+				<li> <a id="AgendaNavBalk"onclick="GaAgenda()" >Agenda </a> </li>
+				<li  class="active"> <a href="../Film-actueel.html" >Films</a> </li>
+				<li > <a href="../Acties.html" >Acties</a> </li>
+				<li> <a href="../Lounge.html" >Lounge</a> </li>
+				<li> <a href="../Specificaties.html" >Specificaties</a> </li>
 
-				<li> <a href="../Contact.html" >Contact </a> </<li>
+				<li> <a href="../Contact.html" >Contact </a> </li>
 
 				<li>
 		</nav>
@@ -89,10 +89,8 @@ Vijf jaar nadat de draken en Vikingen verenigd zijn, houden Astrid, Snotvlerk en
 Hikkie en Tandloos raken verzeild in een strijd om de vrede en moeten zich sterk maken voor hun idealen. Alleen samen zijn ze sterk genoeg om de toekomst voor mens en draak veilig te stellen.
 						<p> <span>Director:</span> Dean DeBlois</p>
 						<p> <span>Stars:</span>Jay Baruchel, Cate Blanchett, Gerard Butler |</p>
-
 						<p class="ReserverenKnopFilms" "><a href="../Reserveren-info.html">Reserveren!</a></p>
 						<div class="Ster" ><img onclick="Bewaarfilm()" id="SterIMG"src="../StarLeeg.png"/></div>
-
 					</div>
 					
 					

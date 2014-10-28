@@ -9,7 +9,50 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" >
 	<meta name="Author" content="Behind the name">
 	<meta name="Keywords" content=" Filpje, Bioscoop ">
-	<meta name="Description" content="Algemene Informatie">
+	<meta name="Description" content="Top 10">
+<script>
+	function redirect(){
+	document.location.href = "films/" + document.getElementById("search").value + ".html";
+	return false;
+	}
+
+</script>
+<script src="AgendaJS.js">
+
+	
+
+	</script>
+	<script>
+	var d =  new Date();
+	var N = d.getDay();
+	function GaAgenda() {
+		
+	
+		switch (N)
+		{
+		case 0 :  location.href="Agenda/Agenda-zo.html"; 0.
+		break;
+		case 1 :  location.href ="Agenda/Agenda-ma.html";
+		break;
+		case 2 :  location.href="Agenda/Agenda-di.html";
+		break;
+		case 3 :  location.href="Agenda/Agenda-wo.html";
+		break;
+		case 4 :  location.href="Agenda/Agenda-do.html";
+		break;
+		case 5 :  location.href="Agenda/Agenda-vr.html";
+		break;
+		case 6 :  location.href="Agenda/Agenda-za.html";
+		break;
+		}
+	}
+
+	function redirect(){
+	document.location.href = "films/" + document.getElementById("search").value + ".html";
+	return false;
+	}
+
+	</script>
 </head>
 
 <body class="body">
@@ -20,16 +63,32 @@
 		<img src="filmpje-logo.png" alt="logo">
 		
 		<nav>
-			<ul>
+			<ul id = "balk_positie">
+<<<<<<< HEAD
+				<li> <a href="index.html" >Home</a> </li>
+				<li> <a href="Algemene informatie.html" >Algemene informatie</a> </li>
+				<li> <a id="AgendaNavBalk"onclick="GaAgenda()" >Agenda </a></li>
+				<li class="active"> <a href="Film-actueel.html" >Films</a> </li>
+				<li> <a href="Acties.html" >Acties</a> </li>
+				<li> <a href="Lounge.html" >Lounge</a> </li>
+				<li> <a href="Specificaties.html" >Specificaties</a> </li>
+				<li> <a href="Contact.html" >Contact </a> </li>
+=======
 				<li> <a href="index.html" >Home</a> </<li>
 				<li> <a href="Algemene informatie.html" >Algemene informatie</a> </<li>
-				<li> <a href="Agenda.html" >Agenda </a> </<li>
+				<li> <a onclick="GaAgenda()" >Agenda </a> </li>
 				<li class="active"> <a href="Film-actueel.html" >Films</a> </<li>
 				<li> <a href="Acties.html" >Acties</a> </<li>
 				<li> <a href="Lounge.html" >Lounge</a> </<li>
 				<li> <a href="Specificaties.html" >Specificaties</a> </<li>
 				<li> <a href="Contact.html" >Contact </a> </<li>
+>>>>>>> origin/master
 				<li>
+					<form onsubmit = "return redirect();">
+						<input id = "search"  type = "text" placeholder = "Zoek film"/>
+						<input type = "submit" onclick = "return redirect()" value = "Zoek"/>
+					</form>
+				</li>
 		</nav>
 	</header>
 	
@@ -37,30 +96,25 @@
 		<div class="content"> 
 		
 			<div class="navbar2">
-			<ul>
-				<li ><a class="bar2l" href="Film-actueel.html" >Actueel </a> </<li>
-				<li><a class="bar2l" href="Film-Top.html" >top 10 </a> </<li>
-				<li>
+			<ul class="nav_bar2">
+				<li ><a class="bar2l" href="Film-actueel.html" >Actueel </a> </li>
+				<li><a class="bar2l" href="Film-Top.html" >top 10 </a> </li>
+				<li><a class="bar2l" href="Film-verwacht.html" >Verwacht </a> </li>
+			</ul>	
 		</div>
 		<div class="topbox">
 			<p class="toptext">Top 10</p>
 		</div>
 			<div class="container1">
-			<!-- film 1 -->
-				<div class="filmcont">
-					<div class="moviebox">
-						<a href="films/winter sleep.html" > <img src="filmposters/wintersleep_00000.jpg" width="130px" height="auto" alt="Wintersleep" /> </a>						
-					</div>
-					
-					<p class="res"><a href="#" > Reserveren </a>	</p>			
-				</div>
+			
 				
 			<!-- film 1 -->
 				<div class="filmcont">
 					<div class="moviebox">
 						<a href="films/Guardian of the galaxy.html" > <img src="filmposters/guardiansofthegalaxy1_00000.jpg" width="130px" height="auto" alt="Guardians of the galaxy" /> </a>						
 					</div>
-					<p class="res"><a href="#" > Reserveren </a>	</p>			
+					<p class="top_nummers">1</p>
+					<p class="res"><a href="Reservering/Reserveren.html" > Reserveren </a>	</p>			
 				</div>
 				
 				<!-- film 1 -->
@@ -68,7 +122,8 @@
 					<div class="moviebox">
 						<a href="films/X-men.html" > <img src="filmposters/xmen_00000.jpg" width="130px" height="auto" alt="X-men days of future past" /> </a>						
 					</div>
-					<p class="res"><a href="#" > Reserveren </a>	</p>			
+					<p class="top_nummers">2</p>
+					<p class="res"><a href="Reservering/Reserveren.html" > Reserveren </a>	</p>			
 				</div>
 				
 				<!-- film 1 -->
@@ -76,7 +131,8 @@
 					<div class="moviebox">
 						<a href="films/12 years a slave.html" > <img src="filmposters/12years_00000.jpg" width="130px" height="auto" alt="12 Years a slave" /> </a>						
 					</div>
-					<p class="res"><a href="#" > Reserveren </a>	</p>			
+					<p class="top_nummers">3</p>
+					<p class="res"><a href="Reservering/Reserveren.html" > Reserveren </a>	</p>			
 				</div>
 				
 				<!-- film 1 -->
@@ -84,7 +140,8 @@
 					<div class="moviebox">
 						<a href="films/how to train a dragon.html" > <img src="filmposters/howto_00000.jpg" width="130px" height="auto" alt="How to Train Your dragon 2" /> </a>						
 					</div>
-					<p class="res"><a href="#" > Reserveren </a>	</p>			
+					<p class="top_nummers">4</p>
+					<p class="res"><a href="Reservering/Reserveren.html" > Reserveren </a>	</p>			
 				</div>
 				
 				<!-- film 1 -->
@@ -92,7 +149,8 @@
 					<div class="moviebox">
 						<a href="films/the raid 2.html" > <img src="filmposters/raid_00000.jpg" width="130px" height="auto" alt="The Raid 2" /> </a>						
 					</div>
-					<p class="res"><a href="#" > Reserveren </a>	</p>			
+					<p class="top_nummers">5</p>
+					<p class="res"><a href="Reservering/Reserveren.html" > Reserveren </a>	</p>			
 				</div>
 				
 				<!-- film 1 -->
@@ -100,7 +158,8 @@
 					<div class="moviebox">
 						<a href="films/the equalizer.html" > <img src="filmposters/equalizer_ver4_00000.jpg" width="130px" height="auto" alt="The Qualizer" /> </a>						
 					</div>
-					<p class="res"><a href="#" > Reserveren </a>	</p>			
+					<p class="top_nummers">6</p>
+					<p class="res"><a href="Reservering/Reserveren.html" > Reserveren </a>	</p>			
 				</div>
 				
 				<!-- film 1 -->
@@ -108,7 +167,8 @@
 					<div class="moviebox">
 						<a href="films/dawn of the planets.html" > <img src="filmposters/dawn_00000.jpg" width="130px" height="auto" alt="Dawn of the planets of the apes" /> </a>						
 					</div>
-					<p class="res"><a href="#" > Reserveren </a>	</p>			
+					<p class="top_nummers">7</p>
+					<p class="res"><a href="Reservering/Reserveren.html" > Reserveren </a>	</p>			
 				</div>
 				
 				<!-- film 1 -->
@@ -116,7 +176,8 @@
 					<div class="moviebox">
 						<a href="films/captain america winter soldier.html" > <img src="filmposters/winter_00000.jpg" width="130px" height="auto" alt="Captain america: The winter soldier" /> </a>						
 					</div>
-					<p class="res"><a href="#" > Reserveren </a>	</p>			
+					<p class="top_nummers">8</p>
+					<p class="res"><a href="Reservering/Reserveren.html" > Reserveren </a>	</p>			
 				</div>
 				
 				<!-- film 1 -->
@@ -124,7 +185,17 @@
 					<div class="moviebox">
 						<a href="films/live die repeat.html" > <img src="filmposters/edge_00000.jpg" width="130px" height="auto" alt="Edge of Tomorrow" /> </a>						
 					</div>
-					<p class="res"><a href="#" > Reserveren </a>	</p>			
+					<p class="top_nummers">9</p>
+					<p class="res"><a href="Reservering/Reserveren.html" > Reserveren </a>	</p>			
+				</div>
+				
+				<!-- film 1 -->
+				<div class="filmcont">
+					<div class="moviebox">
+						<a href="films/winter sleep.html" > <img src="filmposters/wintersleep_00000.jpg" width="130px" height="auto" alt="Wintersleep" /> </a>						
+					</div>
+					<p class="top_nummers">10</p>
+					<p class="res"><a href="Reservering/Reserveren.html" > Reserveren </a>	</p>			
 				</div>
 				
 				<!-- film 1 
@@ -132,7 +203,7 @@
 					<div class="moviebox">
 						<a href="http://www.imdb.com/title/tt1924435/?ref_=nv_sr_1" > <img src="letsbecops3_00000.jpg" width="130px" height="auto" alt="Let's be Cops" /> </a>						
 					</div>
-					<p class="res"><a href="#" > Reserveren </a>	</p>			
+					<p class="res"><a href="Reservering/Reserveren.html" > Reserveren </a>	</p>			
 				</div>  -->
 
 
@@ -146,6 +217,7 @@
 	</div>
 	
 	 <!--  of hier hierin kan je code  -->
+	 
 	
 </body>
 

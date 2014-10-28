@@ -32,6 +32,35 @@
 	}
 	
 	}
+
+	var d =  new Date();
+	var N = d.getDay();
+	function GaAgenda() {
+		
+	
+		switch (N)
+		{
+		case 0 :  location.href="Agenda/Agenda-zo.html"; 0.
+		break;
+		case 1 :  location.href ="Agenda/Agenda-ma.html";
+		break;
+		case 2 :  location.href="Agenda/Agenda-di.html";
+		break;
+		case 3 :  location.href="Agenda/Agenda-wo.html";
+		break;
+		case 4 :  location.href="Agenda/Agenda-do.html";
+		break;
+		case 5 :  location.href="Agenda/Agenda-vr.html";
+		break;
+		case 6 :  location.href="Agenda/Agenda-za.html";
+		break;
+		}
+	}
+
+	function redirect(){
+	document.location.href = "films/" + document.getElementById("search").value + ".html";
+	return false;
+	}
 	</script>
 </head>
 
@@ -43,18 +72,21 @@
 		<a href="index.html"> <img src="../filmpje-logo.png" alt="logo"></a>
 		
 		<nav>
-			<ul>
-				<li > <a href="../index.html" >Home</a> </<li>
-				<li> <a href="../Algemene informatie.html" >Algemene informatie</a> </<li>
-				<li> <a href="../Agenda.html" >Agenda </a> </<li>
-				<li  class="active"> <a href="../Film-actueel.html" >Films</a> </<li>
-				<li > <a href="../Acties.html" >Acties</a> </<li>
-				<li> <a href="../Lounge.html" >Lounge</a> </<li>
-				<li> <a href="../Specificaties.html" >Specificaties</a> </<li>
-
-				<li> <a href="../Contact.html" >Contact </a> </<li>
-
+			<ul id = "balk_positie">
+				<li > <a href="../index.html" >Home</a> </li>
+				<li> <a href="../Algemene informatie.html" >Algemene informatie</a> </li>
+				<li> <a id="AgendaNavBalk"onclick="GaAgenda()" >Agenda </a> </li>
+				<li  class="active"> <a href="../Film-actueel.html" >Films</a> </li>
+				<li > <a href="../Acties.html" >Acties</a> </li>
+				<li> <a href="../Lounge.html" >Lounge</a> </li>
+				<li> <a href="../Specificaties.html" >Specificaties</a> </li>
+				<li> <a href="../Contact.html" >Contact </a> </li>
 				<li>
+					<form onsubmit = "return redirect();">
+						<input id = "search"  type = "text" placeholder = "Zoek film"/>
+						<input type = "submit" onclick = "return redirect()" value = "Zoek"/>
+					</form>
+				</li>
 		</nav>
 	</header>
 	
@@ -84,15 +116,13 @@
 						<!-- -->
 						<p> <span> Duur: </span> 134  minuten</p>
 						<p> <span> Genre: </span> -  Biography | Drama | History  - </p>
-						<p>2 Years a Slave is gebaseerd op het ongelofelijke verhaal van Solomon Northup (Chiwetel Ejiofor). Hij leefde in de 19e eeuw, voorafgaand aan de Amerikaanse burgeroorlog, als vrije zwarte man met zijn gezin in New York
+						<p>12 Years a Slave is gebaseerd op het ongelofelijke verhaal van Solomon Northup (Chiwetel Ejiofor). Hij leefde in de 19e eeuw, voorafgaand aan de Amerikaanse burgeroorlog, als vrije zwarte man met zijn gezin in New York
 
 Dan wordt Solomon ontvoerd en verkocht als slaaf in het zuiden. Hij vecht om niet alleen te overleven, maar ook zijn waardigheid te behouden. Als slaaf wordt hij geconfronteerd met de verschrikkelijke wreedheid van een slaveneigenaar (Michael Fassbender) en onverwachte vriendelijkheid. Na 12 jaar ontmoet hij een Canadees (Brad Pitt) die zijn leven voorgoed verandert.
 						<p> <span>Director:</span> Steve McQueen</p>
 						<p> <span>Stars:</span>Chiwetel Ejiofor, Michael Kenneth Williams, Michael Fassbender </p>
-
 						<p class="ReserverenKnopFilms" "><a href="../Reserveren-info.html">Reserveren!</a></p>
 						<div class="Ster" ><img onclick="Bewaarfilm()" id="SterIMG"src="../StarLeeg.png"/></div>
-
 					</div>
 					
 					
