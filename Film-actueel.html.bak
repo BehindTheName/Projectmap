@@ -18,6 +18,43 @@ function redirect(){
 	<meta name="Author" content="Behind the name">
 	<meta name="Keywords" content=" Filpje, Bioscoop ">
 	<meta name="Description" content="Filmpagina">
+	<script src="AgendaJS.js">
+
+	
+
+	</script>
+	<script>
+	var d =  new Date();
+	var N = d.getDay();
+	function GaAgenda() {
+		
+	
+		switch (N)
+		{
+		case 0 :  location.href="Agenda/Agenda-zo.html"; 0.
+		break;
+		case 1 :  location.href ="Agenda/Agenda-ma.html";
+		break;
+		case 2 :  location.href="Agenda/Agenda-di.html";
+		break;
+		case 3 :  location.href="Agenda/Agenda-wo.html";
+		break;
+		case 4 :  location.href="Agenda/Agenda-do.html";
+		break;
+		case 5 :  location.href="Agenda/Agenda-vr.html";
+		break;
+		case 6 :  location.href="Agenda/Agenda-za.html";
+		break;
+		}
+	}
+
+	function redirect(){
+	document.location.href = "films/" + document.getElementById("search").value + ".html";
+	return false;
+	}
+
+	</script>
+	
 </head>
 
 <body class="body">
@@ -29,20 +66,31 @@ function redirect(){
 		
 		<nav>
 			<ul id = "balk_positie">
+<<<<<<< HEAD
+				<li> <a href="index.html" >Home</a> </li>
+				<li> <a href="Algemene informatie.html" >Algemene informatie</a> </li>
+				<li> <a id="AgendaNavBalk"onclick="GaAgenda()" >Agenda </a></li>
+				<li class="active"> <a href="Film-actueel.html" >Films</a> </li>
+				<li> <a href="Acties.html" >Acties</a> </li>
+				<li> <a href="Lounge.html" >Lounge</a> </li>
+				<li> <a href="Specificaties.html" >Specificaties</a> </li>
+				<li> <a href="Contact.html" >Contact </a> </li>
+=======
 				<li> <a href="index.html" >Home</a> </<li>
 				<li> <a href="Algemene informatie.html" >Algemene informatie</a> </<li>
-				<li> <a id="AgendaNavBalk"onclick="GaAgenda()" >Agenda </a></<li>
+				<li> <a onclick="GaAgenda()" >Agenda </a> </li>
 				<li class="active"> <a href="Film-actueel.html" >Films</a> </<li>
 				<li> <a href="Acties.html" >Acties</a> </<li>
 				<li> <a href="Lounge.html" >Lounge</a> </<li>
 				<li> <a href="Specificaties.html" >Specificaties</a> </<li>
 				<li> <a href="Contact.html" >Contact </a> </<li>
+>>>>>>> origin/master
 				<li>
 					<form onsubmit = "return redirect();">
 						<input id = "search"  type = "text" placeholder = "Zoek film"/>
 						<input type = "submit" onclick = "return redirect()" value = "Zoek"/>
 					</form>
-				</<li>
+				</li>
 		</nav>
 	</header>
 	
@@ -51,9 +99,9 @@ function redirect(){
 		
 			<div class="navbar2">
 			<ul>
-				<li ><a class="bar2l" href="Film-actueel.html" >Actueel </a> </<li>
-				<li><a class="bar2l" href="Film-Top.html" >top 10 </a> </<li>
-				<li><a class="bar2l" href="Film-verwacht.html" >Verwacht </a> </<li>
+				<li ><a class="bar2l" href="Film-actueel.html" >Actueel </a> </li>
+				<li><a class="bar2l" href="Film-Top.html" >top 10 </a> </li>
+				<li><a class="bar2l" href="Film-verwacht.html" >Verwacht </a> </li>
 		</div>
 		<div class="topbox">
 			<p class="toptext">Actueel</p>
@@ -65,7 +113,7 @@ function redirect(){
 						<a href="films/if i stay.html" > <img src="filmposters/If I Stay_00000.jpg" width="130px" height="auto" alt="If I Stay" /> </a>						
 					</div>
 					
-					<p class="res"><a href="Reservering/Reserveren.html" > Reserveren </a></p>			
+					<p class="res"><a href="Agenda.html" > Reserveren </a></p>			
 				</div>
 				
 			<!-- film 1 -->
@@ -73,7 +121,7 @@ function redirect(){
 					<div class="moviebox">
 						<a href="films/the equalizer.html" > <img src="filmposters/equalizer_ver4_00000.jpg" width="130px" height="auto" alt="The Equalizer" /> </a>						
 					</div>
-					<p class="res"><a href="Reservering/Reserveren.html" > Reserveren </a>	</p>			
+					<p class="res"><a href="Agenda.html" > Reserveren </a>	</p>			
 				</div>
 				
 				<!-- film 1 -->
@@ -81,7 +129,7 @@ function redirect(){
 					<div class="moviebox">
 						<a href="films/the maze runner.html" > <img src="filmposters/maze_runner_movie_poster_2_00000.jpg" width="130px" height="auto" alt="The Maze Runner" /> </a>						
 					</div>
-					<p class="res"><a href="Reservering/Reserveren.html" > Reserveren </a>	</p>			
+					<p class="res"><a href="Agenda.html" > Reserveren </a>	</p>			
 				</div>
 				
 				<!-- film 1 -->
@@ -89,7 +137,7 @@ function redirect(){
 					<div class="moviebox">
 						<a href="films/pijnstillers.html" > <img src="filmposters/pijstillers_00000.jpg" width="130px" height="auto" alt="Pijnstillers" /> </a>						
 					</div>
-					<p class="res"><a href="Reservering/Reserveren.html" > Reserveren </a>	</p>			
+					<p class="res"><a href="Agenda.html" > Reserveren </a>	</p>			
 				</div>
 				
 				<!-- film 1 -->
@@ -97,7 +145,7 @@ function redirect(){
 					<div class="moviebox">
 						<a href="films/Let's be cops.html" > <img src="filmposters/letsbecops3_00000.jpg" width="130px" height="auto" alt="Lets be cops" /> </a>						
 					</div>
-					<p class="res"><a href="Reservering/Reserveren.html" > Reserveren </a>	</p>			
+					<p class="res"><a href="Agenda.html" > Reserveren </a>	</p>			
 				</div>
 				
 				<!-- film 1 -->
@@ -105,7 +153,7 @@ function redirect(){
 					<div class="moviebox">
 						<a href="films/Deliver us from evil.html" > <img src="filmposters/deliverusfromevil1_00000.jpg" width="130px" height="auto" alt="Deliver us from evil" /> </a>						
 					</div>
-					<p class="res"><a href="Reservering/Reserveren.html" > Reserveren </a>	</p>			
+					<p class="res"><a href="Agenda.html" > Reserveren </a>	</p>			
 				</div>
 				
 				<!-- film 1 -->
@@ -113,7 +161,7 @@ function redirect(){
 					<div class="moviebox">
 						<a href="films/A most wanted man.html" > <img src="filmposters/amostwantedman2_00000.jpg" width="130px" height="auto" alt="a most wanted man" /> </a>						
 					</div>
-					<p class="res"><a href="Reservering/Reserveren.html" > Reserveren </a>	</p>			
+					<p class="res"><a href="Agenda.html" > Reserveren </a>	</p>			
 				</div>
 				
 				<!-- film 1 -->
@@ -121,7 +169,7 @@ function redirect(){
 					<div class="moviebox">
 						<a href="films/November man.html" > <img src="filmposters/novemberman3_00000.jpg" width="130px" height="auto" alt="Novemberman" /> </a>						
 					</div>
-					<p class="res"><a href="Reservering/Reserveren.html" > Reserveren </a>	</p>			
+					<p class="res"><a href="Agenda.html" > Reserveren </a>	</p>			
 				</div>
 				
 				<!-- film 1 -->
@@ -129,7 +177,7 @@ function redirect(){
 					<div class="moviebox">
 						<a href="films/into the storm.html" > <img src="filmposters/intothestormp2_00000.jpg" width="130px" height="auto" alt="Intothestorm" /> </a>						
 					</div>
-					<p class="res"><a href="Reservering/Reserveren.html" > Reserveren </a>	</p>			
+					<p class="res"><a href="Agenda.html" > Reserveren </a>	</p>			
 				</div>
 				
 				<!-- film 1 -->
@@ -137,7 +185,7 @@ function redirect(){
 					<div class="moviebox">
 						<a href="films/Guardian of the galaxy.html" > <img src="filmposters/guardiansofthegalaxy1_00000.jpg" width="130px" height="auto" alt="Huardiansofthegalaxy" /> </a>						
 					</div>
-					<p class="res"><a href="Reservering/Reserveren.html" > Reserveren </a>	</p>			
+					<p class="res"><a href="Agenda.html" > Reserveren </a>	</p>			
 				</div>
 				
 				<!-- film 1 -->
@@ -145,7 +193,7 @@ function redirect(){
 					<div class="moviebox">
 						<a href="films/The expandables.html" > <img src="filmposters/expendables3defposter_00000.jpg" width="130px" height="auto" alt="expendables" /> </a>						
 					</div>
-					<p class="res"><a href="Reservering/Reserveren.html" > Reserveren </a>	</p>			
+					<p class="res"><a href="Agenda.html" > Reserveren </a>	</p>			
 				</div>
 
 
@@ -166,14 +214,14 @@ function redirect(){
 				<p>3014 AK te Rotterdam</p>
 				<p>010-459 9000</p>
 				<p></p>
-				<p>Deze site is gemaakt door:<a href="behindthenames.html">Behind the names</a></p>
+				<p>Deze site is gemaakt door:<a href="behindthenames.html"> Behind the names</a></p>
 			</div>
 			
 			<div id="navigatie_1">
 				<nav>
 				<ul>
-					<li><a href=" Vacatures.html" >Vacatures</a></<li>
-					<li><a href=" Medewerkers.html" >Medewerkers</a></<li>
+					<li><a href=" Vacatures.html" >Vacatures</a></li>
+					<li><a href=" Medewerkers.html" >Medewerkers</a></li>
 					
 					<li>
 				</nav>
@@ -182,9 +230,9 @@ function redirect(){
 			<div id="navigatie_2">
 				<nav>
 				<ul>
-					<li><a href=" Groepsreserveringen.html" >Groepsreserveringen</a></<li>
-					<li><a href=" Abbonementen.html" >Abbonnementen & cadeaukaarten</a></<li>
-					<li><a href=" Educatief.html" >Educatief</a></<li>
+					<li><a href=" Groepsreserveringen.html" >Groepsreserveringen</a></li>
+					<li><a href=" Abbonementen.html" >Abbonnementen & cadeaukaarten</a></li>
+					<li><a href=" Educatief.html" >Educatief</a></li>
 					<li>
 				</nav>
 			</div>

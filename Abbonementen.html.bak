@@ -17,6 +17,42 @@ function redirect(){
 	<meta name="Author" content="Behind the name">
 	<meta name="Keywords" content=" Filpje, Bioscoop ">
 	<meta name="Description" content="Algemene Informatie">
+	<script src="AgendaJS.js">
+
+	
+
+	</script>
+	<script>
+	var d =  new Date();
+	var N = d.getDay();
+	function GaAgenda() {
+		
+	
+		switch (N)
+		{
+		case 0 :  location.href="Agenda/Agenda-zo.html"; 0.
+		break;
+		case 1 :  location.href ="Agenda/Agenda-ma.html";
+		break;
+		case 2 :  location.href="Agenda/Agenda-di.html";
+		break;
+		case 3 :  location.href="Agenda/Agenda-wo.html";
+		break;
+		case 4 :  location.href="Agenda/Agenda-do.html";
+		break;
+		case 5 :  location.href="Agenda/Agenda-vr.html";
+		break;
+		case 6 :  location.href="Agenda/Agenda-za.html";
+		break;
+		}
+	}
+
+	function redirect(){
+	document.location.href = "films/" + document.getElementById("search").value + ".html";
+	return false;
+	}
+
+	</script>
 </head>
 
 <body class="body">
@@ -30,18 +66,27 @@ function redirect(){
 			<ul id = "balk_positie">
 				<li> <a href="index.html" >Home</a> </<li>
 				<li> <a href="Algemene informatie.html" >Algemene informatie</a> </<li>
-				<li> <a id="AgendaNavBalk"onclick="GaAgenda()" >Agenda </a></<li>
+<<<<<<< HEAD
+				<li> <a id="AgendaNavBalk"onclick="GaAgenda()" >Agenda </a></li>
+				<li> <a href="Film-actueel.html" >Films</a> </li>
+				<li> <a href="Acties.html" >Acties</a> </li>
+				<li> <a href="Lounge.html" >Lounge</a> </li>
+				<li> <a href="Specificaties.html" >Specificaties</a> </li>
+				<li> <a href="Contact.html" >Contact </a> </li>
+=======
+				<li> <a onclick="GaAgenda()" >Agenda </a> </li>
 				<li> <a href="Film-actueel.html" >Films</a> </<li>
 				<li> <a href="Acties.html" >Acties</a> </<li>
 				<li> <a href="Lounge.html" >Lounge</a> </<li>
 				<li> <a href="Specificaties.html" >Specificaties</a> </<li>
 				<li> <a href="Contact.html" >Contact </a> </<li>
+>>>>>>> origin/master
 				<li>
 					<form onsubmit = "return redirect();">
 						<input id = "search"  type = "text" placeholder = "Zoek film"/>
 						<input type = "submit" onclick = "return redirect()" value = "Zoek"/>
 					</form>
-				</<li>
+				</li>
 				<li>
 		</nav>
 	</header>
@@ -66,14 +111,14 @@ function redirect(){
 				<p>3014 AK te Rotterdam</p>
 				<p>010-459 9000</p>
 				<p></p>
-				<p>Deze site is gemaakt door:<a href="behindthenames.html">Behind the names</a></p>
+				<p>Deze site is gemaakt door:<a href="behindthenames.html"> Behind the names</a></p>
 			</div>
 			
 			<div id="navigatie_1">
 				<nav>
 				<ul>
-					<li><a href=" Vacatures.html" >Vacatures</a></<li>
-					<li><a href=" Medewerkers.html" >Medewerkers</a></<li>
+					<li><a href=" Vacatures.html" >Vacatures</a></li>
+					<li><a href=" Medewerkers.html" >Medewerkers</a></li>
 					
 					<li>
 				</nav>
@@ -82,9 +127,9 @@ function redirect(){
 			<div id="navigatie_2">
 				<nav>
 				<ul>
-					<li><a href=" Groepsreserveringen.html" >Groepsreserveringen</a></<li>
-					<li><a href=" Abbonementen.html" >Abbonnementen & cadeaukaarten</a></<li>
-					<li><a href=" Educatief.html" >Educatief</a></<li>
+					<li><a href=" Groepsreserveringen.html" >Groepsreserveringen</a></li>
+					<li><a href=" Abbonementen.html" >Abbonnementen & cadeaukaarten</a></li>
+					<li><a href=" Educatief.html" >Educatief</a></li>
 					<li>
 				</nav>
 			</div>
