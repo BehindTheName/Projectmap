@@ -31,6 +31,35 @@
 	}
 	
 	}
+
+	var d =  new Date();
+	var N = d.getDay();
+	function GaAgenda() {
+		
+	
+		switch (N)
+		{
+		case 0 :  location.href="Agenda/Agenda-zo.html";
+		break;
+		case 1 :  location.href ="Agenda/Agenda-ma.html";
+		break;
+		case 2 :  location.href="Agenda/Agenda-di.html";
+		break;
+		case 3 :  location.href="Agenda/Agenda-wo.html";
+		break;
+		case 4 :  location.href="Agenda/Agenda-do.html";
+		break;
+		case 5 :  location.href="Agenda/Agenda-vr.html";
+		break;
+		case 6 :  location.href="Agenda/Agenda-za.html";
+		break;
+		}
+	}
+
+	function redirect(){
+	document.location.href = "films/" + document.getElementById("search").value + ".html";
+	return false;
+	}
 	</script>
 </head>
 
@@ -89,7 +118,7 @@ Vijf jaar nadat de draken en Vikingen verenigd zijn, houden Astrid, Snotvlerk en
 Hikkie en Tandloos raken verzeild in een strijd om de vrede en moeten zich sterk maken voor hun idealen. Alleen samen zijn ze sterk genoeg om de toekomst voor mens en draak veilig te stellen.
 						<p> <span>Director:</span> Dean DeBlois</p>
 						<p> <span>Stars:</span>Jay Baruchel, Cate Blanchett, Gerard Butler |</p>
-						<p class="ReserverenKnopFilms" "><a href="../Reserveren-info.html">Reserveren!</a></p>
+						<p class="ReserverenKnopFilms" "><a href="../Agenda.html">Reserveren!</a></p>
 						<div class="Ster" ><img onclick="Bewaarfilm()" id="SterIMG"src="../StarLeeg.png"/></div>
 					</div>
 					

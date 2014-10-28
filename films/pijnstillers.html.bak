@@ -32,6 +32,35 @@
 	}
 	
 	}
+
+	var d =  new Date();
+	var N = d.getDay();
+	function GaAgenda() {
+		
+	
+		switch (N)
+		{
+		case 0 :  location.href="Agenda/Agenda-zo.html"; 0.
+		break;
+		case 1 :  location.href ="Agenda/Agenda-ma.html";
+		break;
+		case 2 :  location.href="Agenda/Agenda-di.html";
+		break;
+		case 3 :  location.href="Agenda/Agenda-wo.html";
+		break;
+		case 4 :  location.href="Agenda/Agenda-do.html";
+		break;
+		case 5 :  location.href="Agenda/Agenda-vr.html";
+		break;
+		case 6 :  location.href="Agenda/Agenda-za.html";
+		break;
+		}
+	}
+
+	function redirect(){
+	document.location.href = "films/" + document.getElementById("search").value + ".html";
+	return false;
+	}
 	</script>
 </head>
 
@@ -89,7 +118,7 @@ Lees minder
 Helemaal als hij daar bevriend raakt met Anouk (Susan Radder) die weet wat Casper meemaakt als hij ontdekt dat zijn moeder ernstig ziek is. Marit heeft kanker. Bang voor wat er met haar kan gebeuren besluit Casper met zijn beste vriend Pim (Massimo Pesik) zijn vader te gaan zoeken.
 						<p> <span>Director:</span>  Tessa Schram</p>
 						<p> <span>Stars:</span>Birgit Schuurman, Gijs Blom, Raymond Thiry | </p>
-						<p class="ReserverenKnopFilms" "><a href="../Reserveren-info.html">Reserveren!</a></p>
+						<p class="ReserverenKnopFilms" "><a href="../Agenda.html">Reserveren!</a></p>
 						<div class="Ster" ><img onclick="Bewaarfilm()" id="SterIMG"src="../StarLeeg.png"/></div>
 					</div>
 					

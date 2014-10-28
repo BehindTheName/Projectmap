@@ -39,7 +39,7 @@
 	
 		switch (N)
 		{
-		case 0 :  location.href="Agenda/Agenda-zo.html"; 0.
+		case 0 :  location.href="Agenda/Agenda-zo.html";
 		break;
 		case 1 :  location.href ="Agenda/Agenda-ma.html";
 		break;
@@ -123,7 +123,7 @@ Wanneer de idealistische advocate Annabel Richter (Rachel McAdams) lucht krijgt 
 						<p> <span>Director:</span>  Anton Corbijn</p>
 						<p> <span>Stars:</span>Philip Seymour Hoffman, Rachel McAdams, Daniel  </p>
 
-						<p class="ReserverenKnopFilms" "><a href="../Reserveren-info.html">Reserveren!</a></p>
+						<p class="ReserverenKnopFilms" "><a href="../Agenda.html">Reserveren!</a></p>
 						<div class="Ster" ><img onclick="Bewaarfilm()" id="SterIMG"src="../StarLeeg.png"/></div>
 
 					</div>

@@ -60,7 +60,7 @@
 			<ul id = "balk_positie">
 				<li class="active"> <a href="index.html" >Home</a> </li>
 				<li> <a href="Algemene informatie.html" >Algemene informatie</a> </li>
-				<li> <a id="AgendaNavBalk" onclick="GaAgenda()" >Agenda </a> </li>
+				<li> <a onclick="GaAgenda()" >Agenda </a> </li>
 
 				<li> <a href="Film-actueel.html" >Films</a> </li>
 				<li> <a href="Acties.html" >Acties</a> </li>
