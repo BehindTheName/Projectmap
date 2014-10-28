@@ -147,7 +147,7 @@ cursor: pointer;
 
 /*--- Home Begin ---*/
  #myPhoto{
-	width:54.3%;
+	width:53%;
 	height: 80%;
 	border: 3px solid #D25A05;
 	/*float:left;*/
@@ -959,7 +959,7 @@ float: right;
 	margin: 5% auto;
 	padding:10% 0;
 	float: right;
-	color: white;
+
 }
 
 form{
@@ -1026,7 +1026,7 @@ Dit in verband met te weinig ruimte op de pagina. */
 	border: 1px solid black;
 	width: 30%;
 	margin: 0 5% 5% 25px;
-	background-color:#B280E6;
+	background-color:#00A37A;
 	position: relative;
 	bottom: 25px;
 	padding: 5px;
@@ -1041,7 +1041,7 @@ Dit in verband met te weinig ruimte op de pagina. */
 	width: 25%;
 	height: 100px;
 	margin: 0 5% 5% 0;
-	background-color:#B280E6;
+	background-color:#00A37A;
 	text-align: left;
 	position: relative;
 	bottom: 12px;
@@ -1061,7 +1061,7 @@ Dit in verband met te weinig ruimte op de pagina. */
 	width: 25%;
 	margin: 0% 5% 5% 0;
 	text-align: left;
-	background-color:#B280E6;
+	background-color:#00A37A;
 	position: relative;
 	bottom: 25px;
 	height: 150px;	
