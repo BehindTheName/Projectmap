@@ -91,6 +91,7 @@ background-image: url("../A the wave.jpg");
 
 #ReserveringDivRechts {
 	float: right;
+	font-size: 17px;
 	
 }
 /*  ----------------Systeem Einde---------- */  
@@ -113,7 +114,13 @@ background-image: url("../A the wave.jpg");
 	</header>
 	
 	<div class="maincontent" >
-	<div id="divReserverenText">Zaal 1<br></div>
+	<div id="divReserverenText">
+	Naam:<br><input></input> </br>
+	E-mailadres: <br><input> </input> </br>
+	
+
+	
+	Zaal 1<br></div>
 	
 	<div id="Zalen"> </div>
 	<div id="ReserveringDivRechts">

@@ -6,6 +6,7 @@
   <meta name="Author" content="">
   <meta name="Keywords" content="Filmpje Bioscoop ">
   <meta name="Description" content="Reserveren">
+  <title> Reserveren</title>
   <!--link rel="stylesheet" type="text/css" href="../Mainstylesheet.css"-->
   <style>
 
@@ -44,7 +45,7 @@ background-image: url("../A the wave.jpg");
 }
 /*  ----------------Systeem Begin---------- */
 .leeg {
-	border:none;
+	border:solid #fff;
 	background:#fff;
 	height:25px;
 	width: 25px;
@@ -52,21 +53,21 @@ background-image: url("../A the wave.jpg");
 
 .klasse_1 {
 	background:#c00000;
-	height:25px;
-	width: 25px;
+	height:27px;
+	width: 27px;
 }
 
 
 .klasse_2 {
 	background:#f79646;
-	height:25px;
-	width: 25px;
+	height:27px;
+	width: 27px;
 }
 
 .klasse_3 {
 	background:#4e81bd;
-	height:25px;
-	width: 25px;
+	height:27px;
+	width: 27px;
 }
 
 
@@ -107,7 +108,12 @@ background-image: url("../A the wave.jpg");
 	</header>
 	
 	<div class="maincontent" >
-	<div id="divReserverenText">Zaal 2 <br></div>
+	<div id="divReserverenText">
+	Naam:<br><input></input> </br>
+	E-mailadres: <br><input> </input> </br>
+	
+	
+	Zaal 2 <br></div>
 	
 	<div id="Zalen"> </div>
 	<div id="ReserveringDivRechts">
