@@ -11,7 +11,7 @@
 
   #DivTicket {
  
-  background-image: url('/Ticket.jpg');
+  background-image: url('../Ticket.jpg');
   width: 600px;
   height: 324px;
   position:absolute; 
