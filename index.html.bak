@@ -3,6 +3,7 @@
 
 <head>
 	<title> Home </title>
+
 	
 	<link rel="stylesheet" type="text/css" href="Mainstylesheet.css">
 	<meta charset="UTF-8" />
@@ -40,6 +41,11 @@
 		}
 	}
 
+	function redirect(){
+	document.location.href = "films/" + document.getElementById("search").value + ".html";
+	return false;
+	}
+
 	</script> 
 </head>
 
@@ -52,37 +58,22 @@
 		
 		<nav>
 			<ul id = "balk_positie">
-<<<<<<< HEAD
 				<li class="active"> <a href="index.html" >Home</a> </<li>
-				<li> <a href="Algemene informatie.html" >Algemene informatie</a> </<li>
-				<li> <a href="Agenda/Agenda-ma.html" >Agenda </a> </<li>
-				<li> <a href="Film-actueel.html" >Films</a> </<li>
-				<li> <a href="Acties.html" >Acties</a> </<li>
-				<li> <a href="Lounge.html" >Lounge</a> </<li>
-				<li> <a href="Specificaties.html" >Specificaties</a> </<li>
-				<li> <a href="Contact.html" >Contact </a> </<li>
-
-				<li>
-=======
-				<li class="active"> <a href="index.html" >Home</a> </li>
 				<li> <a href="Algemene informatie.html" >Algemene informatie</a> </li>
-				<li> <a onclick="GaAgenda()" >Agenda </a> </li>
-				
+				<li> <a id="AgendaNavBalk"onclick="GaAgenda()" >Agenda </a> </li>
+
 				<li> <a href="Film-actueel.html" >Films</a> </li>
 				<li> <a href="Acties.html" >Acties</a> </li>
 				<li> <a href="Lounge.html" >Lounge</a> </li>
 				<li> <a href="Specificaties.html" >Specificaties</a> </li>
 				<li> <a href="Contact.html" >Contact </a> </li>
-				<li><!--Zoekbalk-->
-					<div class = "search">
-						<form id = "searchbox"/>
-						<input type = "text" id = "search" required placeholder = "Zoek hier..."/>
-						<input type = "submit" id = "submit" value = "Zoek"/>
-						</form>
-					</div>
-				</li><!-- eind zoekbalk-->
+				<li>
+					<form onsubmit = "return redirect();">
+						<input id = "search"  type = "text" placeholder = "Zoek film"/>
+						<input type = "submit" onclick = "return redirect()" value = "Zoek"/>
+					</form>
+				</li>
 			</ul>
->>>>>>> origin/master
 		</nav>
 	</header>
 	
@@ -119,17 +110,17 @@
 			<tr> 
 			<td style="border-top: 2px solid black;" id="Film1"> </td> 
 			<td style="border-top: 2px solid black;"id="Zaal1" >  </td> 
-			<td style="border-top: 2px solid black;"id="td4" ><a href="reservering/reserveren.html">Reserveer nu!  </a></td> 
+			<td style="border-top: 2px solid black;"id="td4" ><a href="reservering/reserveren.html" target="_reserveer">Reserveer nu!  </a></td> 
 			</tr>
 			<tr> 
 			<td style="border-top: 2px solid black;" id="Film2" > </td> 
 			<td style="border-top: 2px solid black;" id="Zaal2"> </td> 
-			<td style="border-top: 2px solid black;" id="td4" ><a href="reservering/reserveren.html">Reserveer nu!  </a></td> 
+			<td style="border-top: 2px solid black;" id="td4" ><a href="reservering/reserveren2.html" target="_reserveer">Reserveer nu!  </a></td> 
 			</tr>
  			<tr> 
 			<td style="border-top: 2px solid black;" id="Film3" > </td> 
 			<td style="border-top: 2px solid black;" id="Zaal3"> </td> 
-			<td style="border-top: 2px solid black;" id="td4" ><a href="reservering/reserveren.html">Reserveer nu!  </a></td> 
+			<td style="border-top: 2px solid black;" id="td4" ><a href="reservering/reserveren3.html" target="_reserveer">Reserveer nu!  </a></td> 
 			</tr>
 			
 			</tr id="HomeAgendaNavigatie">	<tr> 
@@ -144,10 +135,12 @@
 			Hier kunt u online films reserveren, en meer informatie over de bioscoop vinden.
 			We wensen u veel kijk- en surfplezier!
 			</td>
-			
-			
+			<tr>
+			<td style = "border-top : 2px solid black; color: #D25A05; font-size: 17px" colspan = "3">
+			<strong>Voor een groter overzicht van de agenda, <a onmouseover="object.style.cursor='pointer'" onclick="GaAgenda()" style = "color: blue">klik hier</a>.</strong>
+			</td>
 			</tr>
-		</table>
+	</table>
 	
 
 			
@@ -172,52 +165,52 @@
 			
 			<tr id="tr10">
 				<td id="td01">1<td>
-				<td id="td02"><a href="films/the maze runner.html">The Maze Runner</a><td>
+				<td id="td02"><a href="films/Guardian of the galaxy.html">Guardians Of The Galaxy</a><td>
 			</tr>
 			
 			<tr id="tr10">
 				<td id="td01">2<td>
-				<td id="td02"><a href="films/the equalizer.html">The Equalizer</a><td>
-			</tr>
-			
-			<tr id="tr10">
-				<td id="td01">3<td>
-				<td id="td02"><a href="films/Let's be cops.html">Let's Be Cops</a><td>
-			</tr>
-			
-			<tr id="tr10">
-				<td id="td01">4<td>
-				<td id="td02"><a href="films/pijnstillers.html">Pijnstillers</a><td>
-			</tr>
-			
-			<tr id="tr10">
-				<td id="td01">5<td>
-				<td id="td02"><a href="films/if i stay.html">If I Stay</a><td>
-			</tr>
-			
-			<tr id="tr10">
-				<td id="td01">6<td>
-				<td id="td02"><a href="films/live die repeat.html">Live die repeat</a><td>
-			</tr>
-			
-			<tr id="tr10">
-				<td id="td01">7<td>
-				<td id="td02"><a href="films/A most wanted man.html">A Most Wanted Man</a><td>
-			</tr>
-			
-			<tr id="tr10">
-				<td id="td01">8<td>
-				<td id="td02"><a href="films/Deliver us from evil.html">Deliver Us From Evil</a><td>
-			</tr>
-			
-			<tr id="tr10">
-				<td id="td01">9<td>
 				<td id="td02"><a href="films/X-men.html">X-men</a><td>
 			</tr>
 			
 			<tr id="tr10">
-				<td id="td01">10<td>
+				<td id="td01">3<td>
 				<td id="td02"><a href="films/12 years a slave.html">12 Years A Slave </a><td>
+			</tr>
+			
+			<tr id="tr10">
+				<td id="td01">4<td>
+				<td id="td02"><a href="films/how to train a dragon.html">How To Train Your Dragon 2</a><td>
+			</tr>
+			
+			<tr id="tr10">
+				<td id="td01">5<td>
+				<td id="td02"><a href="films/the raid 2.html">The Raid 2</a><td>
+			</tr>
+			
+			<tr id="tr10">
+				<td id="td01">6<td>
+				<td id="td02"><a href="films/the equalizer.html">The Equalizer</a><td>
+			</tr>
+			
+			<tr id="tr10">
+				<td id="td01">7<td>
+				<td id="td02"><a href="films/dawn of the planets.html">Dawn of the Planet of the Apes</a><td>
+			</tr>
+			
+			<tr id="tr10">
+				<td id="td01">8<td>
+				<td id="td02"><a href="films/captain america winter soldier.html">Captain America</a><td>
+			</tr>
+			
+			<tr id="tr10">
+				<td id="td01">9<td>
+				<td id="td02"><a href="films/live die repeat.html">Edge of tomorrow</a><td>
+			</tr>
+			
+			<tr id="tr10">
+				<td id="td01">10<td>
+				<td id="td02"><a href="films/winter sleep.html">Winter Sleep</a><td>
 			</tr>
 		
 		</table>
@@ -228,7 +221,7 @@
 					<a href="https://www.facebook.com/filmpjebioscopen?skip_nax_wizard=true&ref_type=registration_form" target="_blank">
 					<img src="Facebooklogo.png" width="10%" height="40px">
 					</a>
-					<a href=https://twitter.com/FilmpjeRoffa target="_blank">
+					<a href="https://twitter.com/FilmpjeRoffa" target="_blank">
 					<img src="Twitterlogo.jpg" width="10%" height="40px">
 					</a>
 				</div>
@@ -255,8 +248,8 @@
 			<div id="navigatie_1">
 				<nav>
 				<ul>
-					<li><a href=" Vacatures.html" >Vacatures</a></<li>
-					<li><a href=" Medewerkers.html" >Medewerkers</a></<li>
+					<li><a href=" Vacatures.html" >Vacatures</a></li>
+					<li><a href=" Medewerkers.html" >Medewerkers</a></li>
 					
 					<li>
 				</nav>
@@ -265,9 +258,9 @@
 			<div id="navigatie_2">
 				<nav>
 				<ul>
-					<li><a href=" Groepsreserveringen.html" >Groepsreserveringen</a></<li>
-					<li><a href=" Abbonementen.html" >Abbonnementen & cadeaukaarten</a></<li>
-					<li><a href=" Educatief.html" >Educatief</a></<li>
+					<li><a href=" Groepsreserveringen.html" >Groepsreserveringen</a></li>
+					<li><a href=" Abbonementen.html" >Abbonnementen & cadeaukaarten</a></li>
+					<li><a href=" Educatief.html" >Educatief</a></li>
 					<li>
 				</nav>
 				

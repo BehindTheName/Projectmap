@@ -125,6 +125,20 @@ a {
 	
 	
 }
+
+#AgendaNavBalk {
+	color: #fff;
+	display: inline-block;
+	padding: 10px 10px;
+	height: 40px;
+	transition: background-color 0.2s;
+	-webkit-transition: background-color 0.3s;
+	text-align:center;
+}
+
+#AgendaNavBalk:hover {
+cursor: pointer;
+}
 /*----- einde navigatie balk + logo----------- */
 
 
@@ -148,12 +162,11 @@ a {
 	margin-top: 2%;
 	margin-bottom: 5%;
 	background-color:#D25A05;
-<<<<<<< HEAD
-=======
+
 	box-shadow: 1px 1px 20px black;
 	
 
->>>>>>> origin/master
+
 }
 
 #HomeTopPage a {
@@ -181,11 +194,9 @@ float:left;
 	border-right: none;
 	background-color: white;
 	box-shadow: 1px 1px 20px black;
-<<<<<<< HEAD
 	border-radius: 5px;
-=======
 	font-family:Arial;
->>>>>>> origin/master
+
 }	
 
 .td1{
@@ -215,6 +226,16 @@ float:left;
 	font-size: 16px;
 	border-top: 1px solid black;
 	font-family:Arial;
+}
+
+#td4 a:hover {
+background-color: #B8B894;
+}
+
+#td4 a{
+	display: inline-block;
+	padding: 10px 10px;
+	height: 100%;
 }
 
 #tr5{
@@ -255,13 +276,8 @@ float:left;
 	float:right;
 	width: 15%;
 	background-color:white;
-<<<<<<< HEAD
-	border-radius: 5px;
-	
-	
 
-=======
->>>>>>> origin/master
+	border-radius: 5px;
 }
 
 #tr9{
@@ -296,10 +312,7 @@ float:left;
 	font-family:Arial;
 }
 
-#td4:hover {
-	background-color: #B8B894;
-	
-}
+
 
 
 /* einde top 10 */

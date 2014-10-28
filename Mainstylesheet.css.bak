@@ -64,9 +64,7 @@ background-image: url("A the wave.jpg");
 
 .mainheader nav ul li {
 	float: left;
-	display: inline;
-
-	
+	display: inline;	
 }
 
 #balk_positie{
@@ -127,6 +125,20 @@ a {
 	
 	
 }
+
+#AgendaNavBalk {
+	color: #fff;
+	display: inline-block;
+	padding: 10px 10px;
+	height: 40px;
+	transition: background-color 0.2s;
+	-webkit-transition: background-color 0.3s;
+	text-align:center;
+}
+
+#AgendaNavBalk:hover {
+cursor: pointer;
+}
 /*----- einde navigatie balk + logo----------- */
 
 
@@ -146,12 +158,14 @@ a {
 
 
 #HomeTopPage {
-	height:560px;
+	height:580px;
 	margin-top: 2%;
 	margin-bottom: 5%;
 	background-color:#D25A05;
+
 	box-shadow: 1px 1px 20px black;
 	
+
 
 }
 
@@ -179,11 +193,10 @@ float:left;
 	text-align: center;
 	border-right: none;
 	background-color: white;
-<<<<<<< HEAD
+	box-shadow: 1px 1px 20px black;
 	border-radius: 5px;
-=======
 	font-family:Arial;
->>>>>>> origin/master
+
 }	
 
 .td1{
@@ -213,6 +226,16 @@ float:left;
 	font-size: 16px;
 	border-top: 1px solid black;
 	font-family:Arial;
+}
+
+#td4 a:hover {
+background-color: #B8B894;
+}
+
+#td4{
+	display: inline-block;
+	padding: 10px 10px;
+	height: 100%;
 }
 
 #tr5{
@@ -253,13 +276,8 @@ float:left;
 	float:right;
 	width: 15%;
 	background-color:white;
-<<<<<<< HEAD
-	border-radius: 5px;
-	
-	
 
-=======
->>>>>>> origin/master
+	border-radius: 5px;
 }
 
 #tr9{
@@ -294,10 +312,7 @@ float:left;
 	font-family:Arial;
 }
 
-#td4:hover {
-	background-color: #B8B894;
-	
-}
+
 
 
 /* einde top 10 */
@@ -503,8 +518,11 @@ float:left;
 	border-radius: 100%;
 	text-align: center;
 	box-shadow: 1px 1px 10px black;
-	
+	border: 1.5px solid #d25a05;
+}
 
+.nav_bar2 {
+	margin-bottom: 5px;
 }
 .filmheader {
 	text-align: center;
@@ -612,7 +630,8 @@ right: 13px;
 .navbar2 {
 	color: white;
 	margin: auto;
-	padding-left: 35%;
+	padding-left: 32%; 
+	
 }
 
 .bar2l {
@@ -676,7 +695,7 @@ right: 13px;
 .infobox {
 	width: 78%;
 	height: auto;
-	background-color: rgba(128,128,128,0.5)  ;
+	background-color: #4b4c46 ;
 	float: left;
 	margin-left: 10%;
 	margin-top: 10px;
@@ -687,7 +706,7 @@ right: 13px;
 }
 
 .infobox span { 
-	color: #751975;
+	color: #d25a05;
 }
 
 .infobox h1 { 
@@ -706,7 +725,7 @@ right: 13px;
 
 
 .ReserverenKnopFilms {
-	background-color:#996699; 
+	background-color:#d25a05; 
 	padding: 1%; widht: 10px; 
 	float:left; 
 	border-radius:5px; 
@@ -761,7 +780,7 @@ right: 13px;
 }
 
 .SlideKnoppen:hover{
-	background-color: #4b4c46 ;	
+	background-color: #4b4c46;	
 }
 
 #Knoppenbalk {
@@ -1004,6 +1023,7 @@ Dit in verband met te weinig ruimte op de pagina. */
 	background-color:#B280E6;
 	position: relative;
 	bottom: 25px;
+	padding: 5px;
 }
 
 #navigatie_1{
@@ -1032,7 +1052,7 @@ Dit in verband met te weinig ruimte op de pagina. */
 	font-family:Arial;
 	font-size:18px;
 	border: 1px solid black;
-	width: 26%;
+	width: 25%;
 	margin: 0% 5% 5% 0;
 	text-align: left;
 	background-color:#B280E6;
@@ -1049,7 +1069,7 @@ Dit in verband met te weinig ruimte op de pagina. */
 .FooterAll {
 	bottom:0;
 	width: 100%;
-	height: 80px;
+	height: 120px;
 	background-color: #d25a05;
 	margin-top:2%;
 	border: 1px solid black;
@@ -1231,9 +1251,9 @@ Dit in verband met te weinig ruimte op de pagina. */
 		border-radius: 5px;
 	}
 	
-	.navbar2 {
+	/*.navbar2 {
 	padding-left: 35%;
-	}
+	} */
 
 	.trailerbox {
 	display: block;
@@ -1365,6 +1385,10 @@ display: none;
 .mainheader nav ul li div form{
 	float:center;
  }
+ 
+ .navbar2 {
+	padding-left: 29%; 
+}
 
 }	
 @media only screen and (min-width: 601px) and (max-width: 799px) {
@@ -1414,3 +1438,10 @@ display: none;
 
 }
 
+@media only screen and (min-width: 150px) and (max-width: 450px) {
+	 .navbar2 {
+	padding-left: 0%; 
+	padding-bottom: 5px;
+		
+	}
+}
