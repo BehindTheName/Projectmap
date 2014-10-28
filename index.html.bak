@@ -60,7 +60,7 @@
 			<ul id = "balk_positie">
 				<li class="active"> <a href="index.html" >Home</a> </li>
 				<li> <a href="Algemene informatie.html" >Algemene informatie</a> </li>
-				<li> <a onclick="GaAgenda()" >Agenda </a> </li>
+				<li> <a id="AgendaNavBalk" onclick="GaAgenda()" >Agenda </a> </li>
 
 				<li> <a href="Film-actueel.html" >Films</a> </li>
 				<li> <a href="Acties.html" >Acties</a> </li>
@@ -137,7 +137,7 @@
 			</td>
 			<tr>
 			<td style = "border-top : 2px solid black; color: #D25A05; font-size: 17px" colspan = "3">
-			<strong>Voor een groter overzicht van de agenda, <a href = "Agenda/Agenda-ma.html" style = "color: blue">klik hier</a>.</strong>
+			<strong>Voor een groter overzicht van de agenda, <a onclick="GaAgenda()" onmouseover=this.style.cursor= "pointer" style = "color: blue">klik hier</a>.</strong>
 			</td>
 			</tr>
 	</table>
