@@ -61,7 +61,7 @@
 		document.getElementById("form-wrap").innerHTML = "<p>Bedankt voor uw feedback! Uw gegevens:</br>"+
 		"Naam: " + Voornaam + " " + Achternaam + "</br>"+ 
 		"Telefoonnummer: " + Telefoonnummer +  " </br> Emailadres: " + Emailadres + "</p> <p> Uw bericht was: </br>" + Bericht + "</p>";
-
+		document.getElementById("form-wrap").style.color = : "white";
 		
 	}
 	
@@ -83,7 +83,7 @@
 		
 		<nav>
 			<ul id = "balk_positie">
-<<<<<<< HEAD
+
 				<li> <a href="index.html" > Home </a> </li>
 				<li> <a href="Algemene informatie.html" >Algemene informatie</a> </li>
 				<li> <a id="AgendaNavBalk"onclick="GaAgenda()" >Agenda </a></li>
@@ -92,16 +92,7 @@
 				<li> <a href="Lounge.html" >Lounge </a> </li>
 				<li> <a href="Specificaties.html" >Specificaties</a> </li>
 				<li class="active"> <a href="Contact.html" >Contact </a> </li>
-=======
-				<li> <a href="index.html" > Home </a> </<li>
-				<li> <a href="Algemene informatie.html" >Algemene informatie</a> </<li>
-				<li> <a onclick="GaAgenda()" >Agenda </a> </li>
-				<li> <a href="Film-actueel.html" >Films </a> </<li>
-				<li> <a href="Acties.html" >Acties </a> </<li>
-				<li> <a href="Lounge.html" >Lounge </a> </<li>
-				<li> <a href="Specificaties.html" >Specificaties</a> </<li>
-				<li class="active"> <a href="Contact.html" >Contact </a> </<li>
->>>>>>> origin/master
+
 				<li>
 					<form onsubmit = "return redirect();">
 						<input id = "search"  type = "text" placeholder = "Zoek film"/>
